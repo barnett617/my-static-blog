@@ -16,22 +16,22 @@
   <meta name="author" content="Wilson">
   <meta name="keywords" content="Wilson">
   
-    <meta name="description" content="sessionStoragesessionStorage.getItem()取的值是字符串，如果如下判断会不符合预期 1234567sessionStorage.setItem(&amp;#x27;visit&amp;#x27;, false);const isVisited &#x3D; sessionStorage.getItem(&amp;#x27;visit&amp;#x27;);if (isVisited &amp;&amp;">
+    <meta name="description" content="做事方法论总结 注重细节，80%的问题会集中出现在被轻视或忽略的那20%部分 切忌舍近求远，当问题亟待解决时应先解决问题，再考虑旁枝末节 切忌破窗效应（当一个窗户破掉之后，人们并不会想着把它修好，而是使它变得更加糟糕），做事要避免给后人留坑，如果已经遇到坑应试着解决，而非继续埋坑。  程序员思考方式 偶然复杂度 优秀程序员的开发效率是普通程序员的10倍（工作方法和工作习惯共同决定）  解决问题的步">
 <meta property="og:type" content="article">
-<meta property="og:title" content="sessionStorage常见误区">
-<meta property="og:url" content="https://barnett617.github.io/wilson-blog/2020/01/13/session-storage/index.html">
+<meta property="og:title" content="做事方法论总结">
+<meta property="og:url" content="https://barnett617.github.io/wilson-blog/2019/12/03/thinking/index.html">
 <meta property="og:site_name" content="Wilson&#39;s Blog">
-<meta property="og:description" content="sessionStoragesessionStorage.getItem()取的值是字符串，如果如下判断会不符合预期 1234567sessionStorage.setItem(&amp;#x27;visit&amp;#x27;, false);const isVisited &#x3D; sessionStorage.getItem(&amp;#x27;visit&amp;#x27;);if (isVisited &amp;&amp;">
+<meta property="og:description" content="做事方法论总结 注重细节，80%的问题会集中出现在被轻视或忽略的那20%部分 切忌舍近求远，当问题亟待解决时应先解决问题，再考虑旁枝末节 切忌破窗效应（当一个窗户破掉之后，人们并不会想着把它修好，而是使它变得更加糟糕），做事要避免给后人留坑，如果已经遇到坑应试着解决，而非继续埋坑。  程序员思考方式 偶然复杂度 优秀程序员的开发效率是普通程序员的10倍（工作方法和工作习惯共同决定）  解决问题的步">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2020-01-13T16:05:00.000Z">
-<meta property="article:modified_time" content="2023-06-17T02:58:01.060Z">
+<meta property="article:published_time" content="2019-12-03T11:49:00.000Z">
+<meta property="article:modified_time" content="2023-06-17T08:17:34.852Z">
 <meta property="article:author" content="Wilson">
 <meta property="article:tag" content="Wilson">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>sessionStorage常见误区 - Wilson&#39;s Blog</title>
+  <title>做事方法论总结 - Wilson&#39;s Blog</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -197,7 +197,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="sessionStorage常见误区"></span>
+            <span id="subtitle" data-typed-text="做事方法论总结"></span>
           
         </div>
 
@@ -208,8 +208,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2020-01-13 16:05" pubdate>
-          Monday, January 13, 2020 4:05 PM
+        <time datetime="2019-12-03 11:49" pubdate>
+          Tuesday, December 3, 2019 11:49 AM
         </time>
       </span>
     
@@ -220,7 +220,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          532 words
+          321 words
         
       </span>
     
@@ -282,7 +282,7 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">sessionStorage常见误区</h1>
+            <h1 style="display: none">做事方法论总结</h1>
             
               <p class="note note-info">
                 
@@ -295,14 +295,26 @@
             
               <div class="markdown-body">
                 
-                <h3 id="sessionStorage"><a href="#sessionStorage" class="headerlink" title="sessionStorage"></a>sessionStorage</h3><p>sessionStorage.getItem()取的值是字符串，如果如下判断会不符合预期</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs js"><span class="hljs-variable language_">sessionStorage</span>.<span class="hljs-title function_">setItem</span>(<span class="hljs-string">&#x27;visit&#x27;</span>, <span class="hljs-literal">false</span>);<br><span class="hljs-keyword">const</span> isVisited = <span class="hljs-variable language_">sessionStorage</span>.<span class="hljs-title function_">getItem</span>(<span class="hljs-string">&#x27;visit&#x27;</span>);<br><span class="hljs-keyword">if</span> (isVisited &amp;&amp; <span class="hljs-title class_">Boolean</span>(isVisited)) &#123;<br>  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;a&#x27;</span>); <br>&#125; <span class="hljs-keyword">else</span> &#123;<br>  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;b&#x27;</span>); <br>&#125;<br></code></pre></td></tr></table></figure>
+                <h1 id="做事方法论总结"><a href="#做事方法论总结" class="headerlink" title="做事方法论总结"></a>做事方法论总结</h1><ol>
+<li>注重细节，80%的问题会集中出现在被轻视或忽略的那20%部分</li>
+<li>切忌舍近求远，当问题亟待解决时应先解决问题，再考虑旁枝末节</li>
+<li>切忌破窗效应（当一个窗户破掉之后，人们并不会想着把它修好，而是使它变得更加糟糕），做事要避免给后人留坑，如果已经遇到坑应试着解决，而非继续埋坑。</li>
+</ol>
+<h2 id="程序员思考方式"><a href="#程序员思考方式" class="headerlink" title="程序员思考方式"></a>程序员思考方式</h2><ul>
+<li>偶然复杂度</li>
+<li>优秀程序员的开发效率是普通程序员的10倍（工作方法和工作习惯共同决定）</li>
+</ul>
+<h2 id="解决问题的步骤"><a href="#解决问题的步骤" class="headerlink" title="解决问题的步骤"></a>解决问题的步骤</h2><ul>
+<li>明确真正的目标</li>
+<li>分治（大而化小）</li>
+<li>沟通（减少理解偏差）</li>
+<li>自动化</li>
+</ul>
+<h2 id="读代码"><a href="#读代码" class="headerlink" title="读代码"></a>读代码</h2><ul>
+<li>我们写不出来，是因为看的还不够多，当见多识广以后，设计模式、算法、脚本、框架都将跃然编辑器上。</li>
+<li>读代码有助于理解框架原理，学习优秀的编程范式、思路，获得比看书更加直观的码感训练（参考英语口语的语感）</li>
+</ul>
 
-<p>输出a</p>
-<p>实际上相当于</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs js"><span class="hljs-keyword">if</span> (<span class="hljs-string">&#x27;false&#x27;</span> &amp;&amp; <span class="hljs-title class_">Boolean</span>(<span class="hljs-string">&#x27;false&#x27;</span>)) &#123;<br>  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;a&#x27;</span>);<br>&#125; <span class="hljs-keyword">else</span> &#123;<br>  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;b&#x27;</span>);<br>&#125;<br></code></pre></td></tr></table></figure>
-
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs js">(<span class="hljs-string">&#x27;false&#x27;</span> &amp;&amp; <span class="hljs-title class_">Boolean</span>(<span class="hljs-string">&#x27;false&#x27;</span>)) === (<span class="hljs-literal">true</span> &amp;&amp; <span class="hljs-literal">true</span>) === <span class="hljs-literal">true</span><br></code></pre></td></tr></table></figure>
                 
               </div>
             
@@ -319,8 +331,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>sessionStorage常见误区</div>
-      <div>https://barnett617.github.io/wilson-blog/2020/01/13/session-storage/</div>
+      <div>做事方法论总结</div>
+      <div>https://barnett617.github.io/wilson-blog/2019/12/03/thinking/</div>
     </div>
     <div class="license-meta">
       
@@ -332,7 +344,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>Posted on</div>
-          <div>January 13, 2020</div>
+          <div>December 3, 2019</div>
         </div>
       
       
@@ -369,9 +381,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/wilson-blog/2020/01/13/mpvue/" title="mpvue刷新问题">
+                      <a href="/wilson-blog/2019/12/05/2020%E5%B9%B4%E4%BD%A0%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%AD%A6%E4%B9%A0js/" title="2020年你为什么要学习js">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">mpvue刷新问题</span>
+                        <span class="hidden-mobile">2020年你为什么要学习js</span>
                         <span class="visible-mobile">Previous</span>
                       </a>
                     
@@ -379,8 +391,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/wilson-blog/2020/01/08/thinking/" title="做事方法论总结">
-                        <span class="hidden-mobile">做事方法论总结</span>
+                      <a href="/wilson-blog/2019/10/17/%E4%BB%80%E4%B9%88%E6%A0%B7%E7%9A%84%E4%BA%BA%E9%80%82%E5%90%88%E5%81%9A%E6%8A%80%E6%9C%AF/" title="什么样的人适合做技术">
+                        <span class="hidden-mobile">什么样的人适合做技术</span>
                         <span class="visible-mobile">Next</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
