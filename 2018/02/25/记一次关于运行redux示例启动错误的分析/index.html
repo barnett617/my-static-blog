@@ -23,18 +23,11 @@
 <meta property="og:site_name" content="Wilson&#39;s Blog">
 <meta property="og:description" content="记录在运行redux官方文档中给出的基础实例运行时报错的解决思路">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="http://trigolds.com/redux1.jpg">
-<meta property="og:image" content="http://trigolds.com/redux2.jpg">
-<meta property="og:image" content="http://trigolds.com/redux3.jpg">
-<meta property="og:image" content="http://trigolds.com/redux4.jpg">
-<meta property="og:image" content="http://trigolds.com/redux5.jpg">
-<meta property="og:image" content="http://trigolds.com/redux6.jpg">
 <meta property="article:published_time" content="2018-02-25T17:43:24.000Z">
-<meta property="article:modified_time" content="2023-06-17T08:17:34.856Z">
+<meta property="article:modified_time" content="2023-06-18T14:04:36.394Z">
 <meta property="article:author" content="Wilson">
 <meta property="article:tag" content="react">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://trigolds.com/redux1.jpg">
   
   
   
@@ -315,29 +308,23 @@
 <figure class="highlight coffeescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs coffeescript"><span class="hljs-built_in">npm</span> start<br></code></pre></td></tr></table></figure>
 
 <p>一切顺理成章，然而boom!</p>
-<p><img src="http://trigolds.com/redux1.jpg" srcset="/wilson-blog/img/loading.gif" lazyload></p>
 <p>一脸懵逼</p>
 <p>什么原因呢？先是仔细看了报错信息，里面讲的还算清楚，告诉我不是npm的问题，于是按照推荐，打开具体的日志文件</p>
-<p><img src="http://trigolds.com/redux2.jpg" srcset="/wilson-blog/img/loading.gif" lazyload></p>
 <p>也没看出什么明显的问题</p>
 <p>于是在error附近的日志信息里找几个关键字拉近google搜索一下</p>
 <p>在stackoverflow的<a target="_blank" rel="noopener" href="https://stackoverflow.com/questions/30744964/what-does-the-elifecycle-node-js-error-mean">一篇帖子</a>中的找到灵感</p>
-<p><img src="http://trigolds.com/redux3.jpg" srcset="/wilson-blog/img/loading.gif" lazyload></p>
 <p>没错，进程占用！经过上面几个人说的情况都不匹配后，这个原因我是感觉特别可能的</p>
 <p>于是赶紧检查8000端口是不是已经被占用</p>
 <figure class="highlight 1c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs 1c">netstat -ano <span class="hljs-string">| findstr 8000</span><br></code></pre></td></tr></table></figure>
 
-<p><img src="http://trigolds.com/redux4.jpg" srcset="/wilson-blog/img/loading.gif" lazyload></p>
 <p>(进程ID之前是3260，这是后来写本文时补的)</p>
 <p>果然被占用了，看一下哪个进程的PID是3260</p>
-<p><img src="http://trigolds.com/redux5.jpg" srcset="/wilson-blog/img/loading.gif" lazyload></p>
 <p>之前这里有一个进程PID是3260，发现是一个应用程序，没什么用，kill掉</p>
 <figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs apache"><span class="hljs-attribute">taskkill</span> /PID <span class="hljs-number">3260</span> 	<br></code></pre></td></tr></table></figure>
 
 <p>再次启动</p>
 <figure class="highlight coffeescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs coffeescript"><span class="hljs-built_in">npm</span> start<br></code></pre></td></tr></table></figure>
 
-<p><img src="http://trigolds.com/redux6.jpg" srcset="/wilson-blog/img/loading.gif" lazyload></p>
 <p>Nice!搞定</p>
 <h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>解决问题的能力很重要，程序的世界不可能一帆风顺，耐心看日志，多借助<code>有效</code>途径（google not baidu, stackoverflow not zhidao），带上自己分析问题的思路和经验，问题总是能解决的。</p>
 <p>写此篇博客的目的在于加深此类问题的印象，对于一些常用操作做一个记录，避免下次遇到类似问题时把时间花在查阅搜索和问题定位上</p>
@@ -405,7 +392,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>Updated on</div>
-          <div>June 17, 2023</div>
+          <div>June 18, 2023</div>
         </div>
       
       

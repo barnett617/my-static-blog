@@ -23,20 +23,11 @@
 <meta property="og:site_name" content="Wilson&#39;s Blog">
 <meta property="og:description" content="本文中部分print输出可能会报错，原因为python3的print通过函数方式使用，与python2中的print通过解释执行不同，需要使用print()进行控制台打印">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="http://img.blog.csdn.net/20170815110941919?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc2luYXRfMTY3OTE0ODc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
-<meta property="og:image" content="http://img.blog.csdn.net/20170815111443892?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc2luYXRfMTY3OTE0ODc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
-<meta property="og:image" content="http://img.blog.csdn.net/20170815114116035?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc2luYXRfMTY3OTE0ODc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
-<meta property="og:image" content="http://img.blog.csdn.net/20170815114316434?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc2luYXRfMTY3OTE0ODc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
-<meta property="og:image" content="http://img.blog.csdn.net/20170815140056179?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc2luYXRfMTY3OTE0ODc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
-<meta property="og:image" content="http://img.blog.csdn.net/20170815140731599?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc2luYXRfMTY3OTE0ODc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
-<meta property="og:image" content="http://img.blog.csdn.net/20170815141252078?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc2luYXRfMTY3OTE0ODc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
-<meta property="og:image" content="http://img.blog.csdn.net/20170815141806139?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc2luYXRfMTY3OTE0ODc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
 <meta property="article:published_time" content="2017-08-16T16:20:15.000Z">
-<meta property="article:modified_time" content="2023-06-17T08:17:34.852Z">
+<meta property="article:modified_time" content="2023-06-18T14:04:36.390Z">
 <meta property="article:author" content="Wilson">
 <meta property="article:tag" content="python">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://img.blog.csdn.net/20170815110941919?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc2luYXRfMTY3OTE0ODc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
   
   
   
@@ -320,11 +311,10 @@
 <p>[[ 0  1  2  3  4]<br> [ 5  6  7  8  9]<br> [10 11 12 13 14]<br> [15 16 17 18 19]]</p>
 <h4 id="arrry数组相关属性："><a href="#arrry数组相关属性：" class="headerlink" title="arrry数组相关属性："></a>arrry数组相关属性：</h4><p>ndim：维度<br>shape：各维度大小<br>size：元素个数<br>dtype：元素类型<br>dsize：元素占位大小</p>
 <h4 id="生成特殊矩阵"><a href="#生成特殊矩阵" class="headerlink" title="生成特殊矩阵"></a>生成特殊矩阵</h4><p>全零矩阵：np.zeros()</p>
-<p><img src="http://img.blog.csdn.net/20170815110941919?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc2luYXRfMTY3OTE0ODc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" srcset="/wilson-blog/img/loading.gif" lazyload alt="这里写图片描述"></p>
 <p>注意：ones()和zeros()函数的第一个参数是一个指向数列的指针，不能直接是一个数列，例如上图报错情况</p>
 <p>全一矩阵：np.ones(d,dtype&#x3D;int)<br>默认生成浮点型，可通过第二个参数指定元素数据类型</p>
-<p><img src="http://img.blog.csdn.net/20170815111443892?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc2luYXRfMTY3OTE0ODc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" srcset="/wilson-blog/img/loading.gif" lazyload alt="这里写图片描述"></p>
-<p>随机数数组<br>np.random.rand(5)生成包含5个[0,1)区间的数的数组</p>
+<p>随机数数组</p>
+<p>np.random.rand(5)生成包含5个[0,1)区间的数的数组</p>
 <h4 id="数组计算"><a href="#数组计算" class="headerlink" title="数组计算"></a>数组计算</h4><p>a &#x3D; np.array([1.0, 2],[2, 4])<br>a<br>[[ 1.  2.]<br> [ 2.  4.]]<br> 由于数组是【同质】的，python会自动将整型转换为浮点型</p>
 <ul>
 <li><p>np.exp(a)：自然常数e（约等于2.7）的a次方</p>
@@ -351,8 +341,8 @@
 <li>数组可以是任意正整数维数，乘法要求两侧数组行列数均相同</li>
 </ul>
 <h5 id="相互转换"><a href="#相互转换" class="headerlink" title="相互转换"></a>相互转换</h5><h6 id="数组转矩阵"><a href="#数组转矩阵" class="headerlink" title="数组转矩阵"></a>数组转矩阵</h6><p>np.asmatrix(a)<br>np.mat(a)</p>
-<h6 id="直接生成"><a href="#直接生成" class="headerlink" title="直接生成"></a>直接生成</h6><p>np.matrix(‘1.0 2.0;3.0 4.0’)<br><img src="http://img.blog.csdn.net/20170815114116035?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc2luYXRfMTY3OTE0ODc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" srcset="/wilson-blog/img/loading.gif" lazyload alt="这里写图片描述"></p>
-<h4 id="生成指定长度的一维数组"><a href="#生成指定长度的一维数组" class="headerlink" title="生成指定长度的一维数组"></a>生成指定长度的一维数组</h4><p>np.linspace(0,2,9)：生成从0开始，到2结束，包含9个元素的等差数列<br><img src="http://img.blog.csdn.net/20170815114316434?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc2luYXRfMTY3OTE0ODc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" srcset="/wilson-blog/img/loading.gif" lazyload alt="这里写图片描述"></p>
+<h6 id="直接生成"><a href="#直接生成" class="headerlink" title="直接生成"></a>直接生成</h6><p>np.matrix(‘1.0 2.0;3.0 4.0’)</p>
+<h4 id="生成指定长度的一维数组"><a href="#生成指定长度的一维数组" class="headerlink" title="生成指定长度的一维数组"></a>生成指定长度的一维数组</h4><p>np.linspace(0,2,9)：生成从0开始，到2结束，包含9个元素的等差数列</p>
 <h4 id="数组元素访问"><a href="#数组元素访问" class="headerlink" title="**数组元素访问"></a>**数组元素访问</h4><p>a &#x3D; np.array([3.2, 1.5],[2.5, 4])<br>print a[0][1]<br>1.5<br>print a[0,1]<br>1.5</p>
 <p>注意：<br>若b&#x3D;a是将b和a同时指向同一个array，若修改a或者b的某个元素，a和b都会改变<br>若想a和b不会关联修改，则需要b &#x3D; a.copy()为b单独生成一份拷贝</p>
 <p>a:<br>[[ 0  1  2  3  4]<br> [ 5  6  7  8  9]<br> [10 11 12 13 14]<br> [15 16 17 18 19]]</p>
@@ -368,20 +358,15 @@
 <p>[[ 1.  0.]<br> [ 0.  1.]]</p>
 <h4 id="特征值和特征向量"><a href="#特征值和特征向量" class="headerlink" title="特征值和特征向量"></a>特征值和特征向量</h4><p>a &#x3D; np.random.rand(3,3)<br>eig_value, eig_vector &#x3D; nlg.eig(a)</p>
 <h4 id="拼接矩阵（使用场景：循环处理某些数据后的操作）"><a href="#拼接矩阵（使用场景：循环处理某些数据后的操作）" class="headerlink" title="拼接矩阵（使用场景：循环处理某些数据后的操作）"></a>拼接矩阵（使用场景：循环处理某些数据后的操作）</h4><p>按列拼接两个向量成一个矩阵</p>
-<p><img src="http://img.blog.csdn.net/20170815140056179?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc2luYXRfMTY3OTE0ODc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" srcset="/wilson-blog/img/loading.gif" lazyload alt="这里写图片描述"></p>
 <p>vstack<br>hstack</p>
 <p>实例：<br>a &#x3D; np.random.rand(2,2)<br>b &#x3D; np.random.rand(2,2)<br>c &#x3D; np.hstack([a,b])  水平拼接<br>d &#x3D; np.vstack([a,b])  垂直拼接</p>
-<p><img src="http://img.blog.csdn.net/20170815140731599?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc2luYXRfMTY3OTE0ODc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" srcset="/wilson-blog/img/loading.gif" lazyload alt="这里写图片描述"></p>
 <h4 id="缺失值"><a href="#缺失值" class="headerlink" title="缺失值"></a>缺失值</h4><p>nan作为缺失值的记录<br>通过isnan判定<br>a &#x3D; np.random.rand(2,2)<br>a[0, 1] &#x3D; np.nan<br>print (np.isnan(a))</p>
-<p><img src="http://img.blog.csdn.net/20170815141252078?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc2luYXRfMTY3OTE0ODc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" srcset="/wilson-blog/img/loading.gif" lazyload alt="这里写图片描述"></p>
 <p>nan_to_num可用来将nan替换成0<br>pandas提供能指定nan替换值的函数</p>
 <p>print(np.nan_to_num(a))<br>[[ 0.54266589  0.        ]<br> [ 0.92468339  0.70599254]]</p>
 <p>更多Numpy函数见<br><a target="_blank" rel="noopener" href="http://wiki.scipy.org/Numpy_Example_List">http://wiki.scipy.org/Numpy_Example_List</a><br><a target="_blank" rel="noopener" href="http://docs.scipy.org/doc/numpy">http://docs.scipy.org/doc/numpy</a></p>
 <p>参考文献<br><a target="_blank" rel="noopener" href="https://uqer.io/community/share/54ca15f9f9f06c276f651a56">https://uqer.io/community/share/54ca15f9f9f06c276f651a56</a></p>
 <p><a target="_blank" rel="noopener" href="http://wiki.scipy.org/Tentative_NumPy_Tutorial">http://wiki.scipy.org/Tentative_NumPy_Tutorial</a></p>
 <p>Sheppard K. Introduction to Python for econometrics, statistics and data analysis. Self-published, University of Oxford, version, 2012, 2.</p>
-<p>附：Cheat Sheet of NumPy&amp;SciPy&amp;Pandas</p>
-<p><img src="http://img.blog.csdn.net/20170815141806139?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc2luYXRfMTY3OTE0ODc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" srcset="/wilson-blog/img/loading.gif" lazyload alt="这里写图片描述"></p>
 
                 
               </div>
@@ -446,7 +431,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>Updated on</div>
-          <div>June 17, 2023</div>
+          <div>June 18, 2023</div>
         </div>
       
       

@@ -24,9 +24,8 @@
 <meta property="og:description" content="从理解pom.xml探析Maven">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="http://trigolds.com/maven_lifecircle.png">
-<meta property="og:image" content="http://trigolds.com/maven_scope.png">
 <meta property="article:published_time" content="2018-01-29T14:34:24.000Z">
-<meta property="article:modified_time" content="2023-06-17T08:17:34.852Z">
+<meta property="article:modified_time" content="2023-06-18T14:04:36.390Z">
 <meta property="article:author" content="Wilson">
 <meta property="article:tag" content="java">
 <meta name="twitter:card" content="summary_large_image">
@@ -411,7 +410,6 @@
 <p>类型经常和打包所用方式一致，虽然这也不总是这样</p>
 <p>可以通过插件定义新的类型，设置extensions为true，所以这不是一个完整的列表</p>
 <h5 id="scope"><a href="#scope" class="headerlink" title="scope"></a>scope</h5><p>这个元素涉及到即将到来的（编译时、运行时、测试时）任务的类路径（classpath），同时也涉及如何限制可传递依赖，共有一下五个域变量：</p>
-<p><img src="http://trigolds.com/maven_scope.png" srcset="/wilson-blog/img/loading.gif" lazyload></p>
 <ol>
 <li><p>compile：默认域，如果没特别指定，则使用compile。compile依赖将在所有的类路径可用，更甚，那些依赖会被传播到从属工程（compile、runtime、test）</p>
 </li>
@@ -632,7 +630,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>Updated on</div>
-          <div>June 17, 2023</div>
+          <div>June 18, 2023</div>
         </div>
       
       

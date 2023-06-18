@@ -23,14 +23,11 @@
 <meta property="og:site_name" content="Wilson&#39;s Blog">
 <meta property="og:description" content="背景之前一直对反向代理这个概念理解的很模糊，网上参阅了很多解释，看完也是觉得不够信服，相比较而言觉得解释的还算良好的是知乎上看到的一个回答https:&#x2F;&#x2F;www.zhihu.com&#x2F;question&#x2F;24723688，但看了之后也仅限于“当时理解，过后就忘”，于是今天再次在stackoverflow看到的解释版本，特此翻译整理，留作备忘。">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="http://trigolds.com/proxy.png">
-<meta property="og:image" content="http://trigolds.com/proxy1.jpg">
 <meta property="article:published_time" content="2017-11-07T16:41:24.000Z">
-<meta property="article:modified_time" content="2023-06-17T08:17:34.852Z">
+<meta property="article:modified_time" content="2023-06-18T14:04:36.390Z">
 <meta property="article:author" content="Wilson">
 <meta property="article:tag" content="网络">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://trigolds.com/proxy.png">
   
   
   
@@ -223,7 +220,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          2.6k words
+          2.5k words
         
       </span>
     
@@ -305,14 +302,6 @@
 <p>如果当你访问不了这个链接的时候，也就说明，GFW限制了大陆网络内的主机访问stackoverflow的网站内容，此时你即需要通过<strong>代理服务器</strong>来作为你的代理，帮你取拿到远端stackoverflow网站上的内容取回给你，这就是正向代理的使用实例。</p>
 <p>而反向代理其实更常见，因为它充斥在我们每一天的网上冲浪之中，<strong>只不过你意识不到罢了</strong>（注意！这也就是正向代理和反向代理很大的特征区别之一：正向代理需要你去寻得一个代理来帮助你访问你访问不了的服务器资源，而反向代理是服务器端使用的代理，来处理你提交的访问请求，所以作为客户端的你是意识不到代理的存在的）。</p>
 <p>比如你通过浏览器访问百度网搜索一个条目，或者直接在地址栏输入stackoverflow.com，然而这个行为在互联网中有太多用户在做，所以百度或者stackoverflow的服务器不一定能够驾驭这么大的访问量，此时他们可能会把相同的服务部署在N多台服务器节点上，然后你其实访问到的是那些提供反向代理的服务器，反向代理服务器将大量的请求做了负载均衡处理，再把这些请求均衡合理地分配到那些提供相同服务的不同服务器节点上，这就是反向代理的实例。</p>
-<p>先上图：</p>
-<blockquote>
-<p>A picture is worth 1000 words.</p>
-</blockquote>
-<p>先是正向代理和反向代理分开使用的场景：</p>
-<p><img src="http://trigolds.com/proxy.png" srcset="/wilson-blog/img/loading.gif" lazyload></p>
-<p>再是正向代理和反向代理同时使用的场景：</p>
-<p><img src="http://trigolds.com/proxy1.jpg" srcset="/wilson-blog/img/loading.gif" lazyload></p>
 <p>接下来是本人对于stackoverflow上精彩回答的翻译，如有不准确之处请指正</p>
 <blockquote>
 <p>前面的回答都很准确，但可能太过于精简了。我会试着增加一些例子。<br>首先，“代理”这个词描述了某个人或者某个事物扮演着代表另一个人的角色。在计算机领域，我们讨论的即是一台服务器扮演着代表另一台计算机的角色。为了保证观点可达性（即观点可以被很容易的理解）这一目的（这句感觉翻译的不太好），我会限制我的讨论仅限于“web代理”，然而“代理”这一思想其实不仅限于web网站。</p>
@@ -506,7 +495,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>Updated on</div>
-          <div>June 17, 2023</div>
+          <div>June 18, 2023</div>
         </div>
       
       
