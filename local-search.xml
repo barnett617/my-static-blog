@@ -27,6 +27,19 @@
   
   
   <entry>
+    <title>2020年技术总结</title>
+    <link href="/wilson-blog/2021/03/01/summary-of-2020/"/>
+    <url>/wilson-blog/2021/03/01/summary-of-2020/</url>
+    
+    <content type="html"><![CDATA[<h1 id="2020-year-end-summary"><a href="#2020-year-end-summary" class="headerlink" title="2020-year-end-summary"></a>2020-year-end-summary</h1><h2 id="career"><a href="#career" class="headerlink" title="career"></a>career</h2><ul><li>join didiglobal and work for didi driver hybrid app</li><li>become the owner of Flower Piggy (a ride-hailing service of Didi targeting younger customers) driver-side services </li><li>finish two impressive projects alone(smart interview SPA html5 project and make a live in wechat miniprogram)</li></ul><h2 id="work-staff"><a href="#work-staff" class="headerlink" title="work staff"></a>work staff</h2><ul><li>build hybrid web app pages(no pc websites)</li><li>learn to use group-related develop tools such as vue-cli-plugin, UI component library, jssdk, and jsbridge etc.</li><li>keyboard component</li><li>page track</li><li>cubeui UI library and biz library</li><li>jsbridge</li><li>develop standalone projects using HTML5&#x2F;Vue2</li><li>develop new features as requirement or bugfix</li><li>code review</li><li>refactor and improve performance</li><li>online problems locating(server side problem&#x2F;frontend logic errors&#x2F;data tracking exception)</li><li>locate problems and communicate with other group and push them to realize requirements</li><li>miniprogram UI component unit testing and document(refer to weui&#x2F;j-component&#x2F;miniprogram-simulate)</li><li>integrate third party SDKs(paying SDK etc.)</li></ul><h2 id="tech-stack"><a href="#tech-stack" class="headerlink" title="tech stack"></a>tech stack</h2><ul><li>vue<ul><li>lifecycle method<ul><li>created</li><li>mounted</li></ul></li><li>mixins</li><li>emit&#x2F;on</li><li>props</li></ul></li><li>vuex<ul><li>store</li><li>mutation</li><li>mapGetter</li><li>mapState</li><li>mapMutation</li></ul></li><li>vue-router</li><li>vue-cli-service<ul><li>vue.config.js</li><li>webpack</li></ul></li><li>vue-cli-plugin</li><li>babel</li><li>stylus</li><li>es6<ul><li>promise&#x2F;async</li><li>includes</li><li>const&#x2F;let</li><li>deconstruct</li><li>ESM&#x2F;amd&#x2F;umd&#x2F;commonJS</li></ul></li><li>jscore<ul><li>function&#x2F;callback</li><li>setTimeout&#x2F;setInterval</li><li>closure</li></ul></li><li>git &amp; gitlab</li><li>node &amp; npm<ul><li>dependence&#x2F;devDependence&#x2F;peerDependence</li><li>link&#x2F;publish&#x2F;version(semver)</li><li>macro&#x2F;micro tasks</li></ul></li></ul><h2 id="coding-skills"><a href="#coding-skills" class="headerlink" title="coding skills"></a>coding skills</h2><ul><li>css animations<ul><li>transform</li><li>translate</li><li>keyframe</li><li>animation</li><li>1px compatity</li></ul></li><li>js array methods<ul><li>findIndex and indexOf</li><li>some&#x2F;every&#x2F;each</li><li>filter&#x2F;map&#x2F;reduce</li><li>sort</li></ul></li><li>network basic<ul><li>ajax<ul><li>post&#x2F;get&#x2F;options</li><li>content-type<ul><li>application&#x2F;json、application&#x2F;www-form-urlencoded</li></ul></li></ul></li><li>CORS</li></ul></li><li>web browser<ul><li>url&#x2F;schema</li><li>window&#x2F;location&#x2F;document</li><li>encode&#x2F;decode&#x2F;encodeComponent&#x2F;decodeComponent</li><li>cache</li><li>cookie&#x2F;sessionStorage&#x2F;localStorage</li></ul></li><li>libraries&#x2F;frameworks learning<ul><li>vue3</li><li>vue-rx</li></ul></li><li>backend skills<ul><li>nginx</li><li>linux<ul><li>useful instructions</li></ul></li><li>curl</li></ul></li><li>hybrid<ul><li>webview</li><li>camera&#x2F;record&#x2F;geolocation</li></ul></li></ul><h2 id="problem-solving"><a href="#problem-solving" class="headerlink" title="problem solving"></a>problem solving</h2><ul><li>Learn how to add new feature for jsbridge and debug new feature with native app developers and deploy new jsbridge npm package</li><li>Get used to debug new features with backend developer’s APIs and make requirements work correctly</li></ul><h2 id="reading"><a href="#reading" class="headerlink" title="reading"></a>reading</h2><ul><li>Rich Dad Poor Dad(personal finance)</li><li>Danshari(about lifestyle)</li><li>Bad kid(a Chinese novel book talk about humanity)</li><li>Animal Farm(because the movie——Hunting)</li><li>You don’t know JavaScript(coding skills)</li></ul><h2 id="travel"><a href="#travel" class="headerlink" title="travel"></a>travel</h2><ul><li>Changsha(train)</li><li>Saihanba(driving)</li></ul><h2 id="planing-coding-skills"><a href="#planing-coding-skills" class="headerlink" title="planing coding skills"></a>planing coding skills</h2><ul><li>GraphQL</li></ul><h2 id="planing-life-learning"><a href="#planing-life-learning" class="headerlink" title="planing life learning"></a>planing life learning</h2><ul><li>reading more Englist articles(technique)</li><li>reading more books</li><li>coding more</li><li>build personal website or blog(replace the using blog template)</li></ul>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>如何使用github进行持续集成</title>
     <link href="/wilson-blog/2020/08/19/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8github%E8%BF%9B%E8%A1%8C%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/"/>
     <url>/wilson-blog/2020/08/19/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8github%E8%BF%9B%E8%A1%8C%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/</url>
@@ -589,7 +602,7 @@
   
   
   <entry>
-    <title>2017-2018年个人盘点</title>
+    <title>2017-2018年个人盘点(多图)</title>
     <link href="/wilson-blog/2018/10/02/2017%E5%B9%B410-2018%E5%B9%B4%E4%B8%AA%E4%BA%BA%E7%9B%98%E7%82%B9/"/>
     <url>/wilson-blog/2018/10/02/2017%E5%B9%B410-2018%E5%B9%B4%E4%B8%AA%E4%BA%BA%E7%9B%98%E7%82%B9/</url>
     
