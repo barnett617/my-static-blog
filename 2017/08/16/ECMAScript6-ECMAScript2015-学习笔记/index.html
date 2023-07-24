@@ -24,7 +24,7 @@
 <meta property="og:description" content="一、ES6简介 ECMAScript 6（以下简称ES6）是JavaScript语言的下一代标准。因为当前版本的ES6是在2015年发布的，所以又称ECMAScript 2015。   即ES6 &#x3D;&#x3D;&#x3D; ES2015  二、ES6转码器 Babel是一个广泛使用的ES6转码器，可以将ES6代码转为ES5代码，从而在现有环境执行。（chrome已支持ES6解释，亲测可用">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2017-08-16T20:20:19.000Z">
-<meta property="article:modified_time" content="2023-07-10T15:39:20.642Z">
+<meta property="article:modified_time" content="2023-07-24T08:37:02.636Z">
 <meta property="article:author" content="Wilson">
 <meta property="article:tag" content="es6">
 <meta name="twitter:card" content="summary_large_image">
@@ -349,7 +349,7 @@
 <p>当我们尝试去改变用const声明的常量时，浏览器就会报错。const有一个很好的应用场景，就是当我们引用<strong>第三方库</strong>时声明的变量，用const来声明可以避免未来不小心重命名而导致出现bug：</p>
 <p>const monent &#x3D; require(‘moment’)</p>
 </blockquote>
-<h4 id="（3）class-x2F-extends-x2F-super"><a href="#（3）class-x2F-extends-x2F-super" class="headerlink" title="（3）class&#x2F;extends&#x2F;super"></a>（3）class&#x2F;extends&#x2F;super</h4><blockquote>
+<h4 id="（3）class-extends-super"><a href="#（3）class-extends-super" class="headerlink" title="（3）class&#x2F;extends&#x2F;super"></a>（3）class&#x2F;extends&#x2F;super</h4><blockquote>
 <p>ES6提供了更接近<strong>传统语言</strong>的写法，引入了Class（类）这个概念。新的class写法让<strong>对象原型</strong>的写法更加清晰、更像<strong>面向对象编程</strong>的语法，也更加通俗易懂。</p>
 </blockquote>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs javascript"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Animal</span> &#123;<br>	<span class="hljs-title function_">constructor</span>(<span class="hljs-params"></span>) &#123;<br>		<span class="hljs-variable language_">this</span>.<span class="hljs-property">type</span> = <span class="hljs-string">&#x27;animal&#x27;</span><br>	&#125;<br>	<span class="hljs-title function_">says</span>(<span class="hljs-params">say</span>) &#123;<br>		<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-variable language_">this</span>.<span class="hljs-property">type</span> + <span class="hljs-string">&#x27;says&#x27;</span> +say)<br>	&#125;<br>&#125;<br><br><span class="hljs-keyword">let</span> animal = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Animal</span>()<br>animal.<span class="hljs-title function_">says</span>(<span class="hljs-string">&#x27;hello&#x27;</span>)<br></code></pre></td></tr></table></figure>
@@ -529,7 +529,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>Updated on</div>
-          <div>July 10, 2023</div>
+          <div>July 24, 2023</div>
         </div>
       
       

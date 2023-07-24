@@ -24,7 +24,7 @@
 <meta property="og:description" content="继承 两个类之间是is-a的关系可以考虑用继承  而两个类之间是has-a，表示某个角色具有某一项责任，不适合用继承   例如：飞机场有飞机，但是飞机不能去继承飞机场 多态多态表示不同的对象可以执行相同的动作，但要通过它们自己的实现代码来执行 特点：（子替父演戏实例）  子类以父类身份出现 子类在工作时以自己的方式实现 子类以父类身份出现时，子类特有的属性和方法不可以使用  多态原理当方法被调用时">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2018-01-24T15:53:31.000Z">
-<meta property="article:modified_time" content="2023-07-10T15:39:20.650Z">
+<meta property="article:modified_time" content="2023-07-24T08:37:02.640Z">
 <meta property="article:author" content="Wilson">
 <meta property="article:tag" content="设计模式">
 <meta name="twitter:card" content="summary_large_image">
@@ -459,7 +459,7 @@
 </ol>
 <h3 id="建造者模式（生成器模式）"><a href="#建造者模式（生成器模式）" class="headerlink" title="建造者模式（生成器模式）"></a>建造者模式（生成器模式）</h3><p>讲一个复杂对象的构建与它的表示分离，使得同样的构建过程可以创建不同的表示。</p>
 <h4 id="使用场景-5"><a href="#使用场景-5" class="headerlink" title="使用场景"></a>使用场景</h4><p>当创建复杂对象的算法应该独立于该对象的组成部分以及它们的装配方法时适用的模式。</p>
-<h3 id="观察者模式-发布-订阅模式，Publish-x2F-Subscribe"><a href="#观察者模式-发布-订阅模式，Publish-x2F-Subscribe" class="headerlink" title="观察者模式(发布-订阅模式，Publish&#x2F;Subscribe)"></a>观察者模式(发布-订阅模式，Publish&#x2F;Subscribe)</h3><p>定义了一种一对多的依赖关系，让多个观察者对象同时监听某一个主题对象。这个主题对象在状态发生变化时，会通知所有观察者对象，使它们能够自动更新自己。</p>
+<h3 id="观察者模式-发布-订阅模式，Publish-Subscribe"><a href="#观察者模式-发布-订阅模式，Publish-Subscribe" class="headerlink" title="观察者模式(发布-订阅模式，Publish&#x2F;Subscribe)"></a>观察者模式(发布-订阅模式，Publish&#x2F;Subscribe)</h3><p>定义了一种一对多的依赖关系，让多个观察者对象同时监听某一个主题对象。这个主题对象在状态发生变化时，会通知所有观察者对象，使它们能够自动更新自己。</p>
 <h4 id="背景-1"><a href="#背景-1" class="headerlink" title="背景"></a>背景</h4><p>将一个系统分隔成一系列相互协作的类有一个很不好的副作用，就是需要维护相关对象间的一致性。我们不希望为了维持一致性而使各类紧密耦合，这样会给维护、拓展和重用都带来不便。</p>
 <h4 id="使用场景-6"><a href="#使用场景-6" class="headerlink" title="使用场景"></a>使用场景</h4><ol>
 <li><p>当一个对象的改变需要同时改变其他对象，而且不知道具体有多少对象有待改变。</p>
@@ -534,7 +534,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>Updated on</div>
-          <div>July 10, 2023</div>
+          <div>July 24, 2023</div>
         </div>
       
       

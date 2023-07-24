@@ -35,7 +35,7 @@
 <meta property="og:image" content="https://barnett617.github.io/wilson-blog/img/post/web-height/web-height-10.jpeg">
 <meta property="og:image" content="https://barnett617.github.io/wilson-blog/img/post/web-height/web-height-11.jpeg">
 <meta property="article:published_time" content="2019-04-12T15:31:00.000Z">
-<meta property="article:modified_time" content="2023-07-10T15:39:20.646Z">
+<meta property="article:modified_time" content="2023-07-24T08:37:02.636Z">
 <meta property="article:author" content="Wilson">
 <meta property="article:tag" content="Wilson">
 <meta name="twitter:card" content="summary_large_image">
@@ -307,7 +307,7 @@
             
               <div class="markdown-body">
                 
-                <h1 id="关于WEB中宽高的一些整理"><a href="#关于WEB中宽高的一些整理" class="headerlink" title="关于WEB中宽高的一些整理"></a>关于WEB中宽高的一些整理</h1><h2 id="屏幕宽高（screen-width-amp-screen-height）"><a href="#屏幕宽高（screen-width-amp-screen-height）" class="headerlink" title="屏幕宽高（screen.width &amp; screen.height）"></a>屏幕宽高（screen.width &amp; screen.height）</h2><p>屏幕宽高的计量单位是<code>设备像素</code>（但IE8对其计量单位使用<code>CSS像素</code>）</p>
+                <h1 id="关于WEB中宽高的一些整理"><a href="#关于WEB中宽高的一些整理" class="headerlink" title="关于WEB中宽高的一些整理"></a>关于WEB中宽高的一些整理</h1><h2 id="屏幕宽高（screen-width-screen-height）"><a href="#屏幕宽高（screen-width-screen-height）" class="headerlink" title="屏幕宽高（screen.width &amp; screen.height）"></a>屏幕宽高（screen.width &amp; screen.height）</h2><p>屏幕宽高的计量单位是<code>设备像素</code>（但IE8对其计量单位使用<code>CSS像素</code>）</p>
 <p><img src="/wilson-blog/img/post/web-height/web-height-01.jpeg" srcset="/wilson-blog/img/loading.gif" lazyload></p>
 <p><img src="/wilson-blog/img/post/web-height/web-height-02.jpeg" srcset="/wilson-blog/img/loading.gif" lazyload></p>
 <p>由此可见</p>
@@ -324,7 +324,7 @@
 <p>为什么说实用呢，因为这些屏幕的实际宽高并不一定在用户应用中都能被使用，比如这里可以看到<code>screen.availTop</code>有23的长度是不在可用范围呢，那这段长度是什么呢，见下图</p>
 <p><img src="/wilson-blog/img/post/web-height/web-height-03.jpeg" srcset="/wilson-blog/img/loading.gif" lazyload></p>
 <p>其实是设备（电脑）系统本身的状态栏高度，这一部分高度在浏览器未全屏显示的时候的确是不算在应用（浏览器）高度内的，同时很明显可以看到<code>screen.availHeight + screen.availTop = 877 + 23 = 900 = screen.height</code>，这三个属性的值形成一个完整的闭环，详细的描述了设备屏幕在不同使用场景下的参数</p>
-<h2 id="窗体宽高（window-width-amp-window-height）"><a href="#窗体宽高（window-width-amp-window-height）" class="headerlink" title="窗体宽高（window.width &amp; window.height）"></a>窗体宽高（window.width &amp; window.height）</h2><p>窗体宽高的计量单位使用<code>CSS像素</code>（但不被IE支持，并且欧朋浏览器对其计量单位使用<code>设备像素</code>）</p>
+<h2 id="窗体宽高（window-width-window-height）"><a href="#窗体宽高（window-width-window-height）" class="headerlink" title="窗体宽高（window.width &amp; window.height）"></a>窗体宽高（window.width &amp; window.height）</h2><p>窗体宽高的计量单位使用<code>CSS像素</code>（但不被IE支持，并且欧朋浏览器对其计量单位使用<code>设备像素</code>）</p>
 <p>以上所说的计量单位区分是因为在浏览器中访问这些对象属性的时候返回值只是一个数字，而没有单位，其在不同的环境中（浏览器类型）计算方式并不同</p>
 <p><img src="/wilson-blog/img/post/web-height/web-height-04.jpeg" srcset="/wilson-blog/img/loading.gif" lazyload></p>
 <p><img src="/wilson-blog/img/post/web-height/web-height-05.jpeg" srcset="/wilson-blog/img/loading.gif" lazyload></p>
@@ -391,7 +391,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>Updated on</div>
-          <div>July 10, 2023</div>
+          <div>July 24, 2023</div>
         </div>
       
       
