@@ -4,6 +4,44 @@
   
   
   <entry>
+    <title>rust-learning-05</title>
+    <link href="/wilson-blog/2023/08/31/rust-learning-05/"/>
+    <url>/wilson-blog/2023/08/31/rust-learning-05/</url>
+    
+    <content type="html"><![CDATA[<p>使用包、预置库和模块管理不断增长的项目</p><span id="more"></span><h1 id="包和库"><a href="#包和库" class="headerlink" title="包和库"></a>包和库</h1><p>库是 Rust 编译器一次考虑的最小数量的代码，即使使用 rustc 运行一个源码文件，也称为库。</p><p>库可以包含模块，模块可能定义在其他文件。</p><h2 id="库形态"><a href="#库形态" class="headerlink" title="库形态"></a>库形态</h2><p>库有两种形态，可以是一个<code>二进制库</code>或一个<code>源码库</code>。</p><p>二进制库需要有 main 函数定义。</p><p>源码库可以没有 main 函数，不会被编译为可执行文件，只定义用于多个项目使用的函数，比如 rand，一般 rust 使用者提到的库都是源码库。</p><h2 id="包"><a href="#包" class="headerlink" title="包"></a>包</h2><p>包是由一个或多个库组成的，有 Cargo.toml 文件描述如果构建其中的库。</p><p>Cargo就是一个包，它包含二进制库用于命令行工具，同时也包含一些源码库用于命令行工具。</p><p>一个包可以有任意多个二进制库，但只能有一个源码库。一个库至少要有一个库。</p><h1 id="定义模块以控制作用域和私有性"><a href="#定义模块以控制作用域和私有性" class="headerlink" title="定义模块以控制作用域和私有性"></a>定义模块以控制作用域和私有性</h1><p>use 关键字用于将一个路径引入作用域，pub 关键字用于将内容公开。</p><h2 id="模块技巧"><a href="#模块技巧" class="headerlink" title="模块技巧"></a>模块技巧</h2><ul><li>从源码库根开始：当编译一个库时，编译器首先会寻找根库文件（源码库一般是src&#x2F;lib.rs，二进制库一般为src&#x2F;main.rs）</li><li>声明模块：在根库文件，可以声明新的模块，比如 mod garden; 编译器会从以下地方寻找该模块<ul><li>行内</li><li>src&#x2F;garden.rs</li><li>src&#x2F;garden&#x2F;mod.rs</li></ul></li><li>声明子模块：在根库以外的任意文件，可以声明子模块。比如 mod vegetables; 编译器会从以下地方寻找子模块<ul><li>行内</li><li>src&#x2F;garden&#x2F;vegetables.rs</li><li>src&#x2F;garden&#x2F;vegetables&#x2F;mod.rs</li></ul></li><li>模块内的代码路径：一旦模块成为库的一部分，在同一个库内的任意地方都可以引用那个模块内的代码。比如 crate::garden::vegetables::Asparagus</li><li>私有性和公有性：从父模块访问子模块内的代码默认是私有的。要声明公有性需要使用 pub mod 声明模块</li><li>use关键字：在一个作用域内，use关键字可以代替模块的完整路径。比如 crate::garden::vegetables::Asparagus，可以先 use crate::garden::vegetables::Asparagus，然后就可以在作用域内任意地方直接使用 Asparagus</li></ul>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>rust</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>rust-learning-04</title>
+    <link href="/wilson-blog/2023/08/31/rust-learning-04/"/>
+    <url>/wilson-blog/2023/08/31/rust-learning-04/</url>
+    
+    <content type="html"><![CDATA[<p>使用 if let 管理简约控制流</p><span id="more"></span><figure class="highlight rs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs rs"><span class="hljs-keyword">let</span> <span class="hljs-variable">config_max</span> = <span class="hljs-title function_ invoke__">Some</span>(<span class="hljs-number">3u8</span>);<br><span class="hljs-keyword">match</span> config_max &#123;<br>    <span class="hljs-title function_ invoke__">Some</span>(max) =&gt; <span class="hljs-built_in">println!</span>(<span class="hljs-string">&quot;The maximum is configured to be &#123;&#125;&quot;</span>, max),<br>    _ =&gt; (),<br>&#125;<br></code></pre></td></tr></table></figure><p>对于以上这种不想对 None 值做任何处理的情况，可以使用 if let</p><figure class="highlight rs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs rs"><span class="hljs-keyword">let</span> <span class="hljs-variable">config_max</span> = <span class="hljs-title function_ invoke__">Some</span>(<span class="hljs-number">3u8</span>);<br><span class="hljs-keyword">if</span> <span class="hljs-keyword">let</span> <span class="hljs-variable">Some</span>(max) = config_max &#123;<br>    <span class="hljs-built_in">println!</span>(<span class="hljs-string">&quot;The maximum is configured to be &#123;&#125;&quot;</span>, max);<br>&#125;<br></code></pre></td></tr></table></figure><p>if let 可以看作是 match 的语法糖，用于只关心匹配某种情况而不需要处理其他情况的场景</p><p>如果想处理其他场景，也可以使用 else</p><figure class="highlight rs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs rs"><span class="hljs-keyword">let</span> <span class="hljs-keyword">mut </span><span class="hljs-variable">count</span> = <span class="hljs-number">0</span>;<br><span class="hljs-keyword">match</span> coin &#123;<br>    Coin:<span class="hljs-title function_ invoke__">Quarter</span>(state) =&gt; <span class="hljs-built_in">println!</span>(<span class="hljs-string">&quot;State quarter from &#123;:?&#125;&quot;</span>, state),<br>    _ =&gt; count += <span class="hljs-number">1</span>,<br>&#125;<br></code></pre></td></tr></table></figure><figure class="highlight rs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs rs"><span class="hljs-keyword">let</span> <span class="hljs-keyword">mut </span><span class="hljs-variable">count</span> = <span class="hljs-number">0</span>;<br><span class="hljs-keyword">if</span> <span class="hljs-keyword">let</span> <span class="hljs-variable">Coin</span>:<span class="hljs-title function_ invoke__">Quarter</span>(state) = coin &#123;<br>    <span class="hljs-built_in">println!</span>(<span class="hljs-string">&quot;State quarter from &#123;:?&#125;!&quot;</span>, state);<br>&#125; <span class="hljs-keyword">else</span> &#123;<br>    count += <span class="hljs-number">1</span>;<br>&#125;<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>rust</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>通过类比其他编程语言的方式学习Rust语法-03</title>
     <link href="/wilson-blog/2023/07/11/rust-learning-03/"/>
     <url>/wilson-blog/2023/07/11/rust-learning-03/</url>
