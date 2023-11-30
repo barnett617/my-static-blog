@@ -1,39 +1,37 @@
 # How to
 
+## Prequisite
+
+Install Hugo
+
+> https://gohugo.io/installation/macos/
+
 ## Create a post
 
 ```sh
-hexo new post post-title
+hugo new content posts/post-name.md
 ```
+
+> https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
+
+### Post type
+
+https://gohugo.io/getting-started/usage/#draft-future-and-expired-content
 
 ## Preview the site
 
 ```sh
-npm run server
+hugo server -D
 ```
+
+> -D is short for --buildDrafts
 
 ## Publish
 
 ```sh
-git add .
-git commit -m "feat: some message"
-git push
+hugo
 ```
 
 ## CI/CD
 
-Base on github action, when push on branch main, it will build the source folder and generate the publish files to gh-pages.
-
-## Problems
-
-If config changings not work, such as change subtitle of "about" in _config.fluid.yml, maybe the reason is cache
-
-clean as below and retry will work
-
-```sh
-npm run clean
-```
-
-## Plugin
-
-- https://github.com/fghrsh/live2d_api
+Base on github action, when push on branch main, it will build and generate the publish files.
