@@ -94,7 +94,7 @@ function factorial (num) {
 
 > 结论：使用递归函数，通过`arguments.callee`替代函数名更保险
 
-> 特例：严格模式下无法通过脚本访问`arguments.callee`
+> 特例：严格模式下无法通过脚本访问`arguments.callee`
 
 > 方案：使用命名表达式（适用于严格和非严格模式）
 
@@ -121,5 +121,4 @@ var factorial = function (num) {
   }
 }
 ```
-
-> 创建了名为f()的命名函数表达式，并将其赋值给factorial，这样尽管把函数赋值给其他变量，函数名f仍有效
+> 创建了名为f()的命名函数表达式，并将其赋值给factorial，这样尽管把函数赋值给其他变量，函数名f仍有效

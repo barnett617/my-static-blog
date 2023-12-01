@@ -22,21 +22,24 @@ menu:
     - name: Posts
       url: /posts/
       weight: 5
+    - name: Notes
+      url: /notes/
+      weight: 10
     - name: Archives
       url: /archives/
-      weight: 10
+      weight: 20
+    # - name: Categories
+    #   url: /categories/
+    #   weight: 10
     - name: Search
       url: /search/
-      weight: 10
-    - name: Categories
-      url: /categories/
-      weight: 10
+      weight: 30
     - name: Tags
       url: /tags/
-      weight: 10
-    - name: Search
-      url: /search/
-      weight: 20
+      weight: 40
+    - name: About
+      url: /about/
+      weight: 50
     
     # - identifier: example
     #   name: example.org
@@ -68,7 +71,7 @@ params:
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
-  disableSpecial1stPost: false
+  disableSpecial1stPost: true
   disableScrollToTop: false
   comments: true
   hidemeta: false
@@ -108,15 +111,27 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Content: >
+        - Welcome to Wilson's Blog
+
+        - I write blogs and keep notes on this site
 
   socialIcons:
-    - name: twitter
-      url: "https://twitter.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
+    # - name: twitter
+    #   url: "https://twitter.com/"
+    # - name: stackoverflow
+    #   url: "https://stackoverflow.com"
+
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/barnett617"
+    - name: juejin
+      url: "https://juejin.cn/user/1644525123025933/posts"
+    - name: zhihu
+      url: "https://www.zhihu.com/people/magi617/answers"
+    - name: douban
+      url: "https://www.douban.com/people/DavidMe/?_i=14468907ISm58V"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/scorpioaoe/"
 
   analytics:
     google:
