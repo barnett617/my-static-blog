@@ -4,6 +4,8 @@ disableShare: true
 ShowReadingTime: false
 ShowBreadCrumbs: false
 ShowWordCount: false
+editPost: 
+  URL: ""
 ---
 
 

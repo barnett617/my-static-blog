@@ -17,35 +17,6 @@ taxonomies:
   tag: tags
   series: series
 
-menu:
-  main:
-    - name: Posts
-      url: /posts/
-      weight: 5
-    - name: Notes
-      url: /notes/
-      weight: 10
-    - name: Archives
-      url: /archives/
-      weight: 20
-    # - name: Categories
-    #   url: /categories/
-    #   weight: 10
-    - name: Search
-      url: /search/
-      weight: 30
-    - name: Tags
-      url: /tags/
-      weight: 40
-    - name: About
-      url: /about/
-      weight: 50
-    
-    # - identifier: example
-    #   name: example.org
-    #   url: https://example.org
-    #   weight: 40
-
 outputs:
   home:
     - HTML
@@ -54,8 +25,8 @@ outputs:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: "Param Title"
-  description: "Param Description"
+  title: "Wilson's Blog"
+  description: "Personal blogs and notes about web development and life"
   keywords: [Blog, Portfolio, PaperMod]
   # author: Wilson
   images: []
@@ -110,28 +81,21 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
+    Title: "你好 \U0001F44B"
     Content: >
-        - Welcome to Wilson's Blog
+        - 欢迎来到我的博客，我在这里记录关于技术和生活的内容
 
-        - I write blogs and keep notes on this site
+        - [博客](posts) 包括一些思考、总结，[笔记](notes) 是我学习过程中的一些记录
 
   socialIcons:
-    # - name: twitter
-    #   url: "https://twitter.com/"
-    # - name: stackoverflow
-    #   url: "https://stackoverflow.com"
-
-    - name: github
-      url: "https://github.com/barnett617"
     - name: juejin
       url: "https://juejin.cn/user/1644525123025933/posts"
     - name: zhihu
       url: "https://www.zhihu.com/people/magi617/answers"
     - name: douban
       url: "https://www.douban.com/people/DavidMe/?_i=14468907ISm58V"
-    - name: linkedin
-      url: "https://www.linkedin.com/in/scorpioaoe/"
+    - name: github
+      url: "https://github.com/barnett617"
 
   analytics:
     google:
@@ -147,7 +111,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/barnett617/wilson-blog/tree/main/source/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -177,3 +141,68 @@ markup:
 services:
   disqus:
     shortname: wilson-8
+
+defaultContentLanguage: zh
+languages:
+  zh:
+    contentDir: content/zh
+    languageCode: zh-Hans-CN
+    languageDirection: ltr
+    menu:
+      main:
+        - name: 博客
+          url: /posts/
+          weight: 5
+        - name: 笔记
+          url: /notes/
+          weight: 10
+        - name: 时间线
+          url: /archives/
+          weight: 20
+        - name: 搜索
+          url: /search/
+          weight: 30
+        - name: 标签分类
+          url: /tags/
+          weight: 40
+        - name: 关于我
+          url: /about/
+          weight: 50
+    languageName: 中文
+    params:
+      subtitle: Reference, Tutorials, and Explanations
+    title: Wilson's Blog
+    weight: 1
+  en:
+    baseURL: "https://barnett617.github.io/wilson-blog/"
+    contentDir: content/en
+    languageCode: en-US
+    languageDirection: ltr
+    menu:
+      main:
+      - name: Notes
+        url: /notes/
+        weight: 20
+      - name: Search
+        url: /search/
+        weight: 30
+      - name: About
+        url: /about/
+        weight: 40
+    languageName: English
+    params:
+      subtitle: Reference, Tutorials, and Explanations
+      homeInfoParams:
+        Title: "Hi there \U0001F44B"
+        Content: >
+            - Welcome to Wilson's Blog
+
+            - I write blogs and keep notes on this site
+      socialIcons:
+        - name: github
+          url: "https://github.com/barnett617"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/scorpioaoe/"
+    title: Wilson's Blog
+    weight: 2
+ 
