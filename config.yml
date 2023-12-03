@@ -111,7 +111,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/barnett617/wilson-blog/tree/main/source/content"
+    URL: "https://github.com/barnett617/wilson-blog/tree/main/content/"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -217,4 +217,6 @@ languages:
           url: "https://github.com/barnett617"
         - name: linkedin
           url: "https://www.linkedin.com/in/scorpioaoe/"
+      editPost:
+        URL: "https://github.com/barnett617/wilson-blog/tree/main/content/en/"
     title: Wilson's Blog
