@@ -132,11 +132,12 @@ markup:
   highlight:
     anchorLineNos: false
     codeFences: true
-    guessSyntax: false
+    guessSyntax: true
     lineNos: false
     noClasses: false
+    # https://xyproto.github.io/splash/docs/all.html
     style: onedark
-    tabWidth: 4
+    tabWidth: 2
 
 services:
   disqus:
@@ -190,6 +191,7 @@ languages:
         url: /about/
         weight: 40
     languageName: English
+    # https://gohugo.io/content-management/multilingual/#changes-in-hugo-01120
     params:
       subtitle: Reference, Tutorials, and Explanations
       homeInfoParams:
