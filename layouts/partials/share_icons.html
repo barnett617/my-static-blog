@@ -92,21 +92,25 @@
 <div class="share-buttons">
     {{- if (cond ($custom) (in $ShareButtons "wechat") (true)) }}
     <a id="wechat-share-btn" target="_blank" rel="noopener noreferrer" aria-label="share {{ $title | plainify }} on wechat"
-        href="javascript:void(0)" onclick="return false;" onpointerdown="
-            const shareBtnsPointer = document.getElementsByClassName('share-buttons')[0];
-            if (shareBtnsPointer) {
-                shareBtnsPointer.style.overflowX = 'initial';
-            }
-            wechatShareQrCode.style.visibility = 'visible';
-        " onmouseenter="
+        href="javascript:void(0)" onclick="return false;"
+        onmouseenter="
             const shareBtns = document.getElementsByClassName('share-buttons')[0];
             if (shareBtns) {
                 shareBtns.style.overflowX = 'initial';
             }
             wechatShareQrCode.style.visibility = 'visible';
-        " onmouseleave="
+        "
+        onpointerdown="
+            const shareBtnsPointer = document.getElementsByClassName('share-buttons')[0];
+            if (shareBtnsPointer) {
+                shareBtnsPointer.style.overflowX = 'initial';
+            }
+            wechatShareQrCode.style.visibility = 'visible';
+        "
+        onmouseleave="
             wechatShareQrCode.style.visibility = 'hidden';
-        " onpointercancel="
+        "
+        onpointerleave="
             wechatShareQrCode.style.visibility = 'hidden';
         "
     >
