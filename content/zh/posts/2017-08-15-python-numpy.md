@@ -1,7 +1,7 @@
 ---
 title: 关于python科学计算库numpy学习总结
-date: 2017-08-16 16:20:15
-update: 2017-08-22 12:00:00
+date: 2017-08-15 14:20:49
+update: 2023-12-03 15:33:44
 tags: [python]
 categories: 后端
 ---
@@ -189,3 +189,6 @@ https://uqer.io/community/share/54ca15f9f9f06c276f651a56
 http://wiki.scipy.org/Tentative_NumPy_Tutorial
 
 Sheppard K. Introduction to Python for econometrics, statistics and data analysis. Self-published, University of Oxford, version, 2012, 2.
+
+本文最初发布于个人 [CSDN](https://blog.csdn.net/sinat_16791487/article/details/77188078) 博客
+

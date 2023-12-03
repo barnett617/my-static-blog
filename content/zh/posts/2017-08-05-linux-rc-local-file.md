@@ -1,10 +1,11 @@
 ---
 title: 关于Linux启动文件rc.local的解惑
-date: 2017-08-16 20:12:38
-update: 2017-08-22 10:00:00
+date: 2017-08-05 01:23:14
+update: 2023-12-03 15:32:10
 tags: [linux]
 categories: 操作系统
 ---
+
 ### 背景
 首先，rc.local是Linux启动程序在login程序前执行的最后一个脚本，有的服务器中在rc.local中可能会有一句touch /var/lock/subsys/local，这是干什么的呢，在百度中没找到，最终在[Linuxquestions.org论坛](http://www.linuxquestions.org/questions/linux-newbie-8/touch-var-lock-subsys-local-why-287719/)成功找到满意的解答。
 <!--more-->
@@ -38,3 +39,5 @@ start() {
 ```
 
 也就是会在一个地方，会有类似与上面start()这样的方法会去判断是否已经存在一个local文件，如果有就不重复创建，如果没有就创建一个，后面再读取的时候就不会去创建，以此避免系统重复启动。
+
+本文最初发布于个人 [CSDN](https://blog.csdn.net/sinat_16791487/article/details/76696753) 博客

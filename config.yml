@@ -172,6 +172,10 @@ languages:
     languageName: 中文
     params:
       subtitle: Reference, Tutorials, and Explanations
+      # make both posts and notes be collected into archives
+      mainSections:
+        - posts
+        - notes
     title: Wilson's Blog
     weight: 1
   en:
