@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>浏览器 on Wilson&#39;s Blog</title>
+    <link>https://barnett617.github.io/wilson-blog/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/</link>
+    <description>Recent content in 浏览器 on Wilson&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hans-CN</language>
+    <lastBuildDate>Fri, 02 Feb 2018 14:38:49 +0000</lastBuildDate><atom:link href="https://barnett617.github.io/wilson-blog/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>关于浏览器缓存</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2018-02-02-browser-cache/</link>
+      <pubDate>Fri, 02 Feb 2018 14:38:49 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2018-02-02-browser-cache/</guid>
+      <description>&lt;p&gt;探讨浏览器缓存相关&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>从输入网址到浏览器呈现内容期间发生的事情</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2018-01-24-what-happens-about-url/</link>
+      <pubDate>Wed, 24 Jan 2018 09:49:03 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2018-01-24-what-happens-about-url/</guid>
+      <description>&lt;p&gt;探析浏览器访问站点这一行为背后的具体行为。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

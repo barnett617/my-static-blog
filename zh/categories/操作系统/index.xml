@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>操作系统 on Wilson&#39;s Blog</title>
+    <link>https://barnett617.github.io/wilson-blog/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</link>
+    <description>Recent content in 操作系统 on Wilson&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hans-CN</language>
+    <lastBuildDate>Wed, 07 Feb 2018 20:42:57 +0000</lastBuildDate><atom:link href="https://barnett617.github.io/wilson-blog/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>linux常用命令(长期更新)</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2018-02-07-linux-basic-commands/</link>
+      <pubDate>Wed, 07 Feb 2018 20:42:57 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2018-02-07-linux-basic-commands/</guid>
+      <description>&lt;p&gt;记录一下常用到的linux命令（包含相应Windows中的操作）&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>VMware使用macOS如何全屏</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2018-02-07-vmware-macos-max-window/</link>
+      <pubDate>Wed, 07 Feb 2018 14:10:45 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2018-02-07-vmware-macos-max-window/</guid>
+      <description>&lt;p&gt;如何解决VMware安装VMware Tools后仍不能全屏显示的问题&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>linux发行版理解</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2018-01-25-linux-distributions/</link>
+      <pubDate>Thu, 25 Jan 2018 10:51:20 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2018-01-25-linux-distributions/</guid>
+      <description>&lt;p&gt;linux 作为开源系统，有着众多的发行版本（毕竟有着庞大的社区和狂热的爱好者），不同的发行版本(Linux Distribution)随着发展，在使用方式上也有一些不同，例如各自的包管理器、已经适用场景等等。借此整理一下 linux 的不同发行版本，以便在使用不同版 linux 时不至混乱。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>虚拟机vmware使用——安装vmware-tools</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2018-01-25-vmware-tools-install/</link>
+      <pubDate>Thu, 25 Jan 2018 09:59:50 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2018-01-25-vmware-tools-install/</guid>
+      <description>&lt;p&gt;每次安装虚拟机都忘记怎么安装 vmware tools，而不安装这个东西，用起来总是各种蹩脚，故做此整理。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>使用vmware安装macOS</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2018-01-23-install-macos-using-vmware/</link>
+      <pubDate>Tue, 23 Jan 2018 12:04:14 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2018-01-23-install-macos-using-vmware/</guid>
+      <description>&lt;p&gt;虽然类似这样的文章网上一搜一大把，但应 &lt;a href=&#34;https://github.com/yanghua0311&#34;&gt;youngwa&lt;/a&gt; 邀，还是决定重新整理一下个人安装的详细流程及相关资源链接，以备后用。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>linux忘记密码</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2018-01-23-linux-password-forget/</link>
+      <pubDate>Tue, 23 Jan 2018 09:48:20 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2018-01-23-linux-password-forget/</guid>
+      <description>&lt;p&gt;这算不上一篇博客，只是不想再重复在解决这个问题上花费时间。另外对于解决方案的原理有待深究。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>关于centos的iptables以及firewalld的总结</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2017-11-16-centos-iptables-and-firewalld/</link>
+      <pubDate>Thu, 16 Nov 2017 15:57:50 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2017-11-16-centos-iptables-and-firewalld/</guid>
+      <description>&lt;p&gt;centos 内置一个非常强劲的防火墙，统称为 iptables，实际原理是 iptables 是用户空间的模块，在内核中存在一个 netfilter 核心模块用于实现 iptables 中设置的规则，进行底层的实际过滤。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>在Vultr上搭建ss，包含最简版centos7安装过程中的各种坑解决</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2017-08-16-setup-ss-using-vultr-and-centos7/</link>
+      <pubDate>Wed, 16 Aug 2017 20:14:53 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2017-08-16-setup-ss-using-vultr-and-centos7/</guid>
+      <description>&lt;p&gt;在 Vultr 上搭建 ss，包含最简版 centos7 安装过程中的各种坑解决&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>关于Linux启动文件rc.local的解惑</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2017-08-05-linux-rc-local-file/</link>
+      <pubDate>Sat, 05 Aug 2017 01:23:14 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2017-08-05-linux-rc-local-file/</guid>
+      <description>&lt;p&gt;rc.local 是 Linux 启动程序在 login 程序前执行的最后一个脚本，有的服务器中在 rc.local 中可能会有一句 touch /var/lock/subsys/local，这是干什么的呢，在百度中没找到，最终在&lt;a href=&#34;http://www.linuxquestions.org/questions/linux-newbie-8/touch-var-lock-subsys-local-why-287719/&#34;&gt;Linuxquestions.org 论坛&lt;/a&gt;成功找到满意的解答。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>windows删除“找不到该项目”的文件</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2017-02-06-windows-missing-file/</link>
+      <pubDate>Mon, 06 Feb 2017 11:47:56 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2017-02-06-windows-missing-file/</guid>
+      <description>&lt;p&gt;windows 删除“找不到该项目”的文件该怎么办&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>python on Wilson&#39;s Blog</title>
+    <link>https://barnett617.github.io/wilson-blog/tags/python/</link>
+    <description>Recent content in python on Wilson&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hans-CN</language>
+    <lastBuildDate>Tue, 07 May 2019 16:14:54 +0000</lastBuildDate><atom:link href="https://barnett617.github.io/wilson-blog/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>用Python生成柱状图、折线图、饼状图来统计自己的手机话费</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2019-05-07-use-python-visualize-to-statistics/</link>
+      <pubDate>Tue, 07 May 2019 16:14:54 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2019-05-07-use-python-visualize-to-statistics/</guid>
+      <description>&lt;p&gt;用 Python 生成柱状图、折线图、饼状图来统计自己的手机话费&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>关于python科学计算库numpy学习总结</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2017-08-15-python-numpy/</link>
+      <pubDate>Tue, 15 Aug 2017 14:20:49 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2017-08-15-python-numpy/</guid>
+      <description>&lt;p&gt;关于 python 科学计算库 numpy 学习总结&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>python零碎知识点整理——注释</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2017-02-07-python-comment/</link>
+      <pubDate>Tue, 07 Feb 2017 22:05:20 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2017-02-07-python-comment/</guid>
+      <description>&lt;p&gt;python 零碎知识点整理——注释&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

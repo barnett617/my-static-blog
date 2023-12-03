@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>其他 on Wilson&#39;s Blog</title>
+    <link>https://barnett617.github.io/wilson-blog/categories/%E5%85%B6%E4%BB%96/</link>
+    <description>Recent content in 其他 on Wilson&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hans-CN</language>
+    <lastBuildDate>Mon, 03 Sep 2018 19:57:17 +0000</lastBuildDate><atom:link href="https://barnett617.github.io/wilson-blog/categories/%E5%85%B6%E4%BB%96/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我是如何备份博客的</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2018-09-03-blog-backup/</link>
+      <pubDate>Mon, 03 Sep 2018 19:57:17 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2018-09-03-blog-backup/</guid>
+      <description>&lt;p&gt;记录如何把博客从离线存储配置成可通过git维护&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>微信公众号和小程序开发</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2018-02-13-wechat-miniprogram/</link>
+      <pubDate>Tue, 13 Feb 2018 09:47:22 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2018-02-13-wechat-miniprogram/</guid>
+      <description>&lt;p&gt;关于微信公众号平台使用相关&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>使用分支备份hexo博客</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2017-11-17-hexo-backup-using-git-branch/</link>
+      <pubDate>Fri, 17 Nov 2017 17:39:36 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2017-11-17-hexo-backup-using-git-branch/</guid>
+      <description>&lt;p&gt;使用一台电脑使用 hexo 创建博文、生成静态文件、发布，没毛病，但由于 hexo 在本地生成静态文件的模式，如果你换一台电脑呢？很明显你需要把原始电脑上的 hexo 文件夹拷贝到新电脑。这样带来的问题就是多台电脑上的 hexo 不能总保持同步，需要通过物理拷贝的方式，很不方便。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Markdown语法学习整理</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2017-11-17-markdown-programmer/</link>
+      <pubDate>Fri, 17 Nov 2017 10:09:16 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2017-11-17-markdown-programmer/</guid>
+      <description>&lt;p&gt;虽说 markdown 用了一段时间，但还未曾专门地阅读文档对其进行过相对系统的学习。刚才使用分割线时发现分割线下面的文字变成标题般字体，专门查了一波，发现还是有必要系统学习一下 md 语法，以节省日后使用时的查阅时间。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>关于StackExchange和Quora的区别</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2017-11-14-stackexchange-vs-quora/</link>
+      <pubDate>Tue, 14 Nov 2017 14:15:57 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2017-11-14-stackexchange-vs-quora/</guid>
+      <description>&lt;p&gt;今天在查问题的时候偶然进了一篇 StackExchange 的帖子，无论是站点名字还是首页界面，第一反应都是：StackOverFlow？&lt;/p&gt;
+&lt;p&gt;查阅相关说明之后了解了二者的关系，StackExchange 是在 StackOverFlow 成功推出以后，在其基础上将仅仅讨论编程问题的网站拓展成话题更丰富的论坛。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>使用hexo搭建个人博客教程</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2017-11-08-setup-blog-using-hexo/</link>
+      <pubDate>Wed, 08 Nov 2017 10:25:17 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2017-11-08-setup-blog-using-hexo/</guid>
+      <description>&lt;p&gt;用了一段时间的 hexo，本着“授人以鱼，不如授人以渔”的理念，决定整理一篇 hexo 使用教程，分享大家。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>关于matlab使用冒号定义矩阵的小栗子</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2017-11-01-matlab-matrix/</link>
+      <pubDate>Wed, 01 Nov 2017 09:48:04 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2017-11-01-matlab-matrix/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;冒号是 MATLAT 中最有用的操作符之一。它用于创建向量，下标数组，并为迭代指定。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>atom实现html实时预览</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2017-10-16-preview-html-using-atom-editor/</link>
+      <pubDate>Mon, 16 Oct 2017 19:00:44 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2017-10-16-preview-html-using-atom-editor/</guid>
+      <description>&lt;p&gt;如何使用 atom 编辑器实现 html 实时预览&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>后端 on Wilson&#39;s Blog</title>
+    <link>https://barnett617.github.io/wilson-blog/categories/%E5%90%8E%E7%AB%AF/</link>
+    <description>Recent content in 后端 on Wilson&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hans-CN</language>
+    <lastBuildDate>Tue, 07 May 2019 16:14:54 +0000</lastBuildDate><atom:link href="https://barnett617.github.io/wilson-blog/categories/%E5%90%8E%E7%AB%AF/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>用Python生成柱状图、折线图、饼状图来统计自己的手机话费</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2019-05-07-use-python-visualize-to-statistics/</link>
+      <pubDate>Tue, 07 May 2019 16:14:54 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2019-05-07-use-python-visualize-to-statistics/</guid>
+      <description>&lt;p&gt;用 Python 生成柱状图、折线图、饼状图来统计自己的手机话费&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Apache项目Maven官方文档学习及翻译（译）</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2018-01-29-about-maven-translation/</link>
+      <pubDate>Mon, 29 Jan 2018 14:34:24 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2018-01-29-about-maven-translation/</guid>
+      <description>&lt;p&gt;从理解 pom.xml 探析 Maven&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>关于python科学计算库numpy学习总结</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2017-08-15-python-numpy/</link>
+      <pubDate>Tue, 15 Aug 2017 14:20:49 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2017-08-15-python-numpy/</guid>
+      <description>&lt;p&gt;关于 python 科学计算库 numpy 学习总结&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>java零碎知识点整理（3）</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2017-02-08-java-basic-03/</link>
+      <pubDate>Wed, 08 Feb 2017 15:01:26 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2017-02-08-java-basic-03/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;关于java字符串String以及Hashcode的一些整理&lt;/p&gt;
+&lt;p&gt;hashcode即是对象地址的十进制形式，而equals方法即是在比较两个对象的hashcode是否相等&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>java零碎知识点整理（2）</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2017-02-07-java-basic-02/</link>
+      <pubDate>Tue, 07 Feb 2017 20:01:52 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2017-02-07-java-basic-02/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;构造器（构造方法）
+在类实例化时被调用，对实例对象进行初始化&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

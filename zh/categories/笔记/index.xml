@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>笔记 on Wilson&#39;s Blog</title>
+    <link>https://barnett617.github.io/wilson-blog/categories/%E7%AC%94%E8%AE%B0/</link>
+    <description>Recent content in 笔记 on Wilson&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hans-CN</language>
+    <lastBuildDate>Sun, 15 Mar 2020 11:25:04 +0000</lastBuildDate><atom:link href="https://barnett617.github.io/wilson-blog/categories/%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>重新介绍JavaScript</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2020-03-15-reintroduce-javascript/</link>
+      <pubDate>Sun, 15 Mar 2020 11:25:04 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2020-03-15-reintroduce-javascript/</guid>
+      <description>&lt;p&gt;读 &lt;a href=&#34;https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/A_re-introduction_to_JavaScript&#34;&gt;重新介绍 JavaScript（JS 教程）&lt;/a&gt; 一文整理的脑图&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Angular学习笔记</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2018-02-22-angular4/</link>
+      <pubDate>Thu, 22 Feb 2018 22:36:27 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2018-02-22-angular4/</guid>
+      <description>&lt;p&gt;关于Angular学习整理&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>正则表达式——学习笔记</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2017-02-07-regexp/</link>
+      <pubDate>Tue, 07 Feb 2017 22:06:19 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2017-02-07-regexp/</guid>
+      <description>&lt;p&gt;一些常用正则表达式的整理&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>python零碎知识点整理——注释</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2017-02-07-python-comment/</link>
+      <pubDate>Tue, 07 Feb 2017 22:05:20 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2017-02-07-python-comment/</guid>
+      <description>&lt;p&gt;python 零碎知识点整理——注释&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>java零碎知识点整理（1）</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2017-02-07-java-basic-01/</link>
+      <pubDate>Tue, 07 Feb 2017 17:27:54 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2017-02-07-java-basic-01/</guid>
+      <description>&lt;p&gt;字符串相关方法、数据类型转换、正则表达式&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>IDEA2016配置运行基于Maven的Git项目</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2016-12-27-config-idea-for-maven-projects-with-git/</link>
+      <pubDate>Tue, 27 Dec 2016 20:22:56 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2016-12-27-config-idea-for-maven-projects-with-git/</guid>
+      <description>&lt;p&gt;IDEA2016 配置运行基于 Maven 的 Git 项目&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ECMAScript6(ECMAScript2015)学习笔记</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2016-12-15-es6-learning/</link>
+      <pubDate>Fri, 16 Dec 2016 15:34:31 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2016-12-15-es6-learning/</guid>
+      <description>&lt;p&gt;ECMAScript 6（以下简称 ES6）是 JavaScript 语言的下一代标准。因为当前版本的 ES6 是在&lt;strong&gt;2015 年&lt;/strong&gt;发布的，所以又称 ECMAScript 2015。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>可复用面向对象软件基础——设计模式（六）之原型模式</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2016-12-15-design-pattern-06/</link>
+      <pubDate>Thu, 15 Dec 2016 21:06:11 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2016-12-15-design-pattern-06/</guid>
+      <description>&lt;p&gt;原型模式虽然是创建型的模式，但是与工程模式没有关系，从名字即可看出，该模式的思想就是将一个对象作为原型，对其进行&lt;strong&gt;复制、克隆&lt;/strong&gt;，产生一个和原对象类似的新对象。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>可复用面向对象软件基础——设计模式（五）之建造者模式</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2016-12-15-design-pattern-05/</link>
+      <pubDate>Thu, 15 Dec 2016 20:22:46 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2016-12-15-design-pattern-05/</guid>
+      <description>&lt;p&gt;工厂类模式提供的是创建单个类的模式，而建造者模式则是将各种产品&lt;strong&gt;集中&lt;/strong&gt;起来进行&lt;strong&gt;管理&lt;/strong&gt;，用来创建&lt;strong&gt;复合对象&lt;/strong&gt;，所谓复合对象就是指某个类具有不同的属性，其实建造者模式就是前面抽象工厂模式和最后的Test结合起来得到的。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>可复用面向对象软件基础——设计模式（四）之单例模式</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2016-12-15-design-pattern-04/</link>
+      <pubDate>Thu, 15 Dec 2016 19:57:13 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2016-12-15-design-pattern-04/</guid>
+      <description>&lt;p&gt;单例对象（Singleton）是一种常用的设计模式。在 Java 应用中，单例对象能保证在一个 JVM 中，该对象&lt;strong&gt;只有一个实例&lt;/strong&gt;存在。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>可复用面向对象软件基础——设计模式（三）之抽象工厂模式</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2016-12-15-design-pattern-03/</link>
+      <pubDate>Thu, 15 Dec 2016 16:59:43 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2016-12-15-design-pattern-03/</guid>
+      <description>一、工厂方法模式缺陷 工厂方法模式有一个问题就是，类的创建依赖工厂类，也就是说，如果想要拓展程序，必须修改工厂类，这违背了设计模式六大原则第一条闭包原则。
+所以，从设计角度考虑，有一定的问题，如何解决？就用到抽象工厂模式，创建多个工厂类，这样一旦需要增加新的功能，直接增加新的工厂类就可以了，不需要修改之前的代码。
+二、抽象工厂模式实现 /** * 1、邮寄接口，有一个抽象邮寄方法待实现 * @author barnett * */ public interface Sender { public void send(); } /** * 2、实现类，邮件邮寄类实现邮寄接口，实现其邮寄的方法 * @author barnett * */ public class MailSender implements Sender { @Override public void send() { System.out.println(&amp;#34;I am MailSender!&amp;#34;); } } /** * 短信邮寄类实现邮寄接口，实现其邮寄方法 * @author barnett * */ public class SmsSender implements Sender { @Override public void send() { System.out.println(&amp;#34;I am SmsSender!&amp;#34;); } } /** * 3、提供器接口，返回邮寄对象，其生产方法待实现 * 工厂依靠实现该接口，生产产品（Sender） * @author barnett * */ public interface Provider { public Sender produce(); } /** * 4、工厂，邮件邮寄工厂，负责专门生产邮件邮寄实例 * @author barnett * */ public class SendMailFactory implements Provider { @Override public Sender produce() { return new MailSender(); } } /** * 短信邮寄工厂，专门生产短信邮寄实例 * @author barnett * */ public class SendSmsFactory implements Provider { @Override public Sender produce() { return new SmsSender(); } } /** * 5、测试类 * @author barnett * */ public class Test { public static void main(String[] args) { // 实例一个邮件工厂(因其实现了提供器接口，可返回一个具有专门生产某种产品生产方法的实例） Provider provider = new SendMailFactory(); // 通过该实例生产产品 Sender sender = provider.</description>
+    </item>
+    
+    <item>
+      <title>可复用面向对象软件基础——设计模式（二）之工厂方法模式</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2016-12-15-design-pattern-02/</link>
+      <pubDate>Thu, 15 Dec 2016 12:57:58 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2016-12-15-design-pattern-02/</guid>
+      <description>一、工厂方法模式分类（3 种） 普通工厂模式 多个工厂方法模式 静态工厂方法模式 二、工厂方法模式详解 （1）普通工厂模式 普通工厂模式就是建立一个工厂类，对实现了同一接口的一些类进行实例的创建。
+// 1、创建不同产品的共同接口 public interface Sender { /** * 邮寄接口中有一个邮寄方法待实现 */ public void Send(); } /** * 2、（实现类）邮件邮寄类实现了邮寄接口，实现其邮寄的抽象方法 * @author barnett * */ public class MailSender implements Sender { @Override public void Send() { System.out.println(&amp;#34;I am MailSender!&amp;#34;); } } /** * 短信邮寄类实现了邮寄接口，实现其邮寄的抽象方法 * @author barnett * */ public class SmsSender implements Sender { @Override public void Send() { System.out.println(&amp;#34;I am SmsSender!&amp;#34;); } } /** * 3、工厂类，负责多次制造产品（new出复用的类） * @author barnett * */ public class SendFactory { /** * 工厂类中的生产方法 * @param type	输入要生产的产品类型 * @return	返回一个产品 */ public Sender produce(String type) { if(&amp;#34;mail&amp;#34;.</description>
+    </item>
+    
+  </channel>
+</rss>

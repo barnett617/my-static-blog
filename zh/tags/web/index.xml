@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>web on Wilson&#39;s Blog</title>
+    <link>https://barnett617.github.io/wilson-blog/tags/web/</link>
+    <description>Recent content in web on Wilson&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hans-CN</language>
+    <lastBuildDate>Sat, 24 Jul 2021 21:40:00 +0000</lastBuildDate><atom:link href="https://barnett617.github.io/wilson-blog/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>基于B/S架构的webapp开发</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2021-07-24-webapp-based-on-bs-arch/</link>
+      <pubDate>Sat, 24 Jul 2021 21:40:00 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2021-07-24-webapp-based-on-bs-arch/</guid>
+      <description>&lt;p&gt;使用vscode远程开发一个全栈Web项目&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

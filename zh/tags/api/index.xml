@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>API on Wilson&#39;s Blog</title>
+    <link>https://barnett617.github.io/wilson-blog/tags/api/</link>
+    <description>Recent content in API on Wilson&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hans-CN</language>
+    <lastBuildDate>Tue, 16 Jan 2018 11:38:31 +0000</lastBuildDate><atom:link href="https://barnett617.github.io/wilson-blog/tags/api/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何设计良好的API并且为什么这很重要（译）</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2018-01-16-api-designing-translation/</link>
+      <pubDate>Tue, 16 Jan 2018 11:38:31 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2018-01-16-api-designing-translation/</guid>
+      <description>&lt;p&gt;本文翻译自 Effective Java 作者 Joshua Bloch 撰写的一篇关于 API 设计的分享&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

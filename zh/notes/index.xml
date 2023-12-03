@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Notes on Wilson&#39;s Blog</title>
+    <link>https://barnett617.github.io/wilson-blog/notes/</link>
+    <description>Recent content in Notes on Wilson&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hans-CN</language>
+    <lastBuildDate>Thu, 31 Aug 2023 22:54:51 +0000</lastBuildDate><atom:link href="https://barnett617.github.io/wilson-blog/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rust语法学习-使用包、预置库和模块管理不断增长的项目</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2023-08-31-rust-05/</link>
+      <pubDate>Thu, 31 Aug 2023 22:54:51 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2023-08-31-rust-05/</guid>
+      <description>&lt;p&gt;使用包、预置库和模块管理不断增长的项目&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rust语法学习-使用 if let 管理简约控制流</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2023-08-31-rust-04/</link>
+      <pubDate>Thu, 31 Aug 2023 22:41:00 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2023-08-31-rust-04/</guid>
+      <description>&lt;p&gt;使用 if let 管理简约控制流&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rust语法学习-枚举和模式匹配</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2023-07-11-rust-03/</link>
+      <pubDate>Tue, 11 Jul 2023 22:37:39 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2023-07-11-rust-03/</guid>
+      <description>&lt;p&gt;关于枚举和模式匹配&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rust语法学习-结构体</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2023-07-10-rust-02/</link>
+      <pubDate>Mon, 10 Jul 2023 23:39:34 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2023-07-10-rust-02/</guid>
+      <description>&lt;p&gt;使用结构体可以自定义一系列数据结构并打包在一起，然后用其定义多个符合这个结构的值。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rust语法学习-类比其他编程语言</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2023-07-10-rust-01/</link>
+      <pubDate>Mon, 10 Jul 2023 22:02:15 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2023-07-10-rust-01/</guid>
+      <description>&lt;p&gt;rust语法融合了多门编程语言的特性，可以看到很多语言的影子，例如 JavaScript、Java、Python、C、Go等。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>vite体验</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2023-06-29-vite-using/</link>
+      <pubDate>Thu, 29 Jun 2023 23:50:58 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2023-06-29-vite-using/</guid>
+      <description>&lt;p&gt;学习 Pinia 源码时尝试运行&lt;a href=&#34;https://pinia.vuejs.org/core-concepts/&#34;&gt;Pinia 官网&lt;/a&gt;提供的样例，基于 &lt;a href=&#34;https://vitejs.dev/guide/&#34;&gt;Vite&lt;/a&gt;初始化了项目，在初始化 Pinia Store 中遇到的一些问题记录&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>vuex对比pinia</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2023-06-28-vuex-vs-pinia/</link>
+      <pubDate>Wed, 28 Jun 2023 21:38:46 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2023-06-28-vuex-vs-pinia/</guid>
+      <description>&lt;p&gt;vuex@3对比pinia@v2&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>关于WebAssembly</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2023-06-21-wasm/</link>
+      <pubDate>Wed, 21 Jun 2023 22:37:22 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2023-06-21-wasm/</guid>
+      <description>&lt;p&gt;WebAssembly 是什么&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>2022年项目总结</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2022-09-21-2022-projects/</link>
+      <pubDate>Wed, 21 Sep 2022 23:02:00 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2022-09-21-2022-projects/</guid>
+      <description>&lt;p&gt;关于2022年的项目总结&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>整理博客过程中的一些思考</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2020-05-04-thinking-about-blog/</link>
+      <pubDate>Mon, 04 May 2020 12:05:55 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2020-05-04-thinking-about-blog/</guid>
+      <description>&lt;p&gt;重新把很早以前写的“博客”看了一下，发现有新的感悟。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>二叉树的三种遍历（递归&#43;迭代）</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2020-04-16-binary-tree-iteration-methods/</link>
+      <pubDate>Thu, 16 Apr 2020 17:10:48 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2020-04-16-binary-tree-iteration-methods/</guid>
+      <description>&lt;p&gt;二叉树的三种遍历（递归+迭代）&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>重新介绍JavaScript</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2020-03-15-reintroduce-javascript/</link>
+      <pubDate>Sun, 15 Mar 2020 11:25:04 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2020-03-15-reintroduce-javascript/</guid>
+      <description>&lt;p&gt;读 &lt;a href=&#34;https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/A_re-introduction_to_JavaScript&#34;&gt;重新介绍 JavaScript（JS 教程）&lt;/a&gt; 一文整理的脑图&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>三大框架对比</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2020-03-09-frontend-framework/</link>
+      <pubDate>Mon, 09 Mar 2020 15:51:14 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2020-03-09-frontend-framework/</guid>
+      <description>&lt;p&gt;前端三大框架有什么不同&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>关于z-index的最大值</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2020-01-20-css-zindex/</link>
+      <pubDate>Mon, 20 Jan 2020 14:49:00 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2020-01-20-css-zindex/</guid>
+      <description>&lt;p&gt;小知识: 关于 z-index 的最大值&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>反转数组</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2020-01-15-js-revert-array/</link>
+      <pubDate>Wed, 15 Jan 2020 20:31:00 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2020-01-15-js-revert-array/</guid>
+      <description>&lt;p&gt;关于 js 反转数组&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>HTTP访问控制（CORS）</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2020-01-09-http-cors/</link>
+      <pubDate>Thu, 09 Jan 2020 19:11:00 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2020-01-09-http-cors/</guid>
+      <description>&lt;p&gt;关于 HTTP CORS&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>翻页时钟</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2020-01-09-clock-web/</link>
+      <pubDate>Thu, 09 Jan 2020 19:11:00 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2020-01-09-clock-web/</guid>
+      <description>&lt;p&gt;翻页时钟实现调研&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>正则表达式</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2020-01-08-regexp/</link>
+      <pubDate>Wed, 08 Jan 2020 09:33:00 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2020-01-08-regexp/</guid>
+      <description>&lt;p&gt;关于正则表达式学习&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>做事方法论总结</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2019-12-03-do-things-methods/</link>
+      <pubDate>Tue, 03 Dec 2019 11:49:00 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2019-12-03-do-things-methods/</guid>
+      <description>&lt;p&gt;一些做事方法论的总结&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>JS的方法参数传递（按值传递）</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2019-02-12-js-function-arguments/</link>
+      <pubDate>Tue, 12 Feb 2019 16:11:50 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2019-02-12-js-function-arguments/</guid>
+      <description>&lt;p&gt;出处：JavaScript 高级程序设计（第三版）第四章——变量、作用域和内存问题&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>浅拷贝和深拷贝</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2019-01-22-shallow-clone-and-deep-clone/</link>
+      <pubDate>Tue, 22 Jan 2019 16:47:00 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2019-01-22-shallow-clone-and-deep-clone/</guid>
+      <description>&lt;p&gt;关于 js 浅拷贝和深拷贝&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>js中的“拷贝”（第一篇）——js数据类型</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2019-01-21-js-copy/</link>
+      <pubDate>Mon, 21 Jan 2019 15:44:00 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2019-01-21-js-copy/</guid>
+      <description>&lt;p&gt;关于 js 数据类型&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>JavaScript高级程序设计第3版笔记（一）</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2018-09-03-js-note/</link>
+      <pubDate>Mon, 03 Sep 2018 18:54:18 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2018-09-03-js-note/</guid>
+      <description>&lt;p&gt;函数表达式&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>前端基础知识整理——jQuery选择器</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2018-02-23-js-basic-about-jquery-selector/</link>
+      <pubDate>Fri, 23 Feb 2018 20:01:25 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2018-02-23-js-basic-about-jquery-selector/</guid>
+      <description>&lt;p&gt;关于jQuery选择器的整理&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Angular学习笔记</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2018-02-22-angular4/</link>
+      <pubDate>Thu, 22 Feb 2018 22:36:27 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2018-02-22-angular4/</guid>
+      <description>&lt;p&gt;关于Angular学习整理&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>HTML5语义提升篇</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2018-02-16-html5-sementical/</link>
+      <pubDate>Fri, 16 Feb 2018 15:54:37 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2018-02-16-html5-sementical/</guid>
+      <description>&lt;p&gt;关于HTML5中语义方面的改变&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>HTML5基础回顾</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2018-02-16-html-basic/</link>
+      <pubDate>Fri, 16 Feb 2018 15:09:48 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2018-02-16-html-basic/</guid>
+      <description>&lt;p&gt;HTML5作为如今前端必备“新”技术，理应成为前端基础的必备技能之一&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>关于hexo阅读次数统计及访问次数插件使用</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2018-02-13-hexo-reading-count/</link>
+      <pubDate>Tue, 13 Feb 2018 14:46:31 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2018-02-13-hexo-reading-count/</guid>
+      <description>&lt;p&gt;前一段时间换域名，发现博客的访问次数不显示了，一开始没时间关注，最近闲了，研究一下到底是怎么回事，发现原来当初这里不是基于本地配置，而是使用leancloud进行统计，查阅到一篇很易懂的教程，顺便整理了一下PV和UV的统计&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>linux常用命令(长期更新)</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2018-02-07-linux-basic-commands/</link>
+      <pubDate>Wed, 07 Feb 2018 20:42:57 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2018-02-07-linux-basic-commands/</guid>
+      <description>&lt;p&gt;记录一下常用到的linux命令（包含相应Windows中的操作）&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>VMware使用macOS如何全屏</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2018-02-07-vmware-macos-max-window/</link>
+      <pubDate>Wed, 07 Feb 2018 14:10:45 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2018-02-07-vmware-macos-max-window/</guid>
+      <description>&lt;p&gt;如何解决VMware安装VMware Tools后仍不能全屏显示的问题&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>关于浏览器缓存</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2018-02-02-browser-cache/</link>
+      <pubDate>Fri, 02 Feb 2018 14:38:49 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2018-02-02-browser-cache/</guid>
+      <description>&lt;p&gt;探讨浏览器缓存相关&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>关于域名</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2018-01-25-domain/</link>
+      <pubDate>Thu, 25 Jan 2018 15:09:24 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2018-01-25-domain/</guid>
+      <description>&lt;p&gt;探析域名&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>关于DNS</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2018-01-25-dns/</link>
+      <pubDate>Thu, 25 Jan 2018 14:46:04 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2018-01-25-dns/</guid>
+      <description>&lt;p&gt;探析DNS&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>设计模式学习笔记（下）</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2018-01-24-design-pattern-02/</link>
+      <pubDate>Wed, 24 Jan 2018 15:56:32 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2018-01-24-design-pattern-02/</guid>
+      <description>&lt;p&gt;继设计模式学习笔记（上）&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>设计模式学习笔记（上）</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2018-01-24-design-pattern-01/</link>
+      <pubDate>Wed, 24 Jan 2018 15:53:31 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2018-01-24-design-pattern-01/</guid>
+      <description>&lt;p&gt;关于 Java 设计模式的学习&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>使用vmware安装macOS</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2018-01-23-install-macos-using-vmware/</link>
+      <pubDate>Tue, 23 Jan 2018 12:04:14 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2018-01-23-install-macos-using-vmware/</guid>
+      <description>&lt;p&gt;虽然类似这样的文章网上一搜一大把，但应 &lt;a href=&#34;https://github.com/yanghua0311&#34;&gt;youngwa&lt;/a&gt; 邀，还是决定重新整理一下个人安装的详细流程及相关资源链接，以备后用。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>js学习笔记——一些常用的高级属性</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2018-01-20-js-advanced/</link>
+      <pubDate>Sat, 20 Jan 2018 14:11:34 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2018-01-20-js-advanced/</guid>
+      <description>&lt;p&gt;MSDN学习js高级教程note&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>js学习笔记——变量作用域</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2018-01-20-js-parameter-scope/</link>
+      <pubDate>Sat, 20 Jan 2018 10:53:32 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2018-01-20-js-parameter-scope/</guid>
+      <description>&lt;p&gt;js变量作用域探析&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>js学习笔记——this关键字</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2018-01-19-js-this/</link>
+      <pubDate>Fri, 19 Jan 2018 18:22:06 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2018-01-19-js-this/</guid>
+      <description>&lt;p&gt;js关键字this用法解析&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>js学习笔记——局部变量和全局变量</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2018-01-19-js-variables/</link>
+      <pubDate>Fri, 19 Jan 2018 16:34:02 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2018-01-19-js-variables/</guid>
+      <description>&lt;p&gt;js的局部变量和全局变量&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>js学习笔记——闭包</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2018-01-19-js-closure/</link>
+      <pubDate>Fri, 19 Jan 2018 15:33:28 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2018-01-19-js-closure/</guid>
+      <description>&lt;p&gt;JS闭包探析。What exactly the Closure is?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>atom实现html实时预览</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2017-10-16-preview-html-using-atom-editor/</link>
+      <pubDate>Mon, 16 Oct 2017 19:00:44 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2017-10-16-preview-html-using-atom-editor/</guid>
+      <description>&lt;p&gt;如何使用 atom 编辑器实现 html 实时预览&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>一些个人语录整理</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2017-09-22-some-personal-quotes/</link>
+      <pubDate>Fri, 22 Sep 2017 14:13:45 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2017-09-22-some-personal-quotes/</guid>
+      <description>Do each of things in a decent way.
+软件工程专业最失败的是培养出两种人：一，是只会编程的人，二，是连编程都不会的人。
+知而不改，恶莫大焉
+Always be young, never be die.(保持年轻，绝不作咸鱼)
+生活应该是两件事：IN And OUT，IN指INPUT（读书、学习和思考），OUT指OUTPUT（做事、工作和实践）
+天妒英才，所以天才总会被凡人当白痴
+因为他经历完了过程，得到了结果，再看过程，就感觉没什么了，但如果他没这个过程，得不到结果，站在起点再看，就会觉得这个过程很必要了
+卓越的方式有很多种，唯独不应该是以健康为代价的那种
+If you want to win, you got to know exactly what the rule is.
+有意识地在细节之处刻意不同，就能在和别人差不多的生活中活出不一样的自己
+Pure to complex is accessible, but complex back to pure is irreversible.
+灵感是转瞬即逝的，所以才需要记录下来
+别给自己设上限，才能知道自己的极限；而每次的挑战极限，都是在提高自己的上限
+理论上你可以成为任何你想要成为的人，而最难的是成为你自己
+拒绝命运的审判，而是主动撰写命运</description>
+    </item>
+    
+    <item>
+      <title>关于写博客的一些想法</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2017-08-21-thinking/</link>
+      <pubDate>Mon, 21 Aug 2017 23:08:33 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2017-08-21-thinking/</guid>
+      <description>写博客的好处在于，能够对所学、所做、所想之事有所记录，返璞归真，互联网花了那么多的精力将传统办公进化到无纸办公，人们从纸质书籍的阅读习惯变成了碎片化学习。
+能够在这样的环境中圈出自己的一亩三分田，经营自己的博客，对自己既是记录，也是肯定，还能在经营博客的过程中更加认识自己。</description>
+    </item>
+    
+    <item>
+      <title>java零碎知识点整理（3）</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2017-02-08-java-basic-03/</link>
+      <pubDate>Wed, 08 Feb 2017 15:01:26 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2017-02-08-java-basic-03/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;关于java字符串String以及Hashcode的一些整理&lt;/p&gt;
+&lt;p&gt;hashcode即是对象地址的十进制形式，而equals方法即是在比较两个对象的hashcode是否相等&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>正则表达式——学习笔记</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2017-02-07-regexp/</link>
+      <pubDate>Tue, 07 Feb 2017 22:06:19 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2017-02-07-regexp/</guid>
+      <description>&lt;p&gt;一些常用正则表达式的整理&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>java零碎知识点整理（2）</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2017-02-07-java-basic-02/</link>
+      <pubDate>Tue, 07 Feb 2017 20:01:52 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2017-02-07-java-basic-02/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;构造器（构造方法）
+在类实例化时被调用，对实例对象进行初始化&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>java零碎知识点整理（1）</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2017-02-07-java-basic-01/</link>
+      <pubDate>Tue, 07 Feb 2017 17:27:54 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2017-02-07-java-basic-01/</guid>
+      <description>&lt;p&gt;字符串相关方法、数据类型转换、正则表达式&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>windows删除“找不到该项目”的文件</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2017-02-06-windows-missing-file/</link>
+      <pubDate>Mon, 06 Feb 2017 11:47:56 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2017-02-06-windows-missing-file/</guid>
+      <description>&lt;p&gt;windows 删除“找不到该项目”的文件该怎么办&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Java基础算法（插入、选择、冒泡、快排）</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2016-12-15-java-basic-sort-algorithms/</link>
+      <pubDate>Thu, 15 Dec 2016 23:20:37 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2016-12-15-java-basic-sort-algorithms/</guid>
+      <description>&lt;p&gt;Java基础算法（插入、选择、冒泡、快排）&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>java on Wilson&#39;s Blog</title>
+    <link>https://barnett617.github.io/wilson-blog/tags/java/</link>
+    <description>Recent content in java on Wilson&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hans-CN</language>
+    <lastBuildDate>Mon, 29 Jan 2018 14:34:24 +0000</lastBuildDate><atom:link href="https://barnett617.github.io/wilson-blog/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apache项目Maven官方文档学习及翻译（译）</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2018-01-29-about-maven-translation/</link>
+      <pubDate>Mon, 29 Jan 2018 14:34:24 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2018-01-29-about-maven-translation/</guid>
+      <description>&lt;p&gt;从理解 pom.xml 探析 Maven&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>java零碎知识点整理（3）</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2017-02-08-java-basic-03/</link>
+      <pubDate>Wed, 08 Feb 2017 15:01:26 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2017-02-08-java-basic-03/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;关于java字符串String以及Hashcode的一些整理&lt;/p&gt;
+&lt;p&gt;hashcode即是对象地址的十进制形式，而equals方法即是在比较两个对象的hashcode是否相等&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>java零碎知识点整理（2）</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2017-02-07-java-basic-02/</link>
+      <pubDate>Tue, 07 Feb 2017 20:01:52 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2017-02-07-java-basic-02/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;构造器（构造方法）
+在类实例化时被调用，对实例对象进行初始化&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>java零碎知识点整理（1）</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2017-02-07-java-basic-01/</link>
+      <pubDate>Tue, 07 Feb 2017 17:27:54 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2017-02-07-java-basic-01/</guid>
+      <description>&lt;p&gt;字符串相关方法、数据类型转换、正则表达式&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Java基础算法（插入、选择、冒泡、快排）</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2016-12-15-java-basic-sort-algorithms/</link>
+      <pubDate>Thu, 15 Dec 2016 23:20:37 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2016-12-15-java-basic-sort-algorithms/</guid>
+      <description>&lt;p&gt;Java基础算法（插入、选择、冒泡、快排）&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>基于SSH三大框架的员工管理系统</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2016-11-02-ssh-web-05/</link>
+      <pubDate>Wed, 02 Nov 2016 15:32:34 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2016-11-02-ssh-web-05/</guid>
+      <description>摘要 本系统为本人学习 SSH 三大框架时所做的整合实例，系统角色包括普通用户和管理员两种，首页有管理员登录入口链接。系统功能主要包括管理员对用户的基本增、删、改、查和分页显示用户信息等。
+系统环境 本系统使用 eclipse+mysql+jdk1.8+tomcat8 进行开发 框架使用 struts2+hibernate3+spring3 页面展示 首页一开始没考虑屏幕分辨率和比例问题以及浏览器的兼容问题，后该用 bootstrap 简单模板，达到兼容旧版 IE 浏览器效果，并且为响应式布局，屏幕可任意缩放。 注册页面采用 angularJS 前端框架实现客户端表单验证 日期使用jedate.js控件 注册成功提示（后台为新注册用户分配三个随机邀请码用于邀请其他用户注册本系统） 个人主页使用 easyui 框架 管理员首页（可分页显示用户） 添加用户 核心代码解析 1、随机邀请码生成 使用 UUID 并将其切片，取前八位作为验证码（本算法尚不成熟，在大量使用后可能出现重复）
+public static String[] codeMaker() { String[] code = new String[3]; for (int i=0; i&amp;lt;3; i++) { code[i] = UUID.randomUUID().toString().substring(0,8).toUpperCase(); } return code; } 2、登录验证 action 层 public String login() { User existUser = userService.login(user); if (existUser == null) { this.</description>
+    </item>
+    
+    <item>
+      <title>基于SSH的员工管理系统（四）——项目流程</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2016-11-02-ssh-web-04/</link>
+      <pubDate>Wed, 02 Nov 2016 13:55:11 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2016-11-02-ssh-web-04/</guid>
+      <description>flowchat st=&amp;gt;start: localhost:8080/项目名 e=&amp;gt;end: 访问结束 fir=&amp;gt;: web.xml op=&amp;gt;operation: 我的操作 cond=&amp;gt;condition: 确认？ st-&amp;gt;op-&amp;gt;cond cond(yes)-&amp;gt;e cond(no)-&amp;gt;op </description>
+    </item>
+    
+    <item>
+      <title>基于SSH的员工管理系统（三）——配置文件</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2016-11-02-ssh-web-03/</link>
+      <pubDate>Wed, 02 Nov 2016 13:45:29 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2016-11-02-ssh-web-03/</guid>
+      <description>1. Web项目入口——web.xml &amp;lt;!-- spring核心监听器 --&amp;gt; &amp;lt;listener&amp;gt; &amp;lt;listener-class&amp;gt;org.springframework.web.context.ContextLoaderListener&amp;lt;/listener-class&amp;gt; &amp;lt;/listener&amp;gt; &amp;lt;!-- ctrl+shift+T:contextLoaderListener监听器全路径 --&amp;gt; &amp;lt;!-- 默认情况会加载WEB-INF中的配置文件 --&amp;gt; &amp;lt;!-- 配置全局初始化参数：设置为加载classes中的配置文件 --&amp;gt; &amp;lt;context-param&amp;gt; &amp;lt;param-name&amp;gt;contextConfigLocation&amp;lt;/param-name&amp;gt; &amp;lt;param-value&amp;gt;classpath:applicationContext.xml&amp;lt;/param-value&amp;gt; &amp;lt;/context-param&amp;gt; &amp;lt;!-- struts核心过滤器（与传统servlet配置类似） --&amp;gt; &amp;lt;filter&amp;gt; &amp;lt;filter-name&amp;gt;struts&amp;lt;/filter-name&amp;gt; &amp;lt;filter-class&amp;gt;org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter&amp;lt;/filter-class&amp;gt; &amp;lt;/filter&amp;gt; &amp;lt;!-- ctrl+shift+T:strutsPrepareAndExecuteFilter --&amp;gt; &amp;lt;filter-mapping&amp;gt; &amp;lt;filter-name&amp;gt;struts&amp;lt;/filter-name&amp;gt; &amp;lt;url-pattern&amp;gt;/*&amp;lt;/url-pattern&amp;gt; &amp;lt;/filter-mapping&amp;gt; &amp;lt;display-name&amp;gt;ssh&amp;lt;/display-name&amp;gt; &amp;lt;welcome-file-list&amp;gt; &amp;lt;welcome-file&amp;gt;index.jsp&amp;lt;/welcome-file&amp;gt; &amp;lt;/welcome-file-list&amp;gt; 2. struts配置文件——struts.xml &amp;lt;struts&amp;gt; &amp;lt;package name=&amp;#34;ssh&amp;#34; extends=&amp;#34;struts-default&amp;#34;&amp;gt; &amp;lt;action name=&amp;#34;user_*&amp;#34; class=&amp;#34;userAction&amp;#34; method=&amp;#34;{1}&amp;#34;&amp;gt; &amp;lt;result name=&amp;#34;input&amp;#34;&amp;gt;/index.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;success&amp;#34; type=&amp;#34;redirect&amp;#34;&amp;gt;/jsp/layout.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;info&amp;#34; type=&amp;#34;redirect&amp;#34;&amp;gt;/jsp/myinfo.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;invi&amp;#34;&amp;gt;/jsp/invi.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;regSuccess&amp;#34;&amp;gt;/jsp/regSuccess1.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;getCodes&amp;#34;&amp;gt;/jsp/mycode.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;toHome&amp;#34;&amp;gt;/jsp/layout.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;linkPersion&amp;#34;&amp;gt;/jsp/otherInfo.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;update&amp;#34;&amp;gt;/jsp/updateUser.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;updateSucc&amp;#34; type=&amp;#34;redirectAction&amp;#34;&amp;gt;admin_findAll&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;del&amp;#34; type=&amp;#34;redirectAction&amp;#34;&amp;gt;admin_findAll&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;add&amp;#34;&amp;gt;/jsp/addUser.</description>
+    </item>
+    
+    <item>
+      <title>基于SSH的员工管理系统（二）——lib 导入各 jar 包详解</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2016-11-02-ssh-web-02/</link>
+      <pubDate>Wed, 02 Nov 2016 12:55:29 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2016-11-02-ssh-web-02/</guid>
+      <description>&lt;p&gt;本节将关于本项目所需导入的 jar 包进行逐一解释，基本适用于普通的 Struts2+Hibernate3+Spring3 的项目， 此为相对较老的组合版本，若使用 Hibernate4 或 Mybatis 等其他较新框架，请自行查阅相关资料。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>基于SSH的员工管理系统（一）——包结构</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2016-11-02-ssh-web-01/</link>
+      <pubDate>Wed, 02 Nov 2016 11:10:02 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2016-11-02-ssh-web-01/</guid>
+      <description>&lt;p&gt;本项目是使用 Struts2+Hibernate3+Spring3,基于 MVC 开发模式的一个简单实例，第一篇先建立项目总体包结构，后续将详细解释项目细节。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>三大GUI库——AWT、swing、SWT</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2015-12-23-java-ui/</link>
+      <pubDate>Wed, 23 Dec 2015 20:06:30 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2015-12-23-java-ui/</guid>
+      <description>（一）AWT（abstract window toolkit，抽象窗口工具包）
+特点：
+（1）重量级控件
+（2）利用操作系统所提供的图形库
+（3）简单、高效
+（4）运行速度快
+（5）基于系统（调用系统UI）
+（6）消耗资源
+（7）难以跨平台
+功能：
+（1）Canvas组件：画布，可实现动画操作
+（2）TextArea:文本域
+（3）单行文本域中回车会激发ActionEvent
+（4）CheckBoxGroup实现单选框
+（5）单元框和复选框都使用CheckBox实现
+（6）菜单：new MenuBar()，MenuBar表示菜单条，菜单每一项为MenuItem(一般级联菜单不应超过3级)
+应用：嵌入式应用
+目标平台的硬件资源非常有限，同时应用程序运行速度是项目中至关重要的因素
+（二）swing:
+特点：
+（1）轻量级控件
+（2）100%JAVA代码实现（Swing为JAVA自身组件）
+（3）与底层系统无关
+（4）基于AWT
+（5）运行速度慢
+应用：基于PC或工作站的标准Java应用
+硬件资源对应用程序所造成的限制往往不是项目中的关键因素，通过牺牲速度来实现应用程序的功能
+（三）SWT:
+特点：
+（1）未通过JAVA虚拟机操作，直接调用Windows GDI和Shell（通过JNI方法调用完成）
+（2）基于SWT实现的Eclipse界面速度快、效率高，比Swing美观</description>
+    </item>
+    
+    <item>
+      <title>重写与重载的区别</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2015-12-23-override-vs-overload/</link>
+      <pubDate>Wed, 23 Dec 2015 13:30:18 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2015-12-23-override-vs-overload/</guid>
+      <description>override(覆盖)=重写
+对象：方法
+解释：重写一个方法，以实现不同的功能
+用于：子类继承父类的方法，重写（重现实现=继承+写新方法）父类的方法
+规则：
+1、参数列表相同，否则为重载而非重写
+2、访问修饰符大于被重写方法（public &amp;gt; protected &amp;gt; default &amp;gt; private）
+3、返回值（与被重写方法）相同
+4、所抛异常（与被重写方法）相同
+5、被重写方法不能为private，否则在其子类中只是新定义了一个方法，并未对其进行重写
+6、静态方法不能被重写为非静态方法（否则编译出错）
+overload(重载)
+解释：在一个类内实现若干重载方法，方法名相同而参数形式不同
+参数形式不同包括：
+1、参数类型不同
+2、参数个数不同
+3、参数顺序不同（参数类型不同的同时）
+用于：在一个类内实现若干同名方法
+规则：
+1、使用重载只能 通过相同方法名和不同的参数形式实现
+2、不能通过访问权限、返回类型、抛出的异常进行重载
+3、方法的异常类型和数目不会对重载造成影响</description>
+    </item>
+    
+  </channel>
+</rss>

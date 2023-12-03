@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>操作系统 on Wilson&#39;s Blog</title>
+    <link>https://barnett617.github.io/wilson-blog/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</link>
+    <description>Recent content in 操作系统 on Wilson&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hans-CN</language>
+    <lastBuildDate>Thu, 25 Jan 2018 09:59:50 +0000</lastBuildDate><atom:link href="https://barnett617.github.io/wilson-blog/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>虚拟机vmware使用——安装vmware-tools</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2018-01-25-vmware-tools-install/</link>
+      <pubDate>Thu, 25 Jan 2018 09:59:50 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2018-01-25-vmware-tools-install/</guid>
+      <description>&lt;p&gt;每次安装虚拟机都忘记怎么安装 vmware tools，而不安装这个东西，用起来总是各种蹩脚，故做此整理。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>关于centos的iptables以及firewalld的总结</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2017-11-16-centos-iptables-and-firewalld/</link>
+      <pubDate>Thu, 16 Nov 2017 15:57:50 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2017-11-16-centos-iptables-and-firewalld/</guid>
+      <description>&lt;p&gt;centos 内置一个非常强劲的防火墙，统称为 iptables，实际原理是 iptables 是用户空间的模块，在内核中存在一个 netfilter 核心模块用于实现 iptables 中设置的规则，进行底层的实际过滤。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

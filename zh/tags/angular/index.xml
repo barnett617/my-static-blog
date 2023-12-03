@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>angular on Wilson&#39;s Blog</title>
+    <link>https://barnett617.github.io/wilson-blog/tags/angular/</link>
+    <description>Recent content in angular on Wilson&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hans-CN</language>
+    <lastBuildDate>Thu, 22 Feb 2018 22:36:27 +0000</lastBuildDate><atom:link href="https://barnett617.github.io/wilson-blog/tags/angular/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Angular学习笔记</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2018-02-22-angular4/</link>
+      <pubDate>Thu, 22 Feb 2018 22:36:27 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2018-02-22-angular4/</guid>
+      <description>&lt;p&gt;关于Angular学习整理&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

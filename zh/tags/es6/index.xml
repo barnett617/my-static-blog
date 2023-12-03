@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>es6 on Wilson&#39;s Blog</title>
+    <link>https://barnett617.github.io/wilson-blog/tags/es6/</link>
+    <description>Recent content in es6 on Wilson&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hans-CN</language>
+    <lastBuildDate>Tue, 21 May 2019 21:21:28 +0000</lastBuildDate><atom:link href="https://barnett617.github.io/wilson-blog/tags/es6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>《ECMAScript6入门》读后感</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2019-05-21-ecmascript6-reading-review/</link>
+      <pubDate>Tue, 21 May 2019 21:21:28 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2019-05-21-ecmascript6-reading-review/</guid>
+      <description>&lt;p&gt;关于阮一峰《ECMAScript6 入门》一书的观感，就把此文当做本人对于《ECMAScript6 入门》的书评吧&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ECMAScript6(ECMAScript2015)学习笔记</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2016-12-15-es6-learning/</link>
+      <pubDate>Fri, 16 Dec 2016 15:34:31 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2016-12-15-es6-learning/</guid>
+      <description>&lt;p&gt;ECMAScript 6（以下简称 ES6）是 JavaScript 语言的下一代标准。因为当前版本的 ES6 是在&lt;strong&gt;2015 年&lt;/strong&gt;发布的，所以又称 ECMAScript 2015。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
