@@ -30,7 +30,7 @@ params:
   keywords: [Blog, Portfolio, PaperMod]
   # author: Wilson
   images: []
-  # DateFormat: "15 Oct 2023"
+  DateFormat: "2006-01-02 15:04:05" # https://pkg.go.dev/time#pkg-constants
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
@@ -86,6 +86,8 @@ params:
         - 欢迎来到我的博客，我在这里记录关于技术和生活的内容
 
         - [博客](posts) 包括一些思考、总结，[笔记](notes) 是我学习过程中的一些记录
+
+        - 也可以通过 [时间线](archives) 浏览完整的内容
 
   socialIcons:
     - name: juejin

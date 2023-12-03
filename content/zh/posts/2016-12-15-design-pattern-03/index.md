@@ -3,18 +3,18 @@ title: 可复用面向对象软件基础——设计模式（三）之抽象工�
 tags:
   - 设计模式
 date: 2016-12-15 16:59:43
-update: 2016-12-15 16:59:43
-series: ['设计模式']
+lastmod: 2016-12-15 16:59:43
+series: ["设计模式"]
 categories: 笔记
 ---
 
 ### 一、工厂方法模式缺陷
 
-> 工厂方法模式有一个问题就是，类的创建依赖工厂类，也就是说，如果想要**拓展程序**，必须**修改工厂**类，这违背了设计模式六大原则第一条[闭包原则](http://blog.csdn.net/sinat_16791487/article/details/53666953)。
-> 
-> 所以，从设计角度考虑，有一定的问题，如何解决？就用到抽象工厂模式，创建**多个工厂类**，这样一旦需要增加新的功能，直接增加新的工厂类就可以了，不需要修改之前的代码。
-> 
-> ![这里写图片描述](https://imgconvert.csdnimg.cn/aHR0cDovL2ltZy5ibG9nLmNzZG4ubmV0LzIwMTYxMjE1MTYyMjI3MTY3?x-oss-process=image/format,png)
+工厂方法模式有一个问题就是，类的创建依赖工厂类，也就是说，如果想要**拓展程序**，必须**修改工厂**类，这违背了设计模式六大原则第一条[闭包原则](http://blog.csdn.net/sinat_16791487/article/details/53666953)。
+
+所以，从设计角度考虑，有一定的问题，如何解决？就用到抽象工厂模式，创建**多个工厂类**，这样一旦需要增加新的功能，直接增加新的工厂类就可以了，不需要修改之前的代码。
+
+![这里写图片描述](aHR0cDovL2ltZy5ibG9nLmNzZG4ubmV0LzIwMTYxMjE1MTYyMjI3MTY3.png)
 
 ### 二、抽象工厂模式实现
 
@@ -68,7 +68,7 @@ public class SmsSender implements Sender {
  *
  */
 public interface Provider {
-	
+
 	public Sender produce();
 
 }
@@ -111,7 +111,7 @@ public class SendSmsFactory implements Provider {
  *
  */
 public class Test {
-	
+
 	public static void main(String[] args) {
 		// 实例一个邮件工厂(因其实现了提供器接口，可返回一个具有专门生产某种产品生产方法的实例）
 		Provider provider = new SendMailFactory();
@@ -129,4 +129,4 @@ public class Test {
 
 ### 三、抽象工厂模式优势
 
-> 若想生产新的产品，只需一个**实现类**，实现Sender接口，再创建一个专门用于生产该产品的**工厂类**，实现Provider接口，这样一来，**无需改动**原有代码，**拓展性好**。
+> 若想生产新的产品，只需一个**实现类**，实现 Sender 接口，再创建一个专门用于生产该产品的**工厂类**，实现 Provider 接口，这样一来，**无需改动**原有代码，**拓展性好**。

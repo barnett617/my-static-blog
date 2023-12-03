@@ -1,39 +1,37 @@
 ---
 title: 如何设计良好的API并且为什么这很重要（译）
 date: 2018-01-16 11:38:31
-update: 2018-01-16 11:38:31
+lastmod: 2018-01-16 11:38:31
 categories: 翻译
 tags: ["API"]
 ---
 
-### 为什么API设计很重要？
-
-本文翻译自Effective Java作者Joshua Bloch撰写的一篇关于API设计的分享
+本文翻译自 Effective Java 作者 Joshua Bloch 撰写的一篇关于 API 设计的分享
 
 <!--more-->
 
-#### API可以是公司最大的资产之一
+#### API 可以是公司最大的资产之一
 
 - 客户投入巨资：购买、撰写、学习（售前一系列培训）
-- 停止使用API导致的花费令人望而却步（如果不使用API可能要花费更多）
-- 成功的公共API赢得客户
+- 停止使用 API 导致的花费令人望而却步（如果不使用 API 可能要花费更多）
+- 成功的公共 API 赢得客户
 
 #### 也可以成为公司最大的负债之一
 
-- 糟糕的APIs将导致无休止的电话技术支持（需要接听很多来自客户的反映）
+- 糟糕的 APIs 将导致无休止的电话技术支持（需要接听很多来自客户的反映）
 
-#### 公共的APIs是永久的——一次去做正确事情的机会
+#### 公共的 APIs 是永久的——一次去做正确事情的机会
 
-### 为什么API设计对于你来说很重要
+### 为什么 API 设计对于你来说很重要
 
-#### 如果你编码，你就是一个API的设计者
+#### 如果你编码，你就是一个 API 的设计者
 
-- 良好的代码应该是模块化的——每一个模块都有一个API
+- 良好的代码应该是模块化的——每一个模块都有一个 API
 - 有用的模块往往被重用
 
-#### 对于API方面的思考将提高代码的质量
+#### 对于 API 方面的思考将提高代码的质量
 
-### 好的API所具备的特征
+### 好的 API 所具备的特征
 
 - 易于学习
 - 易于使用，甚至无需任何文档
@@ -45,14 +43,14 @@ tags: ["API"]
 
 ### 大纲
 
-- API设计的过程
+- API 设计的过程
 - 一般原则
 - 类设计
 - 方法设计
 - 异常设计
-- API重构设计
+- API 重构设计
 
-## I API设计的过程
+## I API 设计的过程
 
 ### 收集需求——以一种健康的程度怀疑
 
@@ -69,45 +67,46 @@ tags: ["API"]
 
 - 在这个阶段，敏捷胜过完整性
 - 和尽可能多的人谈（原文：Bounce spec off as many people as possible）
-	倾听他们的输入并认真对待
+  倾听他们的输入并认真对待
 - 如果你保持规范简短，那么将易于修改
 - 充分自信
-	这涉及到编码时也很必要
+  这涉及到编码时也很必要
 
-### 尽早写给你的API
+### 尽早写给你的 API
 
-#### 以下应开始于在你实现API之前
+#### 以下应开始于在你实现 API 之前
 
 - 从你将扔掉的实现中拯救你
 
-#### 以下应开始于你正确指定出API之前
+#### 以下应开始于你正确指定出 API 之前
 
 - 从撰写你将扔掉的规范中拯救你
 
-#### 继续写API因为它充实你
+#### 继续写 API 因为它充实你
 
 - 避免令人讨厌的惊喜
 - 代码作为例子、单元测试而存在
 
-### 关于SPI的内容甚至更重要
+### 关于 SPI 的内容甚至更重要
 
 #### 服务提供接口（Service Provider Interface, SPI）
 
 - 插件式接口使得实现多样性
-- 例如：Java加密拓展接口（Java Cryptography Extension, JCE）
+- 例如：Java 加密拓展接口（Java Cryptography Extension, JCE）
 
 #### 在发布之前编写多个插件
 
 - 如果你只写一个，它可能不支持另一种情况
 - 如果你写两个，它会很难支持更多
-- 如果你写三个(原文three应表示多个?)，它会良好工作
+- 如果你写三个(原文 three 应表示多个?)，它会良好工作
 
-#### Will Tracz称之为“三项法则”
-（曾经以为程序销售员Addision-Wesley,1995的自白）
+#### Will Tracz 称之为“三项法则”
+
+（曾经以为程序销售员 Addision-Wesley,1995 的自白）
 
 ### 保持现实的期望
 
-#### 大多数API设计的过约束
+#### 大多数 API 设计的过约束
 
 - 你不必取悦每一个人
 - 旨在平等地使每个人都感到高兴
@@ -115,21 +114,21 @@ tags: ["API"]
 #### 期望犯错
 
 - 几年真实世界的使用将冲洗它们
-- 期望发展API
+- 期望发展 API
 
 ## II 一般原则
 
-### API应该只做一件事并把它做好
+### API 应该只做一件事并把它做好
 
 #### 功能应该易于解释
 
-- 如果很难命名API，那它通常是一个坏讯号
+- 如果很难命名 API，那它通常是一个坏讯号
 - 良好的命名会驱动开发
 - 要易于分割和合并
 
-#### API应尽可能的小但不能再小
+#### API 应尽可能的小但不能再小
 
-#### API应该满足它的初始需求
+#### API 应该满足它的初始需求
 
 #### 当存疑时就抛弃掉
 
@@ -138,14 +137,14 @@ tags: ["API"]
 
 #### 概念的重量比实体块的重量更重要
 
-#### 寻找一个好的力量/重量比率（此处应指API的作用和轻重之比）
+#### 寻找一个好的力量/重量比率（此处应指 API 的作用和轻重之比）
 
-### 实现不应该影响API
+### 实现不应该影响 API
 
 ### 实现细节
 
 - 迷惑用户
-- 禁止掉改变API实现的自由
+- 禁止掉改变 API 实现的自由
 
 #### 意识到实现细节是什么
 
@@ -153,7 +152,7 @@ tags: ["API"]
 - 例如：不要指定散列函数
 - 所有的可调整参数都是可疑的
 
-#### 别让实现细节“泄露”进API
+#### 别让实现细节“泄露”进 API
 
 - 磁盘上的格式和线上的格式例外
 
@@ -167,7 +166,7 @@ tags: ["API"]
 
 #### 允许模块被独立使用、理解、构建、测试、调试
 
-### 给API命名的事务相当于一种小语言
+### 给 API 命名的事务相当于一种小语言
 
 #### 名字应大部分不言自明（自解释的）
 
@@ -175,7 +174,7 @@ tags: ["API"]
 
 #### 保持一致——同样的词应表达同样的意思
 
-- 贯穿API的整个内容（包括不同平台上的该API）
+- 贯穿 API 的整个内容（包括不同平台上的该 API）
 
 #### 定期争取对称
 
@@ -190,8 +189,7 @@ if (car.speed() > 2 * SPEED_LIMIT)
 
 > 重用是一件说起来容易做起来难的事。具体做起来既需要好的设计又需要良好的文档。即使我们看到好的设计，我们仍很少能看到没有好的文档组件被重用。
 
-> D.L.Parnas, _Software Aging. Proceedings of 16th International Conference Software Engineering, 1994
-
+> D.L.Parnas, \_Software Aging. Proceedings of 16th International Conference Software Engineering, 1994
 
 ### Document Religiously
 
@@ -199,12 +197,12 @@ if (car.speed() > 2 * SPEED_LIMIT)
 
 - 类：实例所表示的东西
 - 方法：方法和客户之间的契约
-	- 先决条件、后置条件、副作用
+  - 先决条件、后置条件、副作用
 - 参数：提示性的单位、格式、所有权
 
 #### 文档要非常认真地陈述
 
-### 考虑API设计决定的性能后果
+### 考虑 API 设计决定的性能后果
 
 #### 糟糕的决定会限制性能
 
@@ -212,32 +210,32 @@ if (car.speed() > 2 * SPEED_LIMIT)
 - 提供构造器以取代静态工厂
 - 使用实现类型取代接口
 
-#### 不要扭曲API来获得性能
+#### 不要扭曲 API 来获得性能
 
 - 底层性能问题会被修复，但头疼的事会一直伴随着你
 - 良好的设计通常与良好的性能相吻合
 
-#### API设计决策在性能方面的影响是真实并且永久的
+#### API 设计决策在性能方面的影响是真实并且永久的
 
 - Component.getSize() returns Dimension
 - 尺寸是易变的
-- 每一个getSize调用都必然分配Dimension
+- 每一个 getSize 调用都必然分配 Dimension
 - 将导致非常多不必要的对象分配
-- 在1.2版本增加替代品，老的客户端代码仍然慢（在新的版本找到解决方案，但不能解决旧代码的性能问题）
+- 在 1.2 版本增加替代品，老的客户端代码仍然慢（在新的版本找到解决方案，但不能解决旧代码的性能问题）
 
-### API必须和平台和平共存
+### API 必须和平台和平共存
 
 #### 做习惯性的事
 
 - 遵守标准的命名约定
 - 避免过时的参数和返回类型
-- 模仿核心APIs和语言中的模式
+- 模仿核心 APIs 和语言中的模式
 
-#### 利用API友好功能
+#### 利用 API 友好功能
 
 - 泛型、可变参数、枚举、默认参数
 
-#### 了解并避免API陷阱
+#### 了解并避免 API 陷阱
 
 - 常量（Finalizers）、公共静态常量数组
 
@@ -258,13 +256,13 @@ if (car.speed() > 2 * SPEED_LIMIT)
 
 ##### 建子类按时可替代性（Liskov）
 
-- 子类仅当is-a关系时存在
+- 子类仅当 is-a 关系时存在
 - 否则，使用组合
 
 ##### 公共类不应该再包含其他公共子类，以保证实现简单
 
 反例： Properties extends Hashtable
-			 Stack extends Vector
+Stack extends Vector
 
 正例： Set extends Collection
 
@@ -280,7 +278,7 @@ if (car.speed() > 2 * SPEED_LIMIT)
 
 #### 保守策略：所有具体的类都不可变（final）
 
-反例：J2SE包中许多的具体类
+反例：J2SE 包中许多的具体类
 正例：AbstractSet, AbstractMap
 
 ## IV 方法设计
@@ -289,12 +287,12 @@ if (car.speed() > 2 * SPEED_LIMIT)
 
 #### 减少对样板代码的需要
 
-- 通常经cut-and-paste完成
+- 通常经 cut-and-paste 完成
 - 丑陋、恼人并且易错
 
 ### 不要违反最小原则
 
-#### API的使用者不应该对于某些行为感到惊讶
+#### API 的使用者不应该对于某些行为感到惊讶
 
 - 值得额外的实现努力
 - 这甚至值得降低性能
@@ -333,7 +331,7 @@ public class Properties extends Hashtable {
 #### 否则客户端需要做字符串转换
 
 - 对于客户端来说很痛苦
-- 更糟糕的是，turns strings format into de facto API（无力翻译orz）
+- 更糟糕的是，turns strings format into de facto API（无力翻译 orz）
 
 ```
 public class Throwable {
@@ -364,6 +362,7 @@ public final class StackTraceElement {
 #### 如果你必须提供模糊的重载，请确保相同的参数拥有相同的行为
 
 反例:
+
 ```
 public TreeSet(Collection c);		// Ignores order
 public TreeSet(SortedSet s);		// Respects order
@@ -379,15 +378,15 @@ public TreeSet(SortedSet s);		// Respects order
 
 - 把运行时错误提前到编译时
 
-#### 如果存在更好的类型请别用String类型
+#### 如果存在更好的类型请别用 String 类型
 
-- Strings是繁琐的、易错的并且慢的
+- Strings 是繁琐的、易错的并且慢的
 
 #### 不要将浮点数用于货币值
 
 - 二进制浮点会导致不精确的结果
 
-#### 使用double(64位)优于float(32位)
+#### 使用 double(64 位)优于 float(32 位)
 
 - 精确度损失是真实的，性能损失是可忽略的
 
@@ -396,6 +395,7 @@ public TreeSet(SortedSet s);		// Respects order
 #### 如果参数类型相同，尤其重要
 
 反例：
+
 ```
 #include <string.h>
 char *strcpy (char *dest, char *src);
@@ -405,7 +405,7 @@ void bcopy 	 (void *src, void *dst, int n);
 正例：
 java.util.Collections——第一个参数总被收集来用于修改或查询
 
-java.util.concurrent——time总被指定为long delay, TimeUnit unit
+java.util.concurrent——time 总被指定为 long delay, TimeUnit unit
 
 ### 避免长参数列表
 
@@ -424,6 +424,7 @@ java.util.concurrent——time总被指定为long delay, TimeUnit unit
 - 创建辅助类来保存参数
 
 反例：
+
 ```
 // Eleven parameters including four consecutive ints
 HWND CreateWindow(LPCTSTR lpClassName, LPCTSTR lpWindowName,
@@ -434,7 +435,7 @@ HWND CreateWindow(LPCTSTR lpClassName, LPCTSTR lpWindowName,
 
 ### 避免返回值需要异常处理
 
-#### 返回零长度数组或空集合而非null
+#### 返回零长度数组或空集合而非 null
 
 ```
 package java.awt.image;
@@ -480,7 +481,9 @@ ThreadGroup.enumerate(Thread[] list)
 ### 赞成未经检查的异常
 
 #### 已检查——客户端必须采取修复措施
+
 #### 未检查——程序报错
+
 #### 过度使用已检查的异常会导致样板化
 
 反例：
@@ -503,7 +506,7 @@ try {
 
 #### 对于已检查的异常，提供访问者
 
-## VI 重构API设计
+## VI 重构 API 设计
 
 ### 向量的子列表操作
 
@@ -535,7 +538,7 @@ public interface List {
 
 #### 没有文档也易于使用
 
-### Thread-local变量
+### Thread-local 变量
 
 ```
 // Broken - inappropriate use of String as capability.
@@ -551,7 +554,7 @@ public class ThreadLocal {
 }
 ```
 
-#### Thread-Local变量重构（1）
+#### Thread-Local 变量重构（1）
 
 ```
 public class ThreadLocal {
@@ -574,7 +577,7 @@ ThreadLocal.set(serialNumberKey, nextSerialNumber());
 System.out.println(ThreadLocal.get(serialNumberKey));
 ```
 
-#### Thread-Local变量重构（2）
+#### Thread-Local 变量重构（2）
 
 ```
 public class ThreadLocal {
@@ -584,7 +587,7 @@ public class ThreadLocal {
 }
 ```
 
-#### 消除API和客户端代码之间的混乱
+#### 消除 API 和客户端代码之间的混乱
 
 ```
 static ThreadLocal serialNumber = new ThreadLocal();
@@ -594,7 +597,7 @@ System.out.println(serialNumber.get());
 
 ## 结论
 
-### API设计是一种高贵且有益的工艺
+### API 设计是一种高贵且有益的工艺
 
 - 改进了很多程序员、最终用户和公司
 
@@ -603,14 +606,14 @@ System.out.println(serialNumber.get());
 - 不要狂妄地坚持，但...
 - 不要没有理由的违反
 
-### API设计很难
+### API 设计很难
 
 - 不是一个孤独的活动
 - 完美是无法实现的，但无论如何都要尝试
 
 ## 个人评价&总结
 
-本文评价了很多Java语言包以及面向对象的优点和缺点，也包含C语言的部分例子。本文作者Joshua Bloch同时也是Effective Java的作者。本文中有些用词比较晦涩难懂，但通篇整体很好也很全面地剖析了API设计的重要性及一部分技巧和注意事项，值得参考借鉴。
+本文评价了很多 Java 语言包以及面向对象的优点和缺点，也包含 C 语言的部分例子。本文作者 Joshua Bloch 同时也是 Effective Java 的作者。本文中有些用词比较晦涩难懂，但通篇整体很好也很全面地剖析了 API 设计的重要性及一部分技巧和注意事项，值得参考借鉴。
 
 翻译过程也是磕磕绊绊，很多地方自我感觉翻译的不甚准确，甚至有问题，实在找不到合适的翻译的地方注明了原文或保留原文词句，希望有心读者能指正并反馈。不过翻译的过程的确为了理解作者原意，也会竭尽脑力去思考和体会字里行间所表达的思想，收益良多。
 其中不乏有些建议的确出现于日常的编程实践，并作为编程规范存在于最佳实践中，一眼就能理解。也有一些目前可能尚未在实际应用中良好实践。

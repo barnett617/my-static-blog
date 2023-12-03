@@ -1,7 +1,7 @@
 ---
 title: VMware使用macOS如何全屏
 date: 2018-02-07 14:10:45
-update: 2018-02-07 14:10:45
+lastmod: 2018-02-07 14:10:45
 categories: 操作系统
 tags: 
   - macOS

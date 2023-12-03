@@ -1,13 +1,13 @@
 ---
 title: linux发行版理解
 date: 2018-01-25 10:51:20
-update: 2018-1-25 14:15:05
+lastmod: 2018-1-25 14:15:05
 categories: 操作系统
-tags: 
- - linux
+tags:
+  - linux
 ---
 
-linux作为开源系统，有着众多的发行版本（毕竟有着庞大的社区和狂热的爱好者），不同的发行版本(Linux Distribution)随着发展，在使用方式上也有一些不同，例如各自的包管理器、已经适用场景等等。借此整理一下linux的不同发行版本，以便在使用不同版linux时不至混乱。
+linux 作为开源系统，有着众多的发行版本（毕竟有着庞大的社区和狂热的爱好者），不同的发行版本(Linux Distribution)随着发展，在使用方式上也有一些不同，例如各自的包管理器、已经适用场景等等。借此整理一下 linux 的不同发行版本，以便在使用不同版 linux 时不至混乱。
 
 <!--more-->
 
@@ -15,29 +15,29 @@ linux作为开源系统，有着众多的发行版本（毕竟有着庞大的社
 
 1. 商业发行版
 
-	- Ubuntu(Canonical公司)
+   - Ubuntu(Canonical 公司)
 
-	- Fedora(RedHat)
+   - Fedora(RedHat)
 
-	- openSUSE(Novell)
+   - openSUSE(Novell)
 
-	- Mandriva Linux
+   - Mandriva Linux
 
 2. 社区发行版
 
-	- Debian
+   - Debian
 
-	- Gentoo
+   - Gentoo
 
 3. 既不是商业发行版也不是社区发行版
 
 <a href="https://upload.wikimedia.org/wikipedia/commons/1/1b/Linux_Distribution_Timeline.svg">Linux Distrubutions</a>
 
-### Linux桌面发行版组成
+### Linux 桌面发行版组成
 
-- Linux内核
+- Linux 内核
 
-- GNU工具&库
+- GNU 工具&库
 
 - 附加软件、文档
 
@@ -55,7 +55,7 @@ linux作为开源系统，有着众多的发行版本（毕竟有着庞大的社
 
 ### 定制发行版镜像
 
-- Gentoo Linux内核
+- Gentoo Linux 内核
 
 - T2
 
@@ -93,53 +93,53 @@ linux作为开源系统，有着众多的发行版本（毕竟有着庞大的社
 
 ### 流行的发行版
 
-#### 基于Dpkg(Debian系)
+#### 基于 Dpkg(Debian 系)
 
 ##### 商业发行版
 
-- Ubuntu（流行的桌面发行版，由Canonical维护）
+- Ubuntu（流行的桌面发行版，由 Canonical 维护）
 
 ##### 社区发行版
 
 - Debian（强烈信奉自由软件，由志愿者维护）
 
-- Kubuntu（使用KDE桌面的Ubuntu）
+- Kubuntu（使用 KDE 桌面的 Ubuntu）
 
-- Linux Mint（由Ubuntu派生，与Ubuntu兼容）
+- Linux Mint（由 Ubuntu 派生，与 Ubuntu 兼容）
 
-- OpenGEU（Ubuntu派生）
+- OpenGEU（Ubuntu 派生）
 
-- Elementary OS（基于Ubuntu，形似Mac OS X）
+- Elementary OS（基于 Ubuntu，形似 Mac OS X）
 
-- gOS及其他
+- gOS 及其他
 
-#### 基于RPM（Red Hat系）
+#### 基于 RPM（Red Hat 系）
 
 ##### 商业发行版
 
-- Red Hat Enterprise Linux（Fedora的商业版，由Red Hat维护）
+- Red Hat Enterprise Linux（Fedora 的商业版，由 Red Hat 维护）
 
-- Mandriva（最初派生自Red Hat，现由法国同名公司维护）
+- Mandriva（最初派生自 Red Hat，现由法国同名公司维护）
 
-- openSUSE（最初由Slackware分离出，现由Novell维护）
+- openSUSE（最初由 Slackware 分离出，现由 Novell 维护）
 
 ##### 社区发行版
 
-- Fedora（Red Hat社区版，会引入新特性测试）
+- Fedora（Red Hat 社区版，会引入新特性测试）
 
-- PCLinuxOS（Mandriva派生版）
+- PCLinuxOS（Mandriva 派生版）
 
-- CentOS（Red Hat发展而来，由志愿者维护，旨在提供开源，与Red Hat完全兼容）
+- CentOS（Red Hat 发展而来，由志愿者维护，旨在提供开源，与 Red Hat 完全兼容）
 
 #### 基于其他包格式
 
-- ArchLinux（基于KISS——Keep It Simple and Stupid的滚动更新的操作系统）
+- ArchLinux（基于 KISS——Keep It Simple and Stupid 的滚动更新的操作系统）
 
-- Chakra（由ArchLinux派生，只是用KDE桌面的半滚动更新发行版）
+- Chakra（由 ArchLinux 派生，只是用 KDE 桌面的半滚动更新发行版）
 
 - Gentoo（面向高级用户，所有软件源代码需自行编译）
 
-- Slackware（最早发行版之一，1993年创建，由<a href="https://en.wikipedia.org/wiki/Patrick_Volkerding">Patrick Volkerding</a>维护）
+- Slackware（最早发行版之一，1993 年创建，由<a href="https://en.wikipedia.org/wiki/Patrick_Volkerding">Patrick Volkerding</a>维护）
 
 参考链接：
 

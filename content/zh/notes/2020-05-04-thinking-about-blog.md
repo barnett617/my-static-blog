@@ -3,8 +3,7 @@ title: 整理博客过程中的一些思考
 tags:
   - 生活
 date: 2020-05-04 12:05:55
-update: 2020-05-04 12:05:55
-summary:
+lastmod: 2020-05-04 12:05:55
 categories: 生活
 ---
 

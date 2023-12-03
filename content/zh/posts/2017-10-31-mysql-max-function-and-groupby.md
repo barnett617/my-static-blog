@@ -1,33 +1,27 @@
 ---
 title: 关于mysql中max函数和groupby联合使用的坑
 date: 2017-10-31 20:50:43
-update: 2017-10-31 21:29:49
+lastmod: 2017-10-31 21:29:49
 categories: 数据库
 tags: [mysql]
 ---
 
-### 背景
-
-关于朋友随手抛出的一段SQL，发现MySQL中关于max()和group by联合使用中的一个坑，特此整理。
+关于朋友随手抛出的一段 SQL，发现 MySQL 中关于 max()和 group by 联合使用中的一个坑，特此整理。
 
 <!--more-->
 
-![](http://trigolds.com/yh1.png)
-YH:老铁们，这段hql对不对啊
+[YH](https://github.com/yanghua0311):老铁们，这段 hql 对不对啊
 
-我扫了一眼，总觉得看着别扭，自己试着去掉字符串拼接，还原出SQL来看，依然感觉不对，然后自己试着写了查询，在本地建个表，造了些数据，用简化后的SQL做测试时，
-当我定睛检查以下这句SQL
+我扫了一眼，总觉得看着别扭，自己试着去掉字符串拼接，还原出 SQL 来看，依然感觉不对，然后自己试着写了查询，在本地建个表，造了些数据，用简化后的 SQL 做测试时，
+当我定睛检查以下这句 SQL
 
-```
+```sql
 select predictId, max(evaluateDate) evalDate, productId from productcashpredict group by productId;
 ```
 
+抛出一个疑问，MySQL 是从后往前执行，先分组再求分组结果中 evaluateDate 最大的记录呢？还是先找出 evaluateDate 的最大记录，再分组呢？
 
-抛出一个疑问，MySQL是从后往前执行，先分组再求分组结果中evaluateDate最大的记录呢？还是先找出evaluateDate的最大记录，再分组呢？
-
-网上查了查，发现，都不是！这里有个坑！如果直接这么结合max和group by使用，查出的结果，除了求max的字段和分组条件productId字段，其他字段的值都是错的！
-
-会是这样：![](http://trigolds.com/yh4.png)
+网上查了查，发现，都不是！这里有个坑！如果直接这么结合 max 和 group by 使用，查出的结果，除了求 max 的字段和分组条件 productId 字段，其他字段的值都是错的！
 
 首先我在本地验证了一下是不是的确如此
 
@@ -36,7 +30,7 @@ desc productcashpredict;
 
 predictId	int(11)	NO	PRI		auto_increment
 evaluateDate	datetime	YES			on update CURRENT_TIMESTAMP
-other	varchar(255)	YES			
+other	varchar(255)	YES
 productId	int(11)	YES
 
 select * from productcashpredict
@@ -64,13 +58,11 @@ select predictId, max(evaluateDate) evalDate, productId from productcashpredict 
 
 ```
 
-直接这样查的确是错的，看predictId可以看出
+直接这样查的确是错的，看 predictId 可以看出
 
-![](http://trigolds.com/yh3.png)
+我们可以看出来，MySQL 其实是把以下两种查询揉在了一起，结果的确是按照 productId 进行分组的，查询结果也是从取自分组后，排序则是默认按照主键排序，但 evalDate 也的确取的是每一个 productId 组内最大的那一项，但这样揉起来，数据就不对了。
 
-我们可以看出来，MySQL其实是把以下两种查询揉在了一起，结果的确是按照productId进行分组的，查询结果也是从取自分组后，排序则是默认按照主键排序，但evalDate也的确取的是每一个productId组内最大的那一项，但这样揉起来，数据就不对了。
-
-```
+```sql
 select * from productcashpredict group by productId;
 
 1	2017-10-31 18:14:37		10001
@@ -83,21 +75,21 @@ select max(evaluateDate) evalDate, productId from productcashpredict;
 
 ```
 
-既然这样，那总得有解决方案，我又问了抛问者YH，他们实际的使用场景是怎么查的，他甩出一张图。
-我看了半天，很是理解不了，至少觉得逻辑不甚清晰，我开始质疑这样查询的结果是否正确，于是又去寻求max和group by联合使用的正确写法，得到下面两种方案：
+既然这样，那总得有解决方案，我又问了抛问者 YH，他们实际的使用场景是怎么查的，他甩出一张图。
+我看了半天，很是理解不了，至少觉得逻辑不甚清晰，我开始质疑这样查询的结果是否正确，于是又去寻求 max 和 group by 联合使用的正确写法，得到下面两种方案：
 
 于是我又建了一张表，来模拟真实场景
 
-```
+```sql
 desc product_cash_predict;
 
 id	int(11)	NO	PRI		auto_increment
 add_time	datetime	YES			on update CURRENT_TIMESTAMP
-deleted	varchar(255)	YES			
+deleted	varchar(255)	YES
 update_time	datetime	YES			on update CURRENT_TIMESTAMP
-version	varchar(255)	YES			
+version	varchar(255)	YES
 evaluated_date	datetime	YES			on update CURRENT_TIMESTAMP
-other	varchar(255)	YES			
+other	varchar(255)	YES
 product_id	int(11)	YES
 
 SELECT * FROM `product_cash_predict`;
@@ -113,9 +105,9 @@ SELECT * FROM `product_cash_predict`;
 +----+----------+---------+-------------+---------+---------------------+-------+------------+
 ```
 
-先按YH的业务场景查询方式查一下：
+先按 YH 的业务场景查询方式查一下：
 
-```
+```sql
 SELECT
 	p2.*
 FROM
@@ -146,8 +138,12 @@ AND p1.evaluated_date = p2.evaluated_date
 
 先来看一下错误的查询方式：
 
-```
-select id, add_time, deleted, update_time, version, max(evaluated_date) evalDate, other, product_id from product_cash_predict group by product_id;
+```sql
+select id, add_time, deleted, update_time, version, 
+max(evaluated_date) evalDate, other, product_id 
+from product_cash_predict group by product_id;
+
+
 1					2017-10-31 18:15:22		10001
 2					2017-10-31 18:14:59		10002
 4					2017-10-31 18:15:09		10003
@@ -183,7 +179,6 @@ select * from (select * from product_cash_predict ORDER BY evaluated_date desc) 
 
 ```
 
-
 ```
 -- 解决方案二：看上去很费解
 select * from product_cash_predict p where p.evaluated_date
@@ -202,8 +197,7 @@ group by product_id;
 
 ```
 
-最后，也就是YH实际业务场景的处理方式再来回顾分析一波
-
+最后，也就是 YH 实际业务场景的处理方式再来回顾分析一波
 
 ```
 -- 解决方案三：自连接，根据max结合group by查出最大日期和分组条件product_id，再自连接查出该product_id对应的其他字段
@@ -230,9 +224,9 @@ select p2.* from (
 5					2017-10-31 18:15:22		10001
 ```
 
-### 性能比较
+## 性能比较
 
-```
+```sql
 explain select * from (select * from product_cash_predict ORDER BY evaluated_date desc) as result group by product_id;
 
 +----+-------------+----------------------+------+---------------+------+---------+------+------+---------------------------------+
@@ -267,8 +261,8 @@ explain select p2.* from (
 
 ```
 
-### END
+## END
 
-致谢：问题提出者，同时也是本文校对者@YH
+致谢：问题提出者，同时也是本文校对者 @[YH](https://github.com/yanghua0311)
 
-总结：虽然可能这只是SQL查询中的一个小知识点，但不经分析，直接使用，可能会给业务带来不必要的坑，正所谓磨刀不误砍柴工，对常用技术的深入理解应该成为一个技术人的日常习惯。
+总结：虽然可能这只是 SQL 查询中的一个小知识点，但不经分析，直接使用，可能会给业务带来不必要的坑，正所谓磨刀不误砍柴工，对常用技术的深入理解应该成为一个技术人的日常习惯。

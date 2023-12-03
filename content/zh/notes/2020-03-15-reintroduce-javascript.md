@@ -3,8 +3,7 @@ title: 重新介绍JavaScript
 tags:
   - javascript
 date: 2020-03-15 11:25:04
-update: 2020-03-15 11:25:04
-summary:
+lastmod: 2020-03-15 11:25:04
 categories: 笔记
 ---
 

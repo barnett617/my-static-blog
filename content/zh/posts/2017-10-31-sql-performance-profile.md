@@ -1,12 +1,12 @@
 ---
 title: 关于SQL性能评估的一些分析
 date: 2017-10-31 22:44:35
-update: 2017-11-3 17:02:24
+lastmod: 2017-11-3 17:02:24
 categories: 数据库
 tags: [mysql]
 ---
 
-继<a href="https://magi.getshell.cn/2017/10/31/%E5%85%B3%E4%BA%8Emysql%E4%B8%ADmax%E5%87%BD%E6%95%B0%E5%92%8Cgroupby%E8%81%94%E5%90%88%E4%BD%BF%E7%94%A8%E7%9A%84%E5%9D%91/#more">《关于mysql中max函数和groupby联合使用的坑》</a>后进一步关于SQL性能的探究
+继[《关于 mysql 中 max 函数和 groupby 联合使用的坑》](../2017-10-31-mysql-max-function-and-groupby)后进一步关于 SQL 性能的探究
 
 <!--more-->
 
@@ -16,18 +16,18 @@ table th:first-of-type {
 }
 </style>
 
-| 类型 | 解释 |
-| -- | ------------------ |
-| id | select查询的序列号 |
-| select_type | select查询的类型，主要是区别普通查询和联合查询、子查询之类的复杂查询 |
-| table | 输出的行所引用的表 |
-| type | 联合查询所使用的类型 |
-| possible_keys | MySQL能使用哪个索引在该表中找到行 |
-| key | MySQL实际决定使用的键 |
-| key_len | MySQL决定使用的键长 |
-| ref | 哪个字段或常数与key一起被使用 |
-| rows | mysql要遍历多少数据才能找到，在innodb上是不准确的 |
-| Extra |  - |
+| 类型          | 解释                                                                  |
+| ------------- | --------------------------------------------------------------------- |
+| id            | select 查询的序列号                                                   |
+| select_type   | select 查询的类型，主要是区别普通查询和联合查询、子查询之类的复杂查询 |
+| table         | 输出的行所引用的表                                                    |
+| type          | 联合查询所使用的类型                                                  |
+| possible_keys | MySQL 能使用哪个索引在该表中找到行                                    |
+| key           | MySQL 实际决定使用的键                                                |
+| key_len       | MySQL 决定使用的键长                                                  |
+| ref           | 哪个字段或常数与 key 一起被使用                                       |
+| rows          | mysql 要遍历多少数据才能找到，在 innodb 上是不准确的                  |
+| Extra         | -                                                                     |
 
 实例解释
 
@@ -77,19 +77,19 @@ mysql> show index from t3;
 
 #### id
 
-- 从里往外执行，从id为3往上执行
+- 从里往外执行，从 id 为 3 往上执行
 
-- 同时作为一个解释序号，比如id为2中的table中的derived3就是指id为3的那个DERIVED（衍生表）
+- 同时作为一个解释序号，比如 id 为 2 中的 table 中的 derived3 就是指 id 为 3 的那个 DERIVED（衍生表）
 
 #### select_type
 
-SIMPLE | PRIMARY | UNION | DEPENDENT UNION | UNION RESULT | SUBQUERY | DEPENDENT SUBQUERY | DERIVED | 共7种
+SIMPLE | PRIMARY | UNION | DEPENDENT UNION | UNION RESULT | SUBQUERY | DEPENDENT SUBQUERY | DERIVED | 共 7 种
 
 逐个分析
 
 ###### SIMPLE
 
-简单查询，即不使用UNION或子查询
+简单查询，即不使用 UNION 或子查询
 
 ```SQL
 mysql> explain select * from t3 where id = 3952602;
@@ -119,7 +119,7 @@ mysql> explain select * from (select * from t3 where id = 3952602) a;
 
 ###### UNION
 
-union中的第二个或者后面的select语句
+union 中的第二个或者后面的 select 语句
 
 ###### UNION RESULT
 
@@ -148,7 +148,7 @@ mysql> explain select * from t3 where id = 3952602 union all select * from t3;
 
 ###### DEPENDENT UNION
 
-union的结果
+union 的结果
 
 ```SQL
 mysql> select * from t3 where id in (select id from t3 where id = 3952602 union all select id
@@ -174,10 +174,9 @@ mysql> explain select * from t3 where id in (select id from t3 where id = 395260
 4 rows in set
 ```
 
-
 ###### SUBQUERY
 
-子查询的第一个select
+子查询的第一个 select
 
 ```SQL
 mysql> select * from t3 where id = (select id from t3 where id = 3952602);
@@ -217,7 +216,7 @@ mysql> explain select * from t3 where id in (select id from t3 where id = 395260
 
 ###### DERIVED
 
-派生表的select（from子句的子查询）
+派生表的 select（from 子句的子查询）
 
 ```SQL
 mysql> select * from (select * from t3 where id = 3952602);
@@ -233,6 +232,7 @@ mysql> select * from (select * from t3 where id = 3952602) a;
 1 row in set
 
 ```
+
 ```sql
 
 mysql> 	explain select * from (select * from t3 where id = 3952602) a;
@@ -244,6 +244,7 @@ mysql> 	explain select * from (select * from t3 where id = 3952602) a;
 +----+-------------+------------+--------+-------------------+---------+---------+-------+------+-------+
 2 rows in set
 ```
+
 #### table
 
 该行数据是关于哪张表的
@@ -261,21 +262,22 @@ mysql> explain select * from (select * from (select * from t3 where id = 3952602
 ```
 
 #### type
+
 重要指标，查询类型/访问类型
 
 从好到坏依次是：
 
 **system > const > eq_ref > ref > fulltext > ref_or_null > index_merge > unique_subquery > index_subquery > range > index > ALL**
 
-一般来说，得保证查询至少达到range级别，最好能达到ref
+一般来说，得保证查询至少达到 range 级别，最好能达到 ref
 
 ###### null
 
-MySQL在优化过程中分解语句，执行时甚至不用访问表或索引
+MySQL 在优化过程中分解语句，执行时甚至不用访问表或索引
 
 ###### system
 
-system是const连接类型的一个特例，即当查询的表中仅有一行满足条件
+system 是 const 连接类型的一个特例，即当查询的表中仅有一行满足条件
 
 ```sql
 mysql> explain select * from (select * from t3 where id = 3952602) a;
@@ -290,7 +292,7 @@ mysql> explain select * from (select * from t3 where id = 3952602) a;
 
 ###### const
 
-表最多有一个匹配行，它将在查询开始时被读取。因为仅有一行，在这行的列值可被优化器剩余部分认为是常数。const表很快，因为只读取一次
+表最多有一个匹配行，它将在查询开始时被读取。因为仅有一行，在这行的列值可被优化器剩余部分认为是常数。const 表很快，因为只读取一次
 
 ```sql
 mysql> explain select * from t3 where id = 3952602;
@@ -306,7 +308,7 @@ mysql> explain select * from t3 where id = 3952602;
 
 唯一性索引扫描，对于每个索引键，表中只有一条记录与之匹配。常见于主键或唯一索引扫描
 
-对于每个来自前面的表的行组合，从该表中读取一行。是除了const最好的连接类型，用在一个索引的所有部分被连接使用并且索引是UNIQUE或PRIMARY KEY
+对于每个来自前面的表的行组合，从该表中读取一行。是除了 const 最好的连接类型，用在一个索引的所有部分被连接使用并且索引是 UNIQUE 或 PRIMARY KEY
 
 ```sql
 mysql> explain select * from t3,t4 where t3.id = t4.accountId;
@@ -325,11 +327,11 @@ mysql> explain select * from t3,t4 where t3.id = t4.accountId;
 
 ###### ref_or_null
 
-该类型如同ref，但是添加了MySQL可以专门搜索包含null值的行
+该类型如同 ref，但是添加了 MySQL 可以专门搜索包含 null 值的行
 
 ###### index_merge
 
-该连接类型表示使用了索引合并优化方法。这种情况下，key列包含了使用的索引清单，key_len包含了使用的索引最长的关键元素
+该连接类型表示使用了索引合并优化方法。这种情况下，key 列包含了使用的索引清单，key_len 包含了使用的索引最长的关键元素
 
 ###### unique_subquery
 
@@ -337,15 +339,15 @@ mysql> explain select * from t3,t4 where t3.id = t4.accountId;
 
 ###### index_subquery
 
-类似于unique_subquery，可以替换IN子查询，但只适合子查询中的返回结果字段组合是非唯一索引
+类似于 unique_subquery，可以替换 IN 子查询，但只适合子查询中的返回结果字段组合是非唯一索引
 
 ###### range
 
 只检索给定范围的行，使用一个索引来选择行。
 
-key显示使用了哪个索引，key_len包含所使用索引的最长关键元素。
+key 显示使用了哪个索引，key_len 包含所使用索引的最长关键元素。
 
-在该类型中的ref列为null
+在该类型中的 ref 列为 null
 
 ```sql
 mysql> explain select * from t3 where id = 3952602 or id = 3952603;
@@ -359,43 +361,43 @@ mysql> explain select * from t3 where id = 3952602 or id = 3952603;
 
 ###### index
 
-该连接类型与ALL相同，但只有索引树被扫描。通常比ALL快，因为索引文件通常比数据文件小
+该连接类型与 ALL 相同，但只有索引树被扫描。通常比 ALL 快，因为索引文件通常比数据文件小
 
 ###### ALL
 
 对于每个来自于先前的表的行组合，进行完整的表扫描。
 
-通常可以增加更多的索引而不要使用ALL
+通常可以增加更多的索引而不要使用 ALL
 
 #### possible_keys
 
-指出MySQL能使用哪个索引在该表中找到行
+指出 MySQL 能使用哪个索引在该表中找到行
 
-如果是空的，则表示没有相关的索引。这时要提高性能，可通过检验WHERE子句，看是否它引用某些列或适合索引的列来提高查询性能。
+如果是空的，则表示没有相关的索引。这时要提高性能，可通过检验 WHERE 子句，看是否它引用某些列或适合索引的列来提高查询性能。
 
 #### key
 
-MySQL实际决定使用的键（索引）
+MySQL 实际决定使用的键（索引）
 
-若没有选择索引，值是null
+若没有选择索引，值是 null
 
-若想强制MySQL使用或忽视possible_keys中的索引，查询中可用FORCE INDEX、USE INDEX、IGNORE INDEX
+若想强制 MySQL 使用或忽视 possible_keys 中的索引，查询中可用 FORCE INDEX、USE INDEX、IGNORE INDEX
 
 #### key_len
 
-MySQL决定使用的键长度，在不损失精确性的情况下，长度越短越好。特别注意这个值可以得出一个多重主键里mysql实际使用了哪一部分
+MySQL 决定使用的键长度，在不损失精确性的情况下，长度越短越好。特别注意这个值可以得出一个多重主键里 mysql 实际使用了哪一部分
 
 #### ref
 
-表示MySQL使用哪个列或常数与key一起从表中选择行
+表示 MySQL 使用哪个列或常数与 key 一起从表中选择行
 
 #### rows
 
-MySQL认为其执行查询时必须检查的行数
+MySQL 认为其执行查询时必须检查的行数
 
 #### extra
 
-包含MySQL解决查询的详细信息
+包含 MySQL 解决查询的详细信息
 
 ###### distinct
 
@@ -403,7 +405,7 @@ MySQL认为其执行查询时必须检查的行数
 
 ###### not exists
 
-MySQL优化了left join，一旦找到了匹配left join标准的行，就不再搜索了
+MySQL 优化了 left join，一旦找到了匹配 left join 标准的行，就不再搜索了
 
 ###### range checked for each Record(index map:#)
 
@@ -411,13 +413,13 @@ MySQL优化了left join，一旦找到了匹配left join标准的行，就不再
 
 ###### using filesort
 
-出现这种情况需要优化，因为MySQL需要进行额外的步骤来发现如何对返回的行排序。它根据连接类型以及存储排序键值和匹配条件的全部行的行指针来排序全部行。
+出现这种情况需要优化，因为 MySQL 需要进行额外的步骤来发现如何对返回的行排序。它根据连接类型以及存储排序键值和匹配条件的全部行的行指针来排序全部行。
 
 ###### using temporary
 
-MySQL需要建立一个临时表来存储结果，通常发生在对不同的列集进行order by而不是group by上。
+MySQL 需要建立一个临时表来存储结果，通常发生在对不同的列集进行 order by 而不是 group by 上。
 
-如果此信息显示Using filesort或者Using temporary的话会很吃力，WHERE和ORDER BY的索引经常无法兼顾，如果按照WHERE来确定索引，那么在ORDER BY时，就必然会引起Using filesort，这就要看是先过滤再排序划算，还是先排序再过滤划算。
+如果此信息显示 Using filesort 或者 Using temporary 的话会很吃力，WHERE 和 ORDER BY 的索引经常无法兼顾，如果按照 WHERE 来确定索引，那么在 ORDER BY 时，就必然会引起 Using filesort，这就要看是先过滤再排序划算，还是先排序再过滤划算。
 
 ###### using index
 
@@ -429,10 +431,9 @@ MySQL需要建立一个临时表来存储结果，通常发生在对不同的列
 
 ###### where used
 
-就是使用上了where限制。
+就是使用上了 where 限制。
 
-如果是impossible where 表示用不着where，一般就是没查出来啥。
-
+如果是 impossible where 表示用不着 where，一般就是没查出来啥。
 
 ### END
 

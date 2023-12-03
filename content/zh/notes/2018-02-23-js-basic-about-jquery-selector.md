@@ -1,7 +1,7 @@
 ---
 title: 前端基础知识整理——jQuery选择器
 date: 2018-02-23 20:01:25
-update: 2018-02-23 20:01:25
+lastmod: 2018-02-23 20:01:25
 categories: 前端
 tags: [jQuery]
 ---

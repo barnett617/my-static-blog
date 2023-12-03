@@ -1,26 +1,26 @@
 ---
 title: 关于javascript的严格模式（use strict）
 date: 2018-02-12 20:55:06
-update: 2018-2-13 14:17:25
+lastmod: 2018-2-13 14:17:25
 categories: 前端
 tags: ["javascript"]
 ---
 
-探析javascript中的严格模式
+探析 javascript 中的严格模式
 
 <!--more-->
 
 ### 背景
 
-出现于ES5
+出现于 ES5
 
-- 消除js语言一些**不合理**、**不严谨**的地方，减少一些**怪异**行为
+- 消除 js 语言一些**不合理**、**不严谨**的地方，减少一些**怪异**行为
 
 - 消除代码运行**不安全**之处
 
 - 提高**编译**效率，提高**运行**速度
 
-- 未新版本js做铺垫
+- 未新版本 js 做铺垫
 
 ### 本质
 
@@ -30,7 +30,7 @@ tags: ["javascript"]
 
 ##### 转换严格模式
 
-ES5中引入了严格模式，现已被所有的主流浏览器实现（包括IE10）
+ES5 中引入了严格模式，现已被所有的主流浏览器实现（包括 IE10）
 
 如果想要浏览器按照严格模式解释代码只需要在代码前（代码顶部）加上‘use strict’
 
@@ -48,27 +48,27 @@ ES5中引入了严格模式，现已被所有的主流浏览器实现（包括IE
 
 - 八进制语法：var n = 023;
 
-- with语句
+- with 语句
 
-- 在变量名中使用delete：delete myVariable;
+- 在变量名中使用 delete：delete myVariable;
 
-- 使用eval或者arguments作为变量或者函数的参数名
+- 使用 eval 或者 arguments 作为变量或者函数的参数名
 
-- 使用新版本的保留字：implements、interface、let、package、private、protected、public、static和yield
+- 使用新版本的保留字：implements、interface、let、package、private、protected、public、static 和 yield
 
 - 在块级域内声明函数：if (a < b) { function f() {} }
 
 - 明显的错误：
 
-	- 在一个对象字内对一个属性声明两次相同的名称：{a: 1. b: 3. a: 7}，这已经不再是ES2015中的情况（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1041128">bug</a>）
+  - 在一个对象字内对一个属性声明两次相同的名称：{a: 1. b: 3. a: 7}，这已经不再是 ES2015 中的情况（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1041128">bug</a>）
 
-	- 使用相同的名称声明两个函数参数：function f(a, b, b) {}
+  - 使用相同的名称声明两个函数参数：function f(a, b, b) {}
 
 这些错误还算好，因为它们能够明显地暴露出错误或者糟糕的实践，它们会在代码运行前发生
 
 ##### 新的运行时错误
 
-javascript过去常在代码发生错误的地方静默地运行失败，严格模式会在这种情况抛出异常。如果你的代码包含这种情况，测试会变得很有必要以确保没有东西坏掉。然而再一次，会在函数粒度级别再一次发生
+javascript 过去常在代码发生错误的地方静默地运行失败，严格模式会在这种情况抛出异常。如果你的代码包含这种情况，测试会变得很有必要以确保没有东西坏掉。然而再一次，会在函数粒度级别再一次发生
 
 实例：给一个未定义的变量赋值
 
@@ -94,9 +94,9 @@ f(42);
 
 ```javascript
 function f(x) {
-	'use strict';
-	var a = 12;
-	b = a + x * 35;
+  "use strict";
+  var a = 12;
+  b = a + x * 35;
 }
 f(42);
 ```
@@ -119,18 +119,16 @@ VM361:2 Uncaught TypeError: Cannot delete property 'prototype' of function Objec
 
 实例：有毒害的参数和函数属性
 
-访问arguments.callee、arguments.caller、anyFunction.caller或者anyFunction.arguments都会在严格模式中抛出异常错误
+访问 arguments.callee、arguments.caller、anyFunction.caller 或者 anyFunction.arguments 都会在严格模式中抛出异常错误
 
 唯一合法的用例会是重用一个函数如下：
 
 ```javascript
-var s = document.getElementById('thing').style;
+var s = document.getElementById("thing").style;
 s.opacity = 1;
-(function() {
-	if ((s.opacity-=.1) < 0)
-		s.display = 'none';
-	else
-		setTimeout(arguments.callee, 40);
+(function () {
+  if ((s.opacity -= 0.1) < 0) s.display = "none";
+  else setTimeout(arguments.callee, 40);
 })();
 ```
 
@@ -139,14 +137,13 @@ s.opacity = 1;
 如果在严格模式中，可以将上述函数重写为如下：
 
 ```javascript
-'use strict';
-var s = document.getElementById('thing').style;
+"use strict";
+var s = document.getElementById("thing").style;
 s.opacity = 1;
-(function fadeOut() { // name the function
-  if((s.opacity-=.1) < 0)
-    s.display = 'none';
-  else
-    setTimeout(fadeOut, 40); // use the name of the function
+(function fadeOut() {
+  // name the function
+  if ((s.opacity -= 0.1) < 0) s.display = "none";
+  else setTimeout(fadeOut, 40); // use the name of the function
 })();
 ```
 
@@ -154,29 +151,29 @@ s.opacity = 1;
 
 这些都是很微妙的不同，可能测试用例不会捕获这种微妙的不同。仔细回看你的代码可能显得必要以确保这些不同不会影响你代码的语义。幸运的是，这种仔细的回看可以变成逐步地应用于函数粒度级别的回看
 
-##### 函数调用中的this
+##### 函数调用中的 this
 
-在函数调用中，例如f()，this值是全局对象。在严格模式中，现在是undefined。
+在函数调用中，例如 f()，this 值是全局对象。在严格模式中，现在是 undefined。
 
-当一个函数被使用call或者apply调用时，如果值是原始值，这个值会被装配进一个对象（或者对于undefined或者null的对象）。
+当一个函数被使用 call 或者 apply 调用时，如果值是原始值，这个值会被装配进一个对象（或者对于 undefined 或者 null 的对象）。
 
 在严格模式中，这个值会被直接传递而不被转换或替换。
 
-##### arguments没有被函数参数命名别名
+##### arguments 没有被函数参数命名别名
 
-在非严格模式中，修改arguments对象中的一个值会修改相应的命名参数
+在非严格模式中，修改 arguments 对象中的一个值会修改相应的命名参数
 
-这使得对于javascript引擎的优化变得复杂，同时令代码更难阅读或理解
+这使得对于 javascript 引擎的优化变得复杂，同时令代码更难阅读或理解
 
-在严格模式中，arguments对象被创建并被初始化为同名值而非命名参数，但是对于arguments对象或是命名参数的改变不会彼此影响
+在严格模式中，arguments 对象被创建并被初始化为同名值而非命名参数，但是对于 arguments 对象或是命名参数的改变不会彼此影响
 
-##### 更改为eval
+##### 更改为 eval
 
-在严格模式中，eval不会在它被调用的域内创建一个新的变量。当然，在严格模式中，字符串也会被按照严格模式的规则进行评估
+在严格模式中，eval 不会在它被调用的域内创建一个新的变量。当然，在严格模式中，字符串也会被按照严格模式的规则进行评估
 
 测试需要被彻底地执行以确保一切正常（nothing breaks）
 
-不要使用eval，除非你真的需要它，这会是一个更务实的解决方案
+不要使用 eval，除非你真的需要它，这会是一个更务实的解决方案
 
 ##### 严格中立（strictness-neutral）代码
 
@@ -188,20 +185,15 @@ s.opacity = 1;
 
 2. 原理语义不同
 
-	1. eval：只有在你明白你在做什么的情况下使用它
+   1. eval：只有在你明白你在做什么的情况下使用它
 
-	2. arguments：永远通过名称访问函数的参数或执行一份参数对象的拷贝，比如如下，将这样的声明添加在你函数的第一行
+   2. arguments：永远通过名称访问函数的参数或执行一份参数对象的拷贝，比如如下，将这样的声明添加在你函数的第一行
 
-	```JavaScript
-	var args = Array.prototype.slice.call(arguments)
-	```
+   ```JavaScript
+   var args = Array.prototype.slice.call(arguments)
+   ```
 
-	3. this：仅在涉及到你创建的对象时使用this
-
-
-
-
-
+   3. this：仅在涉及到你创建的对象时使用 this
 
 参考链接：
 

@@ -1,7 +1,7 @@
 ---
 title: js学习笔记——变量作用域
 date: 2018-01-20 10:53:32
-update: 2018-1-20 12:08:15
+lastmod: 2018-1-20 12:08:15
 categories: 前端
 tags: 
  - javascript

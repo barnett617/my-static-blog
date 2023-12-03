@@ -4,21 +4,23 @@ date: 2019-12-17 19:46:00
 tags: [vue, vscode, debug]
 ---
 
-# 如何用vscode调试node程序和vue源码
+如何用 vscode 调试 node 程序和 vue 源码
+
+<!--more-->
 
 ## 第一部分：如何使用 `vscode` 调试 `node` 程序
 
 ### 一、准备待调试代码
 
 ```js
-const Koa = require('koa');
+const Koa = require("koa");
 const app = new Koa();
 
 // logger
 app.use(async (ctx, next) => {
-  debugger
+  debugger;
   await next();
-  const rt = ctx.response.get('X-Response-Time');
+  const rt = ctx.response.get("X-Response-Time");
   console.log(`${ctx.method} ${ctx.url} - ${rt}`);
 });
 
@@ -28,13 +30,13 @@ app.use(async (ctx, next) => {
   const start = Date.now();
   await next();
   const ms = Date.now() - start;
-  ctx.set('X-Response-Time', `${ms}ms`);
+  ctx.set("X-Response-Time", `${ms}ms`);
 });
 
 // response
 
-app.use(async ctx => {
-  ctx.body = 'Hello World';
+app.use(async (ctx) => {
+  ctx.body = "Hello World";
 });
 
 app.listen(3000);
@@ -42,12 +44,11 @@ app.listen(3000);
 
 ### 二、配置 `vscode` node 调试自动关联开关
 
-1. 打开 `vscode` 设置（mac下可通过command + , 快捷打开）
+1. 打开 `vscode` 设置（mac 下可通过 command + , 快捷打开）
 2. 搜索 `Auto Attach`
 3. 设置为开（on）
 
 ### 三、运行程序携带`检查`参数
-
 
 ```js
 node --inspect=0.0.0.0:9229 index.js
@@ -94,11 +95,13 @@ node --inspect-brk index.js
 修改对比：
 
 修改前
+
 ```html
 <script src="../../dist/vue.min.js"></script>
 ```
 
 修改后
+
 ```html
 <script src="../../dist/vue.js"></script>
 ```

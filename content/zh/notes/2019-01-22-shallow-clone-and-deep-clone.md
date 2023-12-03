@@ -4,7 +4,9 @@ date: 2019-01-22 16:47:00
 tags:
 ---
 
-# 浅拷贝和深拷贝
+关于 js 浅拷贝和深拷贝
+
+<!--more-->
 
 ## 浅拷贝
 
@@ -13,47 +15,43 @@ tags:
 - Object.assign()
 - 展开赋值
 - Array.prototype.slice()
--  Array.prototype.concat()
+- Array.prototype.concat()
 
 ### 定义
 
-浅拷贝对于js基本类型进行正确拷贝，对引用类型只拷贝指针，但指针指向的堆内存相同，所以对于原对象的基本类型属性进行改变不会影响到新拷贝出的对象对应的属性，但对原对象的引用类型属性改变，新拷贝的对象对应的属性也会随之变化
+浅拷贝对于 js 基本类型进行正确拷贝，对引用类型只拷贝指针，但指针指向的堆内存相同，所以对于原对象的基本类型属性进行改变不会影响到新拷贝出的对象对应的属性，但对原对象的引用类型属性改变，新拷贝的对象对应的属性也会随之变化
 
-### Object.assign实例
+### Object.assign 实例
 
 ```js
-var obj = {name: 'hello', child: {name: 'tom', age: 10}};
-var copy = Object.assign({}, obj)
+var obj = { name: "hello", child: { name: "tom", age: 10 } };
+var copy = Object.assign({}, obj);
 
-obj
-child:
-  age: 20
-  name: "jerry"
-name: "world"
+obj;
+child: age: 20;
+name: "jerry";
+name: "world";
 
-copy
-child:
-  age: 20
-  name: "jerry"
-name: "hello"
+copy;
+child: age: 20;
+name: "jerry";
+name: "hello";
 
-obj.name = 'world';
-obj.child.name = 'jerry';
+obj.name = "world";
+obj.child.name = "jerry";
 obj.child.age = 20;
 
-obj
-child:
-  age: 20
-  name: "jerry"
-name: "world"
-copy
-child:
-  age: 20
-  name: "jerry"
-name: "hello"
+obj;
+child: age: 20;
+name: "jerry";
+name: "world";
+copy;
+child: age: 20;
+name: "jerry";
+name: "hello";
 ```
 
-### rest实例
+### rest 实例
 
 ```js
 var rest = {name: 'iamrest', child: {childname: 'iamchild', age: 30}};
@@ -84,11 +82,11 @@ name: "iamrest"
 __proto__: Object
 ```
 
-### Array.prototype.slice实例
+### Array.prototype.slice 实例
 
-> MDN官方定义slice方法用于数组对象浅拷贝`slice() 方法返回一个新的数组对象，这一对象是一个由 begin和 end（不包括end）决定的原数组的浅拷贝。原始数组不会被改变。`，详见[https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/slice](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)
+> MDN 官方定义 slice 方法用于数组对象浅拷贝`slice() 方法返回一个新的数组对象，这一对象是一个由 begin和 end（不包括end）决定的原数组的浅拷贝。原始数组不会被改变。`，详见[https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/slice](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)
 
-#### slice方法用法（核心：对数组进行浅拷贝）
+#### slice 方法用法（核心：对数组进行浅拷贝）
 
 ```
 arr.slice();
@@ -149,11 +147,11 @@ __proto__: Array(0)
 
 如果传两个参数，则对原数组进行从第一个参数的索引位置（包含该元素）到第二个参数位置止（不包含该元素）进行浅拷贝
 
-#### 插播数组splice方法的使用（核心：对数组进行切片，同时增删元素，直接对原数组进行操作）
+#### 插播数组 splice 方法的使用（核心：对数组进行切片，同时增删元素，直接对原数组进行操作）
 
 `array.splice(start[, deleteCount[, item1[, item2[, ...]]]])`
 
-初看这种方法api抽象的表达方式可能会很晕，这里start表示为必填的参数，而后面的中括号内的部分表示可选参数，也就是如果在start后面的第二个参数会被认为是deleteCount，后面不要看嵌套多少层，其实都是从第三个参数开始也都是可填可不填的，如果填了就依次累加，表示要新添加进数组的元素
+初看这种方法 api 抽象的表达方式可能会很晕，这里 start 表示为必填的参数，而后面的中括号内的部分表示可选参数，也就是如果在 start 后面的第二个参数会被认为是 deleteCount，后面不要看嵌套多少层，其实都是从第三个参数开始也都是可填可不填的，如果填了就依次累加，表示要新添加进数组的元素
 
 ##### 方法注意点
 
@@ -166,15 +164,15 @@ __proto__: Array(0)
 - deleteCount 删除个数
 - item 新增元素
 
-###### start可以是任意整数，分正整数、负整数和0
+###### start 可以是任意整数，分正整数、负整数和 0
 
-- 如果是0，则表示从数组第一个元素开始（并且包括start索引所在元素）
+- 如果是 0，则表示从数组第一个元素开始（并且包括 start 索引所在元素）
 - 如果是数组长度范围内的负整数，则表示从数组尾部往前数
 - 如果是数组长度范围内的正整数，则表示从数组头部往后数
 
-整体看来splice方法属于对数组的高级切片操作，可以对数组同时进行删除、新增元素操作
+整体看来 splice 方法属于对数组的高级切片操作，可以对数组同时进行删除、新增元素操作
 
-###### deleteCount表示要删除的元素个数，如果为0或者负数时不会删除数组元素
+###### deleteCount 表示要删除的元素个数，如果为 0 或者负数时不会删除数组元素
 
 ##### 实例
 
@@ -201,10 +199,10 @@ __proto__: Array(0)
 
 以上为只传一个参数的情况，此时 deleteCount = arr.length - start
 
-- 当start传奇怪的参数，比如字符串，splice会试着把字符串转换为数字，如果转换不成功即变成NaN，那么就会当做0处理，会清空数组；
-- 对于布尔类型数值同样会转换为数字，true是1，false是0；
-- 对于浮点数，splice会对浮点数做取整处理，即只保留整数部分；
-- 所以当传一个大于数组长度的正整数，不会删除数组元素，当传一个绝对值大于数组长度的负整数时，deleteCount = arr.length - start会得到一个大于数组长度的数，所以会清空数组
+- 当 start 传奇怪的参数，比如字符串，splice 会试着把字符串转换为数字，如果转换不成功即变成 NaN，那么就会当做 0 处理，会清空数组；
+- 对于布尔类型数值同样会转换为数字，true 是 1，false 是 0；
+- 对于浮点数，splice 会对浮点数做取整处理，即只保留整数部分；
+- 所以当传一个大于数组长度的正整数，不会删除数组元素，当传一个绝对值大于数组长度的负整数时，deleteCount = arr.length - start 会得到一个大于数组长度的数，所以会清空数组
 
 ```js
 [3, 4, 7, 8].splice('s', 3)
@@ -241,18 +239,18 @@ parseInt(3.2)
 3
 ```
 
-以上为传两个参数的情况，这个时候显性地指定了要删除的元素个数，对于start不合理的传参情况会按照上面的处理方式，唯一特别的就是当start为绝对值大于数组长度的整数时，由于删除起点已超出数组范围，所以无论deleteCount为多少，都不会怼数组进行删除操作，而当start为绝对值大于数组长度的负整数时，start会按0处理
+以上为传两个参数的情况，这个时候显性地指定了要删除的元素个数，对于 start 不合理的传参情况会按照上面的处理方式，唯一特别的就是当 start 为绝对值大于数组长度的整数时，由于删除起点已超出数组范围，所以无论 deleteCount 为多少，都不会怼数组进行删除操作，而当 start 为绝对值大于数组长度的负整数时，start 会按 0 处理
 
 展开剖析反而会显得更复杂，上述仅为理解过程，附上官方原定义：
 
-> start​指定修改的开始位置（从0计数）。如果超出了数组的长度，则从数组末尾开始添加内容；如果是负值，则表示从数组末位开始的第几位（从-1计数）；如果负数的绝对值大于数组的长度，则表示开始位置为第0位。
+> start​ 指定修改的开始位置（从 0 计数）。如果超出了数组的长度，则从数组末尾开始添加内容；如果是负值，则表示从数组末位开始的第几位（从-1 计数）；如果负数的绝对值大于数组的长度，则表示开始位置为第 0 位。
 
-> deleteCount 可选整数，表示要移除的数组元素的个数。如果 deleteCount 是 0或者负数，则不移除元素。这种情况下，至少应添加一个新元素。
-如果 deleteCount 大于start 之后的元素的总数，则从 start 后面的元素都将被删除（含第 start 位）。
-如果deleteCount被省略，则其相当于(arr.length - start)。
+> deleteCount 可选整数，表示要移除的数组元素的个数。如果 deleteCount 是 0 或者负数，则不移除元素。这种情况下，至少应添加一个新元素。
+> 如果 deleteCount 大于 start 之后的元素的总数，则从 start 后面的元素都将被删除（含第 start 位）。
+> 如果 deleteCount 被省略，则其相当于(arr.length - start)。
 
 > item1, item2, ... 可选
-要添加进数组的元素,从start 位置开始。如果不指定，则 splice() 将只删除数组元素。
+> 要添加进数组的元素,从 start 位置开始。如果不指定，则 splice() 将只删除数组元素。
 
 ## 深拷贝
 
@@ -297,26 +295,22 @@ name: "iamtom"
 __proto__: Object
 ```
 
-结论：使用JSON对象的stringify方法对被拷贝对象进行字符串化，再对生成的字符串对象化，会生成一个和原对象完全相同，但内存空间不同的对象
+结论：使用 JSON 对象的 stringify 方法对被拷贝对象进行字符串化，再对生成的字符串对象化，会生成一个和原对象完全相同，但内存空间不同的对象
 
 ```js
 var arr = [2, 3, 5, 11, 49];
-undefined
+undefined;
 var arrcopy = JSON.parse(JSON.stringify(arr));
-undefined
+undefined;
 
-arr
-(5) [2, 3, 5, 11, 49]
-arrcopy
-(5) [2, 3, 5, 11, 49]
+arr(5)[(2, 3, 5, 11, 49)];
+arrcopy(5)[(2, 3, 5, 11, 49)];
 
 arr[2] = 6;
-6
+6;
 
-arr
-(5) [2, 3, 6, 11, 49]
-arrcopy
-(5) [2, 3, 5, 11, 49]
+arr(5)[(2, 3, 6, 11, 49)];
+arrcopy(5)[(2, 3, 5, 11, 49)];
 ```
 
 结论：数组同样适用（因为数组本质也是对象）
@@ -326,7 +320,7 @@ arrcopy
 对于对象的特殊属性无法拷贝，包括：
 
 - undefined
-- symbol值
+- symbol 值
 - 函数
 - 日期类型
 - 正则类型

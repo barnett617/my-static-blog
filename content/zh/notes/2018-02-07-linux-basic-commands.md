@@ -1,7 +1,7 @@
 ---
 title: linux常用命令(长期更新)
 date: 2018-02-07 20:42:57
-update: 2018-02-07 20:42:57
+lastmod: 2018-02-07 20:42:57
 categories: 操作系统
 tags: 
  - linux

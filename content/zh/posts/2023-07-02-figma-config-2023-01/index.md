@@ -6,7 +6,7 @@ tags:
 
 关于Figma Config 2023 的一些总结和所思所想
 
-<!-- more -->
+<!--more-->
 
 > 视频源：https://config.figma.com/
 

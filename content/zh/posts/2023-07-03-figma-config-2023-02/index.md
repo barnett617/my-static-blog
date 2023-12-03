@@ -5,7 +5,7 @@ date: 2023-07-03 21:46:34
 
 关于Figma Config 2023 后半部分“开发模式”演讲的总结
 
-<!-- more -->
+<!--more-->
 
 ![Dylan Field](bless.jpg)
 

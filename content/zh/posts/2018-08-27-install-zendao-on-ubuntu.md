@@ -3,9 +3,11 @@ title: 在Ubuntu 16.04安装禅道
 date: 2018-08-27 09:30:00
 ---
 
-> 创作于2018年左右，最初创建时间已丢失
+在 Ubuntu 16.04 安装禅道
 
-# 在Ubuntu 16.04安装禅道
+<!--more-->
+
+> 创作于 2018 年左右，最初创建时间已丢失
 
 ## 1. 在任意目录下载解压版压缩包
 
@@ -21,7 +23,7 @@ wget http://dl.cnezsoft.com/zentao/10.4/ZenTaoPMS.10.4.stable.zbox_64.tar.gz
 sudo tar -zxvf ZenTaoPMS.10.4.stable.zbox_64.tar.gz -C /opt
 ```
 
-## 3. 指定apache和mysql端口启动
+## 3. 指定 apache 和 mysql 端口启动
 
 ```
 /opt/zbox/zbox -ap 8080 -mp 3306 start
@@ -37,6 +39,7 @@ Start Mysql success
 ## 4. 登录使用
 
 初始账号
+
 ```
 admin
 123456
@@ -50,7 +53,7 @@ admin
 
 ### 方法二
 
-1. 新建一个脚本zentao.sh
+1. 新建一个脚本 zentao.sh
 
 ```
 #!/bin/bash
@@ -90,11 +93,11 @@ sudo chmod 755 /etc/init.d/zentao.sh
 sudo update-rc.d zentao.sh defaults 99
 ```
 
-最后的数字为`脚本启动顺序号`，取值范围是0-99
+最后的数字为`脚本启动顺序号`，取值范围是 0-99
 
 4. 验证是否已成功添加
 
-在上面脚本中配置的rc等级`Default-Start:     2 3 4 5`中的任意一个rc目录中查看是否增加了`zentao.sh`
+在上面脚本中配置的 rc 等级`Default-Start:     2 3 4 5`中的任意一个 rc 目录中查看是否增加了`zentao.sh`
 
 ```
 cd /etc/rc2.d

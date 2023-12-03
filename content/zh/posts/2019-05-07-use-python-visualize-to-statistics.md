@@ -3,12 +3,11 @@ title: 用Python生成柱状图、折线图、饼状图来统计自己的手机�
 tags:
   - python
 date: 2019-05-07 16:14:54
-update: 2019-05-07 16:14:54
-summary:
+lastmod: 2019-05-07 16:14:54
 categories: 后端
 ---
 
-用Python生成柱状图、折线图、饼状图来统计自己的手机话费
+用 Python 生成柱状图、折线图、饼状图来统计自己的手机话费
 
 <!--more-->
 
@@ -30,7 +29,7 @@ categories: 后端
 
 ## 一、配置依赖包
 
-使用pycharm，直接依赖 matplotlib，如果当前环境变量的pip中不包含 matplotlib 库则会报错，根据IDE提示自动下载 matplotlib 库
+使用 pycharm，直接依赖 matplotlib，如果当前环境变量的 pip 中不包含 matplotlib 库则会报错，根据 IDE 提示自动下载 matplotlib 库
 
 ```py
 import matplotlib
@@ -46,15 +45,15 @@ print(matplotlib.matplotlib_fname())
 ```
 
 1. 参考输出`/usr/local/lib/python3.7/site-packages/matplotlib/mpl-data/matplotlibrc`
-2. 打开finder（访达）并按command+shift+g
+2. 打开 finder（访达）并按 command+shift+g
 3. 输入上面得到的路径并前往
 4. 找到 matplotlib 字体文件库，如`/usr/local/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf`
-5. 将下载的SimHei.ttf文件拷贝到这里
+5. 将下载的 SimHei.ttf 文件拷贝到这里
 6. 找到字体配置文件 matplotlibrc 可能在`/usr/local/lib/python3.7/site-packages/matplotlib/mpl-data/`目录下
 7. 修改其中的以下三项
 8. 重新加载字体配置使新增字体生效
 
-matplotlibrc配置
+matplotlibrc 配置
 
 ```
 font.family : sans-serif

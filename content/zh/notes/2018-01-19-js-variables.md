@@ -1,7 +1,7 @@
 ---
 title: js学习笔记——局部变量和全局变量
 date: 2018-01-19 16:34:02
-update: 2018-1-20 09:28:35
+lastmod: 2018-1-20 09:28:35
 categories: 前端
 tags: 
  - javascript

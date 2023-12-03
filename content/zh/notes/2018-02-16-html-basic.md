@@ -1,7 +1,7 @@
 ---
 title: HTML5基础回顾
 date: 2018-02-16 15:09:48
-update: 2018-02-16 15:09:48
+lastmod: 2018-02-16 15:09:48
 categories: 前端
 tags: 
  - HTML5

@@ -1,13 +1,13 @@
 ---
 title: javascript-puzzlers
 date: 2018-01-20 09:22:05
-update: 2018-01-20 09:22:05
+lastmod: 2018-01-20 09:22:05
 categories: 前端
-tags: 
- - javascript
+tags:
+  - javascript
 ---
 
-关于深入理解js的44道wired题目，经实际验证及分析的学习笔记。
+关于深入理解 js 的 44 道 wired 题目，经实际验证及分析的学习笔记。
 
 <!--more-->
 
@@ -54,8 +54,8 @@ array.reduce()
 Math.pow
 
 ```javascript
-var val = 'smtg';
-console.log('Value is ' + (val === 'smtg') ? 'Something' : 'Nothing');
+var val = "smtg";
+console.log("Value is " + (val === "smtg") ? "Something" : "Nothing");
 ```
 
 ```
@@ -65,14 +65,14 @@ Something
 the + operator has higher precedence than the ternary(三元) one
 
 ```javascript
-var name = 'World!';
+var name = "World!";
 (function () {
-	if (typeof name === 'undefined') {
-		var name = 'Jack';
-		console.log('Goodbye ' + name);
-	} else {
-		console.log('Hello ' + name);
-	}
+  if (typeof name === "undefined") {
+    var name = "Jack";
+    console.log("Goodbye " + name);
+  } else {
+    console.log("Hello " + name);
+  }
 })();
 ```
 
@@ -91,7 +91,7 @@ var END = Math.pow(2, 53);
 var START = END - 100;
 var count = 0;
 for (var i = START; i <= END; i++) {
-	count++;
+  count++;
 }
 console.log(count);
 ```
@@ -107,7 +107,9 @@ it goes into a infinite loop
 ```javascript
 var ary = [0, 1, 2];
 ary[10] = 10;
-ary.filter(function(x) { return x === undefined; });
+ary.filter(function (x) {
+  return x === undefined;
+});
 ```
 
 ```
@@ -122,7 +124,7 @@ var two = 0.2;
 var one = 0.1;
 var eight = 0.8;
 var six = 0.6;
-[two - one == one, eight - six == two]
+[two - one == one, eight - six == two];
 ```
 
 ```
@@ -140,20 +142,20 @@ JS does not have precision(精确的) math, even though sometimes it work correc
 
 ```javascript
 function showCase(value) {
-	switch(value) {
-        case 'A':
-			console.log('Case A');
-			break;
-        case 'B':
-			console.log('Case B');
-			break;
-        case undefined:
-			console.log('undefined');
-        default:
-			console.log('Do not know!');
-	}
+  switch (value) {
+    case "A":
+      console.log("Case A");
+      break;
+    case "B":
+      console.log("Case B");
+      break;
+    case undefined:
+      console.log("undefined");
+    default:
+      console.log("Do not know!");
+  }
 }
-showCase(new String('A'));
+showCase(new String("A"));
 ```
 
 ```
@@ -165,20 +167,20 @@ new String(x) !== x
 
 ```javascript
 function showCase2(value) {
-	switch(value) {
-        case 'A':
-			console.log('Case A');
-			break;
-        case 'B':
-			console.log('Case B');
-        case undefined:
-			console.log('undefined');
-			break;
-        default:
-			console.log('Do not know!');
-    }
+  switch (value) {
+    case "A":
+      console.log("Case A");
+      break;
+    case "B":
+      console.log("Case B");
+    case undefined:
+      console.log("undefined");
+      break;
+    default:
+      console.log("Do not know!");
+  }
 }
-showCase2(String('A'))
+showCase2(String("A"));
 ```
 
 ```
@@ -197,15 +199,15 @@ typeof String(1) === "string"
 
 ```javascript
 function isOdd(num) {
-	return num % 2 == 1;
+  return num % 2 == 1;
 }
 function isEven(num) {
-	return num % 2 == 0;
+  return num % 2 == 0;
 }
 function isSane(num) {
-	return isEven(num) || isOdd(num);
+  return isEven(num) || isOdd(num);
 }
-var values = [7, 4, '13', -9, Infinity];
+var values = [7, 4, "13", -9, Infinity];
 values.map(isSane);
 ```
 
@@ -252,9 +254,9 @@ Array.prototype is an Array
 ```javascript
 var a = [0];
 if ([0]) {
-	console.log(a == true);
+  console.log(a == true);
 } else {
-	console.log("wut");
+  console.log("wut");
 }
 ```
 
@@ -309,7 +311,9 @@ int that case the strings get converted to numbers
 ```javascript
 var ary = Array(3);
 ary[0] = 2;
-ary.map(function(elem) { return '1'; });
+ary.map(function (elem) {
+  return "1";
+});
 ```
 
 ```
@@ -320,12 +324,12 @@ map is only invoked for elements of the Array which have been initialiazed
 
 ```javascript
 function sideEffecting(ary) {
-	ary[0] = ary[2];
+  ary[0] = ary[2];
 }
 function bar(a, b, c) {
-	c = 10;
-	sideEffecting(arguments);
-	return a + b + c;
+  c = 10;
+  sideEffecting(arguments);
+  return a + b + c;
 }
 bar(1, 1, 1);
 ```
@@ -341,8 +345,8 @@ changing arguments changes the local variables even
 
 ```javascript
 var a = 111111111111111110000,
-	b = 1111;
-a + b
+  b = 1111;
+a + b;
 ```
 
 ```
@@ -366,14 +370,11 @@ when invoked without an explicit(明确的) receiver object it will default to t
 ES5???
 
 ```javascript
-Number.MIN_VALUE
-5e-324
-Number.MIN_VALUE > 0
-true
--Number.MAX_VALUE
--1.7976931348623157e+308
--Number.MAX_VALUE > 0
-false
+Number.MIN_VALUE;
+5e-324;
+Number.MIN_VALUE > 0;
+true - Number.MAX_VALUE - 1.7976931348623157e308 - Number.MAX_VALUE > 0;
+false;
 ```
 
 ```
@@ -414,8 +415,8 @@ toString is not a valid number, but the empty string is
 ???
 
 ```javascript
-(function() {
-	var x = y = 1;
+(function () {
+  var x = (y = 1);
 })();
 console.log(y);
 console.log(x);
@@ -430,7 +431,7 @@ y is an automatic global, not a function local one
 
 ```javascript
 var a = /123/,
-	b = /123/;
+  b = /123/;
 a == b;
 a === b;
 ```
@@ -445,12 +446,12 @@ Per spec Two regular expression literals in a program evaluate to regular expres
 
 ```javascript
 var a = [1, 2, 3],
-    b = [1, 2, 3],
-    c = [1, 2, 4]
-a ==  b
-a === b
-a >   c
-a <   c
+  b = [1, 2, 3],
+  c = [1, 2, 4];
+a == b;
+a === b;
+a > c;
+a < c;
 ```
 
 ```
@@ -463,8 +464,9 @@ true
 Arrays are compared lexicographically with > and <, but not with == and ===
 
 ```javascript
-var a = {}, b = Object.prototype;
-[a.prototype === b, Object.getPrototypeOf(a) === b]
+var a = {},
+  b = Object.prototype;
+[a.prototype === b, Object.getPrototypeOf(a) === b];
 ```
 
 ```
@@ -478,8 +480,9 @@ Every Object instead has an internal property accessible via Object.getPrototype
 
 ```javascript
 function f() {}
-var a = f.prototype, b = Object.getPrototypeOf(f);
-a === b
+var a = f.prototype,
+  b = Object.getPrototypeOf(f);
+a === b;
 ```
 
 ```
@@ -490,10 +493,10 @@ f.prototype is the object that will become the parent of any objects created wit
 Object.getPrototypeOf returns the parent in the inheritance hierarchy
 
 ```javascript
-function foo() { }
+function foo() {}
 var oldName = foo.name;
 foo.name = "bar";
-[oldName, foo.name]
+[oldName, foo.name];
 ```
 
 ```
@@ -520,10 +523,10 @@ parseInt will be invoked with arguments [1, 0], [2, 2], [3, 4]
 ```javascript
 function f() {}
 var parent = Object.getPrototypeOf(f);
-f.name
-parent.name
-typeof eval(f.name)
-typeof eval(parent.name)
+f.name;
+parent.name;
+typeof eval(f.name);
+typeof eval(parent.name);
 ```
 
 ```
@@ -538,7 +541,7 @@ but it is not in the current scope
 
 ```javascript
 var lowerCaseOnly = /^[a-z]+$/;
-[lowerCaseOnly.test(null), lowerCaseOnly.test()]
+[lowerCaseOnly.test(null), lowerCaseOnly.test()];
 ```
 
 ```
@@ -549,7 +552,7 @@ the argument is converted to a string with the abstract ToString operation
 it is "null" and "undefined"
 
 ```javascript
-[,,,].join(", ")
+[, , ,].join(", ");
 ```
 
 ```
@@ -573,7 +576,7 @@ accept most reserved words (int, private, throws etc) as variable names
 class is verboten(禁止的)
 
 ```javascript
-var a = new Date("epoch")
+var a = new Date("epoch");
 ```
 
 a instanceof Date is true, but invalid
@@ -582,8 +585,8 @@ in this case it is a NaN
 
 ```javascript
 var a = Function.length,
-	b = new Function().length
-a === b
+  b = new Function().length;
+a === b;
 ```
 
 ```
@@ -597,7 +600,7 @@ the length property of the Function prototype object is defined to be 0
 var a = Date(0);
 var b = new Date(0);
 var c = new Date();
-[a === b, b === c, a === c]
+[a === b, b === c, a === c];
 ```
 
 ```
@@ -618,8 +621,9 @@ When Date is invoked as a constructor it returns an object relative to the epoch
 When the argument is missing it returns the current date
 
 ```javascript
-var min = Math.min(), max = Math.max()
-min < max
+var min = Math.min(),
+  max = Math.max();
+min < max;
 ```
 
 ```
@@ -640,21 +644,21 @@ function captureOne(re, str) {
   var match = re.exec(str);
   return match && match[1];
 }
-var numRe  = /num=(\d+)/ig,
-    wordRe = /word=(\w+)/i,
-    a1 = captureOne(numRe,  "num=1"),
-    a2 = captureOne(wordRe, "word=1"),
-    a3 = captureOne(numRe,  "NUM=2"),
-    a4 = captureOne(wordRe,  "WORD=2");
-[a1 === a2, a3 === a4]
+var numRe = /num=(\d+)/gi,
+  wordRe = /word=(\w+)/i,
+  a1 = captureOne(numRe, "num=1"),
+  a2 = captureOne(wordRe, "word=1"),
+  a3 = captureOne(numRe, "NUM=2"),
+  a4 = captureOne(wordRe, "WORD=2");
+[a1 === a2, a3 === a4];
 ```
 
 Regular expressions in JavaScript if defined using the /g flag will carry a state across matches, even if they are actually used on different strings (the lastIndex property). This means a3 will be null as the regular expression was applied starting from the index of the last matched string, even if it was a different one.
 
 ```javascript
 var a = new Date("2014-03-19"),
-    b = new Date(2014, 03, 19);
-[a.getDay() === b.getDay(), a.getMonth() === b.getMonth()]
+  b = new Date(2014, 03, 19);
+[a.getDay() === b.getDay(), a.getMonth() === b.getMonth()];
 ```
 
 ```
@@ -664,10 +668,10 @@ var a = new Date("2014-03-19"),
 JavaScript inherits 40 years old design from C: days are 1-indexed in C's struct tm, but months are 0 indexed. In addition to that, getDay returns the 0-indexed day of the week, to get the 1-indexed day of the month you have to use getDate, which doesn't return a Date object.
 
 ```javascript
-if ('http://giftwrapped.com/picture.jpg'.match('.gif')) {
-  'a gif file'
+if ("http://giftwrapped.com/picture.jpg".match(".gif")) {
+  ("a gif file");
 } else {
-  'not a gif file'
+  ("not a gif file");
 }
 ```
 
@@ -679,14 +683,14 @@ String.prototype.match silently converts the string into a regular expression, w
 
 ```javascript
 function foo(a) {
-    var a;
-    return a;
+  var a;
+  return a;
 }
 function bar(a) {
-    var a = 'bye';
-    return a;
+  var a = "bye";
+  return a;
 }
-[foo('hello'), bar('hello')]
+[foo("hello"), bar("hello")];
 ```
 
 ```

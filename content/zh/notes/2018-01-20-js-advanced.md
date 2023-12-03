@@ -1,7 +1,7 @@
 ---
 title: js学习笔记——一些常用的高级属性
 date: 2018-01-20 14:11:34
-update: 2018-1-20 20:27:14
+lastmod: 2018-1-20 20:27:14
 categories: 前端
 tags: 
  - javascript

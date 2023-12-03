@@ -1,7 +1,7 @@
 ---
 title: HTML5语义提升篇
 date: 2018-02-16 15:54:37
-update: 2018-02-16 15:54:37
+lastmod: 2018-02-16 15:54:37
 categories: 前端
 tags: 
  - HTML5

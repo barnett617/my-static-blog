@@ -1,12 +1,12 @@
 ---
 title: 记一次关于运行redux示例启动错误的分析
 date: 2018-02-25 17:43:24
-update: 2018-02-25 17:43:24
+lastmod: 2018-02-25 17:43:24
 categories: 前端
 tags: [react]
 ---
 
-记录在运行redux官方文档中给出的基础实例运行时报错的解决思路
+记录在运行 redux 官方文档中给出的基础实例运行时报错的解决思路
 
 <!--more-->
 
@@ -16,9 +16,9 @@ tags: [react]
 
 ## 背景
 
-在阅读redux文档http://cn.redux.js.org/时，遇到推荐示例<a href="http://cn.redux.js.org/">simple-redux-example</a>
+在阅读 redux 文档http://cn.redux.js.org/时，遇到推荐示例<a href="http://cn.redux.js.org/">simple-redux-example</a>
 
-于是便按照readme说明实操一把
+于是便按照 readme 说明实操一把
 
 ```
 git clone
@@ -32,34 +32,34 @@ npm install
 npm start
 ```
 
-一切顺理成章，然而boom!
+一切顺理成章，然而 boom!
 
 一脸懵逼
 
-什么原因呢？先是仔细看了报错信息，里面讲的还算清楚，告诉我不是npm的问题，于是按照推荐，打开具体的日志文件
+什么原因呢？先是仔细看了报错信息，里面讲的还算清楚，告诉我不是 npm 的问题，于是按照推荐，打开具体的日志文件
 
 也没看出什么明显的问题
 
-于是在error附近的日志信息里找几个关键字拉近google搜索一下
+于是在 error 附近的日志信息里找几个关键字拉近 google 搜索一下
 
-在stackoverflow的<a href="https://stackoverflow.com/questions/30744964/what-does-the-elifecycle-node-js-error-mean">一篇帖子</a>中的找到灵感
+在 stackoverflow 的<a href="https://stackoverflow.com/questions/30744964/what-does-the-elifecycle-node-js-error-mean">一篇帖子</a>中的找到灵感
 
 没错，进程占用！经过上面几个人说的情况都不匹配后，这个原因我是感觉特别可能的
 
-于是赶紧检查8000端口是不是已经被占用
+于是赶紧检查 8000 端口是不是已经被占用
 
 ```
 netstat -ano | findstr 8000
 ```
 
-(进程ID之前是3260，这是后来写本文时补的)
+(进程 ID 之前是 3260，这是后来写本文时补的)
 
-果然被占用了，看一下哪个进程的PID是3260
+果然被占用了，看一下哪个进程的 PID 是 3260
 
-之前这里有一个进程PID是3260，发现是一个应用程序，没什么用，kill掉
+之前这里有一个进程 PID 是 3260，发现是一个应用程序，没什么用，kill 掉
 
 ```
-taskkill /PID 3260 	
+taskkill /PID 3260
 ```
 
 再次启动

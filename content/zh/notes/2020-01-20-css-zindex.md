@@ -1,16 +1,18 @@
 ---
-title: zIndex
+title: 关于z-index的最大值
 date: 2020-01-20 14:49:00
 ---
 
-# z-index	
+小知识: 关于 z-index 的最大值
 
-- [小知识: 关于z-index的最大值](https://zhuanlan.zhihu.com/p/66677661)	
+<!--more-->
 
-```	
-2147483647	
-```	
+- [小知识: 关于 z-index 的最大值](https://zhuanlan.zhihu.com/p/66677661)
 
-记住这个值，win32下int的最大值	
+```
+2147483647
+```
 
-2 1 4 7 4  8 3 6 4 7 ！	
+记住这个值，win32 下 int 的最大值
+
+2 1 4 7 4 8 3 6 4 7 ！
