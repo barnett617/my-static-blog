@@ -182,7 +182,6 @@ languages:
     title: Wilson's Blog
     weight: 1
   en:
-    baseURL: "https://barnett617.github.io/wilson-blog/"
     contentDir: content/en
     languageCode: en-US
     languageDirection: ltr
