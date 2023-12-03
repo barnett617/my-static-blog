@@ -77,7 +77,7 @@ Press Ctrl+C to stop
 
 可见 hugo 是启动了一个静态站点的服务将内容渲染到网页上，并且支持内容文件和配置文件修改的热更新
 
-TODO 示例图待补
+![](paper-theme@2x.png)
 
 ## 新建内容
 

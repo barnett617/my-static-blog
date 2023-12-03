@@ -240,7 +240,7 @@ npm run build
 
 服务机固定单端口同时部署前端服务和后端服务于不同的路由
 
-![architecture](img/post/architecture.png)
+![architecture](architecture.png)
 
 #### 前端服务
 

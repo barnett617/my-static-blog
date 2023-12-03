@@ -7,7 +7,7 @@ date: 2023-07-03 21:46:34
 
 <!-- more -->
 
-![Dylan Field](/img/post/figma-config-2023-02/bless.jpg)
+![Dylan Field](bless.jpg)
 
 ## Ready for dev
 
@@ -53,7 +53,7 @@ figma 这次做的是对一个文件进行两个版本的左右对比，形式�
 
 这个改动对于开发者来说确实更加深入人心，因为前端工程师往往对于一个在浏览器中访问的 web 应用进行调试时，通过工具看到的也会是所有图层在同一层（当然也有例外，比如绝对布局会在垂直轴上产生新的的”层“）。但大多时候，我们调试网页时看到的是如下的效果
 
-![inspect](/img/post/figma-config-2023-02/inspect.jpg)
+![inspect](inspect.jpg)
 
 虽然在实际的 HTML 中，元素是一层一层的，但当元素被渲染成页面时，内容仍然是一块一块的。因此当我们调试每块内容的`样式属性`时，我们并不希望发现它们竟然有层的关系，甚至我们还需要通过*双击*某一层来进到”下一层“，因为单击某个图层在设计模式下将会是”选中图层“的效果。
 
@@ -103,15 +103,15 @@ figma 这次做的是对一个文件进行两个版本的左右对比，形式�
 
 Figma 做了相应的 VS Code 插件，可见它是尊重开发者使用习惯的，如果能在 IDE 内访问 Figma 文件，何乐而不为呢？更何况 IDE 不仅是开发工具，也可以是基本的文件编辑器，当使用 VS Code 管理自己的 Figma 文件时，仿佛就像是在本地文件夹管理你的设计文件，并且它还是支持查看设计文件中的标注信息，这是基于 VS Code 支持直接在其内部打开 web 应用的能力，就像使用浏览器一样。
 
-![figma for vscode plugin](/img/post/figma-config-2023-02/figma-for-vscode-plugin.jpg)
+![figma for vscode plugin](figma-for-vscode-plugin.jpg)
 
 另外，[Figma for VS Code](https://marketplace.visualstudio.com/items?itemName=figma.figma-vscode-extension) 还支持在代码编辑时提示当前文件页选中的图层样式，从而实现一键代码填充。这样的开发体验非常接近现有的编程辅助工具，比如 [tabnine](https://www.tabnine.com/) 和 [copilot](https://github.com/features/copilot)，但这类工具大多依赖 AI 进行代码提示，也就是它们提供的虽然是可用代码，但并不是符合团队共用的“标准代码”。而 Figma 的样式提示能力则大概率是通过 [Typescript](https://www.typescriptlang.org/) 的类型推导能力实现的组件样式映射，也就是对于同样的样式属性，所有人提示的代码均是与设计稿严格保持一致的标准代码。
 
-![style inference](/img/post/figma-config-2023-02/style-infer.jpg)
+![style inference](style-infer.jpg)
 
 # 小结
 
 开发模式的诞生，意味着 figma 将“一人分饰两角”，在同一款软件内实现两种生产角色的同等使用体验。而做到这一点的推动力是因为 figma 的用户画像——设计师与开发者用户量1:1，这样来看，figma 推出开发模式既艰难又合理，但对于同类软件却是一个值得慎重考虑的事情，因为并不是所有软件都具备同样的痛点。
 
-![recap](/img/post/figma-config-2023-02/recap.jpg)
+![recap](recap.jpg)
 

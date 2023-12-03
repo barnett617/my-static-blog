@@ -11,7 +11,7 @@ date: 2020-01-09 19:11:00
 
 ## 效果图
 
-![clock](/img/post/clock.png)
+![clock](clock.png)
 
 ## 需求
 

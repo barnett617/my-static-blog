@@ -21,33 +21,33 @@ tags:
 
 #### 杭州三月的油菜花，生机勃勃
 
-![油菜花](/img/post/2017-2018/youcaihua.jpeg)
+![油菜花](youcaihua.jpeg)
 
 #### 上班必经的柳荫路，每经于此，都心旷神怡
 
-![街道](/img/post/2017-2018/road.jpeg)
+![街道](road.jpeg)
 
 #### 上班工具
 
-![自行车](/img/post/2017-2018/bicycle.jpeg)
+![自行车](bicycle.jpeg)
 
 #### 开始一天的工作
 
-![打开电脑](/img/post/2017-2018/work.jpeg)
+![打开电脑](work.jpeg)
 
 #### 下班后自己做饭的尝试
 
-![宫保鸡丁](/img/post/2017-2018/food.jpeg)
+![宫保鸡丁](food.jpeg)
 
 > 后来才知道小时候吃的加黄瓜的宫保鸡丁原来是天津的做法
 
 #### 住所
 
-![住所](/img/post/2017-2018/apartment.jpeg)
+![住所](apartment.jpeg)
 
 #### 那时标准的体重
 
-![体重](/img/post/2017-2018/weight.jpeg)
+![体重](weight.jpeg)
 
 ### 3月份的游玩
 
@@ -57,45 +57,45 @@ tags:
 
 #### 跑步记录
 
-![丽水马拉松](/img/post/2017-2018/lishui.jpeg)
+![丽水马拉松](lishui.jpeg)
 
 ### 4月份
 
 #### 烟花三月下扬州（三月指农历的三月）
 
-![扬州](/img/post/2017-2018/yangzhou.jpeg)
+![扬州](yangzhou.jpeg)
 
 > 其实是去跑扬州国际半马，顺便游玩 :satisfied:
 
-![扬州马拉松](/img/post/2017-2018/yangzhou.jpeg)
+![扬州马拉松](yangzhou.jpeg)
 
 #### 千里跃进大别山（参加“将军县”六安金寨的百里毅行）
 
-![六安毅行](/img/post/2017-2018/liuanhiking.jpeg)
+![六安毅行](liuanhiking.jpeg)
 
 ### 5月份
 
 #### 返校准备答辩，整理了一下过去一年的跑步记录 :runner: 
 
-![马拉松奖牌](/img/post/2017-2018/marathon_award.jpeg)
+![马拉松奖牌](marathon_award.jpeg)
 
 #### 奶奶生病，回家看望奶奶
 
-![家乡](/img/post/2017-2018/hospital.jpeg)
+![家乡](hospital.jpeg)
 
 #### 家乡的蓝天依旧
 
-![家乡蓝天](/img/post/2017-2018/blue_sky.jpeg)
+![家乡蓝天](blue_sky.jpeg)
 
 ### 又跑去黄山歙县跑第一个全马
 
 图片待补充：黄山
 
-![新安江山水画廊马拉松](/img/post/2017-2018/huangshan.jpeg)
+![新安江山水画廊马拉松](huangshan.jpeg)
 
 > 整个县城的人大多都以枇杷的种植、加工、售卖为主要生活和工作，整个村子漫山遍野随处可见枇杷成群
 
-![枇杷](/img/post/2017-2018/pipa.jpeg)
+![枇杷](pipa.jpeg)
 
 ### 2017年10月
 
@@ -109,45 +109,45 @@ tags:
 
 #### 5月初的西北旺，北京互联网的聚集地
 
-![西北旺](/img/post/2017-2018/xibeiwang.jpeg)
+![西北旺](xibeiwang.jpeg)
 
 #### 第一次来天安门
 
-![天安门](/img/post/2017-2018/tiananmen.jpeg)
+![天安门](tiananmen.jpeg)
 
 ### 2018年7月
 
 #### 7月的后海
 
-![后海](/img/post/2017-2018/houhai.jpeg)
+![后海](houhai.jpeg)
 
 #### 7月的十渡
 
-![十渡](/img/post/2017-2018/shidu.jpeg)
+![十渡](shidu.jpeg)
 
 #### 还有7月的天津
 
-![天津瓷房子](/img/post/2017-2018/tianjin.jpeg)
+![天津瓷房子](tianjin.jpeg)
 
 ### 2018年8月
 
 #### 圆明园
 
-![圆明园](/img/post/2017-2018/yuanmingyuan.jpeg)
+![圆明园](yuanmingyuan.jpeg)
 
 #### 曾经只从课本上才能看到图片，身临其境感受不一样的历史厚重感
 
-![十二生肖](/img/post/2017-2018/shengxiao.jpeg)
+![十二生肖](shengxiao.jpeg)
 
 ### 2018年9月
 
 #### 中秋节回家（家乡的天，依旧的蓝）
 
-![中秋节家乡](/img/post/2017-2018/zhongqiu.jpeg)
+![中秋节家乡](zhongqiu.jpeg)
 
 #### 与家人匆忙相聚后的离乡返京的站台
 
-![返程站台](/img/post/2017-2018/station.jpeg)
+![返程站台](station.jpeg)
 
 > 也许是漂泊在外已经习惯，恋乡情愫已淡，也许是还没到怀念家乡的年龄
 
@@ -157,23 +157,23 @@ tags:
 
 如今也有了自己的台式机，可以在住的地方作为固定的工作站
 
-![台式机](/img/post/2017-2018/taishiji.jpeg)
+![台式机](taishiji.jpeg)
 
 想知道自己现在还跑的动半马
 
-![杭州半马](/img/post/2017-2018/hangzhou_run.jpeg)
+![杭州半马](hangzhou_run.jpeg)
 
 从六千块的笔记本到公司配的二手Mac Pro，再到自己一万六买的Mac Pro
 
 从杭州到北京，经过一年多的厚积薄发，工资翻倍，房租翻倍
 
-![北京住处](/img/post/2017-2018/beijing_apartment.jpeg)
+![北京住处](beijing_apartment.jpeg)
 
-![现在的笔记本](/img/post/2017-2018/my_computer.jpeg)
+![现在的笔记本](my_computer.jpeg)
 
-![现在的笔记本](/img/post/2017-2018/computer.jpeg)
+![现在的笔记本](computer.jpeg)
 
-![工作用的笔记本](/img/post/2017-2018/work_computer.jpeg)
+![工作用的笔记本](work_computer.jpeg)
 
 看着自己身边的装备一件一件通过自己的努力和进步挣得，满是欣喜满足
 

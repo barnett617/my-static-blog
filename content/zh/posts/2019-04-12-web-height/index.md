@@ -9,9 +9,9 @@ date: 2019-04-12 15:31:00
 
 屏幕宽高的计量单位是`设备像素`（但IE8对其计量单位使用`CSS像素`）
 
-![](/img/post/web-height/web-height-01.jpeg)
+![](web-height-01.jpeg)
 
-![](/img/post/web-height/web-height-02.jpeg)
+![](web-height-02.jpeg)
 
 由此可见
 
@@ -37,7 +37,7 @@ screen.availTop
 
 为什么说实用呢，因为这些屏幕的实际宽高并不一定在用户应用中都能被使用，比如这里可以看到`screen.availTop`有23的长度是不在可用范围呢，那这段长度是什么呢，见下图
 
-![](/img/post/web-height/web-height-03.jpeg)
+![](web-height-03.jpeg)
 
 其实是设备（电脑）系统本身的状态栏高度，这一部分高度在浏览器未全屏显示的时候的确是不算在应用（浏览器）高度内的，同时很明显可以看到`screen.availHeight + screen.availTop = 877 + 23 = 900 = screen.height`，这三个属性的值形成一个完整的闭环，详细的描述了设备屏幕在不同使用场景下的参数
 
@@ -47,23 +47,23 @@ screen.availTop
 
 以上所说的计量单位区分是因为在浏览器中访问这些对象属性的时候返回值只是一个数字，而没有单位，其在不同的环境中（浏览器类型）计算方式并不同
 
-![](/img/post/web-height/web-height-04.jpeg)
+![](web-height-04.jpeg)
 
-![](/img/post/web-height/web-height-05.jpeg)
+![](web-height-05.jpeg)
 
 以下两张图可见
 
 window.innerHeight & window.innerWidth是随着浏览器视窗当前的真实展现宽高变化的
 
-![](/img/post/web-height/web-height-06.jpeg)
+![](web-height-06.jpeg)
 
-![](/img/post/web-height/web-height-07.jpeg)
+![](web-height-07.jpeg)
 
 ## 滑动偏移量（Scrolling offset）
 
 实验如图
 
-![](/img/post/web-height/web-height-08.jpeg)
+![](web-height-08.jpeg)
 
 当前位置时
 
@@ -72,7 +72,7 @@ window.pageYOffset
 0
 ```
 
-![](/img/post/web-height/web-height-09.jpeg)
+![](web-height-09.jpeg)
 
 而滑动到此位置时
 
@@ -83,7 +83,7 @@ window.pageYOffset
 
 两次之前的滑动差值第二次减去第一次的416其实是屏幕在Y轴上的滚动量，并且由于这是计算视窗滑动量，所以在不同的浏览器上计算方式没有差别
 
-![](/img/post/web-height/web-height-10.jpeg)
+![](web-height-10.jpeg)
 
 
 存在如下一个关系
@@ -99,7 +99,7 @@ screen.availHeight
 877
 ```
 
-![](/img/post/web-height/web-height-11.jpeg)
+![](web-height-11.jpeg)
 
 还有一个反应WEB文档真实宽高的属性
 
