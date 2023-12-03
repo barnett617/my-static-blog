@@ -45,16 +45,6 @@
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/tags/</loc>
     <lastmod>2023-12-03T16:52:45+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://barnett617.github.io/wilson-blog/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-Hans-CN"
-                href="https://barnett617.github.io/wilson-blog/tags/"
-                />
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/notes/2023-08-31-rust-04/</loc>
     <lastmod>2023-08-31T22:41:00+00:00</lastmod>
@@ -109,16 +99,6 @@
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/categories/</loc>
     <lastmod>2023-12-03T16:52:45+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://barnett617.github.io/wilson-blog/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-Hans-CN"
-                href="https://barnett617.github.io/wilson-blog/categories/"
-                />
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/tags/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2020-05-04T12:05:55+00:00</lastmod>
@@ -440,16 +420,6 @@
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/series/</loc>
     <lastmod>2018-01-24T15:56:32+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://barnett617.github.io/wilson-blog/en/series/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-Hans-CN"
-                href="https://barnett617.github.io/wilson-blog/series/"
-                />
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</loc>
     <lastmod>2018-01-24T15:56:32+00:00</lastmod>
@@ -673,7 +643,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://barnett617.github.io/wilson-blog/archives/"
+                href="https://barnett617.github.io/wilson-blog/en/archives/"
                 />
     <xhtml:link
                 rel="alternate"
