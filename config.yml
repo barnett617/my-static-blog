@@ -87,13 +87,13 @@ params:
 
         - [博客](posts) 包括一些思考、总结，[笔记](notes) 是我学习过程中的一些记录
 
-        - 也可以通过 [时间线](archives) 浏览完整的内容
+        - 也可以通过 [时间线](archives) 查看完整的内容列表
 
   socialIcons:
     - name: juejin
-      url: "https://juejin.cn/user/1644525123025933/posts"
+      url: "https://juejin.cn/user/1644525123025933/posts?sort=popular"
     - name: zhihu
-      url: "https://www.zhihu.com/people/magi617/answers"
+      url: "https://www.zhihu.com/people/magi617/answers/by_votes"
     - name: douban
       url: "https://www.douban.com/people/DavidMe/?_i=14468907ISm58V"
     - name: github
@@ -178,6 +178,7 @@ languages:
       mainSections:
         - posts
         - notes
+      ShareButtons: ["wechat", "x"] # To customize which share buttons to be enabled on page
     title: Wilson's Blog
     weight: 1
   en:
