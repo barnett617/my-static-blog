@@ -5,8 +5,6 @@ disableShare: true
 ShowReadingTime: false
 ShowBreadCrumbs: false
 ShowWordCount: false
-editPost: 
-  URL: ""
 ---
 
 前滴滴前端工程师，目前在 MG 负责核心模块维护及架构升级。

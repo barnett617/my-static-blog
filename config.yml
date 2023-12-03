@@ -12,10 +12,10 @@ minify:
   disableXML: true
   minifyOutput: true
 
-taxonomies:
-  category: categories
-  tag: tags
-  series: series
+# taxonomies:
+#   category: categories
+#   tag: tags
+#   series: series
 
 outputs:
   home:
@@ -83,9 +83,9 @@ params:
   homeInfoParams:
     Title: "你好 \U0001F44B"
     Content: >
-        - 欢迎来到我的博客，我在这里记录关于技术和生活的一些思考和总结
+      - 欢迎来到我的博客，我在这里记录关于技术和生活的一些思考和总结
 
-        - 如果发现任何问题，欢迎到 [这里](https://github.com/barnett617/wilson-blog/issues) 向我反馈
+      - 如果发现任何问题，欢迎到 [这里](https://github.com/barnett617/wilson-blog/issues) 向我反馈
 
   socialIcons:
     - name: juejin
@@ -146,30 +146,29 @@ services:
 defaultContentLanguage: zh
 languages:
   zh:
-    contentDir: content/zh
+    contentDir: content
     languageCode: zh-Hans-CN
     languageDirection: ltr
+    languageName: 中文
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
     menu:
       main:
-        # - name: 博客
-        #   url: /posts/
-        #   weight: 5
-        # - name: 笔记
-        #   url: /notes/
-        #   weight: 10
         - name: 时间线
-          url: /archives/
-          weight: 20
+          url: archives
+          weight: 5
         - name: 搜索
-          url: /search/
-          weight: 30
+          url: search/
+          weight: 10
         - name: 标签分类
-          url: /tags/
-          weight: 40
+          url: tags/
+          weight: 15
         - name: 关于我
-          url: /about/
-          weight: 50
-    languageName: 中文
+          url: about/
+          weight: 20
     params:
       subtitle: Wilson的所思所想
       # make both posts and notes be collected into archives
@@ -180,26 +179,27 @@ languages:
       editPost:
         Text: "修改建议"
     title: Wilson's Blog
-    weight: 1
   en:
     contentDir: content/en
     languageCode: en-US
     languageDirection: ltr
+    languageName: English
+    weight: 2
+    taxonomies:
+      category: ENcategories
+      tag: ENtags
+      series: ENseries
     menu:
       main:
-      # - name: Posts
-      #   url: /posts/
-      #   weight: 20
-      - name: Archives
-        url: /archives/
-        weight: 20
-      - name: Search
-        url: /search/
-        weight: 30
-      - name: About
-        url: /about/
-        weight: 40
-    languageName: English
+        - name: Archives
+          url: archives/
+          weight: 5
+        - name: Search
+          url: search
+          weight: 10
+        - name: About
+          url: about
+          weight: 15
     # https://gohugo.io/content-management/multilingual/#changes-in-hugo-01120
     params:
       subtitle: Content created by Wilson
@@ -209,14 +209,12 @@ languages:
       homeInfoParams:
         Title: "Hi there \U0001F44B"
         Content: >
-            - Welcome to Wilson's Blog
+          - Welcome to Wilson's Blog
 
-            - I write blogs and keep notes on this site
+          - I write blogs and keep notes on this site
       socialIcons:
         - name: github
           url: "https://github.com/barnett617"
         - name: linkedin
           url: "https://www.linkedin.com/in/scorpioaoe/"
     title: Wilson's Blog
-    weight: 2
- 
