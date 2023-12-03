@@ -37,7 +37,7 @@ params:
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
-  ShowBreadCrumbs: true
+  # ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
@@ -83,11 +83,9 @@ params:
   homeInfoParams:
     Title: "你好 \U0001F44B"
     Content: >
-        - 欢迎来到我的博客，我在这里记录关于技术和生活的内容
+        - 欢迎来到我的博客，我在这里记录关于技术和生活的一些思考和总结
 
-        - [博客](posts) 包括一些思考、总结，[笔记](notes) 是我学习过程中的一些记录
-
-        - 也可以通过 [时间线](archives) 查看完整的内容列表
+        - 如果发现任何问题，欢迎到 [这里](https://github.com/barnett617/wilson-blog/issues) 向我反馈
 
   socialIcons:
     - name: juejin
@@ -153,12 +151,12 @@ languages:
     languageDirection: ltr
     menu:
       main:
-        - name: 博客
-          url: /posts/
-          weight: 5
-        - name: 笔记
-          url: /notes/
-          weight: 10
+        # - name: 博客
+        #   url: /posts/
+        #   weight: 5
+        # - name: 笔记
+        #   url: /notes/
+        #   weight: 10
         - name: 时间线
           url: /archives/
           weight: 20
@@ -173,12 +171,14 @@ languages:
           weight: 50
     languageName: 中文
     params:
-      subtitle: Reference, Tutorials, and Explanations
+      subtitle: Wilson的所思所想
       # make both posts and notes be collected into archives
       mainSections:
         - posts
         - notes
       ShareButtons: ["wechat", "x"] # To customize which share buttons to be enabled on page
+      editPost:
+        Text: "修改建议"
     title: Wilson's Blog
     weight: 1
   en:
@@ -188,8 +188,11 @@ languages:
     languageDirection: ltr
     menu:
       main:
-      - name: Notes
-        url: /notes/
+      # - name: Posts
+      #   url: /posts/
+      #   weight: 20
+      - name: Archives
+        url: /archives/
         weight: 20
       - name: Search
         url: /search/
@@ -200,7 +203,10 @@ languages:
     languageName: English
     # https://gohugo.io/content-management/multilingual/#changes-in-hugo-01120
     params:
-      subtitle: Reference, Tutorials, and Explanations
+      subtitle: Content created by Wilson
+      mainSections:
+        - posts
+        - notes
       homeInfoParams:
         Title: "Hi there \U0001F44B"
         Content: >

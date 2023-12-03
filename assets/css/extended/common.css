@@ -1,3 +1,4 @@
 .first-entry {
   min-height: auto;
+  margin: var(--gap)0 calc(var(--gap))
 }
