@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Wilson&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 21 Sep 2022 23:02:00 +0000</lastBuildDate><atom:link href="https://barnett617.github.io/wilson-blog/en/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Jun 2023 11:37:00 +0000</lastBuildDate><atom:link href="https://barnett617.github.io/wilson-blog/en/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript Basic Points</title>
+      <link>https://barnett617.github.io/wilson-blog/en/posts/2023-07-11-js-basic/</link>
+      <pubDate>Sun, 11 Jun 2023 11:37:00 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/en/posts/2023-07-11-js-basic/</guid>
+      <description>Some basic JavaScript things</description>
+    </item>
+    
     <item>
       <title>Personal Projects Description Using STAR Principle</title>
       <link>https://barnett617.github.io/wilson-blog/en/posts/2022-09-21-projects-star-2022/</link>

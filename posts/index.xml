@@ -57,6 +57,78 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
     </item>
     
     <item>
+      <title>JavaScript闭包学习</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-closure/</link>
+      <pubDate>Sun, 11 Jun 2023 00:42:00 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-closure/</guid>
+      <description>关于JavaScript闭包原理的学习</description>
+    </item>
+    
+    <item>
+      <title>JavaScript的Promise学习</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-promise/</link>
+      <pubDate>Sun, 11 Jun 2023 00:42:00 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-promise/</guid>
+      <description>关于JavaScript Promise原理的学习</description>
+    </item>
+    
+    <item>
+      <title>JavaScript的this关键字</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-this/</link>
+      <pubDate>Sun, 11 Jun 2023 00:42:00 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-this/</guid>
+      <description>关于JavaScript的关键字this的原理的学习</description>
+    </item>
+    
+    <item>
+      <title>JavaScript的防抖和节流</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-debounce-and-throttle/</link>
+      <pubDate>Sun, 11 Jun 2023 00:42:00 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-debounce-and-throttle/</guid>
+      <description>关于JavaScript防抖节流的学习</description>
+    </item>
+    
+    <item>
+      <title>JavaScript的基础排序实现</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-sort/</link>
+      <pubDate>Sun, 11 Jun 2023 00:42:00 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-sort/</guid>
+      <description>关于JavaScript基础排序算法的整理</description>
+    </item>
+    
+    <item>
+      <title>JavaScript的原型和继承</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-inherit/</link>
+      <pubDate>Sun, 11 Jun 2023 00:42:00 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-inherit/</guid>
+      <description>关于JavaScript继承原理的学习</description>
+    </item>
+    
+    <item>
+      <title>JavaScript数组学习</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-array/</link>
+      <pubDate>Sun, 11 Jun 2023 00:42:00 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-array/</guid>
+      <description>关于JavaScript数组的学习</description>
+    </item>
+    
+    <item>
+      <title>JavaScript运算符</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-operator/</link>
+      <pubDate>Sun, 11 Jun 2023 00:42:00 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-operator/</guid>
+      <description>关于JavaScript运算符的学习</description>
+    </item>
+    
+    <item>
       <title>基于B/S架构的webapp开发</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2021-07-24-webapp-based-on-bs-arch/</link>
       <pubDate>Sat, 24 Jul 2021 21:40:00 +0000</pubDate>

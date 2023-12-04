@@ -2,17 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://barnett617.github.io/wilson-blog/en/en/</loc>
-    <lastmod>2022-09-21T23:02:00+00:00</lastmod>
-  </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/en/en/posts/2022-09-21-projects-star-2022/</loc>
-    <lastmod>2022-09-21T23:02:00+00:00</lastmod>
-  </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/en/posts/2022-09-21-projects-star-2022/</loc>
-    <lastmod>2022-09-21T23:02:00+00:00</lastmod>
+    <loc>https://barnett617.github.io/wilson-blog/en/posts/2023-07-11-js-basic/</loc>
+    <lastmod>2023-06-11T11:37:00+00:00</lastmod>
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/en/posts/</loc>
-    <lastmod>2022-09-21T23:02:00+00:00</lastmod>
+    <lastmod>2023-06-11T11:37:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-Hans-CN"
@@ -25,7 +19,7 @@
                 />
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/en/</loc>
-    <lastmod>2022-09-21T23:02:00+00:00</lastmod>
+    <lastmod>2023-06-11T11:37:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-Hans-CN"
@@ -37,14 +31,11 @@
                 href="https://barnett617.github.io/wilson-blog/en/"
                 />
   </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/en/en/posts/2021-03-01-projects-2020/</loc>
-    <lastmod>2021-03-01T15:49:00+00:00</lastmod>
+    <loc>https://barnett617.github.io/wilson-blog/en/posts/2022-09-21-projects-star-2022/</loc>
+    <lastmod>2022-09-21T23:02:00+00:00</lastmod>
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/en/posts/2021-03-01-projects-2020/</loc>
     <lastmod>2021-03-01T15:49:00+00:00</lastmod>
-  </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/en/en/posts/2021-03-01-review-2020/</loc>
-    <lastmod>2021-03-01T15:19:00+00:00</lastmod>
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/en/posts/2021-03-01-review-2020/</loc>
     <lastmod>2021-03-01T15:19:00+00:00</lastmod>
