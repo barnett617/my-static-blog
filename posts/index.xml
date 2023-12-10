@@ -13,14 +13,15 @@
       <pubDate>Sun, 26 Nov 2023 23:30:59 +0800</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2023-11-26-hugo-blog-2/</guid>
-      <description>环境准备好以后的使用还是比较简单的，我准备直接在原本基于 hexo 的博客项目中进行，因为想保留原先仓库的 git 提交记录。
-但是发现 hugo使用文档 中并没有介绍在已有项目中初始化的方式，因此先建了一个新的站点，看下目录结构和配置文件和 hexo 有什么异同。
+      <description>接上篇
+环境准备好以后的使用还是比较简单的，我准备直接在原本基于 hexo 的博客项目中进行，因为想保留原先仓库的 git 提交记录。
+但是发现 hugo 使用文档 中并没有介绍在已有项目中初始化的方式，因此先建了一个新的站点，看下目录结构和配置文件和 hexo 有什么异同。
 目录结构 首先使用 tree 命令看下 hugo 生成的目录结构
-. ├── archetypes │ └── default.md ├── assets ├── content ├── data ├── hugo.toml ├── i18n ├── layouts ├── static └── themes 8 directories, 2 files 主题选择 通过上面的命令初始化了 hugo 工程，但其实还没什么主要文件。因为整个 hugo 站点的内容是基于主题进行搭建的。
-主题文件是以一个 git 子模块的方式存在的，可以在网上寻找适合自己的主题，官网提供了300+个 主题
-这里我选择了 paper 这个主题
-git submodule add https://github.com/nanxiaobei/hugo-paper themes/paper 在 hugo 工程的目录下下载主题文件后，在主配置文件内设置 theme 配置项，然后就可以启动项目了
-项目启动 hugo server hugo server Watching for changes in /Users/xxx/xxx/{archetypes,assets,content,data,i18n,layouts,static,themes} Watching for config changes in /Users/xxx/xxx/hugo.</description>
+. ├── archetypes │ └── default.md ├── assets ├── content ├── data ├── hugo.toml ├── i18n ├── layouts ├── static └── themes 8 directories, 2 files 主题选择 通过上面的命令初始化了 hugo 工程，但其实还没什么主要文件。
+因为整个 hugo 站点的内容是基于主题进行搭建的，可以在网上寻找适合自己的主题，官网提供了 300+个 主题
+这里我选择了 PaperMod 这个主题，这是一个基于 Paper 拓展的一个主题，相比 Paper 丰富了更多功能（一开始我尝试的是 Paper，发现很简洁，但是太简洁了）
+这里我选择将主题项目作为 git 子模块集成到项目的方式，在 hugo 工程的目录下载主题文件后，在主配置文件内设置 theme 配置项，然后就可以启动项目了
+git submodule add https://github.</description>
     </item>
     
     <item>
@@ -29,13 +30,7 @@ git submodule add https://github.com/nanxiaobei/hugo-paper themes/paper 在 hugo
       <pubDate>Sun, 26 Nov 2023 21:44:59 +0800</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2023-11-26-hugo-blog-1/</guid>
-      <description>本篇介绍将博客站点从 Hexo 迁移为 Hugo 的过程
-Hugo 简介以及和 Hexo 的对比 Hugo 是一款基于 Go 的开源静态站点框架，从 Github 记录来看，应该是 Hexo 的前身（一款基于 Node.js 的博客框架）。
-Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认，因为 Go 语言的优势就是并发性能高。不过对于搭建博客这种相对静态的站点来说，多少有点 Over kill。
-那么既然它的简介是可以“构建网站“，扩展性上应该还是不错的吧，可能如果真的用于维护相对大型的网站，可能效果要比 Hexo 好一些？
-环境准备 按照 Hugo 安装说明准备好环境，我选择使用 Hugo 源码本地构建的方式，这里主要是准备 git、go 以及 c 编译器的配置。
-这几项对于 Mac OS 来说都还好，主要是就是安装 Go，不过之前本地装过 Go，最终准备好的环境状态如下：
-➜ ~ git --version git version 2.39.2 (Apple Git-143) ➜ ~ go version go version go1.21.3 darwin/arm64 ➜ ~ gcc --version Apple clang version 14.0.3 (clang-1403.</description>
+      <description>本篇介绍将博客站点从 Hexo 迁移为 Hugo 的过程以及途中遇到一些问题的解决记录</description>
     </item>
     
     <item>
@@ -44,7 +39,7 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Mon, 03 Jul 2023 21:46:34 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2023-07-03-figma-config-2023-02/</guid>
-      <description>&lt;p&gt;关于Figma Config 2023 后半部分“开发模式”演讲的总结&lt;/p&gt;</description>
+      <description>&lt;p&gt;关于 Figma Config 2023 后半部分“开发模式”演讲的总结&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -53,7 +48,7 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Sun, 02 Jul 2023 21:45:54 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2023-07-02-figma-config-2023-01/</guid>
-      <description>&lt;p&gt;关于Figma Config 2023 的一些总结和所思所想&lt;/p&gt;</description>
+      <description>&lt;p&gt;关于 Figma Config 2023 的一些总结和所思所想&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -134,7 +129,7 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Sat, 24 Jul 2021 21:40:00 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2021-07-24-webapp-based-on-bs-arch/</guid>
-      <description>&lt;p&gt;使用vscode远程开发一个全栈Web项目&lt;/p&gt;</description>
+      <description>&lt;p&gt;使用 vscode 远程开发一个全栈 Web 项目&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -143,7 +138,7 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Wed, 19 Aug 2020 22:31:55 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2020-08-19-ci-with-github/</guid>
-      <description>&lt;p&gt;利用 github 的 actions 为你的前端项目加上 CI(continuous integration，持续集成)&lt;/p&gt;</description>
+      <description>&lt;p&gt;利用 github 的 actions 为你的前端项目加上 CI(Continuous Integration，持续集成)&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -161,7 +156,7 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Thu, 02 Apr 2020 12:27:18 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2020-04-02-about-programmer-basic-learning/</guid>
-      <description>&lt;p&gt;因为一道 leetcode 题而引发的思考。&lt;/p&gt;</description>
+      <description>因为一道 leetcode 题而引发的思考。</description>
     </item>
     
     <item>
@@ -188,7 +183,7 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Fri, 03 Jan 2020 11:30:00 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2020-01-03-markdown/</guid>
-      <description>&lt;p&gt;markdown 基本使用&lt;/p&gt;</description>
+      <description>markdown 基本使用</description>
     </item>
     
     <item>
@@ -197,7 +192,7 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Tue, 17 Dec 2019 19:46:00 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2019-12-17-debug-node-vue/</guid>
-      <description>&lt;p&gt;如何用 vscode 调试 node 程序和 vue 源码&lt;/p&gt;</description>
+      <description>如何用 vscode 调试 node 程序和 vue 源码</description>
     </item>
     
     <item>
@@ -207,7 +202,7 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2019-12-11-review-of-2019/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;2019年快结束了，又来到一年一度的复盘总结时&lt;/p&gt;
+&lt;p&gt;2019 年快结束了，又来到一年一度的复盘总结时&lt;/p&gt;
 &lt;/blockquote&gt;</description>
     </item>
     
@@ -217,9 +212,7 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Thu, 05 Dec 2019 10:46:00 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2019-12-05-why-2020-learn-js/</guid>
-      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://user-images.githubusercontent.com/23159565/80948849-81c00280-8e25-11ea-9b54-f0068721abc7.png&#34; alt=&#34;image&#34;  /&gt;
-&lt;/p&gt;
-&lt;p&gt;js 全称是 javascript，它既不是 java 的嫡系，也不单单是一门脚本语言（script 直译）。&lt;/p&gt;</description>
+      <description>&lt;p&gt;js 全称是 javascript，它既不是 java 的嫡系，也不单单是一门脚本语言（script 直译）。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -300,7 +293,7 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Mon, 03 Sep 2018 19:57:17 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-09-03-blog-backup/</guid>
-      <description>&lt;p&gt;记录如何把博客从离线存储配置成可通过git维护&lt;/p&gt;</description>
+      <description>&lt;p&gt;记录如何把博客从离线存储配置成可通过 git 维护&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -318,7 +311,7 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Mon, 27 Aug 2018 09:30:00 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-08-27-koa-vue-forum/</guid>
-      <description>&lt;p&gt;使用vue-cli3脚手架初始化前端项目&lt;/p&gt;</description>
+      <description>&lt;p&gt;使用 vue-cli3 脚手架初始化前端项目&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -363,7 +356,21 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Thu, 22 Feb 2018 21:33:38 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-02-22-vue-basic/</guid>
-      <description>&lt;p&gt;Vue.js 教程之 Vue 实例&lt;/p&gt;</description>
+      <description>Vue.js 教程之 Vue 实例
+创建实例 每个 Vue 应用都是通过用Vue函数创建一个新的Vue 实例开始
+var vm = new Vue({ // options }); 虽然没有遵守MVVM模型，但 Vue 的设计也受 MVVM 启发，故示例中常使用 vm(viewmodel 缩写)表示 Vue 实例
+一个 Vue 应用的组成：
+一个通过 new Vue 创建的根 Vue 实例
+可选的嵌套的、可复用的组件树
+所有的 Vue 组件都是 Vue 实例，并且接受相同的选项对象（一些根实例特有的选项除外）
+MVVM MVVM（model-view-viewmodel）是一种软件架构，有助于将图形用户界面开发与业务逻辑或后端逻辑开发分离开来，通过置标语言或 GUI 代码实现
+MVVM 的 viewmodel 是一个值转换器，意味着负责从模型中暴露（转换）数据对象，以便轻松管理和呈现对象。在这方面 viewmodel 比 view 做的更多，且处理大部分视图的显示逻辑。
+viewmodel 可实现中介者模式，组织对 view 所支持的用例集的后端逻辑的访问
+标记语言 置标语言也称标记语言、标志语言、标识语言、markup language，是一种将文本以及文本相关的其他信息结合起来，展现出关于文档结构和数据处理细节的计算机文字编码。
+与文本相关的其他信息（文本结构和表示信息等）与原文本结合在一起，但使用标记进行标识
+现状及历史 如今广泛使用的标记语言是 HTML 和 XML，广泛用于网页和网络应用程序，最早用于出版业，是作者、编辑及出版商之间用于描述出版作品的排版格式所使用的
+分类 标记语言通常分为三种：表示性、过程性、描述性
+表示性：编码过程中标记文档的结构信息 例如文本文件中，文件标题可能需要特定格式（居中、放大等），则需要标记文件的标题。</description>
     </item>
     
     <item>
@@ -480,7 +487,15 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Thu, 25 Jan 2018 10:51:20 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-01-25-linux-distributions/</guid>
-      <description>&lt;p&gt;linux 作为开源系统，有着众多的发行版本（毕竟有着庞大的社区和狂热的爱好者），不同的发行版本(Linux Distribution)随着发展，在使用方式上也有一些不同，例如各自的包管理器、已经适用场景等等。借此整理一下 linux 的不同发行版本，以便在使用不同版 linux 时不至混乱。&lt;/p&gt;</description>
+      <description>linux 作为开源系统，有着众多的发行版本（毕竟有着庞大的社区和狂热的爱好者），不同的发行版本(Linux Distribution)随着发展，在使用方式上也有一些不同，例如各自的包管理器、已经适用场景等等。借此整理一下 linux 的不同发行版本，以便在使用不同版 linux 时不至混乱。
+大致分类 商业发行版
+Ubuntu(Canonical 公司) Fedora(RedHat) openSUSE(Novell) Mandriva Linux 社区发行版
+Debian Gentoo 既不是商业发行版也不是社区发行版
+Linux Distrubutions
+Linux 桌面发行版组成 Linux 内核 GNU 工具&amp;amp;库 附加软件、文档 窗口系统 窗口管理器 桌面环境 开源软件包 二进制可执行文件 源代码发布方式（支持修改和重新编译） 定制发行版镜像 Gentoo Linux 内核 T2 Linux From Scratch 提供：
+所有软件的源代码 基本内核 编译器 定制工具 安装工具 软件包管理系统 发行版通常被分区成软件包，每个软件包包含一个特定的软件或服务
+软件包 软件包通常是已编译的机器码，由软件包管理器安装和卸载
+软件包组成 元数据：软件描述、版本、依赖（提供给软件包管理器以使用元数据进行搜索、自动更新到最新版本、自动解决依赖） 常见软件包格式 deb——Debian rpm——Fedora(Red Hat) 流行的发行版 基于 Dpkg(Debian 系) 商业发行版 Ubuntu（流行的桌面发行版，由 Canonical 维护） 社区发行版 Debian（强烈信奉自由软件，由志愿者维护） Kubuntu（使用 KDE 桌面的 Ubuntu） Linux Mint（由 Ubuntu 派生，与 Ubuntu 兼容） OpenGEU（Ubuntu 派生） Elementary OS（基于 Ubuntu，形似 Mac OS X） gOS 及其他 基于 RPM（Red Hat 系） 商业发行版 Red Hat Enterprise Linux（Fedora 的商业版，由 Red Hat 维护） Mandriva（最初派生自 Red Hat，现由法国同名公司维护） openSUSE（最初由 Slackware 分离出，现由 Novell 维护） 社区发行版 Fedora（Red Hat 社区版，会引入新特性测试） PCLinuxOS（Mandriva 派生版） CentOS（Red Hat 发展而来，由志愿者维护，旨在提供开源，与 Red Hat 完全兼容） 基于其他包格式 ArchLinux（基于 KISS——Keep It Simple and Stupid 的滚动更新的操作系统） Chakra（由 ArchLinux 派生，只是用 KDE 桌面的半滚动更新发行版） Gentoo（面向高级用户，所有软件源代码需自行编译） Slackware（最早发行版之一，1993 年创建，由Patrick Volkerding维护） 参考链接</description>
     </item>
     
     <item>
@@ -489,7 +504,13 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Thu, 25 Jan 2018 10:17:43 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-01-25-tensorflow-install/</guid>
-      <description>&lt;p&gt;关于安装 TensorFlow 的一系列准备&lt;/p&gt;</description>
+      <description>关于安装 TensorFlow 的一系列准备
+前期准备 tensorflow 官方推荐安装是通过 pip 安装的，先来看看 pip 是什么
+pip 本质 包安装器
+类似工具 linux 的 rpm(RPM Package Manager，递归写法，类似于 GNU——GNU&amp;rsquo;s Not Unix) nodejs 的 npm(node package manager) java 的 Maven(严谨来说，PyPI 相当于 Maven，包社区) Conda(由 Python 编写，语言无关的跨平台包管理器) Anaconda(本身一个 python 数据科学平台，同时是一个平台无关的包管理器、环境管理器) 名称解释 pip 的解释应该是 Python Install Package 或者 Package Index for Python(个人猜测，暂未找到官方解释)
+因为通过 pip 为 python 安装包时的用法是
+pip install some-package 具体行为 去 PyPI（Python Package Index）下载相关包
+安装 预安装情况 装有大于等于 2.7.9 或 3.4 版本的 python，已预装</description>
     </item>
     
     <item>
@@ -498,7 +519,13 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Thu, 25 Jan 2018 09:59:50 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-01-25-vmware-tools-install/</guid>
-      <description>&lt;p&gt;每次安装虚拟机都忘记怎么安装 vmware tools，而不安装这个东西，用起来总是各种蹩脚，故做此整理。&lt;/p&gt;</description>
+      <description>每次安装虚拟机都忘记怎么安装 vmware tools，而不安装这个东西，用起来总是各种蹩脚，故做此整理。
+背景 虚拟机屏幕不能自适应大小，虽然 vmware 有相关设置，但貌似不能符合使用要求，因此仍需要安装 vmware tools（感觉甚至像一个补丁）来完善 vmware 的使用，比如与宿主机的文件传输等。
+安装前提 VMware Tools 使用 Perl 编写，所以需要装有 Perl
+操作步骤（以 Ubuntu 为例） 从 VMware 菜单栏中选择“安装 VMware Tools” 找到 VMware Tools 安装文件（后缀为 tar.gz 的压缩文件） 打开终端，切换至 root 用户 sudo su 检查是否自动装载 VMware Tools 虚拟 CD-ROM 映像 若已装载 CD-ROM 设备，则列出 CD-ROM 设备及其装载点
+mount df 若未装载，则需安装 CD-ROM 驱动器
+检查装载点目录 可能在/mnt/cdrom 或/media/VMware Tools(例如本例)
+若不存在装载点目录则创建 mkdir /mnt/cdrom 装载 CD-ROM 驱动器 mount /dev/cdrom /mnt/cdrom 某些 Linux 发行版使用不同的设备名称，或以不同的方式组织/dev 目录，若 CD-ROM 驱动器不是/dev/cdrom 或 CD-ROM 装载点不是/mnt/cdrom，则需根据实际情况进行装载</description>
     </item>
     
     <item>
@@ -507,7 +534,23 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Wed, 24 Jan 2018 09:49:03 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-01-24-what-happens-about-url/</guid>
-      <description>&lt;p&gt;探析浏览器访问站点这一行为背后的具体行为。&lt;/p&gt;</description>
+      <description>探析浏览器访问站点这一行为背后的具体行为。
+浏览器地址栏输入网址www.coder.com
+浏览器发送一个 UDP 包给 DNS 服务器
+DNS 服务器返回 coder.com 的 IP
+（optional）浏览器将该 IP 缓存起来，以提高下次访问速度（Chrome 通过 chrome://net-internals/#dns 查看）
+浏览器利用获取到的 IP 发起 HTTP 请求，但是 HTTP Request/Response 必须在 TCP 这个“虚拟的连接”上发送和接收
+建立“虚拟的”TCP 连接需要本机 IP、本机端口、服务器 IP、服务器端口
+本机端口由操作系统给浏览器随机分配
+服务器端口使用相应服务的端口，例如 HTTP 服务：80
+三次握手后，客户端与服务器建立 TCP 连接
+一个 HTTP GET 请求经过多个路由器转发，达到服务器端（HTTP 数据包可能被下层分片传输）
+web 服务器处理请求（三种方式）
+用一个线程处理所有请求，但同一时刻只能处理一个，性能问题严重
+为每个请求分配一个进程/线程，但当连接太多时，服务器端的进程/线程耗费大量内存资源，进程/线程切换导致 CPU 不堪重负
+复用 I/O：众多 Web 服务器采用复用结构，例如通过 epoll 方式监视所有连接，当连接状态发生变化（如有数据可读），才用一个进程/线程对该连接进行处理，处理完继续监视，等待下次变化。该方式可用少量进程/线程应对大量的连接请求
+以 Nginx 为例，对于 HTTP GET 请求，Nginx 利用 epoll 方式读取出来，Nginx 判断该请求是静态 or 动态
+若为静态（HTML、JavaScript、CSS、图片等），依赖于 Nginx 配置，可能转发到其他缓存服务器，可能读取本机硬盘上相关文件直接返回</description>
     </item>
     
     <item>
@@ -516,7 +559,11 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Tue, 23 Jan 2018 09:48:20 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-01-23-linux-password-forget/</guid>
-      <description>&lt;p&gt;这算不上一篇博客，只是不想再重复在解决这个问题上花费时间。另外对于解决方案的原理有待深究。&lt;/p&gt;</description>
+      <description>这算不上一篇博客，只是不想再重复在解决这个问题上花费时间。另外对于解决方案的原理有待深究。
+核心操作 进入GRUB修改 kernel 镜像启动参数
+具体步骤 启动系统时长按 shift，进入 GRUB 引导模式 进入高级模式 选择恢复模式（recovery mode）按 E 键（这里最容易错，是按 e 键编辑启动项，而不是按回车进入） 找到 recovery nomodeset 改为 quiet splash rw init=/bin/bash（挂载硬盘为可读写模式） 按 Ctrl+x 或 F10 进行引导 进入 root@(none):/# 输入 passwd 进行 root 的密码设置 重启 Tip：此方案用于解决 root 密码重置，但如果是 ubuntu，默认是以普通用户登录或游客访问，在登录界面是看不到 root 用户的入口，需要登录普通用户需要 sudo su 来切换 root，但如果普通用户忘记密码，就进不到这一步，这时解决方案则是在第 7 步为 passwd 加上参数，即要设置密码的用户名
+参考
+https://books.google.com/books?id=X3tZDgAAQBAJ&amp;amp;pg=PA191&amp;amp;lpg=PA191&amp;amp;dq=recovery+nomodeset&amp;amp;source=bl&amp;amp;ots=HOI9ga8YBl&amp;amp;sig=J8_HlXL2v9V9BnpNpvXKoPbW2MM&amp;amp;hl=zh-CN&amp;amp;sa=X&amp;amp;ved=0ahUKEwjh0MWQ--zYAhVBl5QKHSfvBd0Q6AEIVDAE#v=onepage&amp;amp;q=recovery%20nomodeset&amp;amp;f=false </description>
     </item>
     
     <item>
@@ -525,7 +572,11 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Sat, 20 Jan 2018 09:22:05 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-01-20-javascript-puzzlers/</guid>
-      <description>&lt;p&gt;关于深入理解 js 的 44 道 wired 题目，经实际验证及分析的学习笔记。&lt;/p&gt;</description>
+      <description>关于深入理解 js 的 44 道 wired 题目，经实际验证及分析的学习笔记。
+[&amp;#34;1&amp;#34;, &amp;#34;2&amp;#34;, &amp;#34;3&amp;#34;].map(parseInt) [1, NaN, NaN] map() map passes 3 params (element, index, array) parseInt take two parameters (val, radix)
+typeof null &amp;#34;object&amp;#34; null instanceof object false typeof always return &amp;ldquo;object&amp;rdquo; for native non callable objects
+[ [3, 2, 1].reduce(Math.pow), [].reduce(Math.pow) ] reduce on an empty array without an initial value throws TypeError array.reduce() Math.pow
+var val = &amp;#34;smtg&amp;#34;; console.log(&amp;#34;Value is &amp;#34; + (val === &amp;#34;smtg&amp;#34;) ?</description>
     </item>
     
     <item>
@@ -534,7 +585,24 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Thu, 18 Jan 2018 09:38:05 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-01-18-how-bitcorn-works-translation/</guid>
-      <description>&lt;p&gt;本文翻译自 13 年一篇关于比特币协议的深度解析文章&lt;/p&gt;</description>
+      <description>本文翻译自 13 年一篇关于比特币协议的深度解析文章
+成千上万篇文章为了解释比特币这一线上、点对点的货币而撰写。大多数文章对于其底层加密协议都只给出一些简短的解释，却忽略了很多细节。甚至那些文章常常掩盖重点进行更深入的研究。我这篇文章的目的是以一种清晰、容易理解的方式解释隐藏在比特币协议后面的主要思想。我们将从第一原则开始，对于比特币如何工作建立一个广义的理论上的理解，然后再深挖其细节，检查比特币交易的原始数据。
+以细节的方式理解协议是一项困难的工作。人们转而接受比特币，并从事投机关于如何通过比特币致富、比特币吧是否泡沫，比特币是否意味着税收结束的一天等等。这很有趣，但是严重限制你理解它。理解比特币的协议细节打开了难以进入的远景。特别是，理解比特币内建脚本语言的基础会使得使用比特币创造新的金融工具成为可能，比如智能合同。反过来，新的金融工具可以被用来创造新的市场并缔造人类行为新的集合形式。聊聊这些趣事吧！
+我会在后面的文章中描述比特币脚本和一些概念，比如智能合同。这篇文章集中解释比特币协议的核心。理解这篇文章你需要对公钥加密以及与其紧密关联的数字签名概念比较熟悉。我将同样假定你对加密散列概念熟悉。以上这些都没有特别难理解的。基本概念都会在大学的大一数学课程或者计算机课程中教授。这些概念很优雅，所以如果你对于他们不是很熟悉，我建议你先花一点时间熟悉一下。
+也许看上去比较神奇，比特币的基础是密码学。比特币不是一种货币？不是一种发送秘密信息的方式？事实上，比特币需要解决的事情大部分是安全事务——确保人们不能互相窃取，或者伪造等等。在原子世界我们通过一些设备，例如锁、保险箱、签名、银行金库实现安全。在比特世界我们通过加密实现安全。这也是为什么比特币的核心是加密协议。
+我在这篇文章中的策略是分阶段建立起比特币。我会通过解释一种非常简单的数字货币开始，所基于的思想几乎显而易见。我们将称其信息货币（Infocoin），以区分于比特币。当然，我们第一个版本的信息币会有很多不足，然后我们会经过多个迭代，每个迭代介绍仅仅一或两个新的想法。经过多个迭代后，我们将达到完整的比特币协议。我们将重新发明了比特币。
+这种策略比起我一次性解释整个比特币协议要慢。但是当你通过这样一次性解释的方式理解了比特币机制时，再去理解比特币为什么这样设计就会很困难。这种通过慢迭代的解释方式优势在于可以让你对于比特币每一个元素理解得更加犀利。
+最后，我应该提及对于比特币我也是个新手。我从 2011 年开始松散地关注（在 20 世纪 90 年代末开始关注加密数字货币），但直到今年早些时候才着重关注比特币协议的细节。所以我将非常感激对于我误解部分的指正。另外在本篇文章中我还包含了很多“留给读者的问题”——在我写作过程中对于新冒出的问题的一些笔记。你会发现这很有趣，但你也可以把它们全部跳过以免丢失全文的线索。
+第一步：签名意图信
+所以我们该如何设计一个数字货币呢？
+从表面上来看，数字货币听起来是不可能的。假设某个人，让我们称其 Alice，她有一些电子钱想花掉。如果 Alice 想使用一串比特字符作为钱，我们如何才能阻止她反复使用相同的比特字符串呢？否则将意味着会产生无穷无尽的钱。或者假如我们可以通过某种方式解决这个问题，但我们如何才能防止其他人伪造这样一串比特字符并用来偷取 Alice 的钱呢？
+这些只是众多问题中的两个，必须被克服以为了使用信息作为货币。
+作为信息币的第一个版本，让我们找到一个方法使得 Alice 可以使用一串字符（非常原始和不完整）作为货币的形式，以某种至少保证她的货币不会被伪造的方式。假设 Alice 想给 Bob 一个信息币。为了这么做，Alice 写下一行字符串“我，爱丽丝，给 Bob 一个信息币”。然后她用私钥给这条信息做了数字签名，并告知全世界 这段签过名的字符串。
+（顺便提一下，我使用首字母大写的 Infocoin 表示信息币协议及一般概念，用首字母小写的 infocoin 特指货币面值，类似用法很常见，虽然在比特币的世界不通用）
+这并不是一个令人非常影响深刻的数字货币原型。但它的确有一些优点。世界上的任何人（包括 Bob）可以使用 Alice 的公钥去确认 Alice 的确是“我，爱丽丝，给 Bob 一个信息币”这条信息签名的主人。没有其他人可以造出这条比特信息。但反过来，Alice 也可以说“不，我没说要给 Bob 一个信息币”。所以这个协议建立在 Alice 真的想给 Bob 一个信息币。同样的事实——没有其他人可以构造这样一条签名信息——也给予 Alice 一些防止其他人伪造的有限保护。当然，在 Alice 创建她的这条信息后也可能其他人复制了这条信息，这样的话伪造是可能的。但无法从头伪造。这两种属性——Alice 建立企图的部分和防止伪造的有限保护部分，是这个协议值得注意的特征。
+我在这个协议中没有（非常）准确地讲数字货币是什么。为了使其明确：特指这条信息本身，例如，这行比特字符串展示了数字货币“我，爱丽丝，给 Bob 一个信息币”。后面的协议类似，我们所有数字货币的形式只是会越来越复杂。
+使用序列号来使得货币被唯一标识
+第一个版本的信息币的问题在于 Alice 可以一次又一次地继续向 Bob 发送相同的签名消息。假定 Bob 收到了十份“我，爱丽丝，给 Bob 一个信息币”这样的拷贝签名信息。意味着 Alice 向 Bob 发送了十个不同的信息币吗？她的信息是巧合复制出来的吗？可能她只是试图戏弄 Bob 使其相信她给了他十个不同的信息币，当这条信息向全世界证明才表示她真的企图传送一个信息币。</description>
     </item>
     
     <item>
@@ -543,7 +611,18 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Wed, 17 Jan 2018 11:41:10 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-01-17-webpack-basic/</guid>
-      <description>&lt;p&gt;关于 Webpack 基础使用的整理&lt;/p&gt;</description>
+      <description>关于 Webpack 基础使用的整理
+背景 网站由网页模式进化成 Webapp 模式
+网站运行在高级浏览器中，使用 HTML5、CSS3、ES6 等新技术
+webapp 通常是单页面应用（每一个视图通过异步方式加载，导致页面初始化和使用过程会加载更多的 js 代码）
+前端开发基于多语言、多层次编码和组织工作，交付基于浏览器，需要保证代码和资源在浏览器端快速优雅的加载和更新，亟需模块化系统
+传统方式 &amp;lt;script src=&amp;#34;module1.js&amp;#34;&amp;gt;&amp;lt;/scrpti&amp;gt; &amp;lt;script src=&amp;#34;module2.js&amp;#34;&amp;gt;&amp;lt;/scrpti&amp;gt; &amp;lt;script src=&amp;#34;module3.js&amp;#34;&amp;gt;&amp;lt;/scrpti&amp;gt; ... 弊端 全局作用域（定义在 window 对象下）下易造成变量冲突
+文件只能按照脚本引入的顺序加载
+需要主观解决模块和代码库的依赖关系
+大型项目中资源难以管理，长期积累导致代码库混乱不堪
+CommonJS 服务端的 Node.js 遵循 CommonJS 规范
+核心思想 允许模块通过 require 方法来同步加载要依赖的其他模块 通过 exports 或 module.exports 导出需要暴露的接口 require(&amp;#34;module&amp;#34;); require(&amp;#34;../file.js&amp;#34;); exports.doStuff = function() {}; module.exports = someValue; 优势 服务端模块便于重用 NPM 中已有大量可用模块包（20w） 简单易用 缺陷 同步的模块加载方式不适合在浏览器环境中，同步意味着阻塞加载，浏览器资源是异步加载的 不能非阻塞的并行加载多个模块 ES6 模块 ES6 标准增加了 js 语言层面的模块体系定义
+ES6 的设计思想是尽量的静态化，使得编译时就能确定模块的依赖关系，以及输入和输出的变量。</description>
     </item>
     
     <item>
@@ -552,7 +631,11 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Tue, 16 Jan 2018 11:38:31 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-01-16-api-designing-translation/</guid>
-      <description>&lt;p&gt;本文翻译自 Effective Java 作者 Joshua Bloch 撰写的一篇关于 API 设计的分享&lt;/p&gt;</description>
+      <description>本文翻译自 Effective Java 作者 Joshua Bloch 撰写的一篇关于 API 设计的分享
+API 可以是公司最大的资产之一 客户投入巨资：购买、撰写、学习（售前一系列培训） 停止使用 API 导致的花费令人望而却步（如果不使用 API 可能要花费更多） 成功的公共 API 赢得客户 也可以成为公司最大的负债之一 糟糕的 APIs 将导致无休止的电话技术支持（需要接听很多来自客户的反映） 公共的 APIs 是永久的——一次去做正确事情的机会
+为什么 API 设计对于你来说很重要 如果你编码，你就是一个 API 的设计者 良好的代码应该是模块化的——每一个模块都有一个 API 有用的模块往往被重用 对于 API 方面的思考将提高代码的质量
+好的 API 所具备的特征 易于学习 易于使用，甚至无需任何文档 不易误用 易于阅读并且对所使用的代码部分易于维护 足够强大以满足需求 易于拓展 适用于大众 大纲 API 设计的过程 一般原则 类设计 方法设计 异常设计 API 重构设计 I API 设计的过程 收集需求——以一种健康的程度怀疑
+通常你会得到建议的解决方法作为替代方案 可能存在更好的解决方案 你的工作是去提取出真正的需求 应采取用例的形式 可以更容易、更有意义地建立更普遍的东西 从简短的规范页开始比较理想 在这个阶段，敏捷胜过完整性 和尽可能多的人谈（原文：Bounce spec off as many people as possible） 倾听他们的输入并认真对待 如果你保持规范简短，那么将易于修改 充分自信 这涉及到编码时也很必要 尽早写给你的 API 以下应开始于在你实现 API 之前</description>
     </item>
     
     <item>
@@ -561,7 +644,22 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Tue, 28 Nov 2017 12:38:01 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-11-28-vultr-billing-and-ssr-on-vultr/</guid>
-      <description>&lt;p&gt;今天就之前疑惑不解的 vultr 账单做了一波分析，终于算是破案了，借此也记录一下服务器搭建 ssr 的详细步骤。&lt;/p&gt;</description>
+      <description>今天就之前疑惑不解的 vultr 账单做了一波分析，终于算是破案了，借此也记录一下服务器搭建 ssr 的详细步骤。
+一开始打开 vultr 账单，我是懵比的
+这里面的加加减减使我很费解，不知道 vultr 的记账方式，也不知道它的扣款方式（原因是我从开通账户后就毫无规律的充值，但服务器的使用却一直未受影响而断过）
+首先我第一反应是看我总共实际花了多少钱。
+我的 vultr 是绑定 Paypal 作为付款方式，而 Paypal 中绑定了两张银行卡，一张储蓄卡，一张信用卡，在查阅了银行卡关于 paypal 的消费记录后统计如下
+然后我试着从 vultr 账单中与之响应对账
+的确找到四笔是通过 paypal 消费的
+现在证实了一点，我一共在 vultr 花费了 17.65 美元，折合人民币 123.6 元
+那么接下来再通过这四笔明确的消费来反推其他账单记录的含义，发现一笔比较特殊的
+计算得到
+由此可见 vultr 是按小时计费，一开始承诺的每月 5 美元，指的是如果你用满一个月（744 个小时，31 天）为 5 美元，而使用就是指你的服务器开启着（记录中一开始有十几天没计费应该是我虽然开通了 vultr 并且也充了值，但是没建立服务器实例，或者说建立的实例没开启）
+归根结底，当服务器开启，每个月还是相当于 5 美元的，这样再看账单可以清晰一点
+那么更进一步，我回想到之前按照首页提示的奖励金额去关注了 vultr 的 twitter 账号，所以有了 11 月这三笔记录
+这三笔很明显是系统审核我的行为后为我以信用账户（accout credit）的方式分别充值了 3 美元
+至此，整体应该算是破案了，我们可以用类比的思想（把陌生的事物类比成熟悉的事物，以便理解）可以理解为，vultr 在开通账户的时候是需要先付款后消费，不存在试用（先免费用，再补交费用）的情况。
+但是当开通账户并充值以后，它的收费方式是每月 1 号，结算上个月的消费实际情况，会给你账单记录中发送一枚发票（invoice），你使用 paypal 进行的主动充值也会有所记录。但是可以先消费，后缴费。具体体现就是你这个月使用的费用是下个月 1 号结算，如果到时候你的 vultr 账户余额不足，它就会从你绑定的支付方式（比如 paypal 或信用卡）中自动扣款。</description>
     </item>
     
     <item>
@@ -570,7 +668,16 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Fri, 17 Nov 2017 17:39:36 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-11-17-hexo-backup-using-git-branch/</guid>
-      <description>&lt;p&gt;使用一台电脑使用 hexo 创建博文、生成静态文件、发布，没毛病，但由于 hexo 在本地生成静态文件的模式，如果你换一台电脑呢？很明显你需要把原始电脑上的 hexo 文件夹拷贝到新电脑。这样带来的问题就是多台电脑上的 hexo 不能总保持同步，需要通过物理拷贝的方式，很不方便。&lt;/p&gt;</description>
+      <description>使用一台电脑使用 hexo 创建博文、生成静态文件、发布，没毛病，但由于 hexo 在本地生成静态文件的模式，如果你换一台电脑呢？很明显你需要把原始电脑上的 hexo 文件夹拷贝到新电脑。这样带来的问题就是多台电脑上的 hexo 不能总保持同步，需要通过物理拷贝的方式，很不方便。
+正文 实现方式可能有多种，但我看到的主流方式是通过在远端仓库添加分支来保存 hexo 原始文件来将你的整个博客工程交由 git 管理。
+hexo 本身的确是通过 git 发布到远端的，也就是借助 hexo-deployer-git 这个 nodejs 模块，但其功能是将 hexo 发布目录（public）里的静态文件上传至远端仓库，因为远端仓库是通过 pages 服务直接访问仓库文件，需要保证仓库文件符合 web 可访问结构。
+假如你把 hexo 原始工程目录上传到你的同名仓库来实现 pages 服务，是无法正常访问的。
+那么我们可以再建一个仓库来管理 hexo 原始工程文件，但没必要，这里通过在原仓库上添加分支来保存 hexo 原始工程文件，达到管理的目的。
+操作步骤 hexo 主目录默认有一个.gitignore 文件，暗示可以通过 git 管理 hexo 主目录
+可以在 hexo 主目录通过 git bash here 唤出 git bash，然后 git 初始化 hexo 主目录
+git init 这样 hexo 主目录会多一个隐藏目录.git
+创建本地分支，与远端的分支对应
+git checkout -b source 然后将 hexo 主目录的所有文件按照.</description>
     </item>
     
     <item>
@@ -579,7 +686,18 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Fri, 17 Nov 2017 10:09:16 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-11-17-markdown-programmer/</guid>
-      <description>&lt;p&gt;虽说 markdown 用了一段时间，但还未曾专门地阅读文档对其进行过相对系统的学习。刚才使用分割线时发现分割线下面的文字变成标题般字体，专门查了一波，发现还是有必要系统学习一下 md 语法，以节省日后使用时的查阅时间。&lt;/p&gt;</description>
+      <description>虽说 markdown 用了一段时间，但还未曾专门地阅读文档对其进行过相对系统的学习。刚才使用分割线时发现分割线下面的文字变成标题般字体，专门查了一波，发现还是有必要系统学习一下 md 语法，以节省日后使用时的查阅时间。
+宗旨 易读易写
+一份使用 markdown 格式撰写的文档理应可以直接以纯文本发布，也就意味着 markdown 的一系列标签语法对于纯文本来说应该是低浸入、无感知的，用户阅读不会因为增加了 md 标签而变得晦涩。
+这点区别于 HTML 语言至少还需要掌握 HTML 编程语法，才能理解部分标签的使用规则。
+灵感 markdown 最大灵感源自纯文本电子邮件的格式（可能人们对于纯文本的电子邮件格式觉得太过单调，于是通过添加一些小标记，来增加丰富的格式）
+目标 成为一种适用于网络的书写语言 markdown 并非要取代 HTML，甚至也没有要和它相近。
+相比 HTML，markdown 语法种类少，仅对应 HTML 标记的一小部分
+让文档更容易读、写、随意改 易读的前提就是 md 的标记需要尽量的没有侵入感，比如一篇纯文本文档增加 md 标记后不会影响原始阅读感受
+易写易改的要求则是 md 的语法标记需要同 HTML 一样“语义化”，能够见标知意
+兼容 HTML 区块标签 一些 HTML 区块元素比如&amp;lt;div&amp;gt;、&amp;lt;table&amp;gt;、&amp;lt;pre&amp;gt;、&amp;lt;p&amp;gt;等，必须在其前后加上空行与其他内容隔开，并且开始标签与结束标签不能用制表符（Tab）或空格来进行缩进。 （下面实例的缩进实现方式是通过 HTML 的 pre 标签，使其内部的 markdown 语法失效）
+比如这里的 HTML 标签如果我想要以标签的样子显示在屏幕上，那我其实需要在文本里通过 md 标记来编辑，类似使用 code 标签、转义字符（通过转义字符来“画出”尖括号，code 标签可以使其成为块状文本）
+另外，markdown 生成器不会在 HTML 区块标签外加上不必要的&amp;lt;p&amp;gt;标签，区别于对于 HTML 文本进行编辑时，若你写了大段内容而未加任何标签的话，HTML 生成器会为你在内容前后加上&amp;lt;p&amp;gt;标签</description>
     </item>
     
     <item>
@@ -588,7 +706,21 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Fri, 17 Nov 2017 09:54:33 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-11-17-git-learning/</guid>
-      <description>&lt;p&gt;对于 Git 学习的一些整理，包含常用命令整理&lt;/p&gt;</description>
+      <description>对于 Git 学习的一些整理，包含常用命令整理
+个人觉得，对于一些开源工具，最好的学习资源还是其官网，我们就先来分析一波 Git 究竟是做什么的。
+概念解析 git 官网的定义是：Git 是一种免费并且开源的分布式版本控制系统，被设计用来快速高效地处理堆积成大工程的每一块小部分。（个人翻译，不喜勿喷）
+Git 简单易用、占用空间小并且性能优越。它远超过一些伴有类似廉价的本地分支、方便的阶段区域和多工作流特点的配置管理工具（SCM，Software Configuration Management），比如 SVN、CVS、Perforce 和 ClearCase 这些。
+Git 允许同一组下的人们同一时刻在相同的文档上工作（通常是代码），并且不会踩到其他人的脚趾（形容两个人同时在相同的文档上工作也不会发生冲突）
+特性 小而快速（Small and Fast） 分布式（Distributed,这也是它比 SVN 优势明显的地方） 数据保证（Data Assurance） 分阶段区域（Staging Area） 免费并开源（Free and Open Source） 教程 初级教程：Try Git
+高级教程：gitreal
+官方书籍：Pro Git
+使用步骤（包含常见命令） 1.初始化
+git init init 命令会创建一系列 git 结构的文件
+仅对一个制定目录创建 git 结构时使用，用于将某个目录交给 git 管理
+2.查看 git 状态
+git status 可在任何时间阶段使用， 以查看当前 git 管理下的文件状态
+3.将文件交予 git 管理
+git add filename 对于在 git init 后的目录里的每一个文件都有 tracked 和 untracked 两种状态，也就是是否被 git 追溯（管理）</description>
     </item>
     
     <item>
@@ -597,7 +729,18 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Thu, 16 Nov 2017 15:57:50 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-11-16-centos-iptables-and-firewalld/</guid>
-      <description>&lt;p&gt;centos 内置一个非常强劲的防火墙，统称为 iptables，实际原理是 iptables 是用户空间的模块，在内核中存在一个 netfilter 核心模块用于实现 iptables 中设置的规则，进行底层的实际过滤。&lt;/p&gt;</description>
+      <description>centos 内置一个非常强劲的防火墙，统称为 iptables，实际原理是 iptables 是用户空间的模块，在内核中存在一个 netfilter 核心模块用于实现 iptables 中设置的规则，进行底层的实际过滤。
+iptables 关键字 IP 地址 协议（TCP、UDP、ICMP） 端口 原理 iptables 将规则放入缺省规则链（INPUT、FORWARD、OUTPUT），所有流量（IP 封包）会被相关的规则链检查，根据规则处理每个封包（ACCEPT/REJECT），这些动作称为目标（target）
+INPUT：以主机为目的地的封包 FORWARD：封包的目的地和来源地都不是主机，途经主机（由其选路），比如主机是路由器，这条规则链将被应用 OUTPUT：源自主机的封包
+每个封包会逐一匹配每条规则，若符合某一条规则，响应动作将被执行（ACCEPT/REJECT），一旦吻合一条规则，则不再被其他规则检查。若所有规则都不匹配，将会执行这条规则链的缺省动作（即括号内的缺省策略）
+使用方式 白名单方式：即规则链缺省规则设为 REJECT，仅对符合某些条件的封包进行放行，例如：bittorrent、FTP 服务器、网页服务器、Samba 文件服务器
+黑名单方式：规则链缺省策略设置为 ACCEPT，对需要拦截的封包做拦截 REJECT
+一般白名单用于 INPUT 规则链，用于控制目的地为主机的封包，黑名单用于 OUTPUT 规则链，用于控制由主机流出的封包
+使用 iptables 需要 root 用户操作
+iptables 是缺省安装在 centos5.x 及 6.x 上，而 centos7.x 使用 firewalld 取代之
+先使用 rpm -q iptables 查看 iptables 是否安装在系统上
+lsmod | grep ip_table 检查 iptables 模块是否被装入，
+当 iptables 模块被装入后可通过 iptables -L 查看活动规则</description>
     </item>
     
     <item>
@@ -606,8 +749,17 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Tue, 14 Nov 2017 14:15:57 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-11-14-stackexchange-vs-quora/</guid>
-      <description>&lt;p&gt;今天在查问题的时候偶然进了一篇 StackExchange 的帖子，无论是站点名字还是首页界面，第一反应都是：StackOverFlow？&lt;/p&gt;
-&lt;p&gt;查阅相关说明之后了解了二者的关系，StackExchange 是在 StackOverFlow 成功推出以后，在其基础上将仅仅讨论编程问题的网站拓展成话题更丰富的论坛。&lt;/p&gt;</description>
+      <description>今天在查问题的时候偶然进了一篇 StackExchange 的帖子，无论是站点名字还是首页界面，第一反应都是：StackOverFlow？
+查阅相关说明之后了解了二者的关系，StackExchange 是在 StackOverFlow 成功推出以后，在其基础上将仅仅讨论编程问题的网站拓展成话题更丰富的论坛。
+当更加深入了解二者关系之余发现一篇关于对比 StackExchange 和 Quora 二者区别的帖子写得很清楚，特将其翻译如下：
+正文 简短版本： StackExchange 是你的助教 Quora 是你的酒保
+Quora 是你认识的那个足迹遍布很多角落，品尝过城市每一家餐厅的人 StackExchange 是一个受过专业训练的专业帮助者
+StackExchange 是一个指导手册（详细，包含有用的例子） Quora 是一个著名的在其演讲后回答问题的知识分子
+详细版本： 想真正理解这二者，你需要从 the lens of purpose（目标透镜）看这个问题，从那里你能了解到一个专门的推送（see pull request at github?），它会从本质上讲清楚二者的区别。你会知道以下绝非偶然——Quora 不想成为 StackExchange，StackExchange 也不想成为 Quora，并且它们按照各自的方式建设以促进它们各自的目的。
+正如 Manish 所述，Quora 是关于“消费”,但它也关乎好奇。也就是，我在阅读问题的时候更多的是被动的，大多时候我可能会在 Quora 的邮件中看到一个有趣的问题之后发现自己想要的。我会阅读问题的答案（或者不止几个），然后查看站点上推荐给我的相关问题，同时我也会阅读它们。这些问题中很少数曾“逼迫”我去寻找一个答案，但我就是充满好奇并且想要了解更多。
+StackExchange 不同于其他在于其基于目的或者基于问题。我来到 StackExchange 大多情况是通过搜索引擎，因为我在处理某些事情上遇到问题并且需要答案。它绝大多数时候当然充当了一个技术支持，经常可以处理……(未完待续)
+尾声 通篇下来个人觉得充满了蹩脚的翻译，这篇文章看起来大体可以理解作者的意思，但落实翻译对于我而言是不小的挑战。
+个人比拟 国外网站 对应 国内网站 StackExchange &amp;lt;&amp;mdash;&amp;gt; 暂无 Quora &amp;lt;&amp;mdash;&amp;gt; 知乎 StackOverFlow &amp;lt;&amp;mdash;&amp;gt; SegamentFault 相关链接 原文链接 </description>
     </item>
     
     <item>
@@ -616,7 +768,27 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Thu, 09 Nov 2017 17:37:16 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-11-09-about-load-balance/</guid>
-      <description>&lt;p&gt;均衡，存乎万物之间&lt;/p&gt;</description>
+      <description>均衡，存乎万物之间
+负载均衡（Load Balance）是指将请求均匀分摊到多个操作单元上执行，关键在于均匀
+本来在学习过反向代理这个概念以后以为负载均衡就是反向代理在服务端将来自客户端短时大量的访问请求做分发，将其分配到多台提供相同服务的服务器上。 看了负载均衡以后发现其实负载均衡是一个很宏观的概念，上述的理解存在一定偏差。
+负载均衡旨在将特定的业务分担给多个服务器或网络设备，从而提高业务处理能力，保证业务的高可用性。
+（负载均衡用于缓解极大量的访问请求，所以下面的场景都基于同时来自客户端大量的访问请求）
+首先，我上面的理解在实际的负载均衡中其实表述的是【DNS 层】（客户端-&amp;gt;反向代理层）的负载均衡，这一层的负载均衡由 DNS 服务器实现。
+具体也就是当用户通过网站域名访问服务时，为了负载均衡，同一域名会配置多个解析 IP，每当 DNS 解析请求来访问 DNS 服务器时，它会轮询这些 IP，并保证每个 IP 的解析概率相同（均匀），这些 IP 就是 nginx 的外网 IP。
+然后拿到某台 nginx 的 IP 也就结束了第一层的负载均衡
+接下来，来到【反向代理层—&amp;gt;站点层】，这一层的负载均衡通过 nginx 的配置实现，策略有很多种：比如轮询、IP 哈希、URL 哈希、权重等
+请求轮询：类似 DNS 轮询，请求依次被路由到每一个 web 服务器
+最少连接路由：将请求路由到连接数最少的 web 服务器
+IP 哈希：通过客户端 IP 的哈希值来路由到某一个 web 服务器（只要用户 IP 分布均匀，理论上路由的路径就是均匀的），这样同一个用户的请求会固定路由到固定的某一台 web 服务器上，该策略适合有状态服务，比如 session（但不建议这么做，因为站点层无状态是分布式架构设计的基本原则之一，session 最好放在数据层存储）
+然后是【站点层-&amp;gt;服务层】的负载均衡，该层通过服务连接池实现
+上游连接池与下游服务建立多个连接，每次请求会“随机”选取连接访问下游服务
+最后是【数据层】负载均衡
+当数据量十分庞大的时候，数据层（db，cache）可能会进行数据的水平切分，于是该层的负载均衡包含“数据均衡”和“请求均衡”两部分
+数据均衡指：水平切分后的每个服务（db，cache），彼此之间数据量均匀
+请求均衡指：水平切分后的每个服务（db，cache），彼此之间请求量均匀
+常见水平切分法如下：
+按照数据范围切分：每个数据服务存储一定范围内的数据 DataServiceA：存储 uid 为[1-1kw)内的数据 DataServiceB：存储 uid 为[1kw-2kw)内的数据
+优点：</description>
     </item>
     
     <item>
@@ -625,8 +797,27 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Thu, 09 Nov 2017 09:55:14 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-11-09-about-career/</guid>
-      <description>&lt;p&gt;最近几天开发任务不甚紧张，每天可能一部分是在读博客或者写博客。在此过程中，突然想给自己炖一锅鸡汤醒醒脑。&lt;/p&gt;
-&lt;p&gt;作为一个软件工程毕业的人，或许更宏观的讲，作为一个计算机专业毕业的人，该怎么规划自己的职业生涯呢？&lt;/p&gt;</description>
+      <description>最近几天开发任务不甚紧张，每天可能一部分是在读博客或者写博客。在此过程中，突然想给自己炖一锅鸡汤醒醒脑。
+作为一个软件工程毕业的人，或许更宏观的讲，作为一个计算机专业毕业的人，该怎么规划自己的职业生涯呢？
+（这里不讨论想转行的同学们，我很幸运当初坚持了自己的选择和判断，由于兴趣，入行了计算机，如今应该称呼为“互联网”领域）
+过程在我看来是先易后难的
+第一阶段 刚毕业的两三年，甚至五年，可能都是知识储备期，也就是技术积淀期。当然，打牢基础并不意味着沉迷基础，走走停停，及时看清楚技术风向标，是避免徒劳无功的基本意识。
+在打牢基础的这几年应该做什么？或者说应该培养哪些能力
+专业基础自然不用说，那是最基本的敲门砖，可能在学生时代，每个人的专业能力还都参差不齐，但步入职场后，对于每个从事技术工作的人，在技术基础方面的要求都是“一视同仁”的，也就是对于从事各个不同技术方向的人，你的技术栈都应该是完整的。为什么说这些是最基本的呢，因为这些东西大多是“死”的，也就是不管量有多少，甚至还在不断增加，但它的本质几乎不会发生质的变化，所以关乎技术的东西，你可以从学校、书籍或者人那里都可以习得，而后面要讲的第二阶段的技能可能不是单纯靠“学习”便可拥有的。
+那么能力方面应该涉及哪些呢？个人总结如下（其实在不管大型还是初创的各个互联网公司招聘中也能经常看到这些字眼）：
+学习能力：首屈一指必然是学习的能力，因为这一点决定你“可拓展性”有多强，这里的学习能力指的是活学活用以及持续学习的能力。假如你是以初高中某些死记硬背或者应试手段的学习方法，我不敢保证那样的收益如何，因为我不曾有过以那样的方式的学习经历。另外就是持续学习的概念，这种需求其实是由时代滋生的，因为如今的时代决定了你很难（我没有说“不可能”的字眼）以固定的知识量驾驭你的整个职业生涯。 综合上面两种学习的能力其实也就自然带来你上手新事物的能力，比如公司派你去负责完成一项新的任务，使用的是一项你从未接触过的技术，那么此时如果你是拥有学习的能力，而不是仅仅拥有定量的知识，那么任何新事物你自然都能搞定。
+理解能力：这是一个输入+分析的过程（Input &amp;amp; Process），理工一点的说法类似计算机的核心（CPU）处理任务方式。理解能力决定你在学习一项新事物时的效率，比如如果你对一个事物在最初认识的时候发生了偏差，那可能你用的劲越多，就越偏离理解它的正规。另外逻辑思维也在此体现出重要的作用，可能单纯的理性思维并不能帮助你快速地认识到新事物的本质，有时候可能还需要一些感性思维，Maybe 想象力.etc
+沟通能力：这是一个输出的过程（Output &amp;amp; Translate），有时候单纯一味地输入未必可以发挥你所掌握知识的最大价值，技术需要分享，而交流就是一个有效媒介。但是有时候知识的传递在一些糟糕的表达后会变得晦涩难懂，所以良好的表达能力才会成为知识传播的有效大使。另外，有效的沟通势必带来 1+1&amp;gt;2 的收益，这样既节省时间又提高效率的多赢结果是大家都希望看到的。
+第二阶段 这些技能大多基于经验主义，并且没有标准答案
+判断力：“错与对”、“进与退”、“黑与白”（太极思想，黑中有白，白中有黑）的判断是永恒的难题（突然想到明天即将上映“马爸爸”的《攻守道》）
+趋势/形势判断：趋势的判断往往决定你路程的远近，这东西可大可小，小在一笔小额的投资，大在一个集团的定位，如果仅有埋头苦干的踏实，而没有远瞻未来的判断，想必很难成为一位成功的管理者。而形势的判断其实就是一句“识时务者为俊杰”，何时放手一搏，主动出击，何时及时止损，这里的学问也是需要经验的不断积累来沉淀所得。
+决策能力：如果你进行统计，其实我们每一天的所有行为串起来就是一颗巨大的决策树，每一个分支的两种选择都会带来不同的结果，而如此累积，将会因为每一步的不同而带来巨大差异的结果，这也就是所谓世界上没有两片相同的叶子，两个人尽管处于相同的环境，接收相同的知识，完成相同的任务，也会在日积月累的微小差异中变成两个独一无二的个体。
+能否做出正确的决策，能否果断地做出决策，能否预知不同决策带来的结果，能否对结果负责，这一点其实在 AlphaGo 与人类围棋对决中就已经证明了计算机在决策方面已经掌握非常强大的能力，人类如果不增强自己的优势，可能等待你的只是“智能危机”。
+前面三项能力或多或少都和选择有关，这也是为什么讲“有时候，选择比努力更重要”
+是否注重细节：每个领域都会有大量的同类竞争，能够另辟蹊径的毕竟是少数，那么如何在“大家都差不多的”的情况下脱颖而出，细节方面至关重要
+能否抵抗诱惑：新手大多急于求成，急功近利，而老手则懂得放长线钓大鱼
+这些能力没有人能教的了你，同时也是决定你能否成为一个拥有独立完整人格的个体。
+后续 未来毕竟还是很难预知的，所以我也不想给自己太远的未来做太过具体的规划，每个人都有自己的想法和规划，我的观点不一定适用别人，所以本篇博文也仅仅是一篇与自己灵魂的对话，仅此而已。</description>
     </item>
     
     <item>
@@ -635,7 +826,18 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Wed, 08 Nov 2017 10:25:17 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-11-08-setup-blog-using-hexo/</guid>
-      <description>&lt;p&gt;用了一段时间的 hexo，本着“授人以鱼，不如授人以渔”的理念，决定整理一篇 hexo 使用教程，分享大家。&lt;/p&gt;</description>
+      <description>用了一段时间的 hexo，本着“授人以鱼，不如授人以渔”的理念，决定整理一篇 hexo 使用教程，分享大家。
+hexo 是一种快速、简单并且强大的博客框架，你可以通过使用 markdown 或者其他语言撰写 post（帖子），然后 hexo 引擎将其生成静态网页文件（当然，官网的说法是“在数秒内生成伴有漂亮主题的静态文件”）并以博文的形式显现出来。
+写在前面 本文定位于面向非专业人士角度撰写的科普式教程，有专业基础的人可跳过大多步骤，仅阅读标*部分
+背景 应@JXY 邀，要我教他搭建个人博客，于是也就找了一个足够的理由来回顾一波如何使用 hexo 搭建个人博客。
+既然给别人讲东西，那自然要先对讲的东西深入了解，不然就是误人子弟了。于是打开hexo 官网，发现！竟然！被！墙！了！好吧，后来发现是 9 点多被墙了一段时间（貌似是 hexo 使用的 CDN 服务 Cloudflare 被 block 了），介于避免日后再想参考官网文档时无法及时访问，索性这次就把官网的一些精华翻译下来，留作日后参考。
+*核心步骤 先看官方给出的安装步骤
+准备篇 首先你要做好准备掌握以下几项东西：
+git nodejs bash 命令 好吧，这样讲未免显得门槛略高，其实 hexo 是一种非常零门槛的工具，只要你想学，任何没有专业知识的人都能用起来，只要照着做就可以了
+环境搭建篇 第一步：在电脑安装git（如果下载不了,可以通过我的网盘下载git） git 是一个伟大的版本控制软件，它的作用在于作为一个代码提交工具，将你编写的每一行代码（或文字）存放到一个代码仓库，它在其中起到记录你每一次提交历史的作用，这样你就可以对自己的每一次提交历史有直观的查看，并且可以对比不同版本之间的区别，还可以回退到某一个提交历史节点，还有 balabala 很多好处。
+第二步：安装 nodejs 当你安装好了 git 以后，可以鼠标右键唤出 git
+方式一 然后你就可以很方便的安装 nodejs 了，通过如下命令先安装 nvm（此方式适用于专业人士，非专业人士请参考后面下载安装包的方式二）
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash nvm 是 nodejs version manager，nodejs 版本管理器，用以在机器上安装并维护多个 node 的版本</description>
     </item>
     
     <item>
@@ -644,7 +846,23 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Tue, 07 Nov 2017 16:41:24 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-11-07-about-nginx-reverse-proxy/</guid>
-      <description>&lt;p&gt;之前一直对&lt;strong&gt;反向代理&lt;/strong&gt;这个概念理解的很模糊，网上参阅了很多解释，看完也是觉得不够信服，相比较而言觉得解释的还算良好的是知乎上看到的一个&lt;a href=&#34;https://www.zhihu.com/question/24723688&#34;&gt;回答&lt;/a&gt;，但看了之后也仅限于“当时理解，过后就忘”，于是今天再次在 stackoverflow 看到的解释版本，特此翻译整理，留作备忘。&lt;/p&gt;</description>
+      <description>之前一直对反向代理这个概念理解的很模糊，网上参阅了很多解释，看完也是觉得不够信服，相比较而言觉得解释的还算良好的是知乎上看到的一个回答，但看了之后也仅限于“当时理解，过后就忘”，于是今天再次在 stackoverflow 看到的解释版本，特此翻译整理，留作备忘。
+原文链接：https://stackoverflow.com/questions/224664/difference-between-proxy-server-and-reverse-proxy-server/366212#366212
+如果当你访问不了这个链接的时候，也就说明，GFW 限制了大陆网络内的主机访问 stackoverflow 的网站内容，此时你即需要通过代理服务器来作为你的代理，帮你取拿到远端 stackoverflow 网站上的内容取回给你，这就是正向代理的使用实例。
+而反向代理其实更常见，因为它充斥在我们每一天的网上冲浪之中，只不过你意识不到罢了（注意！这也就是正向代理和反向代理很大的特征区别之一：正向代理需要你去寻得一个代理来帮助你访问你访问不了的服务器资源，而反向代理是服务器端使用的代理，来处理你提交的访问请求，所以作为客户端的你是意识不到代理的存在的）。
+比如你通过浏览器访问百度网搜索一个条目，或者直接在地址栏输入 stackoverflow.com，然而这个行为在互联网中有太多用户在做，所以百度或者 stackoverflow 的服务器不一定能够驾驭这么大的访问量，此时他们可能会把相同的服务部署在 N 多台服务器节点上，然后你其实访问到的是那些提供反向代理的服务器，反向代理服务器将大量的请求做了负载均衡处理，再把这些请求均衡合理地分配到那些提供相同服务的不同服务器节点上，这就是反向代理的实例。
+接下来是本人对于 stackoverflow 上精彩回答的翻译，如有不准确之处请指正
+前面的回答都很准确，但可能太过于精简了。我会试着增加一些例子。 首先，“代理”这个词描述了某个人或者某个事物扮演着代表另一个人的角色。在计算机领域，我们讨论的即是一台服务器扮演着代表另一台计算机的角色。为了保证观点可达性（即观点可以被很容易的理解）这一目的（这句感觉翻译的不太好），我会限制我的讨论仅限于“web 代理”，然而“代理”这一思想其实不仅限于 web 网站。
+正向代理 大多数关于 web 代理的讨论都指的是&amp;quot;正向代理&amp;quot;（这句感觉翻译得不甚准确）。这种情况下的代理事件其实就是“正向代理”代表请求者从另一个 web 站点取得数据。
+举个栗子，我会列举三台接入互联网的计算机。
+X = 你的计算机，或者说互联中的“客户机”
+Y = 代理站点，proxy.example.org
+Z = 你想要访问的网站，www.example.net
+通常，你可能是类似 X &amp;ndash;&amp;gt; Z 这样的直连。
+然而，在一些场景下，Y &amp;ndash;&amp;gt; Z 来代表 X（去访问 Z）更好，链条如下：X &amp;ndash;&amp;gt; Y &amp;ndash;&amp;gt; Z
+为什么 X 需要使用代理服务器的原因：
+X 无法直接访问到 Z:
+a)在 X 的互联网连接中某个拥有管理权限的人决定拦截所有 X 到 Z 站点的访问（比如 GFW : ) ）</description>
     </item>
     
     <item>
@@ -653,9 +871,13 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Wed, 01 Nov 2017 09:48:04 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-11-01-matlab-matrix/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;冒号是 MATLAT 中最有用的操作符之一。它用于创建向量，下标数组，并为迭代指定。&lt;/p&gt;
-&lt;/blockquote&gt;</description>
+      <description>冒号是 MATLAT 中最有用的操作符之一。它用于创建向量，下标数组，并为迭代指定。
+背景 怎么解释？作为初学者可能一下子看不懂，但是研究后你会发现，作为老手，你也不应该看懂，因为，这是个印刷错误！
+借此学习一下 MATLAB 的冒号符和矩阵定义
+冒号符（ ：） 创建行向量 包含从 1 到 10 的整数行向量
+octave:2&amp;gt; 1:10 ans = 1 2 3 4 5 6 7 8 9 10 指定增量值
+octave:3&amp;gt; 100:-5:50 ans = 100 95 90 85 80 75 70 65 60 55 50 one more 栗子
+octave:4&amp;gt; 0:pi/8:pi ans = Columns 1 through 7: 0.00000 0.39270 0.78540 1.17810 1.57080 1.96350 2.35619 Columns 8 and 9: 2.74889 3.</description>
     </item>
     
     <item>
@@ -664,7 +886,9 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Tue, 31 Oct 2017 22:44:35 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-10-31-sql-performance-profile/</guid>
-      <description>&lt;p&gt;继&lt;a href=&#34;../2017-10-31-mysql-max-function-and-groupby&#34;&gt;《关于 mysql 中 max 函数和 groupby 联合使用的坑》&lt;/a&gt;后进一步关于 SQL 性能的探究&lt;/p&gt;</description>
+      <description>继《关于 mysql 中 max 函数和 groupby 联合使用的坑》后进一步关于 SQL 性能的探究
+类型 解释 id select 查询的序列号 select_type select 查询的类型，主要是区别普通查询和联合查询、子查询之类的复杂查询 table 输出的行所引用的表 type 联合查询所使用的类型 possible_keys MySQL 能使用哪个索引在该表中找到行 key MySQL 实际决定使用的键 key_len MySQL 决定使用的键长 ref 哪个字段或常数与 key 一起被使用 rows mysql 要遍历多少数据才能找到，在 innodb 上是不准确的 Extra - 实例解释
+mysql&amp;gt; desc t3; +-------+--------------+------+-----+---------+----------------+ | Field | Type | Null | Key | Default | Extra | +-------+--------------+------+-----+---------+----------------+ | id | int(11) | NO | PRI | NULL | auto_increment | | other | varchar(255) | YES | | NULL | | +-------+--------------+------+-----+---------+----------------+ 2 rows in set mysql&amp;gt; select * from (select * from (select * from t3 where id = 3952602) a) b; +---------+-------+ | id | other | +---------+-------+ | 3952602 | sth | +---------+-------+ 1 row in set mysql&amp;gt; explain select * from (select * from (select * from t3 where id = 3952602) a) b; +----+-------------+------------+--------+-------------------+---------+---------+-------+------+-------+ | id | select_type | table | type | possible_keys | key | key_len | ref | rows | Extra | +----+-------------+------------+--------+-------------------+---------+---------+-------+------+-------+ | 1 | PRIMARY | &amp;lt;derived2&amp;gt; | system | NULL | NULL | NULL | NULL | 1 | NULL | | 2 | DERIVED | &amp;lt;derived3&amp;gt; | system | NULL | NULL | NULL | NULL | 1 | NULL | | 3 | DERIVED | t3 | const | PRIMARY,idx_t3_id | PRIMARY | 4 | const | 1 | NULL | +----+-------------+------------+--------+-------------------+---------+---------+-------+------+-------+ 3 rows in set mysql&amp;gt; show index from t3; +-------+------------+-----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+ | Table | Non_unique | Key_name | Seq_in_index | Column_name | Collation | Cardinality | Sub_part | Packed | Null | Index_type | Comment | Index_comment | +-------+------------+-----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+ | t3 | 0 | PRIMARY | 1 | id | A | 1 | NULL | NULL | | BTREE | | | | t3 | 1 | idx_t3_id | 1 | id | A | 1 | NULL | NULL | | BTREE | | | +-------+------------+-----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+ 2 rows in set id 从里往外执行，从 id 为 3 往上执行</description>
     </item>
     
     <item>
@@ -673,7 +897,13 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Tue, 31 Oct 2017 20:50:43 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-10-31-mysql-max-function-and-groupby/</guid>
-      <description>&lt;p&gt;关于朋友随手抛出的一段 SQL，发现 MySQL 中关于 max()和 group by 联合使用中的一个坑，特此整理。&lt;/p&gt;</description>
+      <description>关于朋友随手抛出的一段 SQL，发现 MySQL 中关于 max()和 group by 联合使用中的一个坑，特此整理。
+YH:老铁们，这段 hql 对不对啊
+我扫了一眼，总觉得看着别扭，自己试着去掉字符串拼接，还原出 SQL 来看，依然感觉不对，然后自己试着写了查询，在本地建个表，造了些数据，用简化后的 SQL 做测试时， 当我定睛检查以下这句 SQL
+select predictId, max(evaluateDate) evalDate, productId from productcashpredict group by productId; 抛出一个疑问，MySQL 是从后往前执行，先分组再求分组结果中 evaluateDate 最大的记录呢？还是先找出 evaluateDate 的最大记录，再分组呢？
+网上查了查，发现，都不是！这里有个坑！如果直接这么结合 max 和 group by 使用，查出的结果，除了求 max 的字段和分组条件 productId 字段，其他字段的值都是错的！
+首先我在本地验证了一下是不是的确如此
+desc productcashpredict; predictId	int(11)	NO	PRI	auto_increment evaluateDate	datetime	YES	on update CURRENT_TIMESTAMP other	varchar(255)	YES productId	int(11)	YES select * from productcashpredict +-----------+---------------------+-------+-----------+ | predictId | evaluateDate | other | productId | +-----------+---------------------+-------+-----------+ | 1 | 2017-10-31 18:14:37 | NULL | 10001 | | 2 | 2017-10-31 18:14:45 | NULL | 10002 | | 3 | 2017-10-31 18:14:59 | NULL | 10002 | | 4 | 2017-10-31 18:15:09 | NULL | 10003 | | 5 | 2017-10-31 18:15:22 | NULL | 10001 | +-----------+---------------------+-------+-----------+ select predictId, max(evaluateDate) evalDate, productId from productcashpredict group by productId; +-----------+---------------------+-----------+ | predictId | evalDate | productId | +-----------+---------------------+-----------+ | 1 | 2017-10-31 18:15:22 | 10001 | | 2 | 2017-10-31 18:14:59 | 10002 | | 4 | 2017-10-31 18:15:09 | 10003 | +-----------+---------------------+-----------+ 直接这样查的确是错的，看 predictId 可以看出</description>
     </item>
     
     <item>
@@ -682,7 +912,14 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Tue, 17 Oct 2017 16:45:17 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-10-17-learn-from-addy-osmani-code/</guid>
-      <description>&lt;p&gt;谷歌某大佬通过一行知识量包含极丰富的 js 代码实现了一个魔法小功能：给页面所有元素加一个彩色外边框&lt;/p&gt;</description>
+      <description>谷歌某大佬通过一行知识量包含极丰富的 js 代码实现了一个魔法小功能：给页面所有元素加一个彩色外边框
+[].forEach.call($$(&amp;#34;*&amp;#34;), function (a) { a.style.outline = &amp;#34;1px solid #&amp;#34; + (~~(Math.random() * (1 &amp;lt;&amp;lt; 24))).toString(16); }); 单行形式：
+[].forEach.call($$(&amp;#34;*&amp;#34;), function (a) { a.style.outline = &amp;#34;1px solid #&amp;#34; + (~~(Math.random() * (1 &amp;lt;&amp;lt; 24))).toString(16); }); 将其贴到 chrome 的 console 中即可看到效果
+代码解析 $$(&amp;#34;*&amp;#34;); document.querySelectorAll(&amp;#34;*&amp;#34;); document.all; 以上三种写法是相同效果，都相当于通过选择器的方式获取页面所有元素。第三种是较不规范的方式，不建议使用。$$是现代浏览器API的一部分，比如$$(&amp;lsquo;a&amp;rsquo;)可以获取页面所有的 a 标签元素
+接下来，通过上面选择器获取到的是一个 NodeList，是一种类似于数组 Array，但它并未实现很多 Array 的接口，所以不能使用$$(&amp;rsquo;*&amp;rsquo;).forEach 来遍历结果，类似的还有 arguments，也是类似于 Array，但并不是数组
+这时需要通过 call()或者 apply()可以使得非数组对象来调用数组的方法
+[].forEach.call($$(&amp;#34;*&amp;#34;), function (e) {}); 以上即实现了遍历页面的每一个元素，并可以将获得的非数组元素使用数组的遍历方法来取到每一个元素 e
+a.style.outline = &amp;#34;1px solid #&amp;#34; + color; outline 是 CSS 的一个属性，它是在 CSS 盒模型以外，所以它不会影响元素的 size 以及元素在 larout 中的 position</description>
     </item>
     
     <item>
@@ -691,7 +928,15 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Thu, 12 Oct 2017 11:53:58 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-10-12-talk-about-blog/</guid>
-      <description>&lt;p&gt;日常知识总结及记录，本次关于由搜索&lt;strong&gt;区块链&lt;/strong&gt;这一关键词引发的关于“为什么要记博客”这一问题的思考&lt;/p&gt;</description>
+      <description>日常知识总结及记录，本次关于由搜索区块链这一关键词引发的关于“为什么要记博客”这一问题的思考
+比特币 区块链 博客 微博 比特币&amp;amp;区块链 昨天看了今年的云栖峰会，再次听到了今年听到最多的“区块链”技术，于是今天闲暇之余，想了解一下这个区块链究竟是个什么东西。看了半天，并没有像某些编程技术一样，能够快速理解大概意思，反倒是产生了更多的陌生词汇，比如拜占庭将军问题，不过一个熟悉的字眼“比特币”倒是快速映入眼帘，原来区块链技术是和比特币原理紧密联系在一起的。
+博客&amp;amp;微博 于是就想着，为了理解这种概念东西，就记篇博客以助理解吧，但看着看着，觉得不懂的概念越来越多，而且查到的资料感觉讲的都很详细，感觉自己写不出更加合理的解释。于是就想到，为什么要记博客这个东西。
+为什么要记博客呢，可能每个人的答案都不一样。我这个人在探究“为什么”之前，都喜欢搞清楚“是什么”，那么博客是什么呢（以下内容为个人理解），博客这个词是音译 blog 而来，那么 blog 又是什么呢，我们都知道，很多时候，我们都需要对所发生的一切事情有个记录，叫做日志（log），而程序世界这个东西更广为人知，计算机程序的每个行为如果有日志的记录，在发生异常情况或者我们需要观测系统运行情况的时候才有据可循。
+其实博客这个东西最初就是一种网络日志（web log），用来在 web 里记录一些东西而已，让日志这个东西不止停留于程序后台的日志服务器里，而成为像在线笔记本/日记本一样的东西，可以方便人们随时随地把自己想记录下来的东西放到 web 这个大世界里。
+后来由此衍生出微博（micro blog）这个东西，但我觉得微博并不是一种“微型博客”，所谓字数受限，内容短小简洁的博客，因为它本身的定位和运营使其完全脱离于博客而成为一种新兴的事务，我个人觉得它如今已然成为一种社交媒介。因为你想想，微博可以看作一种一定字数的网络日志吗？不止于此！如今微博的内容可谓百花齐放，可以是广告平台，可以是资源分享，抑或是明星的粉丝们关注明星日常生活点滴的一个统一途径。
+尾声 最后，回归本文，我为什么要记博客，其实我是本着博客最原始的功用——网络日志这个功能。因为我希望把我对于所读所想的东西做一个记录，以加深我对于知识的理解。因为书写博客的过程本身也是对于某些事物理解的一个梳理。
+我把人的大脑比作计算机的 CPU，而理解能力和表达能力分别相当于计算机的 I/O 设备（Input 输入、Output 输入），人类向外界展现其内部思考的媒介依赖于这两者。比如作家、教师，属于输出能力示范的人群，而读者、观众属于展现输入过程人群。如今我们借助于互联网这个第三次技术革命的产物，每天都在输入大量的数据，而与此同时我认识到，仅仅有输入，却没有输出，是很可悲的。首先，对于 CPU 来说，仅仅有输入，而没有输出，不算是一次成功的数据处理，人也一样，对知识的学习，若仅仅停留于摄入，而不能经过大脑的思考，做出相应的反馈输出，比如分享，那样未必是一件好事。
+分享知识不会像分苹果一样越分越少</description>
     </item>
     
     <item>
@@ -700,7 +945,17 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Mon, 18 Sep 2017 14:10:33 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-09-18-health-tip/</guid>
-      <description>&lt;p&gt;从百度拇指医生某热心网友总结那里引用来，觉得写得很不错，有参考意义，特此记录下来&lt;/p&gt;</description>
+      <description>从百度拇指医生某热心网友总结那里引用来，觉得写得很不错，有参考意义，特此记录下来
+”为什么每年九月份过敏鼻炎就严重“
+”因为天气冷热温差比较大。 因为是过敏鼻炎，也可能是你的过敏原在秋季比较丰富。具体你要去医院查过敏原。 我过敏性鼻炎，每天早上起来打喷嚏，流鼻涕，流眼泪，眼睛痒痛充血，如遇天气干燥就容易流鼻血，部分时候会引起头痛。过敏原比较悲催，很普遍， 甲醛、尘螨、灰尘、温度变化都比较敏感。 吃的药基本没什么用。 弄点抗过敏的药就可以了，我现在连喷剂都不太管用。以下是我经过很多测试得到的一些经验，效果挺好，但是也要自己注意保养。
+【忌口】辛辣、羊肉、海鲜、避免喝冰水
+【温度】要注意保暖。洗脸用温水，尽量喝温水。最好少吹空调
+【清洗鼻腔】因为会对某些物质过敏，因此每天清洗一下鼻腔就很有必要了。 每天自制生理盐水冲鼻子，配方： 500ML 38 度的温水+4.5g 无碘盐+4.5g 小苏打。 如果觉得麻烦也可以去淘宝买现成的洗鼻盐。 清洗鼻子的设备，淘宝也有卖的，一种是专门用于洗鼻子的洗鼻机。另一种是洗牙的机器，但是也有洗鼻的喷头。其实就是一个水泵往鼻子里打水，具体方法参见说明书吧。 控制水温 37-38 度才会舒服，太冷会呛到，太热会烫坏鼻粘膜，弄个专门测液体温度的温度计，这种温度计就是厨房用针式的那种。
+【坚持锻炼】再有就是坚持锻炼身体会有很大的帮助，提高自身的抵抗力最重要。我是打羽毛球和爬山，我们爬的都是野山，景区效果不好，爬山效果比较明显，山里空气很好。
+【避免的运动类型】不要游泳，不要下海。 游泳池水进入鼻腔没有好处。 下海游泳要禁止，会使体温降低，如果海水进入鼻腔会导致非常严重的过敏反应。 下海游泳本人亲身经历过，非常痛苦。
+【防止揉眼睛】 眼睛痒痛最麻烦的是夜里不自主的揉眼睛，这样会更严重得结膜炎。我的方法是购买一个 3M 的实验室防护眼镜。它周围是软的，相对还算舒服。有效避免自己揉眼睛，目前没有更好的方法，总不能把自己的手捆起来吧！
+【药物】对我而言基本没什么用。抗过敏药:氯雷他定或者扑尔敏。缓解眼睛：双氯芬酸钠滴眼液。喷剂：丙酸倍氯米松鼻喷雾剂（少用，只有特别难受的时候用用吧）。头痛只能吃点去痛片了。其他遵医嘱（其实大夫也没办法）
+关键时刻，网民的建议也是有效的，感谢互联网让同病相怜的人可以分享彼此之间的感受和应对措施。</description>
     </item>
     
     <item>
@@ -709,7 +964,15 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Wed, 16 Aug 2017 20:14:53 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-08-16-setup-ss-using-vultr-and-centos7/</guid>
-      <description>&lt;p&gt;在 Vultr 上搭建 ss，包含最简版 centos7 安装过程中的各种坑解决&lt;/p&gt;</description>
+      <description>&lt;p&gt;在 Vultr 上搭建 ss，包含最简版 centos7 安装过程中的各种坑解决&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;ol&gt;
+&lt;li&gt;检查是否安装 python&lt;/li&gt;
+&lt;li&gt;安装 pip&lt;/li&gt;
+&lt;li&gt;pip install shadowsocks&lt;/li&gt;
+&lt;li&gt;pip install M2Crypto&lt;/li&gt;
+&lt;li&gt;M2Crypto 安装前置条件：安装 pcre，然后安装 swig(直接安装 pcre，去安装 swig 会提示 pcre 未安装，即使 pcre 已安装-&amp;gt;解决方案，安装 pcre-devel，在发现这个问题之前卡住很久)&lt;/li&gt;
+&lt;/ol&gt;</description>
     </item>
     
     <item>
@@ -718,7 +981,17 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Tue, 15 Aug 2017 14:20:49 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-08-15-python-numpy/</guid>
-      <description>&lt;p&gt;关于 python 科学计算库 numpy 学习总结&lt;/p&gt;</description>
+      <description>关于 python 科学计算库 numpy 学习总结
+本文中部分 print 输出可能会报错，原因为 python3 的 print 通过函数方式使用，与 python2 中的 print 通过解释执行不同，需要使用 print()进行控制台打印
+安装 numpy python3 -m pip install -U pip 更新 pip pip install numpy
+安装方式 II pip install ipython ipython &amp;ndash;pylab
+pylab 模式下会自动导入 SciPy,NumPy,Matplotlib 模块
+引入 numpy import numpy as py
+使用 numpy arange()函数用于创建同类型多维数组（homogeneous multidimensional array）
+用 arange 创建的数组使用 type()查看类型为 ndarray
+reshape()函数用于重新构造数组成为其他维度数组
+例如：np.arange(20).reshape(4,5)
+[[0 1 2 3 4] [ 5 6 7 8 9] [10 11 12 13 14] [15 16 17 18 19]]</description>
     </item>
     
     <item>
@@ -727,7 +1000,8 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Sat, 12 Aug 2017 16:35:16 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-08-12-mysql-remote-and-local-data-export/</guid>
-      <description>&lt;p&gt;mysql 远端数据库与本地数据库间导入导出&lt;/p&gt;</description>
+      <description>mysql 远端数据库与本地数据库间导入导出
+远程数据库导出 mysqldump -hxxx -uxxx -pxxx 数据库名 &amp;gt; 脚本名.sql sz 脚本名.sql（SecureCRT 将文件下载到本地） 本地数据库导入 若直接用 navicat 运行本脚本，失败 打开 cmd，进入本地数据库，mysql -uxxxx -pxxxx，use 创建好的数据库 source 脚本名.sql，可以将 2MB 以上的 sql 脚本导入 成功执行，完成远端数据库到本地的克隆 </description>
     </item>
     
     <item>
@@ -736,7 +1010,11 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Sat, 05 Aug 2017 01:23:14 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-08-05-linux-rc-local-file/</guid>
-      <description>&lt;p&gt;rc.local 是 Linux 启动程序在 login 程序前执行的最后一个脚本，有的服务器中在 rc.local 中可能会有一句 touch /var/lock/subsys/local，这是干什么的呢，在百度中没找到，最终在&lt;a href=&#34;http://www.linuxquestions.org/questions/linux-newbie-8/touch-var-lock-subsys-local-why-287719/&#34;&gt;Linuxquestions.org 论坛&lt;/a&gt;成功找到满意的解答。&lt;/p&gt;</description>
+      <description>rc.local 是 Linux 启动程序在 login 程序前执行的最后一个脚本，有的服务器中在 rc.local 中可能会有一句 touch /var/lock/subsys/local，这是干什么的呢，在百度中没找到，最终在Linuxquestions.org 论坛成功找到满意的解答。
+touch 首先要了解 touch 这个命令是做什么用的，在此用于创建一个不存在的文件，详细了解请见Linux touch 命令
+解释 /var/lock/subsys/local 这个文件的存在证明 rc.local 这个脚本已经执行过了，目的在于避免这个脚本重复执行，除非这个文件不存在时，它才失效，也就是当系统关闭（shut down）时会发生，翻译的不是很好，原文是
+What this does is create a lock file that tells the system that &amp;rsquo;local&amp;rsquo; is up and running already. It prevents the script from being run twice, as it will fail until the lockfile is removed, which will happen when you shut down.
+Typically this is used with bigger services such as database servers and so forth to make sure they are not started twice.</description>
     </item>
     
     <item>
@@ -745,7 +1023,12 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Tue, 07 Feb 2017 22:05:20 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-02-07-python-comment/</guid>
-      <description>&lt;p&gt;python 零碎知识点整理——注释&lt;/p&gt;</description>
+      <description>python 零碎知识点整理——注释
+单行注释 python 的单行注释用#，可在任意位置添加（单独一行或语句/表达式后面，python 是解释型语言，逐行按序解释代码）
+多行注释 多行注释使用三个单引号或双引号 这实际上是多行字符串的书写方式，并非 python 本身提倡的多行注释
+编码声明注释 出现在 python 脚本第一行或第二行（其他行则无效）的含有 coding:xxx 的注释被认为是对编码方式的声明，详见python 官方文档
+从 python3 开始，python 默认使用 utf-8 编码（python3 以前使用 ascii 编码）
+平台注释 使 python 程序运行在 windows 平台上，需要在 python 文件的最前面加上#!/usr/bin/python，这说明了程序用的环境的路径</description>
     </item>
     
     <item>
@@ -754,7 +1037,14 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Tue, 27 Dec 2016 20:22:56 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2016-12-27-config-idea-for-maven-projects-with-git/</guid>
-      <description>&lt;p&gt;IDEA2016 配置运行基于 Maven 的 Git 项目&lt;/p&gt;</description>
+      <description>IDEA2016 配置运行基于 Maven 的 Git 项目
+一、IDEA&amp;amp;Maven&amp;amp;Git 作用 IDEA（项目容器） Maven（管理 Jar 和项目打包） Git（版本控制） 二、从远程 clone git 项目 使用工具 clone 下 git 项目
+可能问题： 直接通过 git bash 上 git clone 时可能失败
+问题解决：使用 TortoiseGit（有时候 TortoiseGit 也可能失败，可能和 gitblit 服务器有关）。
+可能项目由多个 module 相互依赖
+从 Git 直接 clone 下的项目，未编译，即不含 target 或 out 文件夹（gitignore 中限制编译后的文件被 Git 管理）
+但有 pom.xml 文件（Idea 导入基于 Maven 的项目依赖该文件，即导入项目时需找到 pom.xml 文件）
+三、将 clone 到本地的 Maven 项目使用 IDEA 编辑（导入或打开） 如果一个项目有多个相互依赖的 module 组成（各自 module 分别有 pom.</description>
     </item>
     
     <item>
@@ -763,7 +1053,13 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Tue, 20 Dec 2016 09:28:04 +0800</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2016-12-20-maven-basic/</guid>
-      <description>&lt;p&gt;Maven 学习&lt;/p&gt;</description>
+      <description>Maven 学习
+一、什么是 Maven Apache Maven 是一个软件项目管理和综合工具，基于项目对象模型（POM——Project Object Model），Maven 可以从一个中心资料片管理项目构建，报告和文件。
+Maven 提供了开发人员构建一个完整的生命周期框架。开发团队可以自动完成项目的基础工具建设，Maven 使用标准的目录结构和默认构建生命周期。
+二、核心 Maven 项目的结构和内容在一个 XML 文件中声明，pom.xml 项目对象模型（POM），这是整个 Maven 系统的基本单元。
+三、特性 Apache Maven 是一种创新的软件项目管理工具，提供了一个项目对象模型（POM）文件的新概念来管理项目的构建，相关性和文档。最强大的功能就是能够自动下载项目依赖库。
+四、安装配置 JDK（若未按照默认安装在 C 盘，则 PATH 中需要将 jdk 的 bin 目录放在PATH 开头） Maven 根目录（添加 M2_HOME、MAVEN_HOME 都指向 Maven 安装文件夹） 添加到环境变量（添加%M2_HOME%\bin 到 PATH） 验证环境变量配置（mvn -version） 五、启用代理访问 若公司存在防火墙，并使用HTTP 代理服务器阻止用户直接连接到互联网（若使用代理，Maven 将无法下载任何依赖），则需要在 Maven 配置文件（setting.xml）中设置代理服务器，设置完成后保存（无需重启，Maven 是一个批处理文件，调用时会重新读取配置文件）
+六、本地仓库 默认本地存储文件夹为用户目录下到.m2 目录，可在配置文件（setting.xml）中修改默认仓库位置，并重新命名</description>
     </item>
     
     <item>
@@ -772,7 +1068,12 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Fri, 16 Dec 2016 15:34:31 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2016-12-15-es6-learning/</guid>
-      <description>&lt;p&gt;ECMAScript 6（以下简称 ES6）是 JavaScript 语言的下一代标准。因为当前版本的 ES6 是在&lt;strong&gt;2015 年&lt;/strong&gt;发布的，所以又称 ECMAScript 2015。&lt;/p&gt;</description>
+      <description>ECMAScript 6（以下简称 ES6）是 JavaScript 语言的下一代标准。因为当前版本的 ES6 是在2015 年发布的，所以又称 ECMAScript 2015。
+一、ES6 简介 ECMAScript 6（以下简称 ES6）是 JavaScript 语言的下一代标准。因为当前版本的 ES6 是在2015 年发布的，所以又称 ECMAScript 2015。
+即 ES6 === ES2015
+二、ES6 转码器 Babel是一个广泛使用的 ES6 转码器，可以将 ES6 代码转为 ES5 代码，从而在现有环境执行。（chrome 已支持 ES6 解释，亲测可用）大家可以选择自己习惯的工具来使用使用 Babel，具体过程可直接在Babel 官网查看：
+三、常用特性 let / const（与传统 var 对比） class / extends / super（面向对象） arrow functions（箭头函数） template string（模板字符串） destructing（解构） default（默认值） rest / arguments（函数参数） 四、特性详解 （1）let 与 var 类似，都是用来声明变量的，但在实际运用中他俩都有各自的特殊用途。
+var name = &amp;#34;tom&amp;#34;; while (true) { var name = &amp;#34;bar&amp;#34;; console.</description>
     </item>
     
     <item>
@@ -781,7 +1082,12 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Thu, 15 Dec 2016 21:06:11 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2016-12-15-design-pattern-06/</guid>
-      <description>&lt;p&gt;原型模式虽然是创建型的模式，但是与工程模式没有关系，从名字即可看出，该模式的思想就是将一个对象作为原型，对其进行&lt;strong&gt;复制、克隆&lt;/strong&gt;，产生一个和原对象类似的新对象。&lt;/p&gt;</description>
+      <description>原型模式虽然是创建型的模式，但是与工程模式没有关系，从名字即可看出，该模式的思想就是将一个对象作为原型，对其进行复制、克隆，产生一个和原对象类似的新对象。
+一、原型模式（Prototype） /** * 原型类，实现可复制接口 * @author barnett * */ public class Prototype implements Cloneable { /** * 复制方法，调用父类的复制方法 */ public Object clone() throws CloneNotSupportedException { Prototype prototype = (Prototype) super.clone(); return prototype; } } 很简单，一个原型类，只需要实现Cloneable接口，覆写 clone 方法，此处 clone 方法可以改成任意的名称，因为 Cloneable 接口是个空接口，你可以任意定义实现类的方法名，如 cloneA 或者 cloneB。
+因为此处的重点是 super.clone()这句话，super.clone()调用的是 Object 的 clone()方法，而在 Object 类中，clone()是 native 的。
+二、深浅复制 浅复制：将一个对象复制后，基本数据类型的变量都会重新创建，而引用类型，指向的还是原对象所指向的。
+深复制：将一个对象复制后，不论是基本数据类型还有引用类型，都是重新创建的。简单来说，就是深复制进行了完全彻底的复制，而浅复制不彻底。
+public class PrototypeDeepAndThinClone implements Cloneable, Serializable { private static final long serialVersionUID = 1L; private String string; private SerializableObject obj; // 浅复制 public Object clone() throws CloneNotSupportedException { Prototype prototype = (Prototype) super.</description>
     </item>
     
     <item>
@@ -790,7 +1096,8 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Thu, 15 Dec 2016 20:22:46 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2016-12-15-design-pattern-05/</guid>
-      <description>&lt;p&gt;工厂类模式提供的是创建单个类的模式，而建造者模式则是将各种产品&lt;strong&gt;集中&lt;/strong&gt;起来进行&lt;strong&gt;管理&lt;/strong&gt;，用来创建&lt;strong&gt;复合对象&lt;/strong&gt;，所谓复合对象就是指某个类具有不同的属性，其实建造者模式就是前面抽象工厂模式和最后的Test结合起来得到的。&lt;/p&gt;</description>
+      <description>工厂类模式提供的是创建单个类的模式，而建造者模式则是将各种产品集中起来进行管理，用来创建复合对象，所谓复合对象就是指某个类具有不同的属性，其实建造者模式就是前面抽象工厂模式和最后的 Test 结合起来得到的。
+代码实现 /** * 发送接口，有一个发送方法待实现 * @author barnett * */ public interface Sender { public void send(); } /** * 2、邮件发送类，实现发送接口，实现其发送方法，用以发送邮件 * @author barnett * */ public class MailSender implements Sender { @Override public void send() { System.out.println(&amp;#34;I am MailSender!&amp;#34;); } } /** * 短信发送类，实现了发送接口的发送方法，用以发送短信 * @author barnett * */ public class SmsSender implements Sender { @Override public void send() { System.out.println(&amp;#34;I am SmsSender!&amp;#34;); } } /** * 3、建造者类 * @author barnett * */ public class Builder { // 用以存储生产出的多个发送器 private List&amp;lt;Sender&amp;gt; list = new ArrayList&amp;lt;Sender&amp;gt;(); /** * 用于生产邮件发送器，当该方法被调用时会生产多个邮件发送器放入集合 * @param count	生产个数 */ public void produceMailSender(int count) { for(int i=0; i&amp;lt;count; i++) { list.</description>
     </item>
     
     <item>
@@ -799,7 +1106,9 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Thu, 15 Dec 2016 19:57:13 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2016-12-15-design-pattern-04/</guid>
-      <description>&lt;p&gt;单例对象（Singleton）是一种常用的设计模式。在 Java 应用中，单例对象能保证在一个 JVM 中，该对象&lt;strong&gt;只有一个实例&lt;/strong&gt;存在。&lt;/p&gt;</description>
+      <description>单例对象（Singleton）是一种常用的设计模式。在 Java 应用中，单例对象能保证在一个 JVM 中，该对象只有一个实例存在。
+单例模式优势 某些类创建繁琐，对于一些大型对象，系统开销大 省去 new 操作符，降低系统内存使用频率，减轻 GC 压力 保证某些核心类独立控制系统整个流程（控制其不可实例多个） 简版单例类 public class Singleton { // 持有私有静态实例，防止被引用，此处赋值为null，目的为实现延迟加载 private static Singleton instance = null; // 私有构造方法，防止被实例化 private Singleton() { } // 静态工厂方法 public static Singleton getInstance() { if(instance == null) { instance = new Singleton(); } return instance; } // 如果该对象被用于序列化，可保证对象在序列化前后保持一致 public Object readResolve() { return instance; } } 这个类可以满足基本要求，但是，像这样毫无线程安全保护的类，如果我们把它放入多线程的环境下，肯定就会出现问题了，如何解决？我们首先会想到对 getInstance 方法加synchronized关键字，如下：
+// 静态工厂方法 public static synchronized Singleton getInstance() { if(instance == null) { instance = new Singleton(); } return instance; } 但是，synchronized 关键字锁住的是这个对象，这样的用法，在性能上会有所下降，因为每次调用 getInstance()，都要对对象上锁。</description>
     </item>
     
     <item>
@@ -820,7 +1129,7 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2016-12-15-design-pattern-02/</guid>
       <description>一、工厂方法模式分类（3 种） 普通工厂模式 多个工厂方法模式 静态工厂方法模式 二、工厂方法模式详解 （1）普通工厂模式 普通工厂模式就是建立一个工厂类，对实现了同一接口的一些类进行实例的创建。
-// 1、创建不同产品的共同接口 public interface Sender { /** * 邮寄接口中有一个邮寄方法待实现 */ public void Send(); } /** * 2、（实现类）邮件邮寄类实现了邮寄接口，实现其邮寄的抽象方法 * @author barnett * */ public class MailSender implements Sender { @Override public void Send() { System.out.println(&amp;#34;I am MailSender!&amp;#34;); } } /** * 短信邮寄类实现了邮寄接口，实现其邮寄的抽象方法 * @author barnett * */ public class SmsSender implements Sender { @Override public void Send() { System.out.println(&amp;#34;I am SmsSender!&amp;#34;); } } /** * 3、工厂类，负责多次制造产品（new出复用的类） * @author barnett * */ public class SendFactory { /** * 工厂类中的生产方法 * @param type	输入要生产的产品类型 * @return	返回一个产品 */ public Sender produce(String type) { if(&amp;#34;mail&amp;#34;.</description>
+// 1、创建不同产品的共同接口 public interface Sender { /** * 邮寄接口中有一个邮寄方法待实现 */ public void Send(); } /** * 2、（实现类）邮件邮寄类实现了邮寄接口，实现其邮寄的抽象方法 * @author barnett */ public class MailSender implements Sender { @Override public void Send() { System.out.println(&amp;#34;I am MailSender!&amp;#34;); } } /** * 短信邮寄类实现了邮寄接口，实现其邮寄的抽象方法 * @author barnett * */ public class SmsSender implements Sender { @Override public void Send() { System.out.println(&amp;#34;I am SmsSender!&amp;#34;); } } /** * 3、工厂类，负责多次制造产品（new出复用的类） * @author barnett */ public class SendFactory { /** * 工厂类中的生产方法 * @param type	输入要生产的产品类型 * @return	返回一个产品 */ public Sender produce(String type) { if(&amp;#34;mail&amp;#34;.</description>
     </item>
     
     <item>
@@ -829,12 +1138,8 @@ Hugo 的简介是“世界上构建网站最快的框架”，这个不可否认
       <pubDate>Thu, 15 Dec 2016 10:43:05 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2016-12-15-design-pattern-01/</guid>
-      <description>&lt;h3 id=&#34;一设计模式特点&#34;&gt;一、设计模式特点&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;反复使用&lt;/li&gt;
-&lt;li&gt;分类编目&lt;/li&gt;
-&lt;li&gt;经验总结&lt;/li&gt;
-&lt;/ol&gt;</description>
+      <description>一、设计模式特点 反复使用 分类编目 经验总结 二、设计模式宗旨 代码重用 使代码易于理解 保证代码可靠性 三、设计模式分类（23+2） 创建型（5 种） 结构型（7 种） 行为型（11 种） 其他（2 种） （1）创建型模式 工厂方法模式 抽象工厂模式 单例模式 建造者模式 原型模式 （2）结构型模式 适配器模式 装饰器模式 代理模式 外观模式 桥接模式 组合模式 享元模式 （3）行为型模式 策略模式 模板方法模式 观察者模式 迭代子模式 责任链模式 命令模式 备忘录模式 状态模式 访问者模式 中介者模式 解释器模式 （4）其他 并发型模式 线程池模式 四、设计模式原则（6 项） 开闭原则（Open Close Principle） 里氏代换原则（Liskov Substitution Principle） 依赖倒转原则（Dependence Inversion Principle） 接口隔离原则（Interface Segregation Principle） 迪米特法则（最少知道原则）（Demeter Principle） 合成复用原则（Composite Reuse Principle） 五、原则详解 （1）开闭原则 开闭原则就是说对扩展开放，对修改关闭。在程序需要进行拓展的时候，不能去修改原有的代码，实现一个热插拔的效果。目的在于使程序的扩展性好，易于维护和升级。所以需要使用到接口和抽象类
+（2）里氏代换原则 里氏代换原则（LSP）是面向对象设计的基本原则之一。 里氏代换原则中说，任何基类可以出现的地方，子类一定可以出现。</description>
     </item>
     
     <item>
@@ -863,7 +1168,7 @@ public static String[] codeMaker() { String[] code = new String[3]; for (int i=0
       <pubDate>Wed, 02 Nov 2016 13:45:29 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2016-11-02-ssh-web-03/</guid>
-      <description>1. Web项目入口——web.xml &amp;lt;!-- spring核心监听器 --&amp;gt; &amp;lt;listener&amp;gt; &amp;lt;listener-class&amp;gt;org.springframework.web.context.ContextLoaderListener&amp;lt;/listener-class&amp;gt; &amp;lt;/listener&amp;gt; &amp;lt;!-- ctrl+shift+T:contextLoaderListener监听器全路径 --&amp;gt; &amp;lt;!-- 默认情况会加载WEB-INF中的配置文件 --&amp;gt; &amp;lt;!-- 配置全局初始化参数：设置为加载classes中的配置文件 --&amp;gt; &amp;lt;context-param&amp;gt; &amp;lt;param-name&amp;gt;contextConfigLocation&amp;lt;/param-name&amp;gt; &amp;lt;param-value&amp;gt;classpath:applicationContext.xml&amp;lt;/param-value&amp;gt; &amp;lt;/context-param&amp;gt; &amp;lt;!-- struts核心过滤器（与传统servlet配置类似） --&amp;gt; &amp;lt;filter&amp;gt; &amp;lt;filter-name&amp;gt;struts&amp;lt;/filter-name&amp;gt; &amp;lt;filter-class&amp;gt;org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter&amp;lt;/filter-class&amp;gt; &amp;lt;/filter&amp;gt; &amp;lt;!-- ctrl+shift+T:strutsPrepareAndExecuteFilter --&amp;gt; &amp;lt;filter-mapping&amp;gt; &amp;lt;filter-name&amp;gt;struts&amp;lt;/filter-name&amp;gt; &amp;lt;url-pattern&amp;gt;/*&amp;lt;/url-pattern&amp;gt; &amp;lt;/filter-mapping&amp;gt; &amp;lt;display-name&amp;gt;ssh&amp;lt;/display-name&amp;gt; &amp;lt;welcome-file-list&amp;gt; &amp;lt;welcome-file&amp;gt;index.jsp&amp;lt;/welcome-file&amp;gt; &amp;lt;/welcome-file-list&amp;gt; 2. struts配置文件——struts.xml &amp;lt;struts&amp;gt; &amp;lt;package name=&amp;#34;ssh&amp;#34; extends=&amp;#34;struts-default&amp;#34;&amp;gt; &amp;lt;action name=&amp;#34;user_*&amp;#34; class=&amp;#34;userAction&amp;#34; method=&amp;#34;{1}&amp;#34;&amp;gt; &amp;lt;result name=&amp;#34;input&amp;#34;&amp;gt;/index.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;success&amp;#34; type=&amp;#34;redirect&amp;#34;&amp;gt;/jsp/layout.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;info&amp;#34; type=&amp;#34;redirect&amp;#34;&amp;gt;/jsp/myinfo.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;invi&amp;#34;&amp;gt;/jsp/invi.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;regSuccess&amp;#34;&amp;gt;/jsp/regSuccess1.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;getCodes&amp;#34;&amp;gt;/jsp/mycode.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;toHome&amp;#34;&amp;gt;/jsp/layout.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;linkPersion&amp;#34;&amp;gt;/jsp/otherInfo.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;update&amp;#34;&amp;gt;/jsp/updateUser.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;updateSucc&amp;#34; type=&amp;#34;redirectAction&amp;#34;&amp;gt;admin_findAll&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;del&amp;#34; type=&amp;#34;redirectAction&amp;#34;&amp;gt;admin_findAll&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;add&amp;#34;&amp;gt;/jsp/addUser.</description>
+      <description>1. Web 项目入口——web.xml &amp;lt;!-- spring核心监听器 --&amp;gt; &amp;lt;listener&amp;gt; &amp;lt;listener-class&amp;gt;org.springframework.web.context.ContextLoaderListener&amp;lt;/listener-class&amp;gt; &amp;lt;/listener&amp;gt; &amp;lt;!-- ctrl+shift+T:contextLoaderListener监听器全路径 --&amp;gt; &amp;lt;!-- 默认情况会加载WEB-INF中的配置文件 --&amp;gt; &amp;lt;!-- 配置全局初始化参数：设置为加载classes中的配置文件 --&amp;gt; &amp;lt;context-param&amp;gt; &amp;lt;param-name&amp;gt;contextConfigLocation&amp;lt;/param-name&amp;gt; &amp;lt;param-value&amp;gt;classpath:applicationContext.xml&amp;lt;/param-value&amp;gt; &amp;lt;/context-param&amp;gt; &amp;lt;!-- struts核心过滤器（与传统servlet配置类似） --&amp;gt; &amp;lt;filter&amp;gt; &amp;lt;filter-name&amp;gt;struts&amp;lt;/filter-name&amp;gt; &amp;lt;filter-class&amp;gt;org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter&amp;lt;/filter-class&amp;gt; &amp;lt;/filter&amp;gt; &amp;lt;!-- ctrl+shift+T:strutsPrepareAndExecuteFilter --&amp;gt; &amp;lt;filter-mapping&amp;gt; &amp;lt;filter-name&amp;gt;struts&amp;lt;/filter-name&amp;gt; &amp;lt;url-pattern&amp;gt;/*&amp;lt;/url-pattern&amp;gt; &amp;lt;/filter-mapping&amp;gt; &amp;lt;display-name&amp;gt;ssh&amp;lt;/display-name&amp;gt; &amp;lt;welcome-file-list&amp;gt; &amp;lt;welcome-file&amp;gt;index.jsp&amp;lt;/welcome-file&amp;gt; &amp;lt;/welcome-file-list&amp;gt; 2. struts 配置文件——struts.xml &amp;lt;struts&amp;gt; &amp;lt;package name=&amp;#34;ssh&amp;#34; extends=&amp;#34;struts-default&amp;#34;&amp;gt; &amp;lt;action name=&amp;#34;user_*&amp;#34; class=&amp;#34;userAction&amp;#34; method=&amp;#34;{1}&amp;#34;&amp;gt; &amp;lt;result name=&amp;#34;input&amp;#34;&amp;gt;/index.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;success&amp;#34; type=&amp;#34;redirect&amp;#34;&amp;gt;/jsp/layout.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;info&amp;#34; type=&amp;#34;redirect&amp;#34;&amp;gt;/jsp/myinfo.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;invi&amp;#34;&amp;gt;/jsp/invi.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;regSuccess&amp;#34;&amp;gt;/jsp/regSuccess1.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;getCodes&amp;#34;&amp;gt;/jsp/mycode.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;toHome&amp;#34;&amp;gt;/jsp/layout.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;linkPersion&amp;#34;&amp;gt;/jsp/otherInfo.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;update&amp;#34;&amp;gt;/jsp/updateUser.</description>
     </item>
     
     <item>
@@ -872,7 +1177,10 @@ public static String[] codeMaker() { String[] code = new String[3]; for (int i=0
       <pubDate>Wed, 02 Nov 2016 12:55:29 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2016-11-02-ssh-web-02/</guid>
-      <description>&lt;p&gt;本节将关于本项目所需导入的 jar 包进行逐一解释，基本适用于普通的 Struts2+Hibernate3+Spring3 的项目， 此为相对较老的组合版本，若使用 Hibernate4 或 Mybatis 等其他较新框架，请自行查阅相关资料。&lt;/p&gt;</description>
+      <description>本节将关于本项目所需导入的 jar 包进行逐一解释，基本适用于普通的 Struts2+Hibernate3+Spring3 的项目， 此为相对较老的组合版本，若使用 Hibernate4 或 Mybatis 等其他较新框架，请自行查阅相关资料。
+1、struts2 基础必备包（解压 blank.war 可得） 本项目使用 struts2.3.4.1 附加 Jar 解释：
+struts2-convention-plugin-2.3.4.1.jar——支持 struts2 的注解开发 struts2-spring-plugin-2.3.4.1.jar——用于整合 spring 2、hibernate3 基础必备包 本项目使用 hibernate3.3.1 根路径 hibernate3.jar——核心 jar 包 required 目录所有 jar 包 hibernate 日志记录——slf4j-log4j.jar 数据库驱动包——mysql-connector-java.jar（本项目使用 mysql 数据库） 3、spring 基础必备包 本项目使用 spring3.2.2 spring 基本 jar 包包括
+IoC 开发 spring-beans.jar spring-context.jar spring-core.jar spring-expression.jar com.springsource.org.apache.log4j.jar——作日志记录 com.springsource.org.apache.commons.logging.jar——日志整合，不作具体日志记录，用于整合其他日志系统 AOP spring-aop.jar spring-aspect.jar——整合 aspect com.spinrgsource.org.aopalliance.jar——aop 联盟 com.springsource.org.aspectj.weaver.jar 其他 spring-tx.jar——事务管理 spring-jdbc.jar——jdbc 模板 spring-orm.jar——整合 hibernate spring-web.</description>
     </item>
     
     <item>
@@ -881,7 +1189,8 @@ public static String[] codeMaker() { String[] code = new String[3]; for (int i=0
       <pubDate>Wed, 02 Nov 2016 11:10:02 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2016-11-02-ssh-web-01/</guid>
-      <description>&lt;p&gt;本项目是使用 Struts2+Hibernate3+Spring3,基于 MVC 开发模式的一个简单实例，第一篇先建立项目总体包结构，后续将详细解释项目细节。&lt;/p&gt;</description>
+      <description>本项目是使用 Struts2+Hibernate3+Spring3,基于 MVC 开发模式的一个简单实例，第一篇先建立项目总体包结构，后续将详细解释项目细节。
+1、整体包结构 2、action 包 3、domain 实体包 4、service 层 5、dao 层 6、util 工具包 7、页面层 </description>
     </item>
     
     <item>
@@ -896,31 +1205,31 @@ public static String[] codeMaker() { String[] code = new String[3]; for (int i=0
 （2）利用操作系统所提供的图形库
 （3）简单、高效
 （4）运行速度快
-（5）基于系统（调用系统UI）
+（5）基于系统（调用系统 UI）
 （6）消耗资源
 （7）难以跨平台
 功能：
-（1）Canvas组件：画布，可实现动画操作
+（1）Canvas 组件：画布，可实现动画操作
 （2）TextArea:文本域
-（3）单行文本域中回车会激发ActionEvent
-（4）CheckBoxGroup实现单选框
-（5）单元框和复选框都使用CheckBox实现
-（6）菜单：new MenuBar()，MenuBar表示菜单条，菜单每一项为MenuItem(一般级联菜单不应超过3级)
+（3）单行文本域中回车会激发 ActionEvent
+（4）CheckBoxGroup 实现单选框
+（5）单元框和复选框都使用 CheckBox 实现
+（6）菜单：new MenuBar()，MenuBar 表示菜单条，菜单每一项为 MenuItem(一般级联菜单不应超过 3 级)
 应用：嵌入式应用
 目标平台的硬件资源非常有限，同时应用程序运行速度是项目中至关重要的因素
 （二）swing:
 特点：
 （1）轻量级控件
-（2）100%JAVA代码实现（Swing为JAVA自身组件）
+（2）100%JAVA 代码实现（Swing 为 JAVA 自身组件）
 （3）与底层系统无关
-（4）基于AWT
+（4）基于 AWT
 （5）运行速度慢
-应用：基于PC或工作站的标准Java应用
+应用：基于 PC 或工作站的标准 Java 应用
 硬件资源对应用程序所造成的限制往往不是项目中的关键因素，通过牺牲速度来实现应用程序的功能
 （三）SWT:
 特点：
-（1）未通过JAVA虚拟机操作，直接调用Windows GDI和Shell（通过JNI方法调用完成）
-（2）基于SWT实现的Eclipse界面速度快、效率高，比Swing美观</description>
+（1）未通过 JAVA 虚拟机操作，直接调用 Windows GDI 和 Shell（通过 JNI 方法调用完成）
+（2）基于 SWT 实现的 Eclipse 界面速度快、效率高，比 Swing 美观</description>
     </item>
     
     <item>
@@ -938,7 +1247,7 @@ public static String[] codeMaker() { String[] code = new String[3]; for (int i=0
 2、访问修饰符大于被重写方法（public &amp;gt; protected &amp;gt; default &amp;gt; private）
 3、返回值（与被重写方法）相同
 4、所抛异常（与被重写方法）相同
-5、被重写方法不能为private，否则在其子类中只是新定义了一个方法，并未对其进行重写
+5、被重写方法不能为 private，否则在其子类中只是新定义了一个方法，并未对其进行重写
 6、静态方法不能被重写为非静态方法（否则编译出错）
 overload(重载)
 解释：在一个类内实现若干重载方法，方法名相同而参数形式不同

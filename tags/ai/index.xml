@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AI on Wilson&#39;s Blog</title>
+    <link>https://barnett617.github.io/wilson-blog/tags/ai/</link>
+    <description>Recent content in AI on Wilson&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hans-CN</language>
+    <lastBuildDate>Thu, 25 Jan 2018 10:17:43 +0000</lastBuildDate><atom:link href="https://barnett617.github.io/wilson-blog/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>谷歌机器学习开源框架Tensorflow安装相关</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2018-01-25-tensorflow-install/</link>
+      <pubDate>Thu, 25 Jan 2018 10:17:43 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2018-01-25-tensorflow-install/</guid>
+      <description>关于安装 TensorFlow 的一系列准备
+前期准备 tensorflow 官方推荐安装是通过 pip 安装的，先来看看 pip 是什么
+pip 本质 包安装器
+类似工具 linux 的 rpm(RPM Package Manager，递归写法，类似于 GNU——GNU&amp;rsquo;s Not Unix) nodejs 的 npm(node package manager) java 的 Maven(严谨来说，PyPI 相当于 Maven，包社区) Conda(由 Python 编写，语言无关的跨平台包管理器) Anaconda(本身一个 python 数据科学平台，同时是一个平台无关的包管理器、环境管理器) 名称解释 pip 的解释应该是 Python Install Package 或者 Package Index for Python(个人猜测，暂未找到官方解释)
+因为通过 pip 为 python 安装包时的用法是
+pip install some-package 具体行为 去 PyPI（Python Package Index）下载相关包
+安装 预安装情况 装有大于等于 2.7.9 或 3.4 版本的 python，已预装</description>
+    </item>
+    
+  </channel>
+</rss>

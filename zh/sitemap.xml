@@ -61,20 +61,26 @@
     <loc>https://barnett617.github.io/wilson-blog/posts/2023-07-03-figma-config-2023-02/</loc>
     <lastmod>2023-07-03T21:46:34+00:00</lastmod>
   </url><url>
+    <loc>https://barnett617.github.io/wilson-blog/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/</loc>
+    <lastmod>2023-07-03T21:46:34+00:00</lastmod>
+  </url><url>
     <loc>https://barnett617.github.io/wilson-blog/posts/2023-07-02-figma-config-2023-01/</loc>
     <lastmod>2023-07-02T21:45:54+00:00</lastmod>
   </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/notes/2023-06-29-vite-using/</loc>
-    <lastmod>2023-06-29T23:50:58+00:00</lastmod>
+    <loc>https://barnett617.github.io/wilson-blog/tags/vue/</loc>
+    <lastmod>2023-06-28T21:38:46+00:00</lastmod>
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/notes/2023-06-28-vuex-vs-pinia/</loc>
     <lastmod>2023-06-28T21:38:46+00:00</lastmod>
   </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/tags/wasm/</loc>
+    <loc>https://barnett617.github.io/wilson-blog/tags/web/</loc>
     <lastmod>2023-06-21T22:37:22+00:00</lastmod>
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/notes/2023-06-21-wasm/</loc>
     <lastmod>2023-06-21T22:37:22+00:00</lastmod>
+  </url><url>
+    <loc>https://barnett617.github.io/wilson-blog/tags/css/</loc>
+    <lastmod>2023-06-11T11:42:00+00:00</lastmod>
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/notes/2023-07-11-css-basic/</loc>
     <lastmod>2023-06-11T11:42:00+00:00</lastmod>
@@ -84,6 +90,12 @@
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/en/posts/2023-07-11-js-basic/</loc>
     <lastmod>2023-06-11T11:37:00+00:00</lastmod>
+  </url><url>
+    <loc>https://barnett617.github.io/wilson-blog/tags/algorithms/</loc>
+    <lastmod>2023-06-11T00:42:00+00:00</lastmod>
+  </url><url>
+    <loc>https://barnett617.github.io/wilson-blog/tags/javascript/</loc>
+    <lastmod>2023-06-11T00:42:00+00:00</lastmod>
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-closure/</loc>
     <lastmod>2023-06-11T00:42:00+00:00</lastmod>
@@ -115,16 +127,10 @@
     <loc>https://barnett617.github.io/wilson-blog/en/posts/2022-09-21-projects-star-2022/</loc>
     <lastmod>2022-09-21T23:02:00+00:00</lastmod>
   </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/tags/nodejs/</loc>
-    <lastmod>2021-07-24T21:40:00+00:00</lastmod>
-  </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/tags/web/</loc>
-    <lastmod>2021-07-24T21:40:00+00:00</lastmod>
+    <loc>https://barnett617.github.io/wilson-blog/tags/%E6%80%BB%E7%BB%93/</loc>
+    <lastmod>2022-09-21T23:02:00+00:00</lastmod>
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/posts/2021-07-24-webapp-based-on-bs-arch/</loc>
-    <lastmod>2021-07-24T21:40:00+00:00</lastmod>
-  </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/tags/%E5%89%8D%E7%AB%AF/</loc>
     <lastmod>2021-07-24T21:40:00+00:00</lastmod>
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/en/posts/2021-03-01-projects-2020/</loc>
@@ -133,19 +139,10 @@
     <loc>https://barnett617.github.io/wilson-blog/en/posts/2021-03-01-review-2020/</loc>
     <lastmod>2021-03-01T15:19:00+00:00</lastmod>
   </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/tags/github/</loc>
-    <lastmod>2020-08-20T17:16:49+00:00</lastmod>
-  </url><url>
     <loc>https://barnett617.github.io/wilson-blog/posts/2020-08-19-ci-with-github/</loc>
     <lastmod>2020-08-20T17:16:49+00:00</lastmod>
   </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/categories/</loc>
-    <lastmod>2023-12-03T16:52:45+00:00</lastmod>
-  </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/tags/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2020-05-04T12:05:55+00:00</lastmod>
-  </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <loc>https://barnett617.github.io/wilson-blog/tags/%E6%80%9D%E8%80%83/</loc>
     <lastmod>2020-05-04T12:05:55+00:00</lastmod>
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/notes/2020-05-04-thinking-about-blog/</loc>
@@ -154,37 +151,16 @@
     <loc>https://barnett617.github.io/wilson-blog/posts/2020-05-02-refresh-blog/</loc>
     <lastmod>2020-05-02T18:36:54+00:00</lastmod>
   </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/tags/%E5%85%B6%E4%BB%96/</loc>
-    <lastmod>2023-12-03T16:52:45+00:00</lastmod>
-  </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/categories/%E6%80%BB%E7%BB%93/</loc>
-    <lastmod>2020-05-02T18:36:54+00:00</lastmod>
-  </url><url>
     <loc>https://barnett617.github.io/wilson-blog/notes/2020-04-16-binary-tree-iteration-methods/</loc>
-    <lastmod>2020-04-16T17:10:48+00:00</lastmod>
-  </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/tags/%E7%AE%97%E6%B3%95/</loc>
-    <lastmod>2020-04-16T17:10:48+00:00</lastmod>
-  </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/categories/%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2020-04-16T17:10:48+00:00</lastmod>
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/posts/2020-04-02-about-programmer-basic-learning/</loc>
     <lastmod>2020-04-02T12:27:18+00:00</lastmod>
   </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/tags/javascript/</loc>
-    <lastmod>2020-03-15T11:25:04+00:00</lastmod>
-  </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/categories/%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2020-03-15T11:25:04+00:00</lastmod>
-  </url><url>
     <loc>https://barnett617.github.io/wilson-blog/notes/2020-03-15-reintroduce-javascript/</loc>
     <lastmod>2020-03-15T11:25:04+00:00</lastmod>
   </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/tags/%E6%A1%86%E6%9E%B6/</loc>
-    <lastmod>2020-03-09T15:51:14+00:00</lastmod>
-  </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/categories/%E5%89%8D%E7%AB%AF/</loc>
+    <loc>https://barnett617.github.io/wilson-blog/tags/frontend/</loc>
     <lastmod>2020-03-09T15:51:14+00:00</lastmod>
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/notes/2020-03-09-frontend-framework/</loc>
@@ -202,9 +178,6 @@
     <loc>https://barnett617.github.io/wilson-blog/posts/2020-01-10-mpvue/</loc>
     <lastmod>2020-01-10T18:16:00+00:00</lastmod>
   </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/tags/vue/</loc>
-    <lastmod>2020-01-10T18:16:00+00:00</lastmod>
-  </url><url>
     <loc>https://barnett617.github.io/wilson-blog/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/</loc>
     <lastmod>2020-01-10T18:16:00+00:00</lastmod>
   </url><url>
@@ -217,7 +190,7 @@
     <loc>https://barnett617.github.io/wilson-blog/tags/%E7%BD%91%E7%BB%9C/</loc>
     <lastmod>2020-01-09T19:11:00+00:00</lastmod>
   </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/tags/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</loc>
+    <loc>https://barnett617.github.io/wilson-blog/tags/regex/</loc>
     <lastmod>2020-01-08T09:33:00+00:00</lastmod>
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/notes/2020-01-08-regexp/</loc>
@@ -253,25 +226,13 @@
     <loc>https://barnett617.github.io/wilson-blog/posts/2019-05-21-ecmascript6-reading-review/</loc>
     <lastmod>2019-05-21T21:21:28+00:00</lastmod>
   </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/tags/es6/</loc>
-    <lastmod>2019-05-21T21:21:28+00:00</lastmod>
-  </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/categories/%E8%AF%BB%E4%B9%A6/</loc>
-    <lastmod>2019-05-21T21:21:28+00:00</lastmod>
-  </url><url>
     <loc>https://barnett617.github.io/wilson-blog/tags/git/</loc>
-    <lastmod>2020-05-04T15:49:11+00:00</lastmod>
+    <lastmod>2023-12-03T16:31:27+00:00</lastmod>
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/posts/2019-05-21-git-submodule/</loc>
     <lastmod>2020-05-04T15:49:11+00:00</lastmod>
   </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/categories/%E5%BC%80%E5%8F%91/</loc>
-    <lastmod>2020-05-04T15:49:11+00:00</lastmod>
-  </url><url>
     <loc>https://barnett617.github.io/wilson-blog/tags/python/</loc>
-    <lastmod>2023-12-03T15:33:44+00:00</lastmod>
-  </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/categories/%E5%90%8E%E7%AB%AF/</loc>
     <lastmod>2023-12-03T15:33:44+00:00</lastmod>
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/posts/2019-05-07-use-python-visualize-to-statistics/</loc>
@@ -289,20 +250,20 @@
     <loc>https://barnett617.github.io/wilson-blog/notes/2019-01-21-js-copy/</loc>
     <lastmod>2019-01-21T15:44:00+00:00</lastmod>
   </url><url>
+    <loc>https://barnett617.github.io/wilson-blog/tags/%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2019-01-17T21:12:35+00:00</lastmod>
+  </url><url>
     <loc>https://barnett617.github.io/wilson-blog/posts/2019-01-17-reread-js/</loc>
     <lastmod>2019-01-17T21:12:35+00:00</lastmod>
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/posts/2018-10-02-review-of-2017-to-2018/</loc>
     <lastmod>2019-05-15T15:16:38+00:00</lastmod>
   </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/tags/html5/</loc>
+    <loc>https://barnett617.github.io/wilson-blog/tags/html/</loc>
     <lastmod>2018-09-05T15:55:05+00:00</lastmod>
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/posts/2018-09-05-html5-clock-webapp/</loc>
     <lastmod>2018-09-05T15:55:05+00:00</lastmod>
-  </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/categories/%E5%85%B6%E4%BB%96/</loc>
-    <lastmod>2018-09-03T19:57:17+00:00</lastmod>
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/posts/2018-09-03-blog-backup/</loc>
     <lastmod>2018-09-03T19:57:17+00:00</lastmod>
@@ -343,7 +304,13 @@
     <loc>https://barnett617.github.io/wilson-blog/notes/2018-02-22-angular4/</loc>
     <lastmod>2018-02-22T22:36:27+00:00</lastmod>
   </url><url>
+    <loc>https://barnett617.github.io/wilson-blog/categories/</loc>
+    <lastmod>2018-02-22T21:33:38+00:00</lastmod>
+  </url><url>
     <loc>https://barnett617.github.io/wilson-blog/posts/2018-02-22-vue-basic/</loc>
+    <lastmod>2018-02-22T21:33:38+00:00</lastmod>
+  </url><url>
+    <loc>https://barnett617.github.io/wilson-blog/categories/%E5%89%8D%E7%AB%AF/</loc>
     <lastmod>2018-02-22T21:33:38+00:00</lastmod>
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/posts/2018-02-22-vue-basic-01/</loc>
@@ -351,6 +318,9 @@
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/notes/2018-02-16-html5-sementical/</loc>
     <lastmod>2018-02-16T15:54:37+00:00</lastmod>
+  </url><url>
+    <loc>https://barnett617.github.io/wilson-blog/tags/html5/</loc>
+    <lastmod>2018-02-16T15:09:48+00:00</lastmod>
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/notes/2018-02-16-html-basic/</loc>
     <lastmod>2018-02-16T15:09:48+00:00</lastmod>
@@ -364,9 +334,6 @@
     <loc>https://barnett617.github.io/wilson-blog/notes/2018-02-13-hexo-reading-count/</loc>
     <lastmod>2018-02-13T14:46:31+00:00</lastmod>
   </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/categories/%E7%9E%8E%E9%BC%93%E6%8D%A3/</loc>
-    <lastmod>2023-12-03T16:52:45+00:00</lastmod>
-  </url><url>
     <loc>https://barnett617.github.io/wilson-blog/posts/2018-02-13-wechat-miniprogram/</loc>
     <lastmod>2018-02-13T09:47:22+00:00</lastmod>
   </url><url>
@@ -376,17 +343,11 @@
     <loc>https://barnett617.github.io/wilson-blog/posts/2018-02-09-review-of-2017/</loc>
     <lastmod>2018-02-09T23:37:50+00:00</lastmod>
   </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/tags/%E7%9B%98%E7%82%B9/</loc>
-    <lastmod>2018-02-09T23:37:50+00:00</lastmod>
-  </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/tags/linux/</loc>
-    <lastmod>2023-12-03T15:32:10+00:00</lastmod>
-  </url><url>
     <loc>https://barnett617.github.io/wilson-blog/notes/2018-02-07-linux-basic-commands/</loc>
     <lastmod>2018-02-07T20:42:57+00:00</lastmod>
   </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</loc>
-    <lastmod>2023-12-03T15:32:10+00:00</lastmod>
+    <loc>https://barnett617.github.io/wilson-blog/tags/os/</loc>
+    <lastmod>2023-12-03T16:52:45+00:00</lastmod>
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/posts/2018-02-07-react-install/</loc>
     <lastmod>2018-02-07T14:59:31+00:00</lastmod>
@@ -397,19 +358,10 @@
     <loc>https://barnett617.github.io/wilson-blog/posts/2018-02-07-nodejs-and-npm-update/</loc>
     <lastmod>2018-02-07T14:27:19+00:00</lastmod>
   </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/tags/macos/</loc>
-    <lastmod>2018-02-07T14:10:45+00:00</lastmod>
-  </url><url>
     <loc>https://barnett617.github.io/wilson-blog/notes/2018-02-07-vmware-macos-max-window/</loc>
     <lastmod>2018-02-07T14:10:45+00:00</lastmod>
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/notes/2018-02-02-browser-cache/</loc>
-    <lastmod>2018-02-02T14:38:49+00:00</lastmod>
-  </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/</loc>
-    <lastmod>2018-02-02T14:38:49+00:00</lastmod>
-  </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/categories/%E6%B5%8F%E8%A7%88%E5%99%A8/</loc>
     <lastmod>2018-02-02T14:38:49+00:00</lastmod>
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/posts/2018-02-01-js-refresh/</loc>
@@ -418,13 +370,10 @@
     <loc>https://barnett617.github.io/wilson-blog/posts/2018-02-01-react-quick-start/</loc>
     <lastmod>2018-02-01T15:32:54+00:00</lastmod>
   </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/tags/mysql/</loc>
+    <loc>https://barnett617.github.io/wilson-blog/tags/database/</loc>
     <lastmod>2018-02-01T15:14:45+00:00</lastmod>
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/posts/2018-02-01-mysql-data-recovery/</loc>
-    <lastmod>2018-02-01T15:14:45+00:00</lastmod>
-  </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
     <lastmod>2018-02-01T15:14:45+00:00</lastmod>
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/posts/2018-01-29-about-maven-translation/</loc>
@@ -436,26 +385,17 @@
     <loc>https://barnett617.github.io/wilson-blog/notes/2018-01-25-domain/</loc>
     <lastmod>2018-01-25T15:09:24+00:00</lastmod>
   </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/categories/%E7%BD%91%E7%BB%9C/</loc>
-    <lastmod>2018-01-25T15:09:24+00:00</lastmod>
-  </url><url>
     <loc>https://barnett617.github.io/wilson-blog/notes/2018-01-25-dns/</loc>
     <lastmod>2018-01-25T14:46:04+00:00</lastmod>
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/posts/2018-01-25-linux-distributions/</loc>
     <lastmod>2018-01-25T10:51:20+00:00</lastmod>
   </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/tags/tensorflow/</loc>
+    <loc>https://barnett617.github.io/wilson-blog/tags/ai/</loc>
     <lastmod>2018-01-25T10:17:43+00:00</lastmod>
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/posts/2018-01-25-tensorflow-install/</loc>
     <lastmod>2018-01-25T10:17:43+00:00</lastmod>
-  </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2018-01-25T10:17:43+00:00</lastmod>
-  </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</loc>
-    <lastmod>2018-01-25T09:59:50+00:00</lastmod>
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/posts/2018-01-25-vmware-tools-install/</loc>
     <lastmod>2018-01-25T09:59:50+00:00</lastmod>
@@ -505,9 +445,6 @@
     <loc>https://barnett617.github.io/wilson-blog/posts/2018-01-18-how-bitcorn-works-translation/</loc>
     <lastmod>2018-01-18T09:38:05+00:00</lastmod>
   </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/categories/%E7%BF%BB%E8%AF%91/</loc>
-    <lastmod>2018-01-18T09:38:05+00:00</lastmod>
-  </url><url>
     <loc>https://barnett617.github.io/wilson-blog/tags/webpack/</loc>
     <lastmod>2018-01-17T11:41:10+00:00</lastmod>
   </url><url>
@@ -538,10 +475,10 @@
     <loc>https://barnett617.github.io/wilson-blog/posts/2017-11-14-stackexchange-vs-quora/</loc>
     <lastmod>2017-11-14T14:15:57+00:00</lastmod>
   </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/posts/2017-11-09-about-load-balance/</loc>
-    <lastmod>2017-11-09T17:37:16+00:00</lastmod>
+    <loc>https://barnett617.github.io/wilson-blog/tags/%E5%85%B6%E4%BB%96/</loc>
+    <lastmod>2017-11-14T14:15:57+00:00</lastmod>
   </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/categories/%E6%9E%B6%E6%9E%84/</loc>
+    <loc>https://barnett617.github.io/wilson-blog/posts/2017-11-09-about-load-balance/</loc>
     <lastmod>2017-11-09T17:37:16+00:00</lastmod>
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/posts/2017-11-09-about-career/</loc>
@@ -560,6 +497,9 @@
     <lastmod>2017-10-31T22:44:35+00:00</lastmod>
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/posts/2017-10-31-mysql-max-function-and-groupby/</loc>
+    <lastmod>2017-10-31T21:29:49+00:00</lastmod>
+  </url><url>
+    <loc>https://barnett617.github.io/wilson-blog/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
     <lastmod>2017-10-31T21:29:49+00:00</lastmod>
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/posts/2017-10-17-learn-from-addy-osmani-code/</loc>
@@ -595,9 +535,6 @@
     <loc>https://barnett617.github.io/wilson-blog/notes/2017-02-08-java-basic-03/</loc>
     <lastmod>2017-05-08T20:16:01+00:00</lastmod>
   </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/tags/%E6%AD%A3%E5%88%99/</loc>
-    <lastmod>2017-05-06T20:17:59+00:00</lastmod>
-  </url><url>
     <loc>https://barnett617.github.io/wilson-blog/notes/2017-02-07-regexp/</loc>
     <lastmod>2017-05-06T20:17:59+00:00</lastmod>
   </url><url>
@@ -610,9 +547,6 @@
     <loc>https://barnett617.github.io/wilson-blog/notes/2017-02-07-java-basic-01/</loc>
     <lastmod>2017-02-07T17:27:54+00:00</lastmod>
   </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/tags/windows/</loc>
-    <lastmod>2017-02-06T11:47:56+00:00</lastmod>
-  </url><url>
     <loc>https://barnett617.github.io/wilson-blog/notes/2017-02-06-windows-missing-file/</loc>
     <lastmod>2017-02-06T11:47:56+00:00</lastmod>
   </url><url>
@@ -623,6 +557,9 @@
     <lastmod>2016-12-20T09:28:04+08:00</lastmod>
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/posts/2016-12-15-es6-learning/</loc>
+    <lastmod>2017-06-23T20:20:20+00:00</lastmod>
+  </url><url>
+    <loc>https://barnett617.github.io/wilson-blog/tags/es6/</loc>
     <lastmod>2017-06-23T20:20:20+00:00</lastmod>
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/notes/2016-12-15-java-basic-sort-algorithms/</loc>
@@ -666,6 +603,8 @@
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/posts/2015-12-23-override-vs-overload/</loc>
     <lastmod>2015-12-23T13:30:18+00:00</lastmod>
+  </url><url>
+    <loc>https://barnett617.github.io/wilson-blog/tags/ci/cd/</loc>
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/tags/</loc>
   </url><url>

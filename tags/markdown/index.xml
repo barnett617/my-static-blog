@@ -13,7 +13,27 @@
       <pubDate>Fri, 03 Jan 2020 11:30:00 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2020-01-03-markdown/</guid>
-      <description>&lt;p&gt;markdown 基本使用&lt;/p&gt;</description>
+      <description>markdown 基本使用</description>
+    </item>
+    
+    <item>
+      <title>Markdown语法学习整理</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2017-11-17-markdown-programmer/</link>
+      <pubDate>Fri, 17 Nov 2017 10:09:16 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2017-11-17-markdown-programmer/</guid>
+      <description>虽说 markdown 用了一段时间，但还未曾专门地阅读文档对其进行过相对系统的学习。刚才使用分割线时发现分割线下面的文字变成标题般字体，专门查了一波，发现还是有必要系统学习一下 md 语法，以节省日后使用时的查阅时间。
+宗旨 易读易写
+一份使用 markdown 格式撰写的文档理应可以直接以纯文本发布，也就意味着 markdown 的一系列标签语法对于纯文本来说应该是低浸入、无感知的，用户阅读不会因为增加了 md 标签而变得晦涩。
+这点区别于 HTML 语言至少还需要掌握 HTML 编程语法，才能理解部分标签的使用规则。
+灵感 markdown 最大灵感源自纯文本电子邮件的格式（可能人们对于纯文本的电子邮件格式觉得太过单调，于是通过添加一些小标记，来增加丰富的格式）
+目标 成为一种适用于网络的书写语言 markdown 并非要取代 HTML，甚至也没有要和它相近。
+相比 HTML，markdown 语法种类少，仅对应 HTML 标记的一小部分
+让文档更容易读、写、随意改 易读的前提就是 md 的标记需要尽量的没有侵入感，比如一篇纯文本文档增加 md 标记后不会影响原始阅读感受
+易写易改的要求则是 md 的语法标记需要同 HTML 一样“语义化”，能够见标知意
+兼容 HTML 区块标签 一些 HTML 区块元素比如&amp;lt;div&amp;gt;、&amp;lt;table&amp;gt;、&amp;lt;pre&amp;gt;、&amp;lt;p&amp;gt;等，必须在其前后加上空行与其他内容隔开，并且开始标签与结束标签不能用制表符（Tab）或空格来进行缩进。 （下面实例的缩进实现方式是通过 HTML 的 pre 标签，使其内部的 markdown 语法失效）
+比如这里的 HTML 标签如果我想要以标签的样子显示在屏幕上，那我其实需要在文本里通过 md 标记来编辑，类似使用 code 标签、转义字符（通过转义字符来“画出”尖括号，code 标签可以使其成为块状文本）
+另外，markdown 生成器不会在 HTML 区块标签外加上不必要的&amp;lt;p&amp;gt;标签，区别于对于 HTML 文本进行编辑时，若你写了大段内容而未加任何标签的话，HTML 生成器会为你在内容前后加上&amp;lt;p&amp;gt;标签</description>
     </item>
     
   </channel>

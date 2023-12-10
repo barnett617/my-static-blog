@@ -13,7 +13,7 @@
       <pubDate>Thu, 31 Aug 2023 22:54:51 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/notes/2023-08-31-rust-05/</guid>
-      <description>&lt;p&gt;使用包、预置库和模块管理不断增长的项目&lt;/p&gt;</description>
+      <description>使用包、预置库和模块管理不断增长的项目</description>
     </item>
     
     <item>
@@ -31,7 +31,7 @@
       <pubDate>Tue, 11 Jul 2023 22:37:39 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/notes/2023-07-11-rust-03/</guid>
-      <description>&lt;p&gt;关于枚举和模式匹配&lt;/p&gt;</description>
+      <description>关于枚举和模式匹配</description>
     </item>
     
     <item>
@@ -49,16 +49,7 @@
       <pubDate>Mon, 10 Jul 2023 22:02:15 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/notes/2023-07-10-rust-01/</guid>
-      <description>&lt;p&gt;rust语法融合了多门编程语言的特性，可以看到很多语言的影子，例如 JavaScript、Java、Python、C、Go等。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>vite体验</title>
-      <link>https://barnett617.github.io/wilson-blog/notes/2023-06-29-vite-using/</link>
-      <pubDate>Thu, 29 Jun 2023 23:50:58 +0000</pubDate>
-      
-      <guid>https://barnett617.github.io/wilson-blog/notes/2023-06-29-vite-using/</guid>
-      <description>&lt;p&gt;学习 Pinia 源码时尝试运行&lt;a href=&#34;https://pinia.vuejs.org/core-concepts/&#34;&gt;Pinia 官网&lt;/a&gt;提供的样例，基于 &lt;a href=&#34;https://vitejs.dev/guide/&#34;&gt;Vite&lt;/a&gt;初始化了项目，在初始化 Pinia Store 中遇到的一些问题记录&lt;/p&gt;</description>
+      <description>&lt;p&gt;rust 语法融合了多门编程语言的特性，可以看到很多语言的影子，例如 JavaScript、Java、Python、C、Go 等。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -67,7 +58,7 @@
       <pubDate>Wed, 28 Jun 2023 21:38:46 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/notes/2023-06-28-vuex-vs-pinia/</guid>
-      <description>&lt;p&gt;vuex@3对比pinia@v2&lt;/p&gt;</description>
+      <description>&lt;p&gt;vuex@3 对比 pinia@v2&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -94,7 +85,7 @@
       <pubDate>Wed, 21 Sep 2022 23:02:00 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/notes/2022-09-21-2022-projects/</guid>
-      <description>&lt;p&gt;关于2022年的项目总结&lt;/p&gt;</description>
+      <description>&lt;p&gt;关于 2022 年的项目总结&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -103,7 +94,7 @@
       <pubDate>Mon, 04 May 2020 12:05:55 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/notes/2020-05-04-thinking-about-blog/</guid>
-      <description>&lt;p&gt;重新把很早以前写的“博客”看了一下，发现有新的感悟。&lt;/p&gt;</description>
+      <description>&lt;p&gt;重新把很早以前写的“博客”看了一下，发现有新的感悟&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -112,7 +103,7 @@
       <pubDate>Thu, 16 Apr 2020 17:10:48 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/notes/2020-04-16-binary-tree-iteration-methods/</guid>
-      <description>&lt;p&gt;二叉树的三种遍历（递归+迭代）&lt;/p&gt;</description>
+      <description>二叉树的三种遍历（递归+迭代）</description>
     </item>
     
     <item>
@@ -121,7 +112,7 @@
       <pubDate>Sun, 15 Mar 2020 11:25:04 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/notes/2020-03-15-reintroduce-javascript/</guid>
-      <description>&lt;p&gt;读 &lt;a href=&#34;https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/A_re-introduction_to_JavaScript&#34;&gt;重新介绍 JavaScript（JS 教程）&lt;/a&gt; 一文整理的脑图&lt;/p&gt;</description>
+      <description>读‘重新介绍 JavaScript（JS 教程）’一文整理的脑图</description>
     </item>
     
     <item>
@@ -220,7 +211,11 @@
       <pubDate>Mon, 03 Sep 2018 18:54:18 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/notes/2018-09-03-js-note/</guid>
-      <description>&lt;p&gt;函数表达式&lt;/p&gt;</description>
+      <description>函数表达式 定义函数方式 函数声明 function fun() {} 函数表达式 var fun = function () {}; 关键词 函数声明提升 执行代码前会先读取函数声明，所以在函数声明前也可以调用函数
+test(); function test() { alert(&amp;#34;test&amp;#34;); } // ok 匿名函数（lambda 函数） 函数表达式同其他表达式，使用前需先声明，否则报错
+test(); function test() { alert(&amp;#34;test&amp;#34;); } // 报错 递归 经典阶乘
+function factorial(num) { if (num &amp;lt;= 1) { return 1; } else { return num * factorial(num - 1); } } 如下会使这个函数报错
+// 把factorial()函数保存在another变量中 var another = factorial; // 把变量factorial置空 factorial = null; // 调用another()必须执行factorial(),而factorial不再是函数 alert(another(4)); 解决：使用arguments.</description>
     </item>
     
     <item>
@@ -229,7 +224,7 @@
       <pubDate>Fri, 23 Feb 2018 20:01:25 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/notes/2018-02-23-js-basic-about-jquery-selector/</guid>
-      <description>&lt;p&gt;关于jQuery选择器的整理&lt;/p&gt;</description>
+      <description>&lt;p&gt;关于 jQuery 选择器的整理&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -238,7 +233,7 @@
       <pubDate>Thu, 22 Feb 2018 22:36:27 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/notes/2018-02-22-angular4/</guid>
-      <description>&lt;p&gt;关于Angular学习整理&lt;/p&gt;</description>
+      <description>&lt;p&gt;关于 Angular 学习整理&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -247,7 +242,7 @@
       <pubDate>Fri, 16 Feb 2018 15:54:37 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/notes/2018-02-16-html5-sementical/</guid>
-      <description>&lt;p&gt;关于HTML5中语义方面的改变&lt;/p&gt;</description>
+      <description>&lt;p&gt;关于 HTML5 中语义方面的改变&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -256,7 +251,7 @@
       <pubDate>Fri, 16 Feb 2018 15:09:48 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/notes/2018-02-16-html-basic/</guid>
-      <description>&lt;p&gt;HTML5作为如今前端必备“新”技术，理应成为前端基础的必备技能之一&lt;/p&gt;</description>
+      <description>&lt;p&gt;HTML5 作为如今前端必备“新”技术，理应成为前端基础的必备技能之一&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -265,7 +260,7 @@
       <pubDate>Tue, 13 Feb 2018 14:46:31 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/notes/2018-02-13-hexo-reading-count/</guid>
-      <description>&lt;p&gt;前一段时间换域名，发现博客的访问次数不显示了，一开始没时间关注，最近闲了，研究一下到底是怎么回事，发现原来当初这里不是基于本地配置，而是使用leancloud进行统计，查阅到一篇很易懂的教程，顺便整理了一下PV和UV的统计&lt;/p&gt;</description>
+      <description>&lt;p&gt;前一段时间换域名，发现博客的访问次数不显示了。一开始没时间关注，最近闲了，研究一下到底是怎么回事，发现原来当初这里不是基于本地配置，而是使用 leancloud 进行统计，查阅到一篇很易懂的教程，顺便整理了一下 PV 和 UV 的统计&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -274,7 +269,7 @@
       <pubDate>Wed, 07 Feb 2018 20:42:57 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/notes/2018-02-07-linux-basic-commands/</guid>
-      <description>&lt;p&gt;记录一下常用到的linux命令（包含相应Windows中的操作）&lt;/p&gt;</description>
+      <description>&lt;p&gt;记录一下常用到的 linux 命令（包含相应 Windows 中的操作）&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -283,7 +278,7 @@
       <pubDate>Wed, 07 Feb 2018 14:10:45 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/notes/2018-02-07-vmware-macos-max-window/</guid>
-      <description>&lt;p&gt;如何解决VMware安装VMware Tools后仍不能全屏显示的问题&lt;/p&gt;</description>
+      <description>&lt;p&gt;如何解决 VMware 安装 VMware Tools 后仍不能全屏显示的问题&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -301,7 +296,19 @@
       <pubDate>Thu, 25 Jan 2018 15:09:24 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/notes/2018-01-25-domain/</guid>
-      <description>&lt;p&gt;探析域名&lt;/p&gt;</description>
+      <description>探析域名
+概念 域名（简称“网域”），与互联网上的一个物理 IP 关联
+是电子邮件地址中@符号之后和网址中 www.之后的唯一名称
+子域名 子域名也是域名，隶属于较大的网域
+例如：mail.google.com、www.google.com和docs.google.com都是域名google.com的子域名
+域名所有者可以创建子域名，为顶级域名下的网页或服务提供简单好记的地址
+裸网域 就是不含“www”前缀的网域地址。例如 google.com，而不是www.google.com
+主域名 所注册的域名，可在账号中添加其他域名
+辅助域名 主域名之外，可为账号添加其他域名，让相应网域中的用户可使用其他服务
+网域别名 可用作其他网域的别名的域名
+可为账号添加一个域名作为网域别名，从而为网域中每位用户提供一个采用该域名别名的电子邮件地址
+发送至用户任一地址的邮件均会递送到用户的同一个电子邮件收件箱
+IP 地址 一个域名可能有一个或多个关联的 IP 地址</description>
     </item>
     
     <item>
@@ -310,7 +317,29 @@
       <pubDate>Thu, 25 Jan 2018 14:46:04 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/notes/2018-01-25-dns/</guid>
-      <description>&lt;p&gt;探析DNS&lt;/p&gt;</description>
+      <description>探析 DNS
+DNS 概念 Domain Name System，域名系统
+本质 整理和识别各个域名的网络电话簿
+将域名转换为托管该网站的计算机的物理 IP
+MX 记录 概念 Mail Exchange，邮件交换记录
+作用 将一个网域的电子邮件定向到托管该网域用户账号的服务器
+设置 一个网域可定义多条 MX 记录，每条记录有不同的优先级。
+如果邮件通过最高优先级记录无法递送，则采用第二优先级，以此类推
+TXT 记录 作用 为网域之外的来源提供文本信息的一种 DNS 记录
+文本类型 人工可读文本
+机器可读文本
+CNAME 记录 规范名称记录
+作用 将一个别名关联到另一个真正的或规范的域名
+A 记录 地址记录（主机记录），Address
+作用 将一个域名关联到托管该网域服务的计算机的物理 IP
+NS 记录 作用 用于确定哪些服务器为一个网域传达 DNS 信息
+网域通常有主要的和辅助的域名服务器记录
+TTL 生存时间，Time To Live
+作用 决定对该记录所做的后续更改需要多少秒才会生效
+推荐值 3600（即 1 个小时）
+让整个互联网中的服务器每小时检查一次该记录的更新情况
+原因 较短的 TTL 在之前的有效期到期后才会生效
+若想快速还原一项更改，则可设置较短的 TTL 值（如 300,5 分钟）</description>
     </item>
     
     <item>
@@ -319,7 +348,13 @@
       <pubDate>Wed, 24 Jan 2018 15:56:32 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/notes/2018-01-24-design-pattern-02/</guid>
-      <description>&lt;p&gt;继设计模式学习笔记（上）&lt;/p&gt;</description>
+      <description>继设计模式学习笔记（上）
+15 抽象工厂模式 场景 不同数据库在 SQL 的具体实现上有差距，若存在系统中使用 SQL 语句上过多的使用专门的某种数据库的 SQL 语句，在迁移数据库时，会导致很多 SQL 在新的数据库中不能运行。
+解决 使用原生 SQL 语句
+实例 class User { private int _id; public int ID { get {	return _id;	} set {	_id = value; } } private string _name;; public string Name { get {	return _name; } set { _name = value; } } } 模式解释 工厂方法模式是定义一个用于创建对象的接口，让子类决定实例化哪一个类
+效果 由于多态的存在，声明 User 接口的对象事先不知道在访问哪个数据库，却可以在运行时正常，达到业务逻辑与数据访问解耦
+抽象工厂模式 提供一个创建一系列相关或相互依赖对象的接口，而无需指定具体的类
+实际使用步骤 先通过抽象工厂创建一个具体工厂，再通过具体工厂生产特定实现的产品对象</description>
     </item>
     
     <item>
@@ -328,7 +363,39 @@
       <pubDate>Wed, 24 Jan 2018 15:53:31 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/notes/2018-01-24-design-pattern-01/</guid>
-      <description>&lt;p&gt;关于 Java 设计模式的学习&lt;/p&gt;</description>
+      <description>关于 Java 设计模式的学习
+继承 两个类之间是 is-a 的关系可以考虑用继承 而两个类之间是 has-a，表示某个角色具有某一项责任，不适合用继承 例如：飞机场有飞机，但是飞机不能去继承飞机场
+多态 多态表示不同的对象可以执行相同的动作，但要通过它们自己的实现代码来执行
+特点：（子替父演戏实例）
+子类以父类身份出现 子类在工作时以自己的方式实现 子类以父类身份出现时，子类特有的属性和方法不可以使用 多态原理 当方法被调用时，无论对象是否被转换成其父类，都只有位于对象继承最末端的方法实现会被调用。 即父类的抽象方法是按照其运行时类型而非编译时类型进行动态绑定调用的
+抽象类 不能实例化 抽象方法必须被子类重写 若类包含抽象方法，则类必须定义为抽象类 总结：抽象类代表一个抽象概念，它提供一个继承的出发点，当设计一个新的抽象类时，一定是用来继承的。
+在一个继承关系树里，树叶节点应为具体类，树枝节点均应为抽象类。
+例如：动物是抽象类，猫是具体类，而当猫划分品种时，比如包含金丝猫和其他品种，那猫应该是树枝，也应是抽象类。
+接口 接口是把隐式公共方法和属性组合起来，以封装特定功能的一个集合。
+一旦类实现了接口，类就可以支持接口所指定的所有属性和成员。
+声明接口在语法上与声明抽象类完全相同，但不允许提供接口中任何成员的执行方式（没有具体实现）
+所以接口不能实例化、不能有构造方法和字段、不能有修饰符、不能声明为抽象的或静态的
+实现接口的类必须实现接口中所有方法和属性
+区分抽象类和接口 抽象 类是对对象的抽象
+抽象类是对类的抽象
+接口是对行为的抽象
+对象是否有相似关联 若行为跨越不同类的对象，可使用接口
+对于相似的类对象，用继承抽象类
+设计角度 抽象类是从子类中发现了公共的东西，泛化出父类，然后子类继承父类
+接口根本不知道子类的存在，方法如何实现不确认，预先定义
+通过重构改善既有代码的设计 所有抽象类往往通过重构得来
+面向对象设计（OOD） 可维护
+可复用
+可拓展
+灵活性好
+UML 关联
+聚合（弱拥有）：A 对象可以包含 B 对象，但 B 对象不是 A 对象的一部分
+组合（强拥有）：严格的整体与部分的关系
+依赖
+简单工厂 用单独的类考虑创造实例的过程
+策略模式 官方定义 它定义了算法家族，分别封装起来，让它们之间可以互相替换，此模式让算法的变化，不会影响到使用算法的客户。
+解释 所有的算法完成相同的工作，只是实现不同，它可以以相同的方式调用所有的算法，减少了各种算法类与使用算法类之间的耦合。
+优势 另外策略模式简化了单元测试，因为每个算法有独立的类，可以通过自己的接口单独测试。</description>
     </item>
     
     <item>
@@ -337,7 +404,13 @@
       <pubDate>Tue, 23 Jan 2018 12:04:14 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/notes/2018-01-23-install-macos-using-vmware/</guid>
-      <description>&lt;p&gt;虽然类似这样的文章网上一搜一大把，但应 &lt;a href=&#34;https://github.com/yanghua0311&#34;&gt;youngwa&lt;/a&gt; 邀，还是决定重新整理一下个人安装的详细流程及相关资源链接，以备后用。&lt;/p&gt;</description>
+      <description>虽然类似这样的文章网上一搜一大把，但应 youngwa 邀，还是决定重新整理一下个人安装的详细流程及相关资源链接，以备后用。
+资源准备 macOS 系统镜像 8G 左右 cdr 后缀 点击下载
+vmware 推荐版本 12（自行安装）
+vmware 补丁（用于添加 macOS 类镜像）点击下载
+操作步骤 下载以上三个资源 安装 VMware 安装补丁，补充 VMware 关于镜像类型的选择（若不安装补丁，则没有 macOS 镜像的选项），安装 unlock，右击使用管理员权限打开 win-install.cmd 新建虚拟机，选择 macOS 类型镜像，并做相应配置 配置好后打开虚拟机的 vmx 文件，手动修改配置（搜索 smc）在 smc.present = &amp;ldquo;TRUE&amp;quot;后添加一行 smc.version = 0 启动虚拟机进行系统安装 完成即可（历时一个小时左右，视宿主机内存及硬盘配置而定） 注意事项 需要理解 linux 分区概念（不理解也可以将虚拟机分配的全部空间用作一个分区，在实用工具选项中选择磁盘工具，设置后关闭，进行系统安装）
+注意点 安装 macOS 和安装其他系统镜像类型的虚拟机没什么大的区别，主要在于以下几点：
+为 VMware 安装补丁，拓展镜像类型（实用 unlock） 修改 vmx，虚拟机配置文件，添加 smc.version = 0 </description>
     </item>
     
     <item>
@@ -346,7 +419,17 @@
       <pubDate>Sat, 20 Jan 2018 14:11:34 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/notes/2018-01-20-js-advanced/</guid>
-      <description>&lt;p&gt;MSDN学习js高级教程note&lt;/p&gt;</description>
+      <description>MSDN 学习 js 高级教程 note
+构造函数 使用构造函数定义类型（type） 概念 构造函数是一个为 Object 初始化一个特定类型的函数
+使用 new 关键字调用构造函数
+这里有一些 js 内建对象和自定义对象的例子
+var myObject = new Object(); var myBirthday = new Date(1993, 11, 12); var myCar = new Car(); 构造函数包含 this 关键字，它是对新创建的空对象的引用（reference）
+它通过创建属性并为他们赋初始值来初始化新对象
+构造函数将返回对所创建对象的引用
+function Circle(xPoint, yPoint, radius) { this.x = xPoint; this.y = yPoint; this.radius = radius; } var aCircle = new Circle(5, 11, 99); 使用自定义构造函数创建的所有对象的类型都是 object
+js 只有 6 中类型：object、function、string、number、boolean、undefined
+typeof操作符以字符串形式返回类型信息
+var index = 5; var result = typeof index === &amp;#34;number&amp;#34;; var description = &amp;#34;abc&amp;#34;; var result = typeof description === &amp;#34;string&amp;#34;; true true 为声明和未声明的变量测试 undefined 数据类型</description>
     </item>
     
     <item>
@@ -355,7 +438,14 @@
       <pubDate>Sat, 20 Jan 2018 10:53:32 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/notes/2018-01-20-js-parameter-scope/</guid>
-      <description>&lt;p&gt;js变量作用域探析&lt;/p&gt;</description>
+      <description>js 变量作用域探析
+背景 var o = {}; o.fun = test(); o.fun(); function test() { var fn = function () { console.log(this); }; return fn; } {fun: ƒ} 由于对这个程序的输出结果感到不解，于是决定深入了解 js 作用域究竟是什么个东西
+参考：https://msdn.microsoft.com/zh-cn/library/bzt2dkta(v=vs.94).aspx
+变量作用域 又要谈到 js 的两个范围：全局和局部
+函数之外声明的变量就是全局变量，可在整个程序中访问和修改
+函数内声明的变量是局部变量，每当执行程序时都会创建和销毁该变量（所以称临时变量），并且无法通过函数之外的任何代码访问该变量（MSDN 如是说）
+js 不支持块范围（通过一组大括号定义新范围），于是就只有全局（函数外）和局部（函数内），以函数划分的这两种范围
+js 范围 var aNumber = 100; tweak(); function tweak() { document.write(aNumber); if (false) { var aNumber = 123; } } undefined 虽然 if（false），var aNumber = 123 不会执行，但是 js 在执行函数 tweak()时，会查找所有变量声明，var aNumber 被扫描到，js 使用初始值undefined创建变量，即使使用一个值声明变量 var aNumber = 123，但 aNumber 变量的初始值仍为undefined，仅当执行包含声明的行（var aNumber = 123）时才会使用已声明的值。</description>
     </item>
     
     <item>
@@ -364,7 +454,17 @@
       <pubDate>Fri, 19 Jan 2018 18:22:06 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/notes/2018-01-19-js-this/</guid>
-      <description>&lt;p&gt;js关键字this用法解析&lt;/p&gt;</description>
+      <description>js 关键字 this 用法解析
+解释 函数运行时自动生成的一个内部对象，只能在函数内部使用（想起了 Python 函数的 self）
+function test() { this.x = 1; } 函数使用场合不同，this 的值会发生变化
+但 this 总指的是调用函数的那个对象
+使用场景 纯粹函数调用（全局调用）
+函数作为对象方法的调用
+作为构造函数调用
+apply 调用
+1.纯粹函数调用 全局性调用，this 代表全局对象 Global
+function test() { this.x = 1; alert(this.x); } test(); 1 var x = 1; function test() { alert(this.x); } test(); 1 不会报错，因为相当于 alert(Global.x)
+var x = 1; function test() { this.x = 0; } test(); alert(x); 0 test()之后相当于将全局变量的 x 重新赋值 0，Global.</description>
     </item>
     
     <item>
@@ -373,7 +473,17 @@
       <pubDate>Fri, 19 Jan 2018 16:34:02 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/notes/2018-01-19-js-variables/</guid>
-      <description>&lt;p&gt;js的局部变量和全局变量&lt;/p&gt;</description>
+      <description>js 的局部变量和全局变量
+大纲 如何声明局部变量和全局变量 js 变量作用域基于特有的作用域链 js 没有块级作用域（ES5-） 函数中声明的变量在整个函数中都有定义 声明局部变量和全局变量 全局变量——定义在函数外的变量 局部变量——函数内部声明的变量 var a = &amp;#34;global&amp;#34;; function getLocal() { var a = &amp;#34;local&amp;#34;; console.log(a); } getLocal(); console.log(a); local global a = &amp;#34;global&amp;#34;; function getLocal() { a = &amp;#34;local&amp;#34;; console.log(a); b = &amp;#34;local&amp;#34;; console.log(b); } getLocal(); console.log(a); console.log(b); local local local local 疑问：
+函数外的 a 为什么变成 local？
+函数外为什么可以访问 b？
+解析：
+函数体内部，局部变量优先级比同名全局变量高
+函数体内声明变量不使用 var，会暴露在全局上下文中，和现有变量冲突，并覆盖同名全局变量
+变量作用域链 每当 js 执行时会有一个对应的执行环境被创建（每一个方法在自己独有的执行环境中执行）
+执行环境中的重要部分——函数的调用对象（存储相应函数的局部变量）
+函数的执行环境包含了调用对象，调用对象的属性就是函数的局部变量，每个函数在这样的执行环境中执行。函数之外的代码在另一个环境中执行，包含了全局变量。
+作用域链 对象组成的列表或链</description>
     </item>
     
     <item>
@@ -382,7 +492,16 @@
       <pubDate>Fri, 19 Jan 2018 15:33:28 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/notes/2018-01-19-js-closure/</guid>
-      <description>&lt;p&gt;JS闭包探析。What exactly the Closure is?&lt;/p&gt;</description>
+      <description>JS 闭包探析。What exactly the Closure is?
+计算机术语 闭包：引用了自由变量的函数。这个被引用的自由变量和这个函数一同存在，即使已经离开了创造它的环境。
+变量作用域 全局 局部 函数内部可直接读取全局变量 var n1 = 9; function f1() { alert(n1); } f1(); 9 因为变量声明在 Global，全局可见，它的子当然可以访问到
+函数外部无法直接读取函数内部的局部变量 function f2() { var n2 = 99; } alert(n2); n2 is not defined 因为函数是子，函数外部是父，父无法直接访问到子的局部变量
+函数内部变量如果未用 var 声明则为全局变量 function f3() { n3 = 999; } f3(); alert(n3); 999
+不管变量是在函数内还是函数外声明，如果没有使用 var 声明变量，就会是全局可见的
+于是此时的 n3 是 Global.n3
+从外部读取局部变量 ~想起了 Java 的反射~
+方法：在函数内部再定义一个函数
+function f4() { var n4 = 9999; function f5() { alert(n4); } } 解析：</description>
     </item>
     
     <item>
@@ -391,7 +510,15 @@
       <pubDate>Mon, 16 Oct 2017 19:00:44 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/notes/2017-10-16-preview-html-using-atom-editor/</guid>
-      <description>&lt;p&gt;如何使用 atom 编辑器实现 html 实时预览&lt;/p&gt;</description>
+      <description>如何使用 atom 编辑器实现 html 实时预览
+atom 自带 markdown 实时预览插件，但当我想用 atom 进行进端开发并取代 webstorm 这样的收费 IDE 时，我发现基于文件进行操作的编辑器 atom 只能高亮显示 html、js 这样的文件，但不能实时显示进行调试，很不方便。
+于是上网查，结果都是很简略的方法，作为刚开始上手 atom 的新手，一时不理解，终于经过自己的折腾成功使用
+特此记录，以便为新手提供方便，节省这些不必要的查询时间。
+1、搜索插件
+2、安装插件
+3、修改快捷键
+atom-html-preview 初始快捷键为 ctrl+p，于 atom 已有快捷键冲突，修改为 ctrl+F12，如下 点击 File-&amp;gt;Settings-&amp;gt;KeyBindings-&amp;gt;your keymap file 超链接-&amp;gt;在末尾添加
+&amp;#39;atom-text-editor&amp;#39;: &amp;#39;ctrl-F12&amp;#39;:&amp;#39;atom-html-preview:toggle&amp;#39; </description>
     </item>
     
     <item>
@@ -400,21 +527,7 @@
       <pubDate>Fri, 22 Sep 2017 14:13:45 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/notes/2017-09-22-some-personal-quotes/</guid>
-      <description>Do each of things in a decent way.
-软件工程专业最失败的是培养出两种人：一，是只会编程的人，二，是连编程都不会的人。
-知而不改，恶莫大焉
-Always be young, never be die.(保持年轻，绝不作咸鱼)
-生活应该是两件事：IN And OUT，IN指INPUT（读书、学习和思考），OUT指OUTPUT（做事、工作和实践）
-天妒英才，所以天才总会被凡人当白痴
-因为他经历完了过程，得到了结果，再看过程，就感觉没什么了，但如果他没这个过程，得不到结果，站在起点再看，就会觉得这个过程很必要了
-卓越的方式有很多种，唯独不应该是以健康为代价的那种
-If you want to win, you got to know exactly what the rule is.
-有意识地在细节之处刻意不同，就能在和别人差不多的生活中活出不一样的自己
-Pure to complex is accessible, but complex back to pure is irreversible.
-灵感是转瞬即逝的，所以才需要记录下来
-别给自己设上限，才能知道自己的极限；而每次的挑战极限，都是在提高自己的上限
-理论上你可以成为任何你想要成为的人，而最难的是成为你自己
-拒绝命运的审判，而是主动撰写命运</description>
+      <description> Do each of things in a decent way. 软件工程专业最失败的是培养出两种人：一，是只会编程的人，二，是连编程都不会的人。 知而不改，恶莫大焉 Always be young, never be die.(保持年轻，绝不作咸鱼) 生活应该是两件事：IN And OUT，IN 指 INPUT（读书、学习和思考），OUT 指 OUTPUT（做事、工作和实践） 天妒英才，所以天才总会被凡人当白痴 因为他经历完了过程，得到了结果，再看过程，就感觉没什么了，但如果他没这个过程，得不到结果，站在起点再看，就会觉得这个过程很必要了 卓越的方式有很多种，唯独不应该是以健康为代价的那种 If you want to win, you got to know exactly what the rule is. 有意识地在细节之处刻意不同，就能在和别人差不多的生活中活出不一样的自己 Pure to complex is accessible, but complex back to pure is irreversible. 灵感是转瞬即逝的，所以才需要记录下来 别给自己设上限，才能知道自己的极限；而每次的挑战极限，都是在提高自己的上限 理论上你可以成为任何你想要成为的人，而最难的是成为你自己 拒绝命运的审判，而是主动撰写命运 </description>
     </item>
     
     <item>
@@ -433,10 +546,9 @@ Pure to complex is accessible, but complex back to pure is irreversible.
       <pubDate>Wed, 08 Feb 2017 15:01:26 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/notes/2017-02-08-java-basic-03/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;关于java字符串String以及Hashcode的一些整理&lt;/p&gt;
-&lt;p&gt;hashcode即是对象地址的十进制形式，而equals方法即是在比较两个对象的hashcode是否相等&lt;/p&gt;
-&lt;/blockquote&gt;</description>
+      <description>关于 java 字符串 String 以及 Hashcode 的一些整理
+hashcode 即是对象地址的十进制形式，而 equals 方法即是在比较两个对象的 hashcode 是否相等
+package com.test.wx.testequals; public class TestEquals { public static void testEquals() { String a = &amp;#34;a&amp;#34;; String b = &amp;#34;a&amp;#34;; boolean result = a.equals(b); System.out.println(result); // true System.out.println(a.hashCode() == b.hashCode()); // true } public static void testEqual() { String a = &amp;#34;a&amp;#34;; String b = &amp;#34;a&amp;#34;; if (a == b) { // true System.out.println(&amp;#34;true&amp;#34;); System.out.println(a.hashCode() == b.hashCode()); } else { System.</description>
     </item>
     
     <item>
@@ -445,7 +557,10 @@ Pure to complex is accessible, but complex back to pure is irreversible.
       <pubDate>Tue, 07 Feb 2017 22:06:19 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/notes/2017-02-07-regexp/</guid>
-      <description>&lt;p&gt;一些常用正则表达式的整理&lt;/p&gt;</description>
+      <description>一些常用正则表达式的整理
+非打印字符 1. \t (table)制表符 等价于\x09和\cl 2. \n (line feed)换行符 等价于\x0a和\cJ 3. \v (vertical)垂直制表符 等价于\x0b和\cK 4. \f (form feed)换页符 等价于\x0c和\cL 5. \r (rarriage return)回车符 等价于\x0d和\cM 6. \s (str)匹配任何空白字符，包括空格、制表符、换页符等） 等价于[\f\n\r\t\v] 7. \S匹配任何非空白字符 等价于[^\f\n\r\t\v] 特殊字符 1. ^ 表示匹配输入字符串的开始位置，若在方括号中使用，则表示不接受该字符集合（例如上述\S的等价匹配） 2. $ 匹配输入字符串的结尾，若设置了RegExp对象的Multiline属性，则$也匹配\n或\r 3. ? 匹配前面的子表达式0-1次，或指明一个非贪婪限定符 4. + 匹配前面的子表达式1-n次 5. * 匹配前面的子表达式0-n次 6. . 匹配除换行符（\n）外的任何单字符（相当于windows系统中的?） 7. () 标记一个子表达式的开始和结束位置，子表达式可供以后使用 8. [ 标记一个中括号表达式的开始（）用于字符集合 9. { 标记限定符表达式的开始 10. \ 将下一个字符标记为特殊字符、或原义字符、或后向引用、或八进制转义符 上述所有特殊字符，若要匹配其本身，都需要在其前面加反斜杠来转义使用
+限定符 限定符表示给定组件出现多少次才能满足匹配
+1. * 0-n次 2. + 1-n次 3.</description>
     </item>
     
     <item>
@@ -454,10 +569,11 @@ Pure to complex is accessible, but complex back to pure is irreversible.
       <pubDate>Tue, 07 Feb 2017 20:01:52 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/notes/2017-02-07-java-basic-02/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;构造器（构造方法）
-在类实例化时被调用，对实例对象进行初始化&lt;/p&gt;
-&lt;/blockquote&gt;</description>
+      <description>构造器（构造方法）
+在类实例化时被调用，对实例对象进行初始化
+package com.test.wx.testinit; public class Color { int red, green, blue; /** * 以下这个方法不是构造器，构造器没有“void”这个返回值 */ void Color() { red = 10; green = 10; blue = 10; } /** * 这才是正确的构造器，会在类实例化一个对象时被调用，对对象进行初始化 */ Color() { red = 10; green = 10; blue = 10; } void printColor() { System.out.println(&amp;#34;red:&amp;#34;+red+&amp;#34;green:&amp;#34;+green+&amp;#34;blue:&amp;#34;+blue); } public static void main(String[] args) { Color color = new Color(); color.printColor();	// red:0green:0blue:0 } } 修饰符（关键字）
+final/abstract
+abstract 不能与 final 同时使用，abstract类为抽象类，包含抽象的方法待实现，需要其他类继承该类，对抽象方法进行具体实现，而final修饰的类表示该类不可被继承，二者相违背。</description>
     </item>
     
     <item>
@@ -466,7 +582,8 @@ Pure to complex is accessible, but complex back to pure is irreversible.
       <pubDate>Tue, 07 Feb 2017 17:27:54 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/notes/2017-02-07-java-basic-01/</guid>
-      <description>&lt;p&gt;字符串相关方法、数据类型转换、正则表达式&lt;/p&gt;</description>
+      <description>字符串相关方法、数据类型转换、正则表达式
+package com.test.wx.teststr; import java.util.regex.Matcher; import java.util.regex.Pattern; public class TestString { public static void intToString() { int i = 10; Integer j = 11; int k = 12; Integer l = 13; String iStr = String.valueOf(i); // String iStr2 = (String)j; // String iStr3 = (String)k; String iStr4 = String.valueOf(l); System.out.println(iStr); System.out.println(iStr4); } public static void indexOfTest() { String quote = &amp;#34;An *onion* a day keeps everyone away!&amp;#34;; int startBound = quote.</description>
     </item>
     
     <item>
@@ -475,7 +592,11 @@ Pure to complex is accessible, but complex back to pure is irreversible.
       <pubDate>Mon, 06 Feb 2017 11:47:56 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/notes/2017-02-06-windows-missing-file/</guid>
-      <description>&lt;p&gt;windows 删除“找不到该项目”的文件该怎么办&lt;/p&gt;</description>
+      <description>windows 删除“找不到该项目”的文件该怎么办
+编写一个自动删除脚本，内容如下：
+右键，新建文本文件 重命名为 del.bat 编辑内容：del /F /A /Q \?%1（第一行） rd /S /Q \?%1（第二行） 把要删除的文件直接拖到该脚本上即可删除
+原理
+方法采纳自百度经验删除文件时提示“找不到该项目”，怎么解决? del 为 windows 删除文件的命令，rd 为 windows 删除目录的命令，/F 为强制删除参数，/A 为根据文件属性删除文件，/Q 为安静删除模式参数（删除全局通配符时不需要确认），后面的\?即为全局通配符（UNC），？表示一个字符，在此仅为&amp;quot;.&amp;quot;，即当前电脑 </description>
     </item>
     
     <item>
@@ -484,7 +605,10 @@ Pure to complex is accessible, but complex back to pure is irreversible.
       <pubDate>Thu, 15 Dec 2016 23:20:37 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/notes/2016-12-15-java-basic-sort-algorithms/</guid>
-      <description>&lt;p&gt;Java基础算法（插入、选择、冒泡、快排）&lt;/p&gt;</description>
+      <description>Java 基础算法（插入、选择、冒泡、快排）
+一、直接插入排序 1、原理 从待排序的数中选出一个来，插入到前面的合适位置。
+2、适用场景 基本有序的数据
+3、代码实现 static int data[] = {12, 6, 17, 108, 97, 93, 256, 1024}; public static void insertSort() { int tmp, i = 0; // 遍历数组 for(int j = 0; j&amp;lt;data.length; j++) { // 依次取出每个数放入tmp tmp = data[j]; // 将取出的数与之前面一个比较 i = j - 1; // 若小于前面一个数，则将前面一个数后移（覆盖取出来的这个数的位置） while(i &amp;gt;= 0 &amp;amp;&amp;amp; tmp &amp;lt; data[i]) { data[i+1] = data[i]; // 继续和再前面一个数比较 i--; } // 将取出的数插入 data[i+1] = tmp; System.</description>
     </item>
     
   </channel>

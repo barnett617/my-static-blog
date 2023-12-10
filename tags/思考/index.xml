@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>思考 on Wilson&#39;s Blog</title>
+    <link>https://barnett617.github.io/wilson-blog/tags/%E6%80%9D%E8%80%83/</link>
+    <description>Recent content in 思考 on Wilson&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hans-CN</language>
+    <lastBuildDate>Mon, 04 May 2020 12:05:55 +0000</lastBuildDate><atom:link href="https://barnett617.github.io/wilson-blog/tags/%E6%80%9D%E8%80%83/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>整理博客过程中的一些思考</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2020-05-04-thinking-about-blog/</link>
+      <pubDate>Mon, 04 May 2020 12:05:55 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2020-05-04-thinking-about-blog/</guid>
+      <description>&lt;p&gt;重新把很早以前写的“博客”看了一下，发现有新的感悟&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>为什么程序员要学习计算机基础知识</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2020-04-02-about-programmer-basic-learning/</link>
+      <pubDate>Thu, 02 Apr 2020 12:27:18 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2020-04-02-about-programmer-basic-learning/</guid>
+      <description>因为一道 leetcode 题而引发的思考。</description>
+    </item>
+    
+    <item>
+      <title>2020年你为什么要学习js</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2019-12-05-why-2020-learn-js/</link>
+      <pubDate>Thu, 05 Dec 2019 10:46:00 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2019-12-05-why-2020-learn-js/</guid>
+      <description>&lt;p&gt;js 全称是 javascript，它既不是 java 的嫡系，也不单单是一门脚本语言（script 直译）。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>做事方法论总结</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2019-12-03-do-things-methods/</link>
+      <pubDate>Tue, 03 Dec 2019 11:49:00 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2019-12-03-do-things-methods/</guid>
+      <description>&lt;p&gt;一些做事方法论的总结&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>什么样的人适合做技术</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2019-10-17-technical-people/</link>
+      <pubDate>Thu, 17 Oct 2019 17:48:17 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2019-10-17-technical-people/</guid>
+      <description>&lt;p&gt;突然有感而发想到这样一个话题——什么样的人适合做技术&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>关于职业规划</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2017-11-09-about-career/</link>
+      <pubDate>Thu, 09 Nov 2017 09:55:14 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2017-11-09-about-career/</guid>
+      <description>最近几天开发任务不甚紧张，每天可能一部分是在读博客或者写博客。在此过程中，突然想给自己炖一锅鸡汤醒醒脑。
+作为一个软件工程毕业的人，或许更宏观的讲，作为一个计算机专业毕业的人，该怎么规划自己的职业生涯呢？
+（这里不讨论想转行的同学们，我很幸运当初坚持了自己的选择和判断，由于兴趣，入行了计算机，如今应该称呼为“互联网”领域）
+过程在我看来是先易后难的
+第一阶段 刚毕业的两三年，甚至五年，可能都是知识储备期，也就是技术积淀期。当然，打牢基础并不意味着沉迷基础，走走停停，及时看清楚技术风向标，是避免徒劳无功的基本意识。
+在打牢基础的这几年应该做什么？或者说应该培养哪些能力
+专业基础自然不用说，那是最基本的敲门砖，可能在学生时代，每个人的专业能力还都参差不齐，但步入职场后，对于每个从事技术工作的人，在技术基础方面的要求都是“一视同仁”的，也就是对于从事各个不同技术方向的人，你的技术栈都应该是完整的。为什么说这些是最基本的呢，因为这些东西大多是“死”的，也就是不管量有多少，甚至还在不断增加，但它的本质几乎不会发生质的变化，所以关乎技术的东西，你可以从学校、书籍或者人那里都可以习得，而后面要讲的第二阶段的技能可能不是单纯靠“学习”便可拥有的。
+那么能力方面应该涉及哪些呢？个人总结如下（其实在不管大型还是初创的各个互联网公司招聘中也能经常看到这些字眼）：
+学习能力：首屈一指必然是学习的能力，因为这一点决定你“可拓展性”有多强，这里的学习能力指的是活学活用以及持续学习的能力。假如你是以初高中某些死记硬背或者应试手段的学习方法，我不敢保证那样的收益如何，因为我不曾有过以那样的方式的学习经历。另外就是持续学习的概念，这种需求其实是由时代滋生的，因为如今的时代决定了你很难（我没有说“不可能”的字眼）以固定的知识量驾驭你的整个职业生涯。 综合上面两种学习的能力其实也就自然带来你上手新事物的能力，比如公司派你去负责完成一项新的任务，使用的是一项你从未接触过的技术，那么此时如果你是拥有学习的能力，而不是仅仅拥有定量的知识，那么任何新事物你自然都能搞定。
+理解能力：这是一个输入+分析的过程（Input &amp;amp; Process），理工一点的说法类似计算机的核心（CPU）处理任务方式。理解能力决定你在学习一项新事物时的效率，比如如果你对一个事物在最初认识的时候发生了偏差，那可能你用的劲越多，就越偏离理解它的正规。另外逻辑思维也在此体现出重要的作用，可能单纯的理性思维并不能帮助你快速地认识到新事物的本质，有时候可能还需要一些感性思维，Maybe 想象力.etc
+沟通能力：这是一个输出的过程（Output &amp;amp; Translate），有时候单纯一味地输入未必可以发挥你所掌握知识的最大价值，技术需要分享，而交流就是一个有效媒介。但是有时候知识的传递在一些糟糕的表达后会变得晦涩难懂，所以良好的表达能力才会成为知识传播的有效大使。另外，有效的沟通势必带来 1+1&amp;gt;2 的收益，这样既节省时间又提高效率的多赢结果是大家都希望看到的。
+第二阶段 这些技能大多基于经验主义，并且没有标准答案
+判断力：“错与对”、“进与退”、“黑与白”（太极思想，黑中有白，白中有黑）的判断是永恒的难题（突然想到明天即将上映“马爸爸”的《攻守道》）
+趋势/形势判断：趋势的判断往往决定你路程的远近，这东西可大可小，小在一笔小额的投资，大在一个集团的定位，如果仅有埋头苦干的踏实，而没有远瞻未来的判断，想必很难成为一位成功的管理者。而形势的判断其实就是一句“识时务者为俊杰”，何时放手一搏，主动出击，何时及时止损，这里的学问也是需要经验的不断积累来沉淀所得。
+决策能力：如果你进行统计，其实我们每一天的所有行为串起来就是一颗巨大的决策树，每一个分支的两种选择都会带来不同的结果，而如此累积，将会因为每一步的不同而带来巨大差异的结果，这也就是所谓世界上没有两片相同的叶子，两个人尽管处于相同的环境，接收相同的知识，完成相同的任务，也会在日积月累的微小差异中变成两个独一无二的个体。
+能否做出正确的决策，能否果断地做出决策，能否预知不同决策带来的结果，能否对结果负责，这一点其实在 AlphaGo 与人类围棋对决中就已经证明了计算机在决策方面已经掌握非常强大的能力，人类如果不增强自己的优势，可能等待你的只是“智能危机”。
+前面三项能力或多或少都和选择有关，这也是为什么讲“有时候，选择比努力更重要”
+是否注重细节：每个领域都会有大量的同类竞争，能够另辟蹊径的毕竟是少数，那么如何在“大家都差不多的”的情况下脱颖而出，细节方面至关重要
+能否抵抗诱惑：新手大多急于求成，急功近利，而老手则懂得放长线钓大鱼
+这些能力没有人能教的了你，同时也是决定你能否成为一个拥有独立完整人格的个体。
+后续 未来毕竟还是很难预知的，所以我也不想给自己太远的未来做太过具体的规划，每个人都有自己的想法和规划，我的观点不一定适用别人，所以本篇博文也仅仅是一篇与自己灵魂的对话，仅此而已。</description>
+    </item>
+    
+    <item>
+      <title>漫谈博客这东西——漫谈系列</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2017-10-12-talk-about-blog/</link>
+      <pubDate>Thu, 12 Oct 2017 11:53:58 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2017-10-12-talk-about-blog/</guid>
+      <description>日常知识总结及记录，本次关于由搜索区块链这一关键词引发的关于“为什么要记博客”这一问题的思考
+比特币 区块链 博客 微博 比特币&amp;amp;区块链 昨天看了今年的云栖峰会，再次听到了今年听到最多的“区块链”技术，于是今天闲暇之余，想了解一下这个区块链究竟是个什么东西。看了半天，并没有像某些编程技术一样，能够快速理解大概意思，反倒是产生了更多的陌生词汇，比如拜占庭将军问题，不过一个熟悉的字眼“比特币”倒是快速映入眼帘，原来区块链技术是和比特币原理紧密联系在一起的。
+博客&amp;amp;微博 于是就想着，为了理解这种概念东西，就记篇博客以助理解吧，但看着看着，觉得不懂的概念越来越多，而且查到的资料感觉讲的都很详细，感觉自己写不出更加合理的解释。于是就想到，为什么要记博客这个东西。
+为什么要记博客呢，可能每个人的答案都不一样。我这个人在探究“为什么”之前，都喜欢搞清楚“是什么”，那么博客是什么呢（以下内容为个人理解），博客这个词是音译 blog 而来，那么 blog 又是什么呢，我们都知道，很多时候，我们都需要对所发生的一切事情有个记录，叫做日志（log），而程序世界这个东西更广为人知，计算机程序的每个行为如果有日志的记录，在发生异常情况或者我们需要观测系统运行情况的时候才有据可循。
+其实博客这个东西最初就是一种网络日志（web log），用来在 web 里记录一些东西而已，让日志这个东西不止停留于程序后台的日志服务器里，而成为像在线笔记本/日记本一样的东西，可以方便人们随时随地把自己想记录下来的东西放到 web 这个大世界里。
+后来由此衍生出微博（micro blog）这个东西，但我觉得微博并不是一种“微型博客”，所谓字数受限，内容短小简洁的博客，因为它本身的定位和运营使其完全脱离于博客而成为一种新兴的事务，我个人觉得它如今已然成为一种社交媒介。因为你想想，微博可以看作一种一定字数的网络日志吗？不止于此！如今微博的内容可谓百花齐放，可以是广告平台，可以是资源分享，抑或是明星的粉丝们关注明星日常生活点滴的一个统一途径。
+尾声 最后，回归本文，我为什么要记博客，其实我是本着博客最原始的功用——网络日志这个功能。因为我希望把我对于所读所想的东西做一个记录，以加深我对于知识的理解。因为书写博客的过程本身也是对于某些事物理解的一个梳理。
+我把人的大脑比作计算机的 CPU，而理解能力和表达能力分别相当于计算机的 I/O 设备（Input 输入、Output 输入），人类向外界展现其内部思考的媒介依赖于这两者。比如作家、教师，属于输出能力示范的人群，而读者、观众属于展现输入过程人群。如今我们借助于互联网这个第三次技术革命的产物，每天都在输入大量的数据，而与此同时我认识到，仅仅有输入，却没有输出，是很可悲的。首先，对于 CPU 来说，仅仅有输入，而没有输出，不算是一次成功的数据处理，人也一样，对知识的学习，若仅仅停留于摄入，而不能经过大脑的思考，做出相应的反馈输出，比如分享，那样未必是一件好事。
+分享知识不会像分苹果一样越分越少</description>
+    </item>
+    
+    <item>
+      <title>一些个人语录整理</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2017-09-22-some-personal-quotes/</link>
+      <pubDate>Fri, 22 Sep 2017 14:13:45 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2017-09-22-some-personal-quotes/</guid>
+      <description> Do each of things in a decent way. 软件工程专业最失败的是培养出两种人：一，是只会编程的人，二，是连编程都不会的人。 知而不改，恶莫大焉 Always be young, never be die.(保持年轻，绝不作咸鱼) 生活应该是两件事：IN And OUT，IN 指 INPUT（读书、学习和思考），OUT 指 OUTPUT（做事、工作和实践） 天妒英才，所以天才总会被凡人当白痴 因为他经历完了过程，得到了结果，再看过程，就感觉没什么了，但如果他没这个过程，得不到结果，站在起点再看，就会觉得这个过程很必要了 卓越的方式有很多种，唯独不应该是以健康为代价的那种 If you want to win, you got to know exactly what the rule is. 有意识地在细节之处刻意不同，就能在和别人差不多的生活中活出不一样的自己 Pure to complex is accessible, but complex back to pure is irreversible. 灵感是转瞬即逝的，所以才需要记录下来 别给自己设上限，才能知道自己的极限；而每次的挑战极限，都是在提高自己的上限 理论上你可以成为任何你想要成为的人，而最难的是成为你自己 拒绝命运的审判，而是主动撰写命运 </description>
+    </item>
+    
+    <item>
+      <title>关于写博客的一些想法</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2017-08-21-thinking/</link>
+      <pubDate>Mon, 21 Aug 2017 23:08:33 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2017-08-21-thinking/</guid>
+      <description>写博客的好处在于，能够对所学、所做、所想之事有所记录，返璞归真，互联网花了那么多的精力将传统办公进化到无纸办公，人们从纸质书籍的阅读习惯变成了碎片化学习。
+能够在这样的环境中圈出自己的一亩三分田，经营自己的博客，对自己既是记录，也是肯定，还能在经营博客的过程中更加认识自己。</description>
+    </item>
+    
+  </channel>
+</rss>

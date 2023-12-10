@@ -6,23 +6,19 @@
     <description>Recent content in es6 on Wilson&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans-CN</language>
-    <lastBuildDate>Tue, 21 May 2019 21:21:28 +0000</lastBuildDate><atom:link href="https://barnett617.github.io/wilson-blog/tags/es6/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>《ECMAScript6入门》读后感</title>
-      <link>https://barnett617.github.io/wilson-blog/posts/2019-05-21-ecmascript6-reading-review/</link>
-      <pubDate>Tue, 21 May 2019 21:21:28 +0000</pubDate>
-      
-      <guid>https://barnett617.github.io/wilson-blog/posts/2019-05-21-ecmascript6-reading-review/</guid>
-      <description>&lt;p&gt;关于阮一峰《ECMAScript6 入门》一书的观感，就把此文当做本人对于《ECMAScript6 入门》的书评吧&lt;/p&gt;</description>
-    </item>
-    
+    <lastBuildDate>Fri, 16 Dec 2016 15:34:31 +0000</lastBuildDate><atom:link href="https://barnett617.github.io/wilson-blog/tags/es6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ECMAScript6(ECMAScript2015)学习笔记</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2016-12-15-es6-learning/</link>
       <pubDate>Fri, 16 Dec 2016 15:34:31 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2016-12-15-es6-learning/</guid>
-      <description>&lt;p&gt;ECMAScript 6（以下简称 ES6）是 JavaScript 语言的下一代标准。因为当前版本的 ES6 是在&lt;strong&gt;2015 年&lt;/strong&gt;发布的，所以又称 ECMAScript 2015。&lt;/p&gt;</description>
+      <description>ECMAScript 6（以下简称 ES6）是 JavaScript 语言的下一代标准。因为当前版本的 ES6 是在2015 年发布的，所以又称 ECMAScript 2015。
+一、ES6 简介 ECMAScript 6（以下简称 ES6）是 JavaScript 语言的下一代标准。因为当前版本的 ES6 是在2015 年发布的，所以又称 ECMAScript 2015。
+即 ES6 === ES2015
+二、ES6 转码器 Babel是一个广泛使用的 ES6 转码器，可以将 ES6 代码转为 ES5 代码，从而在现有环境执行。（chrome 已支持 ES6 解释，亲测可用）大家可以选择自己习惯的工具来使用使用 Babel，具体过程可直接在Babel 官网查看：
+三、常用特性 let / const（与传统 var 对比） class / extends / super（面向对象） arrow functions（箭头函数） template string（模板字符串） destructing（解构） default（默认值） rest / arguments（函数参数） 四、特性详解 （1）let 与 var 类似，都是用来声明变量的，但在实际运用中他俩都有各自的特殊用途。
+var name = &amp;#34;tom&amp;#34;; while (true) { var name = &amp;#34;bar&amp;#34;; console.</description>
     </item>
     
   </channel>

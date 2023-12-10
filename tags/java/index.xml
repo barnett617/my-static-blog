@@ -22,10 +22,9 @@
       <pubDate>Wed, 08 Feb 2017 15:01:26 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/notes/2017-02-08-java-basic-03/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;关于java字符串String以及Hashcode的一些整理&lt;/p&gt;
-&lt;p&gt;hashcode即是对象地址的十进制形式，而equals方法即是在比较两个对象的hashcode是否相等&lt;/p&gt;
-&lt;/blockquote&gt;</description>
+      <description>关于 java 字符串 String 以及 Hashcode 的一些整理
+hashcode 即是对象地址的十进制形式，而 equals 方法即是在比较两个对象的 hashcode 是否相等
+package com.test.wx.testequals; public class TestEquals { public static void testEquals() { String a = &amp;#34;a&amp;#34;; String b = &amp;#34;a&amp;#34;; boolean result = a.equals(b); System.out.println(result); // true System.out.println(a.hashCode() == b.hashCode()); // true } public static void testEqual() { String a = &amp;#34;a&amp;#34;; String b = &amp;#34;a&amp;#34;; if (a == b) { // true System.out.println(&amp;#34;true&amp;#34;); System.out.println(a.hashCode() == b.hashCode()); } else { System.</description>
     </item>
     
     <item>
@@ -34,10 +33,11 @@
       <pubDate>Tue, 07 Feb 2017 20:01:52 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/notes/2017-02-07-java-basic-02/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;构造器（构造方法）
-在类实例化时被调用，对实例对象进行初始化&lt;/p&gt;
-&lt;/blockquote&gt;</description>
+      <description>构造器（构造方法）
+在类实例化时被调用，对实例对象进行初始化
+package com.test.wx.testinit; public class Color { int red, green, blue; /** * 以下这个方法不是构造器，构造器没有“void”这个返回值 */ void Color() { red = 10; green = 10; blue = 10; } /** * 这才是正确的构造器，会在类实例化一个对象时被调用，对对象进行初始化 */ Color() { red = 10; green = 10; blue = 10; } void printColor() { System.out.println(&amp;#34;red:&amp;#34;+red+&amp;#34;green:&amp;#34;+green+&amp;#34;blue:&amp;#34;+blue); } public static void main(String[] args) { Color color = new Color(); color.printColor();	// red:0green:0blue:0 } } 修饰符（关键字）
+final/abstract
+abstract 不能与 final 同时使用，abstract类为抽象类，包含抽象的方法待实现，需要其他类继承该类，对抽象方法进行具体实现，而final修饰的类表示该类不可被继承，二者相违背。</description>
     </item>
     
     <item>
@@ -46,16 +46,23 @@
       <pubDate>Tue, 07 Feb 2017 17:27:54 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/notes/2017-02-07-java-basic-01/</guid>
-      <description>&lt;p&gt;字符串相关方法、数据类型转换、正则表达式&lt;/p&gt;</description>
+      <description>字符串相关方法、数据类型转换、正则表达式
+package com.test.wx.teststr; import java.util.regex.Matcher; import java.util.regex.Pattern; public class TestString { public static void intToString() { int i = 10; Integer j = 11; int k = 12; Integer l = 13; String iStr = String.valueOf(i); // String iStr2 = (String)j; // String iStr3 = (String)k; String iStr4 = String.valueOf(l); System.out.println(iStr); System.out.println(iStr4); } public static void indexOfTest() { String quote = &amp;#34;An *onion* a day keeps everyone away!&amp;#34;; int startBound = quote.</description>
     </item>
     
     <item>
-      <title>Java基础算法（插入、选择、冒泡、快排）</title>
-      <link>https://barnett617.github.io/wilson-blog/notes/2016-12-15-java-basic-sort-algorithms/</link>
-      <pubDate>Thu, 15 Dec 2016 23:20:37 +0000</pubDate>
+      <title>Maven学习</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2016-12-20-maven-basic/</link>
+      <pubDate>Tue, 20 Dec 2016 09:28:04 +0800</pubDate>
       
-      <guid>https://barnett617.github.io/wilson-blog/notes/2016-12-15-java-basic-sort-algorithms/</guid>
-      <description>&lt;p&gt;Java基础算法（插入、选择、冒泡、快排）&lt;/p&gt;</description>
+      <guid>https://barnett617.github.io/wilson-blog/posts/2016-12-20-maven-basic/</guid>
+      <description>Maven 学习
+一、什么是 Maven Apache Maven 是一个软件项目管理和综合工具，基于项目对象模型（POM——Project Object Model），Maven 可以从一个中心资料片管理项目构建，报告和文件。
+Maven 提供了开发人员构建一个完整的生命周期框架。开发团队可以自动完成项目的基础工具建设，Maven 使用标准的目录结构和默认构建生命周期。
+二、核心 Maven 项目的结构和内容在一个 XML 文件中声明，pom.xml 项目对象模型（POM），这是整个 Maven 系统的基本单元。
+三、特性 Apache Maven 是一种创新的软件项目管理工具，提供了一个项目对象模型（POM）文件的新概念来管理项目的构建，相关性和文档。最强大的功能就是能够自动下载项目依赖库。
+四、安装配置 JDK（若未按照默认安装在 C 盘，则 PATH 中需要将 jdk 的 bin 目录放在PATH 开头） Maven 根目录（添加 M2_HOME、MAVEN_HOME 都指向 Maven 安装文件夹） 添加到环境变量（添加%M2_HOME%\bin 到 PATH） 验证环境变量配置（mvn -version） 五、启用代理访问 若公司存在防火墙，并使用HTTP 代理服务器阻止用户直接连接到互联网（若使用代理，Maven 将无法下载任何依赖），则需要在 Maven 配置文件（setting.xml）中设置代理服务器，设置完成后保存（无需重启，Maven 是一个批处理文件，调用时会重新读取配置文件）
+六、本地仓库 默认本地存储文件夹为用户目录下到.m2 目录，可在配置文件（setting.xml）中修改默认仓库位置，并重新命名</description>
     </item>
     
     <item>
@@ -84,7 +91,7 @@ public static String[] codeMaker() { String[] code = new String[3]; for (int i=0
       <pubDate>Wed, 02 Nov 2016 13:45:29 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2016-11-02-ssh-web-03/</guid>
-      <description>1. Web项目入口——web.xml &amp;lt;!-- spring核心监听器 --&amp;gt; &amp;lt;listener&amp;gt; &amp;lt;listener-class&amp;gt;org.springframework.web.context.ContextLoaderListener&amp;lt;/listener-class&amp;gt; &amp;lt;/listener&amp;gt; &amp;lt;!-- ctrl+shift+T:contextLoaderListener监听器全路径 --&amp;gt; &amp;lt;!-- 默认情况会加载WEB-INF中的配置文件 --&amp;gt; &amp;lt;!-- 配置全局初始化参数：设置为加载classes中的配置文件 --&amp;gt; &amp;lt;context-param&amp;gt; &amp;lt;param-name&amp;gt;contextConfigLocation&amp;lt;/param-name&amp;gt; &amp;lt;param-value&amp;gt;classpath:applicationContext.xml&amp;lt;/param-value&amp;gt; &amp;lt;/context-param&amp;gt; &amp;lt;!-- struts核心过滤器（与传统servlet配置类似） --&amp;gt; &amp;lt;filter&amp;gt; &amp;lt;filter-name&amp;gt;struts&amp;lt;/filter-name&amp;gt; &amp;lt;filter-class&amp;gt;org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter&amp;lt;/filter-class&amp;gt; &amp;lt;/filter&amp;gt; &amp;lt;!-- ctrl+shift+T:strutsPrepareAndExecuteFilter --&amp;gt; &amp;lt;filter-mapping&amp;gt; &amp;lt;filter-name&amp;gt;struts&amp;lt;/filter-name&amp;gt; &amp;lt;url-pattern&amp;gt;/*&amp;lt;/url-pattern&amp;gt; &amp;lt;/filter-mapping&amp;gt; &amp;lt;display-name&amp;gt;ssh&amp;lt;/display-name&amp;gt; &amp;lt;welcome-file-list&amp;gt; &amp;lt;welcome-file&amp;gt;index.jsp&amp;lt;/welcome-file&amp;gt; &amp;lt;/welcome-file-list&amp;gt; 2. struts配置文件——struts.xml &amp;lt;struts&amp;gt; &amp;lt;package name=&amp;#34;ssh&amp;#34; extends=&amp;#34;struts-default&amp;#34;&amp;gt; &amp;lt;action name=&amp;#34;user_*&amp;#34; class=&amp;#34;userAction&amp;#34; method=&amp;#34;{1}&amp;#34;&amp;gt; &amp;lt;result name=&amp;#34;input&amp;#34;&amp;gt;/index.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;success&amp;#34; type=&amp;#34;redirect&amp;#34;&amp;gt;/jsp/layout.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;info&amp;#34; type=&amp;#34;redirect&amp;#34;&amp;gt;/jsp/myinfo.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;invi&amp;#34;&amp;gt;/jsp/invi.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;regSuccess&amp;#34;&amp;gt;/jsp/regSuccess1.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;getCodes&amp;#34;&amp;gt;/jsp/mycode.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;toHome&amp;#34;&amp;gt;/jsp/layout.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;linkPersion&amp;#34;&amp;gt;/jsp/otherInfo.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;update&amp;#34;&amp;gt;/jsp/updateUser.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;updateSucc&amp;#34; type=&amp;#34;redirectAction&amp;#34;&amp;gt;admin_findAll&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;del&amp;#34; type=&amp;#34;redirectAction&amp;#34;&amp;gt;admin_findAll&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;add&amp;#34;&amp;gt;/jsp/addUser.</description>
+      <description>1. Web 项目入口——web.xml &amp;lt;!-- spring核心监听器 --&amp;gt; &amp;lt;listener&amp;gt; &amp;lt;listener-class&amp;gt;org.springframework.web.context.ContextLoaderListener&amp;lt;/listener-class&amp;gt; &amp;lt;/listener&amp;gt; &amp;lt;!-- ctrl+shift+T:contextLoaderListener监听器全路径 --&amp;gt; &amp;lt;!-- 默认情况会加载WEB-INF中的配置文件 --&amp;gt; &amp;lt;!-- 配置全局初始化参数：设置为加载classes中的配置文件 --&amp;gt; &amp;lt;context-param&amp;gt; &amp;lt;param-name&amp;gt;contextConfigLocation&amp;lt;/param-name&amp;gt; &amp;lt;param-value&amp;gt;classpath:applicationContext.xml&amp;lt;/param-value&amp;gt; &amp;lt;/context-param&amp;gt; &amp;lt;!-- struts核心过滤器（与传统servlet配置类似） --&amp;gt; &amp;lt;filter&amp;gt; &amp;lt;filter-name&amp;gt;struts&amp;lt;/filter-name&amp;gt; &amp;lt;filter-class&amp;gt;org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter&amp;lt;/filter-class&amp;gt; &amp;lt;/filter&amp;gt; &amp;lt;!-- ctrl+shift+T:strutsPrepareAndExecuteFilter --&amp;gt; &amp;lt;filter-mapping&amp;gt; &amp;lt;filter-name&amp;gt;struts&amp;lt;/filter-name&amp;gt; &amp;lt;url-pattern&amp;gt;/*&amp;lt;/url-pattern&amp;gt; &amp;lt;/filter-mapping&amp;gt; &amp;lt;display-name&amp;gt;ssh&amp;lt;/display-name&amp;gt; &amp;lt;welcome-file-list&amp;gt; &amp;lt;welcome-file&amp;gt;index.jsp&amp;lt;/welcome-file&amp;gt; &amp;lt;/welcome-file-list&amp;gt; 2. struts 配置文件——struts.xml &amp;lt;struts&amp;gt; &amp;lt;package name=&amp;#34;ssh&amp;#34; extends=&amp;#34;struts-default&amp;#34;&amp;gt; &amp;lt;action name=&amp;#34;user_*&amp;#34; class=&amp;#34;userAction&amp;#34; method=&amp;#34;{1}&amp;#34;&amp;gt; &amp;lt;result name=&amp;#34;input&amp;#34;&amp;gt;/index.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;success&amp;#34; type=&amp;#34;redirect&amp;#34;&amp;gt;/jsp/layout.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;info&amp;#34; type=&amp;#34;redirect&amp;#34;&amp;gt;/jsp/myinfo.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;invi&amp;#34;&amp;gt;/jsp/invi.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;regSuccess&amp;#34;&amp;gt;/jsp/regSuccess1.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;getCodes&amp;#34;&amp;gt;/jsp/mycode.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;toHome&amp;#34;&amp;gt;/jsp/layout.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;linkPersion&amp;#34;&amp;gt;/jsp/otherInfo.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;update&amp;#34;&amp;gt;/jsp/updateUser.</description>
     </item>
     
     <item>
@@ -93,7 +100,10 @@ public static String[] codeMaker() { String[] code = new String[3]; for (int i=0
       <pubDate>Wed, 02 Nov 2016 12:55:29 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2016-11-02-ssh-web-02/</guid>
-      <description>&lt;p&gt;本节将关于本项目所需导入的 jar 包进行逐一解释，基本适用于普通的 Struts2+Hibernate3+Spring3 的项目， 此为相对较老的组合版本，若使用 Hibernate4 或 Mybatis 等其他较新框架，请自行查阅相关资料。&lt;/p&gt;</description>
+      <description>本节将关于本项目所需导入的 jar 包进行逐一解释，基本适用于普通的 Struts2+Hibernate3+Spring3 的项目， 此为相对较老的组合版本，若使用 Hibernate4 或 Mybatis 等其他较新框架，请自行查阅相关资料。
+1、struts2 基础必备包（解压 blank.war 可得） 本项目使用 struts2.3.4.1 附加 Jar 解释：
+struts2-convention-plugin-2.3.4.1.jar——支持 struts2 的注解开发 struts2-spring-plugin-2.3.4.1.jar——用于整合 spring 2、hibernate3 基础必备包 本项目使用 hibernate3.3.1 根路径 hibernate3.jar——核心 jar 包 required 目录所有 jar 包 hibernate 日志记录——slf4j-log4j.jar 数据库驱动包——mysql-connector-java.jar（本项目使用 mysql 数据库） 3、spring 基础必备包 本项目使用 spring3.2.2 spring 基本 jar 包包括
+IoC 开发 spring-beans.jar spring-context.jar spring-core.jar spring-expression.jar com.springsource.org.apache.log4j.jar——作日志记录 com.springsource.org.apache.commons.logging.jar——日志整合，不作具体日志记录，用于整合其他日志系统 AOP spring-aop.jar spring-aspect.jar——整合 aspect com.spinrgsource.org.aopalliance.jar——aop 联盟 com.springsource.org.aspectj.weaver.jar 其他 spring-tx.jar——事务管理 spring-jdbc.jar——jdbc 模板 spring-orm.jar——整合 hibernate spring-web.</description>
     </item>
     
     <item>
@@ -102,7 +112,8 @@ public static String[] codeMaker() { String[] code = new String[3]; for (int i=0
       <pubDate>Wed, 02 Nov 2016 11:10:02 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2016-11-02-ssh-web-01/</guid>
-      <description>&lt;p&gt;本项目是使用 Struts2+Hibernate3+Spring3,基于 MVC 开发模式的一个简单实例，第一篇先建立项目总体包结构，后续将详细解释项目细节。&lt;/p&gt;</description>
+      <description>本项目是使用 Struts2+Hibernate3+Spring3,基于 MVC 开发模式的一个简单实例，第一篇先建立项目总体包结构，后续将详细解释项目细节。
+1、整体包结构 2、action 包 3、domain 实体包 4、service 层 5、dao 层 6、util 工具包 7、页面层 </description>
     </item>
     
     <item>
@@ -117,31 +128,31 @@ public static String[] codeMaker() { String[] code = new String[3]; for (int i=0
 （2）利用操作系统所提供的图形库
 （3）简单、高效
 （4）运行速度快
-（5）基于系统（调用系统UI）
+（5）基于系统（调用系统 UI）
 （6）消耗资源
 （7）难以跨平台
 功能：
-（1）Canvas组件：画布，可实现动画操作
+（1）Canvas 组件：画布，可实现动画操作
 （2）TextArea:文本域
-（3）单行文本域中回车会激发ActionEvent
-（4）CheckBoxGroup实现单选框
-（5）单元框和复选框都使用CheckBox实现
-（6）菜单：new MenuBar()，MenuBar表示菜单条，菜单每一项为MenuItem(一般级联菜单不应超过3级)
+（3）单行文本域中回车会激发 ActionEvent
+（4）CheckBoxGroup 实现单选框
+（5）单元框和复选框都使用 CheckBox 实现
+（6）菜单：new MenuBar()，MenuBar 表示菜单条，菜单每一项为 MenuItem(一般级联菜单不应超过 3 级)
 应用：嵌入式应用
 目标平台的硬件资源非常有限，同时应用程序运行速度是项目中至关重要的因素
 （二）swing:
 特点：
 （1）轻量级控件
-（2）100%JAVA代码实现（Swing为JAVA自身组件）
+（2）100%JAVA 代码实现（Swing 为 JAVA 自身组件）
 （3）与底层系统无关
-（4）基于AWT
+（4）基于 AWT
 （5）运行速度慢
-应用：基于PC或工作站的标准Java应用
+应用：基于 PC 或工作站的标准 Java 应用
 硬件资源对应用程序所造成的限制往往不是项目中的关键因素，通过牺牲速度来实现应用程序的功能
 （三）SWT:
 特点：
-（1）未通过JAVA虚拟机操作，直接调用Windows GDI和Shell（通过JNI方法调用完成）
-（2）基于SWT实现的Eclipse界面速度快、效率高，比Swing美观</description>
+（1）未通过 JAVA 虚拟机操作，直接调用 Windows GDI 和 Shell（通过 JNI 方法调用完成）
+（2）基于 SWT 实现的 Eclipse 界面速度快、效率高，比 Swing 美观</description>
     </item>
     
     <item>
@@ -159,7 +170,7 @@ public static String[] codeMaker() { String[] code = new String[3]; for (int i=0
 2、访问修饰符大于被重写方法（public &amp;gt; protected &amp;gt; default &amp;gt; private）
 3、返回值（与被重写方法）相同
 4、所抛异常（与被重写方法）相同
-5、被重写方法不能为private，否则在其子类中只是新定义了一个方法，并未对其进行重写
+5、被重写方法不能为 private，否则在其子类中只是新定义了一个方法，并未对其进行重写
 6、静态方法不能被重写为非静态方法（否则编译出错）
 overload(重载)
 解释：在一个类内实现若干重载方法，方法名相同而参数形式不同

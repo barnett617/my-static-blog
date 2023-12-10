@@ -6,14 +6,14 @@
     <description>Recent content in vue on Wilson&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans-CN</language>
-    <lastBuildDate>Fri, 10 Jan 2020 18:16:00 +0000</lastBuildDate><atom:link href="https://barnett617.github.io/wilson-blog/tags/vue/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Jun 2023 21:38:46 +0000</lastBuildDate><atom:link href="https://barnett617.github.io/wilson-blog/tags/vue/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>mpvue刷新问题</title>
-      <link>https://barnett617.github.io/wilson-blog/posts/2020-01-10-mpvue/</link>
-      <pubDate>Fri, 10 Jan 2020 18:16:00 +0000</pubDate>
+      <title>vuex对比pinia</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2023-06-28-vuex-vs-pinia/</link>
+      <pubDate>Wed, 28 Jun 2023 21:38:46 +0000</pubDate>
       
-      <guid>https://barnett617.github.io/wilson-blog/posts/2020-01-10-mpvue/</guid>
-      <description>&lt;p&gt;&lt;code&gt;mpvue&lt;/code&gt;小程序迁移为&lt;code&gt;uniapp&lt;/code&gt;项目&lt;code&gt;A&lt;/code&gt;(用于标识项目)，同时编译部署微信小程序和微信服务号&lt;code&gt;H5&lt;/code&gt;&lt;/p&gt;</description>
+      <guid>https://barnett617.github.io/wilson-blog/notes/2023-06-28-vuex-vs-pinia/</guid>
+      <description>&lt;p&gt;vuex@3 对比 pinia@v2&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -22,7 +22,7 @@
       <pubDate>Tue, 17 Dec 2019 19:46:00 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2019-12-17-debug-node-vue/</guid>
-      <description>&lt;p&gt;如何用 vscode 调试 node 程序和 vue 源码&lt;/p&gt;</description>
+      <description>如何用 vscode 调试 node 程序和 vue 源码</description>
     </item>
     
     <item>
@@ -31,7 +31,21 @@
       <pubDate>Thu, 22 Feb 2018 21:33:38 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-02-22-vue-basic/</guid>
-      <description>&lt;p&gt;Vue.js 教程之 Vue 实例&lt;/p&gt;</description>
+      <description>Vue.js 教程之 Vue 实例
+创建实例 每个 Vue 应用都是通过用Vue函数创建一个新的Vue 实例开始
+var vm = new Vue({ // options }); 虽然没有遵守MVVM模型，但 Vue 的设计也受 MVVM 启发，故示例中常使用 vm(viewmodel 缩写)表示 Vue 实例
+一个 Vue 应用的组成：
+一个通过 new Vue 创建的根 Vue 实例
+可选的嵌套的、可复用的组件树
+所有的 Vue 组件都是 Vue 实例，并且接受相同的选项对象（一些根实例特有的选项除外）
+MVVM MVVM（model-view-viewmodel）是一种软件架构，有助于将图形用户界面开发与业务逻辑或后端逻辑开发分离开来，通过置标语言或 GUI 代码实现
+MVVM 的 viewmodel 是一个值转换器，意味着负责从模型中暴露（转换）数据对象，以便轻松管理和呈现对象。在这方面 viewmodel 比 view 做的更多，且处理大部分视图的显示逻辑。
+viewmodel 可实现中介者模式，组织对 view 所支持的用例集的后端逻辑的访问
+标记语言 置标语言也称标记语言、标志语言、标识语言、markup language，是一种将文本以及文本相关的其他信息结合起来，展现出关于文档结构和数据处理细节的计算机文字编码。
+与文本相关的其他信息（文本结构和表示信息等）与原文本结合在一起，但使用标记进行标识
+现状及历史 如今广泛使用的标记语言是 HTML 和 XML，广泛用于网页和网络应用程序，最早用于出版业，是作者、编辑及出版商之间用于描述出版作品的排版格式所使用的
+分类 标记语言通常分为三种：表示性、过程性、描述性
+表示性：编码过程中标记文档的结构信息 例如文本文件中，文件标题可能需要特定格式（居中、放大等），则需要标记文件的标题。</description>
     </item>
     
     <item>

@@ -6,87 +6,24 @@
     <description>Recent content in 其他 on Wilson&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans-CN</language>
-    <lastBuildDate>Sat, 02 May 2020 18:36:54 +0000</lastBuildDate><atom:link href="https://barnett617.github.io/wilson-blog/tags/%E5%85%B6%E4%BB%96/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>博客重新更新了</title>
-      <link>https://barnett617.github.io/wilson-blog/posts/2020-05-02-refresh-blog/</link>
-      <pubDate>Sat, 02 May 2020 18:36:54 +0000</pubDate>
-      
-      <guid>https://barnett617.github.io/wilson-blog/posts/2020-05-02-refresh-blog/</guid>
-      <description>&lt;p&gt;时隔许久，决定重新打开尘封许久的博客。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>我是如何备份博客的</title>
-      <link>https://barnett617.github.io/wilson-blog/posts/2018-09-03-blog-backup/</link>
-      <pubDate>Mon, 03 Sep 2018 19:57:17 +0000</pubDate>
-      
-      <guid>https://barnett617.github.io/wilson-blog/posts/2018-09-03-blog-backup/</guid>
-      <description>&lt;p&gt;记录如何把博客从离线存储配置成可通过git维护&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>关于hexo阅读次数统计及访问次数插件使用</title>
-      <link>https://barnett617.github.io/wilson-blog/notes/2018-02-13-hexo-reading-count/</link>
-      <pubDate>Tue, 13 Feb 2018 14:46:31 +0000</pubDate>
-      
-      <guid>https://barnett617.github.io/wilson-blog/notes/2018-02-13-hexo-reading-count/</guid>
-      <description>&lt;p&gt;前一段时间换域名，发现博客的访问次数不显示了，一开始没时间关注，最近闲了，研究一下到底是怎么回事，发现原来当初这里不是基于本地配置，而是使用leancloud进行统计，查阅到一篇很易懂的教程，顺便整理了一下PV和UV的统计&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>比特币协议是如何工作的（译）</title>
-      <link>https://barnett617.github.io/wilson-blog/posts/2018-01-18-how-bitcorn-works-translation/</link>
-      <pubDate>Thu, 18 Jan 2018 09:38:05 +0000</pubDate>
-      
-      <guid>https://barnett617.github.io/wilson-blog/posts/2018-01-18-how-bitcorn-works-translation/</guid>
-      <description>&lt;p&gt;本文翻译自 13 年一篇关于比特币协议的深度解析文章&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>vultr账单解析及使用ssr在vultr搭建代理</title>
-      <link>https://barnett617.github.io/wilson-blog/posts/2017-11-28-vultr-billing-and-ssr-on-vultr/</link>
-      <pubDate>Tue, 28 Nov 2017 12:38:01 +0000</pubDate>
-      
-      <guid>https://barnett617.github.io/wilson-blog/posts/2017-11-28-vultr-billing-and-ssr-on-vultr/</guid>
-      <description>&lt;p&gt;今天就之前疑惑不解的 vultr 账单做了一波分析，终于算是破案了，借此也记录一下服务器搭建 ssr 的详细步骤。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>使用分支备份hexo博客</title>
-      <link>https://barnett617.github.io/wilson-blog/posts/2017-11-17-hexo-backup-using-git-branch/</link>
-      <pubDate>Fri, 17 Nov 2017 17:39:36 +0000</pubDate>
-      
-      <guid>https://barnett617.github.io/wilson-blog/posts/2017-11-17-hexo-backup-using-git-branch/</guid>
-      <description>&lt;p&gt;使用一台电脑使用 hexo 创建博文、生成静态文件、发布，没毛病，但由于 hexo 在本地生成静态文件的模式，如果你换一台电脑呢？很明显你需要把原始电脑上的 hexo 文件夹拷贝到新电脑。这样带来的问题就是多台电脑上的 hexo 不能总保持同步，需要通过物理拷贝的方式，很不方便。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Markdown语法学习整理</title>
-      <link>https://barnett617.github.io/wilson-blog/posts/2017-11-17-markdown-programmer/</link>
-      <pubDate>Fri, 17 Nov 2017 10:09:16 +0000</pubDate>
-      
-      <guid>https://barnett617.github.io/wilson-blog/posts/2017-11-17-markdown-programmer/</guid>
-      <description>&lt;p&gt;虽说 markdown 用了一段时间，但还未曾专门地阅读文档对其进行过相对系统的学习。刚才使用分割线时发现分割线下面的文字变成标题般字体，专门查了一波，发现还是有必要系统学习一下 md 语法，以节省日后使用时的查阅时间。&lt;/p&gt;</description>
-    </item>
-    
+    <lastBuildDate>Tue, 14 Nov 2017 14:15:57 +0000</lastBuildDate><atom:link href="https://barnett617.github.io/wilson-blog/tags/%E5%85%B6%E4%BB%96/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>关于StackExchange和Quora的区别</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2017-11-14-stackexchange-vs-quora/</link>
       <pubDate>Tue, 14 Nov 2017 14:15:57 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-11-14-stackexchange-vs-quora/</guid>
-      <description>&lt;p&gt;今天在查问题的时候偶然进了一篇 StackExchange 的帖子，无论是站点名字还是首页界面，第一反应都是：StackOverFlow？&lt;/p&gt;
-&lt;p&gt;查阅相关说明之后了解了二者的关系，StackExchange 是在 StackOverFlow 成功推出以后，在其基础上将仅仅讨论编程问题的网站拓展成话题更丰富的论坛。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>关于负载均衡的理解小结</title>
-      <link>https://barnett617.github.io/wilson-blog/posts/2017-11-09-about-load-balance/</link>
-      <pubDate>Thu, 09 Nov 2017 17:37:16 +0000</pubDate>
-      
-      <guid>https://barnett617.github.io/wilson-blog/posts/2017-11-09-about-load-balance/</guid>
-      <description>&lt;p&gt;均衡，存乎万物之间&lt;/p&gt;</description>
+      <description>今天在查问题的时候偶然进了一篇 StackExchange 的帖子，无论是站点名字还是首页界面，第一反应都是：StackOverFlow？
+查阅相关说明之后了解了二者的关系，StackExchange 是在 StackOverFlow 成功推出以后，在其基础上将仅仅讨论编程问题的网站拓展成话题更丰富的论坛。
+当更加深入了解二者关系之余发现一篇关于对比 StackExchange 和 Quora 二者区别的帖子写得很清楚，特将其翻译如下：
+正文 简短版本： StackExchange 是你的助教 Quora 是你的酒保
+Quora 是你认识的那个足迹遍布很多角落，品尝过城市每一家餐厅的人 StackExchange 是一个受过专业训练的专业帮助者
+StackExchange 是一个指导手册（详细，包含有用的例子） Quora 是一个著名的在其演讲后回答问题的知识分子
+详细版本： 想真正理解这二者，你需要从 the lens of purpose（目标透镜）看这个问题，从那里你能了解到一个专门的推送（see pull request at github?），它会从本质上讲清楚二者的区别。你会知道以下绝非偶然——Quora 不想成为 StackExchange，StackExchange 也不想成为 Quora，并且它们按照各自的方式建设以促进它们各自的目的。
+正如 Manish 所述，Quora 是关于“消费”,但它也关乎好奇。也就是，我在阅读问题的时候更多的是被动的，大多时候我可能会在 Quora 的邮件中看到一个有趣的问题之后发现自己想要的。我会阅读问题的答案（或者不止几个），然后查看站点上推荐给我的相关问题，同时我也会阅读它们。这些问题中很少数曾“逼迫”我去寻找一个答案，但我就是充满好奇并且想要了解更多。
+StackExchange 不同于其他在于其基于目的或者基于问题。我来到 StackExchange 大多情况是通过搜索引擎，因为我在处理某些事情上遇到问题并且需要答案。它绝大多数时候当然充当了一个技术支持，经常可以处理……(未完待续)
+尾声 通篇下来个人觉得充满了蹩脚的翻译，这篇文章看起来大体可以理解作者的意思，但落实翻译对于我而言是不小的挑战。
+个人比拟 国外网站 对应 国内网站 StackExchange &amp;lt;&amp;mdash;&amp;gt; 暂无 Quora &amp;lt;&amp;mdash;&amp;gt; 知乎 StackOverFlow &amp;lt;&amp;mdash;&amp;gt; SegamentFault 相关链接 原文链接 </description>
     </item>
     
     <item>
@@ -95,7 +32,18 @@
       <pubDate>Wed, 08 Nov 2017 10:25:17 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-11-08-setup-blog-using-hexo/</guid>
-      <description>&lt;p&gt;用了一段时间的 hexo，本着“授人以鱼，不如授人以渔”的理念，决定整理一篇 hexo 使用教程，分享大家。&lt;/p&gt;</description>
+      <description>用了一段时间的 hexo，本着“授人以鱼，不如授人以渔”的理念，决定整理一篇 hexo 使用教程，分享大家。
+hexo 是一种快速、简单并且强大的博客框架，你可以通过使用 markdown 或者其他语言撰写 post（帖子），然后 hexo 引擎将其生成静态网页文件（当然，官网的说法是“在数秒内生成伴有漂亮主题的静态文件”）并以博文的形式显现出来。
+写在前面 本文定位于面向非专业人士角度撰写的科普式教程，有专业基础的人可跳过大多步骤，仅阅读标*部分
+背景 应@JXY 邀，要我教他搭建个人博客，于是也就找了一个足够的理由来回顾一波如何使用 hexo 搭建个人博客。
+既然给别人讲东西，那自然要先对讲的东西深入了解，不然就是误人子弟了。于是打开hexo 官网，发现！竟然！被！墙！了！好吧，后来发现是 9 点多被墙了一段时间（貌似是 hexo 使用的 CDN 服务 Cloudflare 被 block 了），介于避免日后再想参考官网文档时无法及时访问，索性这次就把官网的一些精华翻译下来，留作日后参考。
+*核心步骤 先看官方给出的安装步骤
+准备篇 首先你要做好准备掌握以下几项东西：
+git nodejs bash 命令 好吧，这样讲未免显得门槛略高，其实 hexo 是一种非常零门槛的工具，只要你想学，任何没有专业知识的人都能用起来，只要照着做就可以了
+环境搭建篇 第一步：在电脑安装git（如果下载不了,可以通过我的网盘下载git） git 是一个伟大的版本控制软件，它的作用在于作为一个代码提交工具，将你编写的每一行代码（或文字）存放到一个代码仓库，它在其中起到记录你每一次提交历史的作用，这样你就可以对自己的每一次提交历史有直观的查看，并且可以对比不同版本之间的区别，还可以回退到某一个提交历史节点，还有 balabala 很多好处。
+第二步：安装 nodejs 当你安装好了 git 以后，可以鼠标右键唤出 git
+方式一 然后你就可以很方便的安装 nodejs 了，通过如下命令先安装 nvm（此方式适用于专业人士，非专业人士请参考后面下载安装包的方式二）
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash nvm 是 nodejs version manager，nodejs 版本管理器，用以在机器上安装并维护多个 node 的版本</description>
     </item>
     
     <item>
@@ -104,9 +52,13 @@
       <pubDate>Wed, 01 Nov 2017 09:48:04 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-11-01-matlab-matrix/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;冒号是 MATLAT 中最有用的操作符之一。它用于创建向量，下标数组，并为迭代指定。&lt;/p&gt;
-&lt;/blockquote&gt;</description>
+      <description>冒号是 MATLAT 中最有用的操作符之一。它用于创建向量，下标数组，并为迭代指定。
+背景 怎么解释？作为初学者可能一下子看不懂，但是研究后你会发现，作为老手，你也不应该看懂，因为，这是个印刷错误！
+借此学习一下 MATLAB 的冒号符和矩阵定义
+冒号符（ ：） 创建行向量 包含从 1 到 10 的整数行向量
+octave:2&amp;gt; 1:10 ans = 1 2 3 4 5 6 7 8 9 10 指定增量值
+octave:3&amp;gt; 100:-5:50 ans = 100 95 90 85 80 75 70 65 60 55 50 one more 栗子
+octave:4&amp;gt; 0:pi/8:pi ans = Columns 1 through 7: 0.00000 0.39270 0.78540 1.17810 1.57080 1.96350 2.35619 Columns 8 and 9: 2.74889 3.</description>
     </item>
     
     <item>
@@ -115,7 +67,34 @@
       <pubDate>Mon, 16 Oct 2017 19:00:44 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/notes/2017-10-16-preview-html-using-atom-editor/</guid>
-      <description>&lt;p&gt;如何使用 atom 编辑器实现 html 实时预览&lt;/p&gt;</description>
+      <description>如何使用 atom 编辑器实现 html 实时预览
+atom 自带 markdown 实时预览插件，但当我想用 atom 进行进端开发并取代 webstorm 这样的收费 IDE 时，我发现基于文件进行操作的编辑器 atom 只能高亮显示 html、js 这样的文件，但不能实时显示进行调试，很不方便。
+于是上网查，结果都是很简略的方法，作为刚开始上手 atom 的新手，一时不理解，终于经过自己的折腾成功使用
+特此记录，以便为新手提供方便，节省这些不必要的查询时间。
+1、搜索插件
+2、安装插件
+3、修改快捷键
+atom-html-preview 初始快捷键为 ctrl+p，于 atom 已有快捷键冲突，修改为 ctrl+F12，如下 点击 File-&amp;gt;Settings-&amp;gt;KeyBindings-&amp;gt;your keymap file 超链接-&amp;gt;在末尾添加
+&amp;#39;atom-text-editor&amp;#39;: &amp;#39;ctrl-F12&amp;#39;:&amp;#39;atom-html-preview:toggle&amp;#39; </description>
+    </item>
+    
+    <item>
+      <title>每年九月份给自己的一份健康警告</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2017-09-18-health-tip/</link>
+      <pubDate>Mon, 18 Sep 2017 14:10:33 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2017-09-18-health-tip/</guid>
+      <description>从百度拇指医生某热心网友总结那里引用来，觉得写得很不错，有参考意义，特此记录下来
+”为什么每年九月份过敏鼻炎就严重“
+”因为天气冷热温差比较大。 因为是过敏鼻炎，也可能是你的过敏原在秋季比较丰富。具体你要去医院查过敏原。 我过敏性鼻炎，每天早上起来打喷嚏，流鼻涕，流眼泪，眼睛痒痛充血，如遇天气干燥就容易流鼻血，部分时候会引起头痛。过敏原比较悲催，很普遍， 甲醛、尘螨、灰尘、温度变化都比较敏感。 吃的药基本没什么用。 弄点抗过敏的药就可以了，我现在连喷剂都不太管用。以下是我经过很多测试得到的一些经验，效果挺好，但是也要自己注意保养。
+【忌口】辛辣、羊肉、海鲜、避免喝冰水
+【温度】要注意保暖。洗脸用温水，尽量喝温水。最好少吹空调
+【清洗鼻腔】因为会对某些物质过敏，因此每天清洗一下鼻腔就很有必要了。 每天自制生理盐水冲鼻子，配方： 500ML 38 度的温水+4.5g 无碘盐+4.5g 小苏打。 如果觉得麻烦也可以去淘宝买现成的洗鼻盐。 清洗鼻子的设备，淘宝也有卖的，一种是专门用于洗鼻子的洗鼻机。另一种是洗牙的机器，但是也有洗鼻的喷头。其实就是一个水泵往鼻子里打水，具体方法参见说明书吧。 控制水温 37-38 度才会舒服，太冷会呛到，太热会烫坏鼻粘膜，弄个专门测液体温度的温度计，这种温度计就是厨房用针式的那种。
+【坚持锻炼】再有就是坚持锻炼身体会有很大的帮助，提高自身的抵抗力最重要。我是打羽毛球和爬山，我们爬的都是野山，景区效果不好，爬山效果比较明显，山里空气很好。
+【避免的运动类型】不要游泳，不要下海。 游泳池水进入鼻腔没有好处。 下海游泳要禁止，会使体温降低，如果海水进入鼻腔会导致非常严重的过敏反应。 下海游泳本人亲身经历过，非常痛苦。
+【防止揉眼睛】 眼睛痒痛最麻烦的是夜里不自主的揉眼睛，这样会更严重得结膜炎。我的方法是购买一个 3M 的实验室防护眼镜。它周围是软的，相对还算舒服。有效避免自己揉眼睛，目前没有更好的方法，总不能把自己的手捆起来吧！
+【药物】对我而言基本没什么用。抗过敏药:氯雷他定或者扑尔敏。缓解眼睛：双氯芬酸钠滴眼液。喷剂：丙酸倍氯米松鼻喷雾剂（少用，只有特别难受的时候用用吧）。头痛只能吃点去痛片了。其他遵医嘱（其实大夫也没办法）
+关键时刻，网民的建议也是有效的，感谢互联网让同病相怜的人可以分享彼此之间的感受和应对措施。</description>
     </item>
     
   </channel>

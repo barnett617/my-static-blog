@@ -22,7 +22,17 @@
       <pubDate>Tue, 15 Aug 2017 14:20:49 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-08-15-python-numpy/</guid>
-      <description>&lt;p&gt;关于 python 科学计算库 numpy 学习总结&lt;/p&gt;</description>
+      <description>关于 python 科学计算库 numpy 学习总结
+本文中部分 print 输出可能会报错，原因为 python3 的 print 通过函数方式使用，与 python2 中的 print 通过解释执行不同，需要使用 print()进行控制台打印
+安装 numpy python3 -m pip install -U pip 更新 pip pip install numpy
+安装方式 II pip install ipython ipython &amp;ndash;pylab
+pylab 模式下会自动导入 SciPy,NumPy,Matplotlib 模块
+引入 numpy import numpy as py
+使用 numpy arange()函数用于创建同类型多维数组（homogeneous multidimensional array）
+用 arange 创建的数组使用 type()查看类型为 ndarray
+reshape()函数用于重新构造数组成为其他维度数组
+例如：np.arange(20).reshape(4,5)
+[[0 1 2 3 4] [ 5 6 7 8 9] [10 11 12 13 14] [15 16 17 18 19]]</description>
     </item>
     
     <item>
@@ -31,7 +41,12 @@
       <pubDate>Tue, 07 Feb 2017 22:05:20 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-02-07-python-comment/</guid>
-      <description>&lt;p&gt;python 零碎知识点整理——注释&lt;/p&gt;</description>
+      <description>python 零碎知识点整理——注释
+单行注释 python 的单行注释用#，可在任意位置添加（单独一行或语句/表达式后面，python 是解释型语言，逐行按序解释代码）
+多行注释 多行注释使用三个单引号或双引号 这实际上是多行字符串的书写方式，并非 python 本身提倡的多行注释
+编码声明注释 出现在 python 脚本第一行或第二行（其他行则无效）的含有 coding:xxx 的注释被认为是对编码方式的声明，详见python 官方文档
+从 python3 开始，python 默认使用 utf-8 编码（python3 以前使用 ascii 编码）
+平台注释 使 python 程序运行在 windows 平台上，需要在 python 文件的最前面加上#!/usr/bin/python，这说明了程序用的环境的路径</description>
     </item>
     
   </channel>

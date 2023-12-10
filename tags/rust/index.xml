@@ -13,7 +13,7 @@
       <pubDate>Thu, 31 Aug 2023 22:54:51 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/notes/2023-08-31-rust-05/</guid>
-      <description>&lt;p&gt;使用包、预置库和模块管理不断增长的项目&lt;/p&gt;</description>
+      <description>使用包、预置库和模块管理不断增长的项目</description>
     </item>
     
     <item>
@@ -31,7 +31,7 @@
       <pubDate>Tue, 11 Jul 2023 22:37:39 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/notes/2023-07-11-rust-03/</guid>
-      <description>&lt;p&gt;关于枚举和模式匹配&lt;/p&gt;</description>
+      <description>关于枚举和模式匹配</description>
     </item>
     
     <item>
@@ -49,7 +49,7 @@
       <pubDate>Mon, 10 Jul 2023 22:02:15 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/notes/2023-07-10-rust-01/</guid>
-      <description>&lt;p&gt;rust语法融合了多门编程语言的特性，可以看到很多语言的影子，例如 JavaScript、Java、Python、C、Go等。&lt;/p&gt;</description>
+      <description>&lt;p&gt;rust 语法融合了多门编程语言的特性，可以看到很多语言的影子，例如 JavaScript、Java、Python、C、Go 等。&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -6,14 +6,170 @@
     <description>Recent content in web on Wilson&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans-CN</language>
-    <lastBuildDate>Sat, 24 Jul 2021 21:40:00 +0000</lastBuildDate><atom:link href="https://barnett617.github.io/wilson-blog/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Jun 2023 22:37:22 +0000</lastBuildDate><atom:link href="https://barnett617.github.io/wilson-blog/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>关于WebAssembly</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2023-06-21-wasm/</link>
+      <pubDate>Wed, 21 Jun 2023 22:37:22 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2023-06-21-wasm/</guid>
+      <description>&lt;p&gt;WebAssembly 是什么&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>基于B/S架构的webapp开发</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2021-07-24-webapp-based-on-bs-arch/</link>
       <pubDate>Sat, 24 Jul 2021 21:40:00 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2021-07-24-webapp-based-on-bs-arch/</guid>
-      <description>&lt;p&gt;使用vscode远程开发一个全栈Web项目&lt;/p&gt;</description>
+      <description>&lt;p&gt;使用 vscode 远程开发一个全栈 Web 项目&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>关于WEB中宽高的一些整理</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2019-04-12-web-height/</link>
+      <pubDate>Fri, 12 Apr 2019 15:31:00 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2019-04-12-web-height/</guid>
+      <description>&lt;p&gt;关于 WEB 中宽高的一些整理&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>一周时间使用Vue&#43;Koa全栈开发论坛项目</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2018-08-27-koa-vue-forum/</link>
+      <pubDate>Mon, 27 Aug 2018 09:30:00 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2018-08-27-koa-vue-forum/</guid>
+      <description>&lt;p&gt;使用 vue-cli3 脚手架初始化前端项目&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>在Ubuntu 16.04安装禅道</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2018-08-27-install-zendao-on-ubuntu/</link>
+      <pubDate>Mon, 27 Aug 2018 09:30:00 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2018-08-27-install-zendao-on-ubuntu/</guid>
+      <description>&lt;p&gt;在 Ubuntu 16.04 安装禅道&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>关于hexo阅读次数统计及访问次数插件使用</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2018-02-13-hexo-reading-count/</link>
+      <pubDate>Tue, 13 Feb 2018 14:46:31 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2018-02-13-hexo-reading-count/</guid>
+      <description>&lt;p&gt;前一段时间换域名，发现博客的访问次数不显示了。一开始没时间关注，最近闲了，研究一下到底是怎么回事，发现原来当初这里不是基于本地配置，而是使用 leancloud 进行统计，查阅到一篇很易懂的教程，顺便整理了一下 PV 和 UV 的统计&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>关于浏览器缓存</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2018-02-02-browser-cache/</link>
+      <pubDate>Fri, 02 Feb 2018 14:38:49 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2018-02-02-browser-cache/</guid>
+      <description>&lt;p&gt;探讨浏览器缓存相关&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>关于域名</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2018-01-25-domain/</link>
+      <pubDate>Thu, 25 Jan 2018 15:09:24 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2018-01-25-domain/</guid>
+      <description>探析域名
+概念 域名（简称“网域”），与互联网上的一个物理 IP 关联
+是电子邮件地址中@符号之后和网址中 www.之后的唯一名称
+子域名 子域名也是域名，隶属于较大的网域
+例如：mail.google.com、www.google.com和docs.google.com都是域名google.com的子域名
+域名所有者可以创建子域名，为顶级域名下的网页或服务提供简单好记的地址
+裸网域 就是不含“www”前缀的网域地址。例如 google.com，而不是www.google.com
+主域名 所注册的域名，可在账号中添加其他域名
+辅助域名 主域名之外，可为账号添加其他域名，让相应网域中的用户可使用其他服务
+网域别名 可用作其他网域的别名的域名
+可为账号添加一个域名作为网域别名，从而为网域中每位用户提供一个采用该域名别名的电子邮件地址
+发送至用户任一地址的邮件均会递送到用户的同一个电子邮件收件箱
+IP 地址 一个域名可能有一个或多个关联的 IP 地址</description>
+    </item>
+    
+    <item>
+      <title>关于DNS</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2018-01-25-dns/</link>
+      <pubDate>Thu, 25 Jan 2018 14:46:04 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2018-01-25-dns/</guid>
+      <description>探析 DNS
+DNS 概念 Domain Name System，域名系统
+本质 整理和识别各个域名的网络电话簿
+将域名转换为托管该网站的计算机的物理 IP
+MX 记录 概念 Mail Exchange，邮件交换记录
+作用 将一个网域的电子邮件定向到托管该网域用户账号的服务器
+设置 一个网域可定义多条 MX 记录，每条记录有不同的优先级。
+如果邮件通过最高优先级记录无法递送，则采用第二优先级，以此类推
+TXT 记录 作用 为网域之外的来源提供文本信息的一种 DNS 记录
+文本类型 人工可读文本
+机器可读文本
+CNAME 记录 规范名称记录
+作用 将一个别名关联到另一个真正的或规范的域名
+A 记录 地址记录（主机记录），Address
+作用 将一个域名关联到托管该网域服务的计算机的物理 IP
+NS 记录 作用 用于确定哪些服务器为一个网域传达 DNS 信息
+网域通常有主要的和辅助的域名服务器记录
+TTL 生存时间，Time To Live
+作用 决定对该记录所做的后续更改需要多少秒才会生效
+推荐值 3600（即 1 个小时）
+让整个互联网中的服务器每小时检查一次该记录的更新情况
+原因 较短的 TTL 在之前的有效期到期后才会生效
+若想快速还原一项更改，则可设置较短的 TTL 值（如 300,5 分钟）</description>
+    </item>
+    
+    <item>
+      <title>从输入网址到浏览器呈现内容期间发生的事情</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2018-01-24-what-happens-about-url/</link>
+      <pubDate>Wed, 24 Jan 2018 09:49:03 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2018-01-24-what-happens-about-url/</guid>
+      <description>探析浏览器访问站点这一行为背后的具体行为。
+浏览器地址栏输入网址www.coder.com
+浏览器发送一个 UDP 包给 DNS 服务器
+DNS 服务器返回 coder.com 的 IP
+（optional）浏览器将该 IP 缓存起来，以提高下次访问速度（Chrome 通过 chrome://net-internals/#dns 查看）
+浏览器利用获取到的 IP 发起 HTTP 请求，但是 HTTP Request/Response 必须在 TCP 这个“虚拟的连接”上发送和接收
+建立“虚拟的”TCP 连接需要本机 IP、本机端口、服务器 IP、服务器端口
+本机端口由操作系统给浏览器随机分配
+服务器端口使用相应服务的端口，例如 HTTP 服务：80
+三次握手后，客户端与服务器建立 TCP 连接
+一个 HTTP GET 请求经过多个路由器转发，达到服务器端（HTTP 数据包可能被下层分片传输）
+web 服务器处理请求（三种方式）
+用一个线程处理所有请求，但同一时刻只能处理一个，性能问题严重
+为每个请求分配一个进程/线程，但当连接太多时，服务器端的进程/线程耗费大量内存资源，进程/线程切换导致 CPU 不堪重负
+复用 I/O：众多 Web 服务器采用复用结构，例如通过 epoll 方式监视所有连接，当连接状态发生变化（如有数据可读），才用一个进程/线程对该连接进行处理，处理完继续监视，等待下次变化。该方式可用少量进程/线程应对大量的连接请求
+以 Nginx 为例，对于 HTTP GET 请求，Nginx 利用 epoll 方式读取出来，Nginx 判断该请求是静态 or 动态
+若为静态（HTML、JavaScript、CSS、图片等），依赖于 Nginx 配置，可能转发到其他缓存服务器，可能读取本机硬盘上相关文件直接返回</description>
+    </item>
+    
+    <item>
+      <title>关于反向代理的整理</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2017-11-07-about-nginx-reverse-proxy/</link>
+      <pubDate>Tue, 07 Nov 2017 16:41:24 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2017-11-07-about-nginx-reverse-proxy/</guid>
+      <description>之前一直对反向代理这个概念理解的很模糊，网上参阅了很多解释，看完也是觉得不够信服，相比较而言觉得解释的还算良好的是知乎上看到的一个回答，但看了之后也仅限于“当时理解，过后就忘”，于是今天再次在 stackoverflow 看到的解释版本，特此翻译整理，留作备忘。
+原文链接：https://stackoverflow.com/questions/224664/difference-between-proxy-server-and-reverse-proxy-server/366212#366212
+如果当你访问不了这个链接的时候，也就说明，GFW 限制了大陆网络内的主机访问 stackoverflow 的网站内容，此时你即需要通过代理服务器来作为你的代理，帮你取拿到远端 stackoverflow 网站上的内容取回给你，这就是正向代理的使用实例。
+而反向代理其实更常见，因为它充斥在我们每一天的网上冲浪之中，只不过你意识不到罢了（注意！这也就是正向代理和反向代理很大的特征区别之一：正向代理需要你去寻得一个代理来帮助你访问你访问不了的服务器资源，而反向代理是服务器端使用的代理，来处理你提交的访问请求，所以作为客户端的你是意识不到代理的存在的）。
+比如你通过浏览器访问百度网搜索一个条目，或者直接在地址栏输入 stackoverflow.com，然而这个行为在互联网中有太多用户在做，所以百度或者 stackoverflow 的服务器不一定能够驾驭这么大的访问量，此时他们可能会把相同的服务部署在 N 多台服务器节点上，然后你其实访问到的是那些提供反向代理的服务器，反向代理服务器将大量的请求做了负载均衡处理，再把这些请求均衡合理地分配到那些提供相同服务的不同服务器节点上，这就是反向代理的实例。
+接下来是本人对于 stackoverflow 上精彩回答的翻译，如有不准确之处请指正
+前面的回答都很准确，但可能太过于精简了。我会试着增加一些例子。 首先，“代理”这个词描述了某个人或者某个事物扮演着代表另一个人的角色。在计算机领域，我们讨论的即是一台服务器扮演着代表另一台计算机的角色。为了保证观点可达性（即观点可以被很容易的理解）这一目的（这句感觉翻译的不太好），我会限制我的讨论仅限于“web 代理”，然而“代理”这一思想其实不仅限于 web 网站。
+正向代理 大多数关于 web 代理的讨论都指的是&amp;quot;正向代理&amp;quot;（这句感觉翻译得不甚准确）。这种情况下的代理事件其实就是“正向代理”代表请求者从另一个 web 站点取得数据。
+举个栗子，我会列举三台接入互联网的计算机。
+X = 你的计算机，或者说互联中的“客户机”
+Y = 代理站点，proxy.example.org
+Z = 你想要访问的网站，www.example.net
+通常，你可能是类似 X &amp;ndash;&amp;gt; Z 这样的直连。
+然而，在一些场景下，Y &amp;ndash;&amp;gt; Z 来代表 X（去访问 Z）更好，链条如下：X &amp;ndash;&amp;gt; Y &amp;ndash;&amp;gt; Z
+为什么 X 需要使用代理服务器的原因：
+X 无法直接访问到 Z:
+a)在 X 的互联网连接中某个拥有管理权限的人决定拦截所有 X 到 Z 站点的访问（比如 GFW : ) ）</description>
     </item>
     
   </channel>

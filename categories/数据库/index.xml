@@ -6,41 +6,20 @@
     <description>Recent content in 数据库 on Wilson&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans-CN</language>
-    <lastBuildDate>Thu, 01 Feb 2018 15:14:45 +0000</lastBuildDate><atom:link href="https://barnett617.github.io/wilson-blog/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>mysql误删数据恢复</title>
-      <link>https://barnett617.github.io/wilson-blog/posts/2018-02-01-mysql-data-recovery/</link>
-      <pubDate>Thu, 01 Feb 2018 15:14:45 +0000</pubDate>
-      
-      <guid>https://barnett617.github.io/wilson-blog/posts/2018-02-01-mysql-data-recovery/</guid>
-      <description>&lt;p&gt;对于 MySQL 误删数据，如何通过二进制日志进行数据查找和恢复&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>关于SQL性能评估的一些分析</title>
-      <link>https://barnett617.github.io/wilson-blog/posts/2017-10-31-sql-performance-profile/</link>
-      <pubDate>Tue, 31 Oct 2017 22:44:35 +0000</pubDate>
-      
-      <guid>https://barnett617.github.io/wilson-blog/posts/2017-10-31-sql-performance-profile/</guid>
-      <description>&lt;p&gt;继&lt;a href=&#34;../2017-10-31-mysql-max-function-and-groupby&#34;&gt;《关于 mysql 中 max 函数和 groupby 联合使用的坑》&lt;/a&gt;后进一步关于 SQL 性能的探究&lt;/p&gt;</description>
-    </item>
-    
+    <lastBuildDate>Tue, 31 Oct 2017 20:50:43 +0000</lastBuildDate><atom:link href="https://barnett617.github.io/wilson-blog/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>关于mysql中max函数和groupby联合使用的坑</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2017-10-31-mysql-max-function-and-groupby/</link>
       <pubDate>Tue, 31 Oct 2017 20:50:43 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-10-31-mysql-max-function-and-groupby/</guid>
-      <description>&lt;p&gt;关于朋友随手抛出的一段 SQL，发现 MySQL 中关于 max()和 group by 联合使用中的一个坑，特此整理。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>mysql远端数据库与本地数据库间导入导出</title>
-      <link>https://barnett617.github.io/wilson-blog/posts/2017-08-12-mysql-remote-and-local-data-export/</link>
-      <pubDate>Sat, 12 Aug 2017 16:35:16 +0000</pubDate>
-      
-      <guid>https://barnett617.github.io/wilson-blog/posts/2017-08-12-mysql-remote-and-local-data-export/</guid>
-      <description>&lt;p&gt;mysql 远端数据库与本地数据库间导入导出&lt;/p&gt;</description>
+      <description>关于朋友随手抛出的一段 SQL，发现 MySQL 中关于 max()和 group by 联合使用中的一个坑，特此整理。
+YH:老铁们，这段 hql 对不对啊
+我扫了一眼，总觉得看着别扭，自己试着去掉字符串拼接，还原出 SQL 来看，依然感觉不对，然后自己试着写了查询，在本地建个表，造了些数据，用简化后的 SQL 做测试时， 当我定睛检查以下这句 SQL
+select predictId, max(evaluateDate) evalDate, productId from productcashpredict group by productId; 抛出一个疑问，MySQL 是从后往前执行，先分组再求分组结果中 evaluateDate 最大的记录呢？还是先找出 evaluateDate 的最大记录，再分组呢？
+网上查了查，发现，都不是！这里有个坑！如果直接这么结合 max 和 group by 使用，查出的结果，除了求 max 的字段和分组条件 productId 字段，其他字段的值都是错的！
+首先我在本地验证了一下是不是的确如此
+desc productcashpredict; predictId	int(11)	NO	PRI	auto_increment evaluateDate	datetime	YES	on update CURRENT_TIMESTAMP other	varchar(255)	YES productId	int(11)	YES select * from productcashpredict +-----------+---------------------+-------+-----------+ | predictId | evaluateDate | other | productId | +-----------+---------------------+-------+-----------+ | 1 | 2017-10-31 18:14:37 | NULL | 10001 | | 2 | 2017-10-31 18:14:45 | NULL | 10002 | | 3 | 2017-10-31 18:14:59 | NULL | 10002 | | 4 | 2017-10-31 18:15:09 | NULL | 10003 | | 5 | 2017-10-31 18:15:22 | NULL | 10001 | +-----------+---------------------+-------+-----------+ select predictId, max(evaluateDate) evalDate, productId from productcashpredict group by productId; +-----------+---------------------+-----------+ | predictId | evalDate | productId | +-----------+---------------------+-----------+ | 1 | 2017-10-31 18:15:22 | 10001 | | 2 | 2017-10-31 18:14:59 | 10002 | | 4 | 2017-10-31 18:15:09 | 10003 | +-----------+---------------------+-----------+ 直接这样查的确是错的，看 predictId 可以看出</description>
     </item>
     
   </channel>

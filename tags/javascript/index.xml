@@ -6,25 +6,68 @@
     <description>Recent content in javascript on Wilson&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans-CN</language>
-    <lastBuildDate>Sun, 15 Mar 2020 11:25:04 +0000</lastBuildDate><atom:link href="https://barnett617.github.io/wilson-blog/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Jun 2023 00:42:00 +0000</lastBuildDate><atom:link href="https://barnett617.github.io/wilson-blog/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>重新介绍JavaScript</title>
-      <link>https://barnett617.github.io/wilson-blog/notes/2020-03-15-reintroduce-javascript/</link>
-      <pubDate>Sun, 15 Mar 2020 11:25:04 +0000</pubDate>
+      <title>JavaScript闭包学习</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-closure/</link>
+      <pubDate>Sun, 11 Jun 2023 00:42:00 +0000</pubDate>
       
-      <guid>https://barnett617.github.io/wilson-blog/notes/2020-03-15-reintroduce-javascript/</guid>
-      <description>&lt;p&gt;读 &lt;a href=&#34;https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/A_re-introduction_to_JavaScript&#34;&gt;重新介绍 JavaScript（JS 教程）&lt;/a&gt; 一文整理的脑图&lt;/p&gt;</description>
+      <guid>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-closure/</guid>
+      <description>关于JavaScript闭包原理的学习</description>
     </item>
     
     <item>
-      <title>2020年你为什么要学习js</title>
-      <link>https://barnett617.github.io/wilson-blog/posts/2019-12-05-why-2020-learn-js/</link>
-      <pubDate>Thu, 05 Dec 2019 10:46:00 +0000</pubDate>
+      <title>JavaScript的Promise学习</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-promise/</link>
+      <pubDate>Sun, 11 Jun 2023 00:42:00 +0000</pubDate>
       
-      <guid>https://barnett617.github.io/wilson-blog/posts/2019-12-05-why-2020-learn-js/</guid>
-      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://user-images.githubusercontent.com/23159565/80948849-81c00280-8e25-11ea-9b54-f0068721abc7.png&#34; alt=&#34;image&#34;  /&gt;
-&lt;/p&gt;
-&lt;p&gt;js 全称是 javascript，它既不是 java 的嫡系，也不单单是一门脚本语言（script 直译）。&lt;/p&gt;</description>
+      <guid>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-promise/</guid>
+      <description>关于JavaScript Promise原理的学习</description>
+    </item>
+    
+    <item>
+      <title>JavaScript的this关键字</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-this/</link>
+      <pubDate>Sun, 11 Jun 2023 00:42:00 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-this/</guid>
+      <description>关于JavaScript的关键字this的原理的学习</description>
+    </item>
+    
+    <item>
+      <title>JavaScript的防抖和节流</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-debounce-and-throttle/</link>
+      <pubDate>Sun, 11 Jun 2023 00:42:00 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-debounce-and-throttle/</guid>
+      <description>关于JavaScript防抖节流的学习</description>
+    </item>
+    
+    <item>
+      <title>JavaScript的原型和继承</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-inherit/</link>
+      <pubDate>Sun, 11 Jun 2023 00:42:00 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-inherit/</guid>
+      <description>关于JavaScript继承原理的学习</description>
+    </item>
+    
+    <item>
+      <title>JavaScript运算符</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-operator/</link>
+      <pubDate>Sun, 11 Jun 2023 00:42:00 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-operator/</guid>
+      <description>关于JavaScript运算符的学习</description>
+    </item>
+    
+    <item>
+      <title>反转数组</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2020-01-15-js-revert-array/</link>
+      <pubDate>Wed, 15 Jan 2020 20:31:00 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2020-01-15-js-revert-array/</guid>
+      <description>&lt;p&gt;关于 js 反转数组&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -37,12 +80,21 @@
     </item>
     
     <item>
-      <title>JavaScript高级程序设计第3版笔记（一）</title>
-      <link>https://barnett617.github.io/wilson-blog/notes/2018-09-03-js-note/</link>
-      <pubDate>Mon, 03 Sep 2018 18:54:18 +0000</pubDate>
+      <title>浅拷贝和深拷贝</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2019-01-22-shallow-clone-and-deep-clone/</link>
+      <pubDate>Tue, 22 Jan 2019 16:47:00 +0000</pubDate>
       
-      <guid>https://barnett617.github.io/wilson-blog/notes/2018-09-03-js-note/</guid>
-      <description>&lt;p&gt;函数表达式&lt;/p&gt;</description>
+      <guid>https://barnett617.github.io/wilson-blog/notes/2019-01-22-shallow-clone-and-deep-clone/</guid>
+      <description>&lt;p&gt;关于 js 浅拷贝和深拷贝&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>js中的“拷贝”（第一篇）——js数据类型</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2019-01-21-js-copy/</link>
+      <pubDate>Mon, 21 Jan 2019 15:44:00 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2019-01-21-js-copy/</guid>
+      <description>&lt;p&gt;关于 js 数据类型&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -87,7 +139,17 @@
       <pubDate>Sat, 20 Jan 2018 14:11:34 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/notes/2018-01-20-js-advanced/</guid>
-      <description>&lt;p&gt;MSDN学习js高级教程note&lt;/p&gt;</description>
+      <description>MSDN 学习 js 高级教程 note
+构造函数 使用构造函数定义类型（type） 概念 构造函数是一个为 Object 初始化一个特定类型的函数
+使用 new 关键字调用构造函数
+这里有一些 js 内建对象和自定义对象的例子
+var myObject = new Object(); var myBirthday = new Date(1993, 11, 12); var myCar = new Car(); 构造函数包含 this 关键字，它是对新创建的空对象的引用（reference）
+它通过创建属性并为他们赋初始值来初始化新对象
+构造函数将返回对所创建对象的引用
+function Circle(xPoint, yPoint, radius) { this.x = xPoint; this.y = yPoint; this.radius = radius; } var aCircle = new Circle(5, 11, 99); 使用自定义构造函数创建的所有对象的类型都是 object
+js 只有 6 中类型：object、function、string、number、boolean、undefined
+typeof操作符以字符串形式返回类型信息
+var index = 5; var result = typeof index === &amp;#34;number&amp;#34;; var description = &amp;#34;abc&amp;#34;; var result = typeof description === &amp;#34;string&amp;#34;; true true 为声明和未声明的变量测试 undefined 数据类型</description>
     </item>
     
     <item>
@@ -96,7 +158,14 @@
       <pubDate>Sat, 20 Jan 2018 10:53:32 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/notes/2018-01-20-js-parameter-scope/</guid>
-      <description>&lt;p&gt;js变量作用域探析&lt;/p&gt;</description>
+      <description>js 变量作用域探析
+背景 var o = {}; o.fun = test(); o.fun(); function test() { var fn = function () { console.log(this); }; return fn; } {fun: ƒ} 由于对这个程序的输出结果感到不解，于是决定深入了解 js 作用域究竟是什么个东西
+参考：https://msdn.microsoft.com/zh-cn/library/bzt2dkta(v=vs.94).aspx
+变量作用域 又要谈到 js 的两个范围：全局和局部
+函数之外声明的变量就是全局变量，可在整个程序中访问和修改
+函数内声明的变量是局部变量，每当执行程序时都会创建和销毁该变量（所以称临时变量），并且无法通过函数之外的任何代码访问该变量（MSDN 如是说）
+js 不支持块范围（通过一组大括号定义新范围），于是就只有全局（函数外）和局部（函数内），以函数划分的这两种范围
+js 范围 var aNumber = 100; tweak(); function tweak() { document.write(aNumber); if (false) { var aNumber = 123; } } undefined 虽然 if（false），var aNumber = 123 不会执行，但是 js 在执行函数 tweak()时，会查找所有变量声明，var aNumber 被扫描到，js 使用初始值undefined创建变量，即使使用一个值声明变量 var aNumber = 123，但 aNumber 变量的初始值仍为undefined，仅当执行包含声明的行（var aNumber = 123）时才会使用已声明的值。</description>
     </item>
     
     <item>
@@ -105,7 +174,11 @@
       <pubDate>Sat, 20 Jan 2018 09:22:05 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-01-20-javascript-puzzlers/</guid>
-      <description>&lt;p&gt;关于深入理解 js 的 44 道 wired 题目，经实际验证及分析的学习笔记。&lt;/p&gt;</description>
+      <description>关于深入理解 js 的 44 道 wired 题目，经实际验证及分析的学习笔记。
+[&amp;#34;1&amp;#34;, &amp;#34;2&amp;#34;, &amp;#34;3&amp;#34;].map(parseInt) [1, NaN, NaN] map() map passes 3 params (element, index, array) parseInt take two parameters (val, radix)
+typeof null &amp;#34;object&amp;#34; null instanceof object false typeof always return &amp;ldquo;object&amp;rdquo; for native non callable objects
+[ [3, 2, 1].reduce(Math.pow), [].reduce(Math.pow) ] reduce on an empty array without an initial value throws TypeError array.reduce() Math.pow
+var val = &amp;#34;smtg&amp;#34;; console.log(&amp;#34;Value is &amp;#34; + (val === &amp;#34;smtg&amp;#34;) ?</description>
     </item>
     
     <item>
@@ -114,7 +187,17 @@
       <pubDate>Fri, 19 Jan 2018 18:22:06 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/notes/2018-01-19-js-this/</guid>
-      <description>&lt;p&gt;js关键字this用法解析&lt;/p&gt;</description>
+      <description>js 关键字 this 用法解析
+解释 函数运行时自动生成的一个内部对象，只能在函数内部使用（想起了 Python 函数的 self）
+function test() { this.x = 1; } 函数使用场合不同，this 的值会发生变化
+但 this 总指的是调用函数的那个对象
+使用场景 纯粹函数调用（全局调用）
+函数作为对象方法的调用
+作为构造函数调用
+apply 调用
+1.纯粹函数调用 全局性调用，this 代表全局对象 Global
+function test() { this.x = 1; alert(this.x); } test(); 1 var x = 1; function test() { alert(this.x); } test(); 1 不会报错，因为相当于 alert(Global.x)
+var x = 1; function test() { this.x = 0; } test(); alert(x); 0 test()之后相当于将全局变量的 x 重新赋值 0，Global.</description>
     </item>
     
     <item>
@@ -123,7 +206,17 @@
       <pubDate>Fri, 19 Jan 2018 16:34:02 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/notes/2018-01-19-js-variables/</guid>
-      <description>&lt;p&gt;js的局部变量和全局变量&lt;/p&gt;</description>
+      <description>js 的局部变量和全局变量
+大纲 如何声明局部变量和全局变量 js 变量作用域基于特有的作用域链 js 没有块级作用域（ES5-） 函数中声明的变量在整个函数中都有定义 声明局部变量和全局变量 全局变量——定义在函数外的变量 局部变量——函数内部声明的变量 var a = &amp;#34;global&amp;#34;; function getLocal() { var a = &amp;#34;local&amp;#34;; console.log(a); } getLocal(); console.log(a); local global a = &amp;#34;global&amp;#34;; function getLocal() { a = &amp;#34;local&amp;#34;; console.log(a); b = &amp;#34;local&amp;#34;; console.log(b); } getLocal(); console.log(a); console.log(b); local local local local 疑问：
+函数外的 a 为什么变成 local？
+函数外为什么可以访问 b？
+解析：
+函数体内部，局部变量优先级比同名全局变量高
+函数体内声明变量不使用 var，会暴露在全局上下文中，和现有变量冲突，并覆盖同名全局变量
+变量作用域链 每当 js 执行时会有一个对应的执行环境被创建（每一个方法在自己独有的执行环境中执行）
+执行环境中的重要部分——函数的调用对象（存储相应函数的局部变量）
+函数的执行环境包含了调用对象，调用对象的属性就是函数的局部变量，每个函数在这样的执行环境中执行。函数之外的代码在另一个环境中执行，包含了全局变量。
+作用域链 对象组成的列表或链</description>
     </item>
     
     <item>
@@ -132,7 +225,16 @@
       <pubDate>Fri, 19 Jan 2018 15:33:28 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/notes/2018-01-19-js-closure/</guid>
-      <description>&lt;p&gt;JS闭包探析。What exactly the Closure is?&lt;/p&gt;</description>
+      <description>JS 闭包探析。What exactly the Closure is?
+计算机术语 闭包：引用了自由变量的函数。这个被引用的自由变量和这个函数一同存在，即使已经离开了创造它的环境。
+变量作用域 全局 局部 函数内部可直接读取全局变量 var n1 = 9; function f1() { alert(n1); } f1(); 9 因为变量声明在 Global，全局可见，它的子当然可以访问到
+函数外部无法直接读取函数内部的局部变量 function f2() { var n2 = 99; } alert(n2); n2 is not defined 因为函数是子，函数外部是父，父无法直接访问到子的局部变量
+函数内部变量如果未用 var 声明则为全局变量 function f3() { n3 = 999; } f3(); alert(n3); 999
+不管变量是在函数内还是函数外声明，如果没有使用 var 声明变量，就会是全局可见的
+于是此时的 n3 是 Global.n3
+从外部读取局部变量 ~想起了 Java 的反射~
+方法：在函数内部再定义一个函数
+function f4() { var n4 = 9999; function f5() { alert(n4); } } 解析：</description>
     </item>
     
     <item>
@@ -141,7 +243,14 @@
       <pubDate>Tue, 17 Oct 2017 16:45:17 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-10-17-learn-from-addy-osmani-code/</guid>
-      <description>&lt;p&gt;谷歌某大佬通过一行知识量包含极丰富的 js 代码实现了一个魔法小功能：给页面所有元素加一个彩色外边框&lt;/p&gt;</description>
+      <description>谷歌某大佬通过一行知识量包含极丰富的 js 代码实现了一个魔法小功能：给页面所有元素加一个彩色外边框
+[].forEach.call($$(&amp;#34;*&amp;#34;), function (a) { a.style.outline = &amp;#34;1px solid #&amp;#34; + (~~(Math.random() * (1 &amp;lt;&amp;lt; 24))).toString(16); }); 单行形式：
+[].forEach.call($$(&amp;#34;*&amp;#34;), function (a) { a.style.outline = &amp;#34;1px solid #&amp;#34; + (~~(Math.random() * (1 &amp;lt;&amp;lt; 24))).toString(16); }); 将其贴到 chrome 的 console 中即可看到效果
+代码解析 $$(&amp;#34;*&amp;#34;); document.querySelectorAll(&amp;#34;*&amp;#34;); document.all; 以上三种写法是相同效果，都相当于通过选择器的方式获取页面所有元素。第三种是较不规范的方式，不建议使用。$$是现代浏览器API的一部分，比如$$(&amp;lsquo;a&amp;rsquo;)可以获取页面所有的 a 标签元素
+接下来，通过上面选择器获取到的是一个 NodeList，是一种类似于数组 Array，但它并未实现很多 Array 的接口，所以不能使用$$(&amp;rsquo;*&amp;rsquo;).forEach 来遍历结果，类似的还有 arguments，也是类似于 Array，但并不是数组
+这时需要通过 call()或者 apply()可以使得非数组对象来调用数组的方法
+[].forEach.call($$(&amp;#34;*&amp;#34;), function (e) {}); 以上即实现了遍历页面的每一个元素，并可以将获得的非数组元素使用数组的遍历方法来取到每一个元素 e
+a.style.outline = &amp;#34;1px solid #&amp;#34; + color; outline 是 CSS 的一个属性，它是在 CSS 盒模型以外，所以它不会影响元素的 size 以及元素在 larout 中的 position</description>
     </item>
     
   </channel>
