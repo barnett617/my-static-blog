@@ -1,7 +1,7 @@
 ---
 title: vuex对比pinia
 date: 2023-06-28 21:38:46
-tags: ["vue"]
+tags: ["Vue"]
 ---
 
 vuex@3 对比 pinia@v2

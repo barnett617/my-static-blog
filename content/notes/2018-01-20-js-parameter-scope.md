@@ -2,7 +2,7 @@
 title: js学习笔记——变量作用域
 date: 2018-01-20 10:53:32
 lastmod: 2018-1-20 12:08:15
-tags: ["javascript"]
+tags: ["JavaScript"]
 ---
 
 js 变量作用域探析

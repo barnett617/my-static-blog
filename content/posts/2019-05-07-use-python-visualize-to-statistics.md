@@ -1,6 +1,6 @@
 ---
 title: 用Python生成柱状图、折线图、饼状图来统计自己的手机话费
-tags: ["python"]
+tags: ["Python"]
 date: 2019-05-07 16:14:54
 lastmod: 2019-05-07 16:14:54
 ---

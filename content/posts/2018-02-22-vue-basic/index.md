@@ -3,7 +3,7 @@ title: Vue.js技术回顾——实例
 date: 2018-02-22 21:33:38
 lastmod: 2018-02-22 21:33:38
 categories: 前端
-tags: ["vue"]
+tags: ["Vue"]
 ---
 
 Vue.js 教程之 Vue 实例

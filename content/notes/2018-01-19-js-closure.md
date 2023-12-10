@@ -2,7 +2,7 @@
 title: js学习笔记——闭包
 date: 2018-01-19 15:33:28
 lastmod: 2018-1-20 09:30:04
-tags: ["javascript"]
+tags: ["JavaScript"]
 ---
 
 JS 闭包探析。What exactly the Closure is?

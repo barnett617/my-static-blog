@@ -1,6 +1,6 @@
 ---
 title: python零碎知识点整理——注释
-tags: ["python"]
+tags: ["Python"]
 date: 2017-02-07 22:05:20
 lastmod: 2017-02-07 22:05:20
 ---

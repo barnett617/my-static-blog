@@ -2,7 +2,7 @@
 title: Apache项目Maven官方文档学习及翻译（译）
 date: 2018-01-29 14:34:24
 lastmod: 2018-01-29 14:34:24
-tags: ["java"]
+tags: ["Java"]
 ---
 
 从理解 pom.xml 探析 Maven

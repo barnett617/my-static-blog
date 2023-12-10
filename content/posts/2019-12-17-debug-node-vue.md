@@ -1,7 +1,7 @@
 ---
 title: 如何用vscode调试node程序和vue源码
 date: 2019-12-17 19:46:00
-tags: [vue, vscode, debug]
+tags: ["IDE"]
 summary: "如何用 vscode 调试 node 程序和 vue 源码"
 ---
 

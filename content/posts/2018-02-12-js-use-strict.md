@@ -2,7 +2,7 @@
 title: 关于javascript的严格模式（use strict）
 date: 2018-02-12 20:55:06
 lastmod: 2018-2-13 14:17:25
-tags: ["javascript"]
+tags: ["JavaScript"]
 ---
 
 探析 javascript 中的严格模式

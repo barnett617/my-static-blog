@@ -2,7 +2,7 @@
 title: ECMAScript6(ECMAScript2015)学习笔记
 date: 2016-12-16 15:34:31
 lastmod: 2017-06-23 20:20:20
-tags: ["javascript"]
+tags: ["JavaScript"]
 ---
 
 ECMAScript 6（以下简称 ES6）是 JavaScript 语言的下一代标准。因为当前版本的 ES6 是在**2015 年**发布的，所以又称 ECMAScript 2015。

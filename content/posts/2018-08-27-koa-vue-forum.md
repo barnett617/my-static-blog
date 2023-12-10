@@ -1,7 +1,7 @@
 ---
 title: 一周时间使用Vue+Koa全栈开发论坛项目
 date: 2018-08-27 09:30:00
-tags: ["web"]
+tags: ["Web"]
 ---
 
 使用 vue-cli3 脚手架初始化前端项目

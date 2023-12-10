@@ -1,7 +1,7 @@
 ---
 title: 基于B/S架构的webapp开发
 date: 2021-07-24 21:40:00
-tags: ["web"]
+tags: ["Web"]
 ---
 
 使用 vscode 远程开发一个全栈 Web 项目

@@ -1,7 +1,7 @@
 ---
 title: "基于SSH的员工管理系统（三）——配置文件"
 date: 2016-11-02T13:45:29+00:00
-tags: ["java"]
+tags: ["Java"]
 ---
 
 ## 1. Web 项目入口——web.xml

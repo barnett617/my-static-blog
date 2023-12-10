@@ -2,7 +2,7 @@
 title: React教程之快速上手篇
 date: 2018-02-01 15:32:54
 lastmod: 2018-02-01 15:32:54
-tags: ["react"]
+tags: ["React"]
 ---
 
 React 官方教程系列之快速上手篇

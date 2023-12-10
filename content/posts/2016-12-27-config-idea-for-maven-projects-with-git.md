@@ -1,6 +1,6 @@
 ---
 title: IDEA2016配置运行基于Maven的Git项目
-tags: ["git"]
+tags: ["Git"]
 date: 2016-12-27 20:22:56
 lastmod: 2017-05-19 20:20:20
 ---

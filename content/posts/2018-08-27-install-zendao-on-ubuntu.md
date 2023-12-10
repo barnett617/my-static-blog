@@ -1,7 +1,7 @@
 ---
 title: 在Ubuntu 16.04安装禅道
 date: 2018-08-27 09:30:00
-tags: ["web"]
+tags: ["Web"]
 ---
 
 在 Ubuntu 16.04 安装禅道

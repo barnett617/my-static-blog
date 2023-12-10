@@ -1,7 +1,7 @@
 ---
 title: "基于SSH的员工管理系统（二）——lib 导入各 jar 包详解"
 date: 2016-11-02T12:55:29+00:00
-tags: ["java"]
+tags: ["Java"]
 ---
 
 本节将关于本项目所需导入的 jar 包进行逐一解释，基本适用于普通的 Struts2+Hibernate3+Spring3 的项目， 此为相对较老的组合版本，若使用 Hibernate4 或 Mybatis 等其他较新框架，请自行查阅相关资料。

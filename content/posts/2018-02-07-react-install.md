@@ -2,7 +2,7 @@
 title: React教程——安装篇
 date: 2018-02-07 14:59:31
 lastmod: 2018-02-07 14:59:31
-tags: ["react"]
+tags: ["React"]
 ---
 
 React 官网教程系列之前期准备

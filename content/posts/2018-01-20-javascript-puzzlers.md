@@ -2,7 +2,7 @@
 title: javascript-puzzlers
 date: 2018-01-20 09:22:05
 lastmod: 2018-01-20 09:22:05
-tags: ["javascript"]
+tags: ["JavaScript"]
 ---
 
 关于深入理解 js 的 44 道 wired 题目，经实际验证及分析的学习笔记。

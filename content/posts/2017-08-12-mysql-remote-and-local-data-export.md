@@ -1,6 +1,6 @@
 ---
 title: mysql远端数据库与本地数据库间导入导出
-tags: ["database"]
+tags: ["Database"]
 date: 2017-08-12 16:35:16
 lastmod: 2017-08-12 16:35:16
 ---

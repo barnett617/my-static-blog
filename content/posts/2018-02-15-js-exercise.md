@@ -2,7 +2,7 @@
 title: javascript常见问题整理
 date: 2018-02-15 15:16:31
 lastmod: 2018-02-15 15:16:31
-tags: ["javascript"]
+tags: ["JavaScript"]
 ---
 
 25 个最基本的 javascript 问题整理

@@ -2,7 +2,7 @@
 title: webpack学习笔记
 date: 2018-01-17 11:41:10
 lastmod: 2018-01-17 11:41:10
-tags: ["webpack"]
+tags: ["Webpack"]
 ---
 
 关于 Webpack 基础使用的整理

@@ -2,7 +2,7 @@
 title: 工具篇——如何管理node和npm的更新
 date: 2018-02-07 14:27:19
 lastmod: 2018-02-07 14:27:19
-tags: ["node"]
+tags: ["Node.js"]
 ---
 
 管理 node 和 npm 的更新

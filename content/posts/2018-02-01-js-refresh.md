@@ -2,7 +2,7 @@
 title: JavaScript知识巩固
 date: 2018-02-01 21:28:22
 lastmod: 2018-2-6 11:03:28
-tags: ["javascript"]
+tags: ["JavaScript"]
 ---
 
 Refresh your JavaScript Knowledge

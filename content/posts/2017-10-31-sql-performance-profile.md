@@ -2,7 +2,7 @@
 title: 关于SQL性能评估的一些分析
 date: 2017-10-31 22:44:35
 lastmod: 2017-11-3 17:02:24
-tags: ["database"]
+tags: ["Database"]
 ---
 
 继[《关于 mysql 中 max 函数和 groupby 联合使用的坑》](../2017-10-31-mysql-max-function-and-groupby)后进一步关于 SQL 性能的探究

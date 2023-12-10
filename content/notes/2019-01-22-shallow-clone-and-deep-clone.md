@@ -1,7 +1,7 @@
 ---
 title: 浅拷贝和深拷贝
 date: 2019-01-22 16:47:00
-tags: ["javascript"]
+tags: ["JavaScript"]
 ---
 
 关于 js 浅拷贝和深拷贝

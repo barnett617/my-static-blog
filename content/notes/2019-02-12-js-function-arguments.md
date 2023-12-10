@@ -1,6 +1,6 @@
 ---
 title: JS的方法参数传递（按值传递）
-tags: ["javascript"]
+tags: ["JavaScript"]
 date: 2019-02-12 16:11:50
 ---
 

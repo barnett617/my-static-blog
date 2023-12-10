@@ -3,7 +3,7 @@ title: 关于mysql中max函数和groupby联合使用的坑
 date: 2017-10-31 20:50:43
 lastmod: 2017-10-31 21:29:49
 categories: 数据库
-tags: ["database"]
+tags: ["Database"]
 ---
 
 关于朋友随手抛出的一段 SQL，发现 MySQL 中关于 max()和 group by 联合使用中的一个坑，特此整理。
