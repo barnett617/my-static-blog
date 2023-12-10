@@ -199,10 +199,7 @@
     <loc>https://barnett617.github.io/wilson-blog/posts/2020-01-03-markdown/</loc>
     <lastmod>2020-01-03T11:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/tags/debug/</loc>
-    <lastmod>2019-12-17T19:46:00+00:00</lastmod>
-  </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/tags/vscode/</loc>
+    <loc>https://barnett617.github.io/wilson-blog/tags/ide/</loc>
     <lastmod>2019-12-17T19:46:00+00:00</lastmod>
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/posts/2019-12-17-debug-node-vue/</loc>
@@ -346,7 +343,7 @@
     <loc>https://barnett617.github.io/wilson-blog/posts/2018-02-07-react-install/</loc>
     <lastmod>2018-02-07T14:59:31+00:00</lastmod>
   </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/tags/node/</loc>
+    <loc>https://barnett617.github.io/wilson-blog/tags/node.js/</loc>
     <lastmod>2018-02-07T14:27:19+00:00</lastmod>
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/posts/2018-02-07-nodejs-and-npm-update/</loc>

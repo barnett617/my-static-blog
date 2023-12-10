@@ -8,7 +8,7 @@
     <language>zh-Hans-CN</language>
     <lastBuildDate>Thu, 31 Aug 2023 22:54:51 +0000</lastBuildDate><atom:link href="https://barnett617.github.io/wilson-blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>rust</title>
+      <title>Rust</title>
       <link>https://barnett617.github.io/wilson-blog/tags/rust/</link>
       <pubDate>Thu, 31 Aug 2023 22:54:51 +0000</pubDate>
       
@@ -26,7 +26,7 @@
     </item>
     
     <item>
-      <title>vue</title>
+      <title>Vue</title>
       <link>https://barnett617.github.io/wilson-blog/tags/vue/</link>
       <pubDate>Wed, 28 Jun 2023 21:38:46 +0000</pubDate>
       
@@ -35,7 +35,7 @@
     </item>
     
     <item>
-      <title>web</title>
+      <title>Web</title>
       <link>https://barnett617.github.io/wilson-blog/tags/web/</link>
       <pubDate>Wed, 21 Jun 2023 22:37:22 +0000</pubDate>
       
@@ -62,7 +62,7 @@
     </item>
     
     <item>
-      <title>javascript</title>
+      <title>JavaScript</title>
       <link>https://barnett617.github.io/wilson-blog/tags/javascript/</link>
       <pubDate>Sun, 11 Jun 2023 00:42:00 +0000</pubDate>
       
@@ -116,7 +116,7 @@
     </item>
     
     <item>
-      <title>markdown</title>
+      <title>Markdown</title>
       <link>https://barnett617.github.io/wilson-blog/tags/markdown/</link>
       <pubDate>Fri, 03 Jan 2020 11:30:00 +0000</pubDate>
       
@@ -125,25 +125,16 @@
     </item>
     
     <item>
-      <title>debug</title>
-      <link>https://barnett617.github.io/wilson-blog/tags/debug/</link>
+      <title>IDE</title>
+      <link>https://barnett617.github.io/wilson-blog/tags/ide/</link>
       <pubDate>Tue, 17 Dec 2019 19:46:00 +0000</pubDate>
       
-      <guid>https://barnett617.github.io/wilson-blog/tags/debug/</guid>
+      <guid>https://barnett617.github.io/wilson-blog/tags/ide/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>vscode</title>
-      <link>https://barnett617.github.io/wilson-blog/tags/vscode/</link>
-      <pubDate>Tue, 17 Dec 2019 19:46:00 +0000</pubDate>
-      
-      <guid>https://barnett617.github.io/wilson-blog/tags/vscode/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>git</title>
+      <title>Git</title>
       <link>https://barnett617.github.io/wilson-blog/tags/git/</link>
       <pubDate>Tue, 21 May 2019 20:21:32 +0000</pubDate>
       
@@ -152,7 +143,7 @@
     </item>
     
     <item>
-      <title>python</title>
+      <title>Python</title>
       <link>https://barnett617.github.io/wilson-blog/tags/python/</link>
       <pubDate>Tue, 07 May 2019 16:14:54 +0000</pubDate>
       
@@ -179,7 +170,7 @@
     </item>
     
     <item>
-      <title>react</title>
+      <title>React</title>
       <link>https://barnett617.github.io/wilson-blog/tags/react/</link>
       <pubDate>Sun, 25 Feb 2018 17:43:24 +0000</pubDate>
       
@@ -197,7 +188,7 @@
     </item>
     
     <item>
-      <title>angular</title>
+      <title>Angular</title>
       <link>https://barnett617.github.io/wilson-blog/tags/angular/</link>
       <pubDate>Thu, 22 Feb 2018 22:36:27 +0000</pubDate>
       
@@ -215,16 +206,16 @@
     </item>
     
     <item>
-      <title>node</title>
-      <link>https://barnett617.github.io/wilson-blog/tags/node/</link>
+      <title>Node.js</title>
+      <link>https://barnett617.github.io/wilson-blog/tags/node.js/</link>
       <pubDate>Wed, 07 Feb 2018 14:27:19 +0000</pubDate>
       
-      <guid>https://barnett617.github.io/wilson-blog/tags/node/</guid>
+      <guid>https://barnett617.github.io/wilson-blog/tags/node.js/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>database</title>
+      <title>Database</title>
       <link>https://barnett617.github.io/wilson-blog/tags/database/</link>
       <pubDate>Thu, 01 Feb 2018 15:14:45 +0000</pubDate>
       
@@ -233,7 +224,7 @@
     </item>
     
     <item>
-      <title>java</title>
+      <title>Java</title>
       <link>https://barnett617.github.io/wilson-blog/tags/java/</link>
       <pubDate>Mon, 29 Jan 2018 14:34:24 +0000</pubDate>
       
@@ -260,7 +251,7 @@
     </item>
     
     <item>
-      <title>webpack</title>
+      <title>Webpack</title>
       <link>https://barnett617.github.io/wilson-blog/tags/webpack/</link>
       <pubDate>Wed, 17 Jan 2018 11:41:10 +0000</pubDate>
       

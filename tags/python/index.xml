@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>python on Wilson&#39;s Blog</title>
+    <title>Python on Wilson&#39;s Blog</title>
     <link>https://barnett617.github.io/wilson-blog/tags/python/</link>
-    <description>Recent content in python on Wilson&#39;s Blog</description>
+    <description>Recent content in Python on Wilson&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans-CN</language>
     <lastBuildDate>Tue, 07 May 2019 16:14:54 +0000</lastBuildDate><atom:link href="https://barnett617.github.io/wilson-blog/tags/python/index.xml" rel="self" type="application/rss+xml" />
