@@ -26,6 +26,15 @@
     </item>
     
     <item>
+      <title>HTTP访问控制（CORS）</title>
+      <link>https://barnett617.github.io/wilson-blog/notes/2020-01-09-http-cors/</link>
+      <pubDate>Thu, 09 Jan 2020 19:11:00 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/notes/2020-01-09-http-cors/</guid>
+      <description>&lt;p&gt;关于 HTTP CORS&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>关于WEB中宽高的一些整理</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2019-04-12-web-height/</link>
       <pubDate>Fri, 12 Apr 2019 15:31:00 +0000</pubDate>
