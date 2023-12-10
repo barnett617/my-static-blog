@@ -1,7 +1,7 @@
 ---
 title: 反转数组
 date: 2020-01-15 20:31:00
-tags: ["JavaScript"]
+tags: ["javascript"]
 ---
 
 关于 js 反转数组

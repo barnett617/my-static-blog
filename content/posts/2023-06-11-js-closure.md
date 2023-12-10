@@ -2,7 +2,7 @@
 title: "JavaScript闭包学习"
 date: 2023-06-11 00:42:00
 summary: "关于JavaScript闭包原理的学习"
-tags: ["JavaScript"]
+tags: ["javascript"]
 ---
 
 > 本文为历史博客迁移
