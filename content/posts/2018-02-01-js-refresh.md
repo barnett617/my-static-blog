@@ -2,20 +2,16 @@
 title: JavaScript知识巩固
 date: 2018-02-01 21:28:22
 lastmod: 2018-2-6 11:03:28
-categories: 前端
-tags:
-  - javascript
+tags: ["javascript"]
 ---
 
 Refresh your JavaScript Knowledge
 
 <!--more-->
 
-### JavaScript 知识巩固
+## JavaScript 知识巩固
 
-#### 前言
-
-##### 诞生
+### 诞生
 
 JavaScript 于 1995 年被网景的一名工程师 Brendan Eich 所创造
 
@@ -25,7 +21,7 @@ JavaScript 于 1995 年被网景的一名工程师 Brendan Eich 所创造
 
 但由于不幸的营销决策，为了利用 Java 的热度，而改名为 JavaScript（但与 Java 毫无联系）
 
-##### 发展历程
+### 发展历程
 
 几个月后，微软在 IE 3 中发布了 JScript
 
@@ -41,7 +37,7 @@ JavaScript 于 1995 年被网景的一名工程师 Brendan Eich 所创造
 
 第六版发布于 2015 年 6 月
 
-##### 应用场景
+### 应用场景
 
 不像大多数语言，JavaScript 没有输入和输出的概念
 
@@ -52,24 +48,16 @@ JavaScript 于 1995 年被网景的一名工程师 Brendan Eich 所创造
 但 JavaScript 解释器还能在以下地方找到：
 
 - Adobe Acrobat
-
 - Adobe Photoshop
-
 - SVG images（矢量图）
-
 - Yahoo's Widget engine（雅虎组件引擎）
-
 - 服务端环境，例如 Node.js
-
 - 非关系型数据库，例如开源的 Apache CouchDB
-
 - 嵌入式计算机
-
 - 复杂的桌面环境，例如 GNOME（GNU/Linux 操作系统最著名的图形界面系统之一）
-
 - 其他
 
-#### 概述
+### 概述
 
 JavaScript 是一种多范式、动态语言，拥有类型、操作符、标准内建对象和方法
 
@@ -79,49 +67,35 @@ JavaScript 支持面向对象编程通过使用对象原型（object prototypes�
 
 JavaScript 也支持函数式编程——函数是对象，给予函数容纳可执行代码的能力并将像其他对象一样进行传递
 
-##### JavaScript 类型
+### JavaScript 类型
 
 1. Number
-
 2. String
-
 3. Boolean
-
 4. Function
-
 5. Object
-
 6. Symbol（ES2015 新加）
 
 技术上更严谨的分类如下：
 
 1. Number
-
 2. String
-
 3. Boolean
-
 4. Symbol（ES2015 新加）
-
 5. Object
 
    - Function
-
    - Array
-
    - Date
-
    - RegExp
-
    - Math
 
 6. null
-
 7. undefined
 
 还有一些内建的 Error 类型
 
-###### Number
+#### Number
 
 JavaScript 的 Numbers 是 double-precision 64-bit format IEEE 754 values
 
@@ -235,7 +209,7 @@ parseInt('10.2abc');
 NaN
 ```
 
-###### String
+#### String
 
 JavaScript 中的字符串是 Unicode 字符序列，这对于处理国家化问题来说很方便，更准确地讲，是 sequences of UTF-16 code units，每一个码单元通过一个 16 位数字呈现，每一个 Unicode 字符通过 1 个或 2 个码单元呈现
 
@@ -259,7 +233,7 @@ JavaScript 中的字符串是 Unicode 字符序列，这对于处理国家化问
 "HELLO"
 ```
 
-###### 其他类型
+#### 其他类型
 
 JavaScript 用 null 表示 non-value（并且也仅能通过`null`访问）
 
@@ -288,7 +262,7 @@ true
 
 布尔操作符，例如&&（逻辑与）、||（逻辑或）和！（逻辑非）都被支持
 
-###### 变量
+#### 变量
 
 JavaScript 通过三个关键字声明新的变量：let、const 和 var
 
@@ -341,7 +315,7 @@ JavaScript 和其他语言（比如 Java）很重要的一个区别是代码块�
 
 然而，从 ES2015 开始，let 和 const 的声明允许创建块级域变量
 
-###### 运算符
+#### 运算符
 
 JavaScript 数值运算符有`+`、`-`、`*`、`/`和`%`
 
@@ -395,7 +369,7 @@ false;
 
 JavaScript 还有**<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators">位运算符</a>**
 
-###### 控制结构
+#### 控制结构
 
 JavaScript 有一套类似 C 语言家族的控制结构
 
@@ -519,7 +493,7 @@ switch (1 + 3) {
 VM1831:3 execute 4
 ```
 
-###### 对象
+#### 对象
 
 JavaScript 的对象可以理解为一个键值对集合，类似于：
 
@@ -648,7 +622,7 @@ console.log(userPhone);
 VM2505:3 {phoneType: 12345}
 ```
 
-###### 数组
+#### 数组
 
 JavaScript 中的数组其实一种特殊类型的对象
 
@@ -759,7 +733,7 @@ a.push(item);
 
 更多详见<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">array methods</a> & <a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString">toLocaleString</a>
 
-###### 函数
+#### 函数
 
 同对象一起，函数也是理解 JavaScript 的核心组件
 
@@ -814,11 +788,11 @@ add(2, 3, 4);
 
 ```JavaScript
 function add() {
-	var sum = 0;
-	for (var i = 0, j = arguments.length; i < j; i++) {
-		sum += arguments[i];
-	}
-	return sum;
+  var sum = 0;
+  for (var i = 0, j = arguments.length; i < j; i++) {
+    sum += arguments[i];
+  }
+  return sum;
 }
 add(2, 3, 4, 5);
 14
@@ -828,11 +802,11 @@ add(2, 3, 4, 5);
 
 ```JavaScript
 function avg() {
-	var sum = 0;
-	for (var i = 0, j = arguments.length; i < j; i++) {
-		sum += arguments[i];
-	}
-	return sum / arguments.length;
+  var sum = 0;
+  for (var i = 0, j = arguments.length; i < j; i++) {
+    sum += arguments[i];
+  }
+  return sum / arguments.length;
 }
 avg(2, 3, 4, 5);
 3.5
@@ -888,15 +862,15 @@ apply()的第二个参数是用作参数的数组；第一个参数后面再讨�
 
 > 你可以在函数调用中使用 spread 操作符达到相同的结果，例如 avg(...numbers)
 
-jJavaScript 让你可以创建匿名函数
+JavaScript 让你可以创建匿名函数
 
 ```JavaScript
 var arg = function() {
-	var sum = 0;
-	for (var i = 0, j = arguments.length; i < j; i++) {
-		sum += arguments[i];
-    }
-	return sum / arguments.length;
+  var sum = 0;
+  for (var i = 0, j = arguments.length; i < j; i++) {
+    sum += arguments[i];
+  }
+  return sum / arguments.length;
 };
 ```
 
@@ -913,8 +887,8 @@ var a = 1;
 var b = 2;
 
 (function() {
-	var b = 3;
-	a += b;
+  var b = 3;
+  a += b;
 })();
 
 console.log(a);
@@ -949,14 +923,14 @@ JavaScript 对于此让你可以给函数表达式命名
 
 ```JavaScript
 var charsInBody = (function counter(elm) {
-	if (elm.nodeType == 3) {  // TEXT_NODE
-		return elm.nodeValue.length;
-	}
-	var count = 0;
-	for (var i = 0, child; child = elm.childNodes[i]; i++) {
-		count += counter(child);
-	}
-	return count;
+  if (elm.nodeType == 3) {  // TEXT_NODE
+    return elm.nodeValue.length;
+  }
+  var count = 0;
+  for (var i = 0, child; child = elm.childNodes[i]; i++) {
+    count += counter(child);
+  }
+  return count;
 })(document.body);
 undefined
 charsInBody
@@ -971,7 +945,7 @@ charsInBody
 
 注意 JavaScript 函数本身就是对象——像 JavaScript 中其他的一切一样——并且你可以添加或改变他们的属性，就像我们在对象部分所见过的
 
-###### 自定义对象
+#### 自定义对象
 
 更多 JavaScript 面向对象编程见<a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects">Object-Oriented JavaScript</a>
 
@@ -989,16 +963,16 @@ JavaScript 是基于原型的语言，没有像是在 C++或 Java 中的类语�
 
 ```javascript
 function makePerson(first, last) {
-	return {
-		first: first,
-		last: last
-	};
+  return {
+    first: first,
+    last: last
+  };
 }
 function personFullName(person) {
-	return person.first + ' ' + person.last;
+  return person.first + ' ' + person.last;
 }
 function personFullNameReversed(person) {
-	return person.last + ', ' + person.first;
+  return person.last + ', ' + person.first;
 }
 
 s = makePerson('Simon', 'Willison');
@@ -1018,16 +992,16 @@ VM1137:16 Willison, Simon
 
 ```javascript
 function makePerson(first, last) {
-	return {
-		first: first,
-		last: last,
-		fullName: function() {
-			return this.first + ' ' + this.last;
-        },
-		fullNameReversed: function() {
-			return this.last + ', ' + this.first;
-		}
- 	};
+  return {
+    first: first,
+    last: last,
+    fullName: function() {
+      return this.first + ' ' + this.last;
+    },
+    fullNameReversed: function() {
+      return this.last + ', ' + this.first;
+    }
+  };
 }
 
 s = makePerson('Simon', 'Willison');
@@ -1117,17 +1091,17 @@ function Person(first, last) {
 
 ```javascript
 function Person(first, last) {
-	this.first = first;
-	this.last = last;
+  this.first = first;
+  this.last = last;
 }
 Person.prototype.fullName = function() {
-	return this.first + ' ' + this.last;
+  return this.first + ' ' + this.last;
 };
 Person.prototype.fullNameReversed = function() {
-	return this.last + ', ' + this.first;
+  return this.last + ', ' + this.first;
 };
 ƒ () {
-	return this.last + ', ' + this.first;
+  return this.last + ', ' + this.first;
 }
 ```
 
@@ -1149,7 +1123,7 @@ VM587:2 Uncaught TypeError: s.firstNameCaps is not a function
 
 ```javascript
 Person.prototype.firstNameCaps = function() {
-	return this.first.toUpperCase();
+  return this.first.toUpperCase();
 };
 console.log(s.firstNameCaps());
 VM588:4 SIMON
@@ -1294,7 +1268,7 @@ function parentFunc() {
 
 这个技术应当被小心使用，但它的确是一个有用能力
 
-###### 闭包
+#### 闭包
 
 这带领我们走向 JavaScript 提供的最强大的抽象——但也是最潜在令人迷惑的
 
@@ -1302,9 +1276,9 @@ function parentFunc() {
 
 ```javascript
 function makeAdder(a) {
-	return function(b) {
-		return a + b;
-	};
+  return function(b) {
+    return a + b;
+  };
 }
 var x = makeAdder(5);
 var y = makeAdder(20);
@@ -1353,7 +1327,5 @@ see more closure@ <a href="https://stackoverflow.com/questions/111102/how-do-jav
 参考链接：
 
 - <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript">https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript</a>
-
 - <a href="http://crockford.com/javascript/">http://crockford.com/javascript/</a>
-
 - <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Unicode">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Unicode</a>

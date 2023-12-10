@@ -1,10 +1,8 @@
 ---
 title: 《ECMAScript6入门》读后感
+tags: ["读后感"]
 date: 2019-05-21 21:21:28
 lastmod: 2019-05-21 21:21:28
-categories: 读书
-tags:
-  - es6
 ---
 
 关于阮一峰《ECMAScript6 入门》一书的观感，就把此文当做本人对于《ECMAScript6 入门》的书评吧

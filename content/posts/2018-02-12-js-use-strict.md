@@ -2,7 +2,6 @@
 title: 关于javascript的严格模式（use strict）
 date: 2018-02-12 20:55:06
 lastmod: 2018-2-13 14:17:25
-categories: 前端
 tags: ["javascript"]
 ---
 
@@ -10,25 +9,22 @@ tags: ["javascript"]
 
 <!--more-->
 
-### 背景
+## 背景
 
 出现于 ES5
 
 - 消除 js 语言一些**不合理**、**不严谨**的地方，减少一些**怪异**行为
-
 - 消除代码运行**不安全**之处
-
 - 提高**编译**效率，提高**运行**速度
-
 - 未新版本 js 做铺垫
 
-### 本质
+## 本质
 
 第二种运行模式：严格模式
 
-#### 严格模式
+### 严格模式
 
-##### 转换严格模式
+#### 转换严格模式
 
 ES5 中引入了严格模式，现已被所有的主流浏览器实现（包括 IE10）
 
@@ -36,37 +32,30 @@ ES5 中引入了严格模式，现已被所有的主流浏览器实现（包括 
 
 如果想将已存在的代码转换为严格模式需要多做一点工作
 
-##### 逐步转换
+#### 逐步转换
 
 严格模式被设计来可以逐步转换，可以独立地改变每一个文件，甚至可以逐步地将函数转换为严格模式
 
-##### 对比严格模式和非严格模式
+#### 对比严格模式和非严格模式
 
 实例：
 
 如下代码在添加了‘use strict’后抛出语言错误
 
 - 八进制语法：var n = 023;
-
 - with 语句
-
 - 在变量名中使用 delete：delete myVariable;
-
 - 使用 eval 或者 arguments 作为变量或者函数的参数名
-
 - 使用新版本的保留字：implements、interface、let、package、private、protected、public、static 和 yield
-
 - 在块级域内声明函数：if (a < b) { function f() {} }
-
 - 明显的错误：
 
   - 在一个对象字内对一个属性声明两次相同的名称：{a: 1. b: 3. a: 7}，这已经不再是 ES2015 中的情况（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1041128">bug</a>）
-
   - 使用相同的名称声明两个函数参数：function f(a, b, b) {}
 
 这些错误还算好，因为它们能够明显地暴露出错误或者糟糕的实践，它们会在代码运行前发生
 
-##### 新的运行时错误
+#### 新的运行时错误
 
 javascript 过去常在代码发生错误的地方静默地运行失败，严格模式会在这种情况抛出异常。如果你的代码包含这种情况，测试会变得很有必要以确保没有东西坏掉。然而再一次，会在函数粒度级别再一次发生
 
@@ -74,8 +63,8 @@ javascript 过去常在代码发生错误的地方静默地运行失败，严格
 
 ```JavaScript
 function f(x) {
-	var a = 12;
-	b = a + x * 35;
+  var a = 12;
+  b = a + x * 35;
 }
 f(42);
 undefined
@@ -83,16 +72,16 @@ undefined
 
 ```JavaScript
 function f(x) {
-	'use strict';
-	var a = 12;
-	b = a + x * 35;		// 报错
+  'use strict';
+  var a = 12;
+  b = a + x * 35;		// 报错
 }
 f(42);
 ```
 
 这可能会改变一个全局对象的值，这常常并不是所期望的。如果真的想给一个全局对象设置值，将其作为参数传给它并明确地将其声明为一个属性
 
-```javascript
+```js
 function f(x) {
   "use strict";
   var a = 12;
@@ -147,11 +136,11 @@ s.opacity = 1;
 })();
 ```
 
-##### 语义上的不同
+#### 语义上的不同
 
 这些都是很微妙的不同，可能测试用例不会捕获这种微妙的不同。仔细回看你的代码可能显得必要以确保这些不同不会影响你代码的语义。幸运的是，这种仔细的回看可以变成逐步地应用于函数粒度级别的回看
 
-##### 函数调用中的 this
+#### 函数调用中的 this
 
 在函数调用中，例如 f()，this 值是全局对象。在严格模式中，现在是 undefined。
 
@@ -159,7 +148,7 @@ s.opacity = 1;
 
 在严格模式中，这个值会被直接传递而不被转换或替换。
 
-##### arguments 没有被函数参数命名别名
+#### arguments 没有被函数参数命名别名
 
 在非严格模式中，修改 arguments 对象中的一个值会修改相应的命名参数
 
@@ -167,7 +156,7 @@ s.opacity = 1;
 
 在严格模式中，arguments 对象被创建并被初始化为同名值而非命名参数，但是对于 arguments 对象或是命名参数的改变不会彼此影响
 
-##### 更改为 eval
+#### 更改为 eval
 
 在严格模式中，eval 不会在它被调用的域内创建一个新的变量。当然，在严格模式中，字符串也会被按照严格模式的规则进行评估
 
@@ -175,18 +164,16 @@ s.opacity = 1;
 
 不要使用 eval，除非你真的需要它，这会是一个更务实的解决方案
 
-##### 严格中立（strictness-neutral）代码
+#### 严格中立（strictness-neutral）代码
 
 移动严格代码到严格模式的一个潜在的弊端是可能在那些没有实现严格模式的传统浏览器中语义上存在不同
 
 在某些稀有场合（比如糟糕的联结或者缩小），你的代码也可能不能运行在你编写和测试的模式中，以下一些规则可以使得你的代码变得严格中立：
 
 1. 以严格模式书写代码并确保没有在严格模式下会抛出的错误
-
 2. 原理语义不同
 
    1. eval：只有在你明白你在做什么的情况下使用它
-
    2. arguments：永远通过名称访问函数的参数或执行一份参数对象的拷贝，比如如下，将这样的声明添加在你函数的第一行
 
    ```JavaScript
@@ -197,6 +184,5 @@ s.opacity = 1;
 
 参考链接：
 
-- <a href="http://www.ruanyifeng.com/blog/2013/01/javascript_strict_mode.html">http://www.ruanyifeng.com/blog/2013/01/javascript_strict_mode.html</a>
-
-- <a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Strict_mode">https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Strict_mode</a>
+- [http://www.ruanyifeng.com/blog/2013/01/javascript_strict_mode.html](http://www.ruanyifeng.com/blog/2013/01/javascript_strict_mode.html)
+- [https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Strict_mode](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Strict_mode)

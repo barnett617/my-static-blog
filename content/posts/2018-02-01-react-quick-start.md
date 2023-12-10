@@ -2,23 +2,21 @@
 title: React教程之快速上手篇
 date: 2018-02-01 15:32:54
 lastmod: 2018-02-01 15:32:54
-categories: 前端
-tags:
-  - react
+tags: ["react"]
 ---
 
 React 官方教程系列之快速上手篇
 
 <!--more-->
 
-### Hello World
+## Hello World
 
 React 官网的 Quick Start 提供了一个在线编辑器 CodePen，里面提供了一个 react 的最小配置示例，即
 
 ```JavaScript
 ReactDOM.render(
   <h1>Hello, World</h1>,
-	document.getElementById('root')
+  document.getElementById('root')
 );
 ```
 
@@ -34,7 +32,7 @@ html 文件结构如下
 
 一旦掌握，便可通过碎小的可复用块创造复杂的应用
 
-### 关于 React 于 JavaScript 的关系
+## 关于 React 于 JavaScript 的关系
 
 React 是一个 JavaScript 库（library）
 
@@ -42,7 +40,7 @@ React 是一个 JavaScript 库（library）
 
 我们在例子里也用到了一些 ES6 语法。我们试图保守地用它，因为它还近乎崭新，但我们鼓励你熟悉一下箭头函数、类、模板字、let 和 const 语句。你可以使用<a href="https://babeljs.io/repl/#?presets=react&code_lz=MYewdgzgLgBApgGzgWzmWBeGAeAFgRgD4AJRBEAGhgHcQAnBAEwEJsB6AwgbgChRJY_KAEMAlmDh0YWRiGABXVOgB0AczhQAokiVQAQgE8AkowAUPGDADkdECChWeASl4AlOMOBQAIgHkAssp0aIySpogoaFBUQmISdC48QA">Babel REPL</a>来检查 ES6 代码编译成什么样
 
-### JSX 介绍
+## JSX 介绍
 
 考虑这个变量声明：
 
@@ -56,7 +54,7 @@ const element = <h1>Hello, world!</h1>;
 
 JSX 生产 React“元素”。我们将在下一部分探索把它们渲染成 DOM。在下面你会发现 JSX 必备基础来使你开始
 
-#### 为什么用 JSX
+### 为什么用 JSX
 
 React 拥抱渲染逻辑本质上是加上其他的 UI 逻辑这样的事实：事件如何处理，状态如何改变，还有数据如何被准备好用作展示
 
@@ -66,7 +64,7 @@ React 并不一定要使用 JSX，但大多数人发现这在他们处理 JavaSc
 
 有了这些方法，让我们开始吧！
 
-#### 在 JSX 中嵌入表达式
+### 在 JSX 中嵌入表达式
 
 你可以在 JSX 中嵌入任何 JavaScript 表达式，通过包裹在大括号内
 
@@ -89,7 +87,7 @@ ReactDOM.render(element, document.getElementById("root"));
 
 我们为了可读性把 JSX 拆分成多行。虽然不是必须的，当这样做时，我们还是建议用括号包裹起来以避免<a href="https://stackoverflow.com/questions/2846283/what-are-the-rules-for-javascripts-automatic-semicolon-insertion-asi">自动分号</a>的陷阱
 
-#### JSX 也是表达式
+### JSX 也是表达式
 
 在编译之后，JSX 表达式成为常规的 JavaScript 函数调用和评估
 
@@ -104,7 +102,7 @@ function getGreeting(user) {
 }
 ```
 
-#### 为 JSX 指定属性
+### 为 JSX 指定属性
 
 你可能使用引号来指定字符串文字作为属性：
 
@@ -122,7 +120,7 @@ const element = <img src={user.avatarUrl}></img>;
 
 > 警告：因为 JSX 比起 HTML 更像 JavaScript，React DOM 使用驼峰属性命名法取代 HTML 属性名称。例如，在 JSX 中，class 变成 className，tabindex 变成 tabIndex
 
-#### 为 JSX 指定子
+### 为 JSX 指定子
 
 如果一个标签是空的，你可能会立即用一个/>关上它，像 XML：
 
@@ -132,7 +130,7 @@ const element = <img src={user.avatarUrl} />;
 
 JSX 标签可能包含子：
 
-```javascript
+```jsx
 const element = (
   <div>
     <h1>Hello!</h1>
@@ -141,7 +139,7 @@ const element = (
 );
 ```
 
-#### JSX 避免注入攻击
+### JSX 避免注入攻击
 
 在 JSX 中嵌入用户输入是安全的
 
@@ -152,7 +150,7 @@ const element <h1>{title}</h1>;
 
 默认的，React DOM 会在渲染之前转义嵌在 JSX 中的值。从而确保你永远不会注入任何写在你程序里不明确的东西。任何东西都会在渲染之前被转换为字符串。这避免了 XSS 攻击
 
-#### JSX 表示对象
+### JSX 表示对象
 
 Babel 编译 JSX 为 React.createElement()调用
 
@@ -188,7 +186,7 @@ const element = {
 
 > Tip: 我们推荐你为你的编辑器选择使用<a href="http://babeljs.io/docs/editors">Babel 语言定义</a>，这样 ES6 和 JSX 就可以正确地高亮显示。（原文此处使用<a href="https://labs.voronianski.com/oceanic-next-color-scheme/">Oceanic Next</a>颜色主题）
 
-### 渲染元素
+## 渲染元素
 
 元素是 React 应用最小的构建块
 
@@ -202,7 +200,7 @@ const element = <h1>Hello, world</h1>;
 
 > 有人可能会混淆元素一个更广为人知的概念——“组件”。我们将会介绍组件在下一部分。元素是组件的组成部分并且我们鼓励你跳读前阅读组件这个部分
 
-#### 把元素渲染为 DOM
+### 把元素渲染为 DOM
 
 让我们假设在你的 HTML 文件中的某个地方有一个<div>
 
@@ -221,7 +219,7 @@ const element = <h1>Hello, world</h1>;
 ReactDOM.render(element, document.getElementById("root"));
 ```
 
-#### 更新渲染的元素
+### 更新渲染的元素
 
 React 元素是一成不变的。一旦你创建一个元素，你无法改变它的子或者属性。元素就像电影中的一帧：它展现了在以一个特定时间点的 UI
 
@@ -229,7 +227,7 @@ React 元素是一成不变的。一旦你创建一个元素，你无法改变�
 
 考虑一下这个钟表滴答例子：
 
-```javascript
+```jsx
 function tick() {
   const element = (
     <div>
@@ -253,7 +251,7 @@ setInterval(tick, 1000);
 
 > 实际上，大多数 React 应用只调用一次 ReactDOM.render()。在下一个部分我们将学习怎样把这样的代码装进状态组件。我们推荐你不要跳过话题，因为它们依赖于彼此。
 
-#### React 只更新必要的东西
+### React 只更新必要的东西
 
 React DOM 会比较元素及其子元素与前一个状态的对比，只把必要的 DOM 更新为适用于所需的状态
 
@@ -263,13 +261,13 @@ React DOM 会比较元素及其子元素与前一个状态的对比，只把必�
 
 在我们的实验中，思考 UI 如何根据给出的时刻而不是随着时间的推移进行改变，消除整个类的错误
 
-### 组件和 props
+## 组件和 props
 
 组件使你将 UI 分离成独立的部分、可重用的碎片并隔离的考虑每一个碎片
 
 概念上讲，组件像是 JavaScript 的函数。它们接收任意的输入（称作 props）并返回 React 元素来描述屏幕上发生了什么
 
-#### 功能组件和类组件
+### 功能组件和类组件
 
 定义一个组件最简单的方式就是写一个 JavaScript 函数：
 
@@ -295,7 +293,7 @@ class Welcome extends React.Comoponent {
 
 类有一些额外特性我们将在接下来的部分讨论。到那时，我们将因其简明性而使用函数组件
 
-#### 渲染一个组件
+### 渲染一个组件
 
 先前，我们只遇到 React 元素呈现 DOM 标签：
 
@@ -322,5 +320,4 @@ function Welcome(props) {
 参考链接：
 
 - <a href="https://reactjs.org/docs/">https://reactjs.org/docs/</a>
-
 - <a href="https://codepen.io/pen?&editors=0010">https://codepen.io/pen?&editors=0010</a>

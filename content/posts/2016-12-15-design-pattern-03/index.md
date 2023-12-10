@@ -1,14 +1,12 @@
 ---
 title: 可复用面向对象软件基础——设计模式（三）之抽象工厂模式
-tags:
-  - 设计模式
+tags: ["设计模式"]
 date: 2016-12-15 16:59:43
 lastmod: 2016-12-15 16:59:43
 series: ["设计模式"]
-categories: 笔记
 ---
 
-### 一、工厂方法模式缺陷
+## 一、工厂方法模式缺陷
 
 工厂方法模式有一个问题就是，类的创建依赖工厂类，也就是说，如果想要**拓展程序**，必须**修改工厂**类，这违背了设计模式六大原则第一条[闭包原则](http://blog.csdn.net/sinat_16791487/article/details/53666953)。
 
@@ -16,7 +14,7 @@ categories: 笔记
 
 ![这里写图片描述](aHR0cDovL2ltZy5ibG9nLmNzZG4ubmV0LzIwMTYxMjE1MTYyMjI3MTY3.png)
 
-### 二、抽象工厂模式实现
+## 二、抽象工厂模式实现
 
 ```java
 /**
@@ -26,7 +24,7 @@ categories: 笔记
  */
 public interface Sender {
 
-	public void send();
+  public void send();
 }
 ```
 
@@ -38,10 +36,10 @@ public interface Sender {
  */
 public class MailSender implements Sender {
 
-	@Override
-	public void send() {
-		System.out.println("I am MailSender!");
-	}
+  @Override
+  public void send() {
+    System.out.println("I am MailSender!");
+  }
 }
 ```
 
@@ -53,10 +51,10 @@ public class MailSender implements Sender {
  */
 public class SmsSender implements Sender {
 
-	@Override
-	public void send() {
-		System.out.println("I am SmsSender!");
-	}
+  @Override
+  public void send() {
+    System.out.println("I am SmsSender!");
+  }
 }
 ```
 
@@ -69,7 +67,7 @@ public class SmsSender implements Sender {
  */
 public interface Provider {
 
-	public Sender produce();
+  public Sender produce();
 
 }
 ```
@@ -82,10 +80,10 @@ public interface Provider {
  */
 public class SendMailFactory implements Provider {
 
-	@Override
-	public Sender produce() {
-		return new MailSender();
-	}
+  @Override
+  public Sender produce() {
+    return new MailSender();
+  }
 }
 ```
 
@@ -97,10 +95,10 @@ public class SendMailFactory implements Provider {
  */
 public class SendSmsFactory implements Provider {
 
-	@Override
-	public Sender produce() {
-		return new SmsSender();
-	}
+  @Override
+  public Sender produce() {
+    return new SmsSender();
+  }
 }
 ```
 
@@ -112,21 +110,21 @@ public class SendSmsFactory implements Provider {
  */
 public class Test {
 
-	public static void main(String[] args) {
-		// 实例一个邮件工厂(因其实现了提供器接口，可返回一个具有专门生产某种产品生产方法的实例）
-		Provider provider = new SendMailFactory();
-		// 通过该实例生产产品
-		Sender sender = provider.produce();
-		// 调用产品的方法
-		sender.send();
-		// 实例生产另一种产品的工厂
-		SendSmsFactory factory = new SendSmsFactory();
-		Sender sender2 = factory.produce();
-		sender2.send();
-	}
+  public static void main(String[] args) {
+    // 实例一个邮件工厂(因其实现了提供器接口，可返回一个具有专门生产某种产品生产方法的实例）
+    Provider provider = new SendMailFactory();
+    // 通过该实例生产产品
+    Sender sender = provider.produce();
+    // 调用产品的方法
+    sender.send();
+    // 实例生产另一种产品的工厂
+    SendSmsFactory factory = new SendSmsFactory();
+    Sender sender2 = factory.produce();
+    sender2.send();
+  }
 }
 ```
 
-### 三、抽象工厂模式优势
+## 三、抽象工厂模式优势
 
 > 若想生产新的产品，只需一个**实现类**，实现 Sender 接口，再创建一个专门用于生产该产品的**工厂类**，实现 Provider 接口，这样一来，**无需改动**原有代码，**拓展性好**。

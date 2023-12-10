@@ -2,29 +2,23 @@
 title: linux常用命令(长期更新)
 date: 2018-02-07 20:42:57
 lastmod: 2018-02-07 20:42:57
-categories: 操作系统
-tags: 
- - linux
+tags: [OS]
 ---
 
-记录一下常用到的linux命令（包含相应Windows中的操作）
+记录一下常用到的 linux 命令（包含相应 Windows 中的操作）
 
 <!--more-->
 
-wget
+- wget
+- tar
+- curl
+- yes
 
-tar
-
-curl
-
-yes
-
-
-python安装web.py
+## python 安装 web.py
 
 ### 方式一
 
-下载python文件
+下载 python 文件
 
 ```
 wget http://webpy.org/static/web.py-0.37.tar.gz
@@ -44,20 +38,10 @@ tar -zxvf web.py-0.37.tar.gz
 python setup.py install
 ```
 
-### windows类似wget的操作
-
-![](http://trigolds.com/win1.png)
-
 参考链接：
 
-- <a href="http://man.linuxde.net/">http://man.linuxde.net/</a>
-
-- <a href="http://www.shouce.ren/api/linux/">http://www.shouce.ren/api/linux/</a>
-
-- <a href="https://github.com/jaywcjlove/linux-command">https://github.com/jaywcjlove/linux-command</a>
-
-- <a href="https://www.linuxdaxue.com/linux-commands-manual">https://www.linuxdaxue.com/linux-commands-manual</a>
-
-
-
-http://webpy.org/install.zh-cn
+- [http://man.linuxde.net](http://man.linuxde.net/)
+- [http://www.shouce.ren/api/linux](http://www.shouce.ren/api/linux/)
+- [https://github.com/jaywcjlove/linux-command](https://github.com/jaywcjlove/linux-command)
+- [https://www.linuxdaxue.com/linux-commands-manual](https://www.linuxdaxue.com/linux-commands-manual)
+- [http://webpy.org/install.zh-cn](http://webpy.org/install.zh-cn)

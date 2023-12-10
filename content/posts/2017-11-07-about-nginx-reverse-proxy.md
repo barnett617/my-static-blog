@@ -2,13 +2,12 @@
 title: 关于反向代理的整理
 date: 2017-11-07 16:41:24
 lastmod: 2017-11-07 16:41:24
-categories: 网络
-tags: ["网络"]
+tags: ["web"]
 ---
 
 之前一直对**反向代理**这个概念理解的很模糊，网上参阅了很多解释，看完也是觉得不够信服，相比较而言觉得解释的还算良好的是知乎上看到的一个[回答](https://www.zhihu.com/question/24723688)，但看了之后也仅限于“当时理解，过后就忘”，于是今天再次在 stackoverflow 看到的解释版本，特此翻译整理，留作备忘。
 
-<!--more-->
+<!-- more -->
 
 原文链接：<a href="https://stackoverflow.com/questions/224664/difference-between-proxy-server-and-reverse-proxy-server/366212#366212">https://stackoverflow.com/questions/224664/difference-between-proxy-server-and-reverse-proxy-server/366212#366212</a>
 

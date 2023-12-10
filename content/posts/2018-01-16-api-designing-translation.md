@@ -2,34 +2,33 @@
 title: 如何设计良好的API并且为什么这很重要（译）
 date: 2018-01-16 11:38:31
 lastmod: 2018-01-16 11:38:31
-categories: 翻译
 tags: ["API"]
 ---
 
 本文翻译自 Effective Java 作者 Joshua Bloch 撰写的一篇关于 API 设计的分享
 
-<!--more-->
+<!-- more -->
 
-#### API 可以是公司最大的资产之一
+## API 可以是公司最大的资产之一
 
 - 客户投入巨资：购买、撰写、学习（售前一系列培训）
 - 停止使用 API 导致的花费令人望而却步（如果不使用 API 可能要花费更多）
 - 成功的公共 API 赢得客户
 
-#### 也可以成为公司最大的负债之一
+## 也可以成为公司最大的负债之一
 
 - 糟糕的 APIs 将导致无休止的电话技术支持（需要接听很多来自客户的反映）
 
-#### 公共的 APIs 是永久的——一次去做正确事情的机会
+公共的 APIs 是永久的——一次去做正确事情的机会
 
-### 为什么 API 设计对于你来说很重要
+## 为什么 API 设计对于你来说很重要
 
-#### 如果你编码，你就是一个 API 的设计者
+### 如果你编码，你就是一个 API 的设计者
 
 - 良好的代码应该是模块化的——每一个模块都有一个 API
 - 有用的模块往往被重用
 
-#### 对于 API 方面的思考将提高代码的质量
+对于 API 方面的思考将提高代码的质量
 
 ### 好的 API 所具备的特征
 
@@ -52,18 +51,18 @@ tags: ["API"]
 
 ## I API 设计的过程
 
-### 收集需求——以一种健康的程度怀疑
+收集需求——以一种健康的程度怀疑
 
-#### 通常你会得到建议的解决方法作为替代方案
+### 通常你会得到建议的解决方法作为替代方案
 
 - 可能存在更好的解决方案
 
-#### 你的工作是去提取出真正的需求
+### 你的工作是去提取出真正的需求
 
 - 应采取用例的形式
 - 可以更容易、更有意义地建立更普遍的东西
 
-#### 从简短的规范页开始比较理想
+### 从简短的规范页开始比较理想
 
 - 在这个阶段，敏捷胜过完整性
 - 和尽可能多的人谈（原文：Bounce spec off as many people as possible）
@@ -72,46 +71,46 @@ tags: ["API"]
 - 充分自信
   这涉及到编码时也很必要
 
-### 尽早写给你的 API
+## 尽早写给你的 API
 
-#### 以下应开始于在你实现 API 之前
+以下应开始于在你实现 API 之前
 
 - 从你将扔掉的实现中拯救你
 
-#### 以下应开始于你正确指定出 API 之前
+以下应开始于你正确指定出 API 之前
 
 - 从撰写你将扔掉的规范中拯救你
 
-#### 继续写 API 因为它充实你
+继续写 API 因为它充实你
 
 - 避免令人讨厌的惊喜
 - 代码作为例子、单元测试而存在
 
-### 关于 SPI 的内容甚至更重要
+## 关于 SPI 的内容甚至更重要
 
-#### 服务提供接口（Service Provider Interface, SPI）
+### 服务提供接口（Service Provider Interface, SPI）
 
 - 插件式接口使得实现多样性
 - 例如：Java 加密拓展接口（Java Cryptography Extension, JCE）
 
-#### 在发布之前编写多个插件
+### 在发布之前编写多个插件
 
 - 如果你只写一个，它可能不支持另一种情况
 - 如果你写两个，它会很难支持更多
 - 如果你写三个(原文 three 应表示多个?)，它会良好工作
 
-#### Will Tracz 称之为“三项法则”
+### Will Tracz 称之为“三项法则”
 
 （曾经以为程序销售员 Addision-Wesley,1995 的自白）
 
-### 保持现实的期望
+## 保持现实的期望
 
-#### 大多数 API 设计的过约束
+### 大多数 API 设计的过约束
 
 - 你不必取悦每一个人
 - 旨在平等地使每个人都感到高兴
 
-#### 期望犯错
+### 期望犯错
 
 - 几年真实世界的使用将冲洗它们
 - 期望发展 API
@@ -126,9 +125,9 @@ tags: ["API"]
 - 良好的命名会驱动开发
 - 要易于分割和合并
 
-#### API 应尽可能的小但不能再小
+API 应尽可能的小但不能再小
 
-#### API 应该满足它的初始需求
+API 应该满足它的初始需求
 
 #### 当存疑时就抛弃掉
 
@@ -158,13 +157,13 @@ tags: ["API"]
 
 ### 最小化对于所有的可达性
 
-#### 将类和方法指定得尽可能私有
+将类和方法指定得尽可能私有
 
-#### 公共类不应该有公共域（除了常量）
+公共类不应该有公共域（除了常量）
 
-#### 这最大化了信息隐藏
+这最大化了信息隐藏
 
-#### 允许模块被独立使用、理解、构建、测试、调试
+允许模块被独立使用、理解、构建、测试、调试
 
 ### 给 API 命名的事务相当于一种小语言
 
@@ -176,46 +175,46 @@ tags: ["API"]
 
 - 贯穿 API 的整个内容（包括不同平台上的该 API）
 
-#### 定期争取对称
+定期争取对称
 
-#### 代码应该读起来像散文
+代码应该读起来像散文
 
-```
+```java
 if (car.speed() > 2 * SPEED_LIMIT)
-		generateAlert("Watch out for cops!");
+    generateAlert("Watch out for cops!");
 ```
 
-### 文档相关事宜
+## 文档相关事宜
 
 > 重用是一件说起来容易做起来难的事。具体做起来既需要好的设计又需要良好的文档。即使我们看到好的设计，我们仍很少能看到没有好的文档组件被重用。
 
 > D.L.Parnas, \_Software Aging. Proceedings of 16th International Conference Software Engineering, 1994
 
-### Document Religiously
+## Document Religiously
 
-#### 为每一个类、接口、方法、构造器、参数和异常制作文档（注释）
+### 为每一个类、接口、方法、构造器、参数和异常制作文档（注释）
 
 - 类：实例所表示的东西
 - 方法：方法和客户之间的契约
   - 先决条件、后置条件、副作用
 - 参数：提示性的单位、格式、所有权
 
-#### 文档要非常认真地陈述
+文档要非常认真地陈述
 
-### 考虑 API 设计决定的性能后果
+## 考虑 API 设计决定的性能后果
 
-#### 糟糕的决定会限制性能
+### 糟糕的决定会限制性能
 
 - 让类型易变
 - 提供构造器以取代静态工厂
 - 使用实现类型取代接口
 
-#### 不要扭曲 API 来获得性能
+### 不要扭曲 API 来获得性能
 
 - 底层性能问题会被修复，但头疼的事会一直伴随着你
 - 良好的设计通常与良好的性能相吻合
 
-#### API 设计决策在性能方面的影响是真实并且永久的
+### API 设计决策在性能方面的影响是真实并且永久的
 
 - Component.getSize() returns Dimension
 - 尺寸是易变的
@@ -223,19 +222,19 @@ if (car.speed() > 2 * SPEED_LIMIT)
 - 将导致非常多不必要的对象分配
 - 在 1.2 版本增加替代品，老的客户端代码仍然慢（在新的版本找到解决方案，但不能解决旧代码的性能问题）
 
-### API 必须和平台和平共存
+## API 必须和平台和平共存
 
-#### 做习惯性的事
+### 做习惯性的事
 
 - 遵守标准的命名约定
 - 避免过时的参数和返回类型
 - 模仿核心 APIs 和语言中的模式
 
-#### 利用 API 友好功能
+### 利用 API 友好功能
 
 - 泛型、可变参数、枚举、默认参数
 
-#### 了解并避免 API 陷阱
+### 了解并避免 API 陷阱
 
 - 常量（Finalizers）、公共静态常量数组
 
@@ -243,23 +242,23 @@ if (car.speed() > 2 * SPEED_LIMIT)
 
 ### 最小化可变性
 
-#### 类应该是不可变的除非有一个好的理由不去这么做
+类应该是不可变的除非有一个好的理由不去这么做
 
 - 优点： 简洁、线程安全、可复用
 - 缺点： 对于每个值都分离了对象
 
-#### 如果可变，保证状态空间尽可能小并被良好定义
+如果可变，保证状态空间尽可能小并被良好定义
 
 - 搞清何时去调用哪一个方法是合法的
 
-#### 仅在合理的地方建子类
+### 仅在合理的地方建子类
 
-##### 建子类按时可替代性（Liskov）
+建子类按时可替代性（Liskov）
 
 - 子类仅当 is-a 关系时存在
 - 否则，使用组合
 
-##### 公共类不应该再包含其他公共子类，以保证实现简单
+公共类不应该再包含其他公共子类，以保证实现简单
 
 反例： Properties extends Hashtable
 Stack extends Vector
@@ -268,15 +267,15 @@ Stack extends Vector
 
 ### 为继承做设计和文档否则禁止
 
-#### 继承违反封装（Snyder, 86）
+继承违反封装（Snyder, 86）
 
 - 子类对于父类的实现细节敏感
 
-#### 如果你允许建子类，那么就文档自用
+如果你允许建子类，那么就文档自用
 
 - 方法如何相互使用
 
-#### 保守策略：所有具体的类都不可变（final）
+保守策略：所有具体的类都不可变（final）
 
 反例：J2SE 包中许多的具体类
 正例：AbstractSet, AbstractMap
@@ -285,23 +284,23 @@ Stack extends Vector
 
 ### 别让客户端把模板能做的事都做了
 
-#### 减少对样板代码的需要
+减少对样板代码的需要
 
 - 通常经 cut-and-paste 完成
 - 丑陋、恼人并且易错
 
 ### 不要违反最小原则
 
-#### API 的使用者不应该对于某些行为感到惊讶
+API 的使用者不应该对于某些行为感到惊讶
 
 - 值得额外的实现努力
 - 这甚至值得降低性能
 
-```
+```java
 public class Thread implements Runnable {
-		// Tests whether current thread has been interrupted
-		// Clears the interrupted status of current thread.
-		public static boolean interrupted();
+    // Tests whether current thread has been interrupted
+    // Clears the interrupted status of current thread.
+    public static boolean interrupted();
 }
 ```
 
@@ -309,20 +308,20 @@ public class Thread implements Runnable {
 
 ### 当错误发生尽可能快地产生错误报告
 
-#### 编译时报错最佳——静态拼写、generics
+编译时报错最佳——静态拼写、generics
 
-#### 在运行时，第一个方法调用失败为最佳
+在运行时，第一个方法调用失败为最佳
 
 - 方法应该是原子性失败（failure-atomic）
 
-```
+```java
 // A Properties instance maps strings to strings
 public class Properties extends Hashtable {
-		public Object put(Object key, Object value);
+    public Object put(Object key, Object value);
 
-		// Throws ClassCastException if this Properties
-		// contains any keys or values that are not strings
-		public void save(OutputStream out, String comments);
+    // Throws ClassCastException if this Properties
+    // contains any keys or values that are not strings
+    public void save(OutputStream out, String comments);
 }
 ```
 
@@ -333,18 +332,18 @@ public class Properties extends Hashtable {
 - 对于客户端来说很痛苦
 - 更糟糕的是，turns strings format into de facto API（无力翻译 orz）
 
-```
+```java
 public class Throwable {
-		public void printStackTrace(PrintStream s);
-		public StackTraceElement[] getStackTrace();		// Since 1.4
+    public void printStackTrace(PrintStream s);
+    public StackTraceElement[] getStackTrace();		// Since 1.4
 }
 
 public final class StackTraceElement {
-		public String getFilaName();
-		public int getLineNumber();
-		public String getClassName();
-		public String getMethodName();
-		public boolean isNativeMethod();
+    public String getFilaName();
+    public int getLineNumber();
+    public String getClassName();
+    public String getMethodName();
+    public boolean isNativeMethod();
 }
 ```
 
@@ -363,30 +362,30 @@ public final class StackTraceElement {
 
 反例:
 
-```
+```java
 public TreeSet(Collection c);		// Ignores order
 public TreeSet(SortedSet s);		// Respects order
 ```
 
 ### 使用恰当的参数和返回类型
 
-#### 赞成接口类型作为类的输入
+赞成接口类型作为类的输入
 
 - 提供灵活性、性能
 
-#### 使用最具体的可能的输入参数类型
+使用最具体的可能的输入参数类型
 
 - 把运行时错误提前到编译时
 
-#### 如果存在更好的类型请别用 String 类型
+如果存在更好的类型请别用 String 类型
 
 - Strings 是繁琐的、易错的并且慢的
 
-#### 不要将浮点数用于货币值
+不要将浮点数用于货币值
 
 - 二进制浮点会导致不精确的结果
 
-#### 使用 double(64 位)优于 float(32 位)
+使用 double(64 位)优于 float(32 位)
 
 - 精确度损失是真实的，性能损失是可忽略的
 
@@ -396,10 +395,10 @@ public TreeSet(SortedSet s);		// Respects order
 
 反例：
 
-```
+```c
 #include <string.h>
 char *strcpy (char *dest, char *src);
-void bcopy 	 (void *src, void *dst, int n);
+void bcopy   (void *src, void *dst, int n);
 ```
 
 正例：
@@ -409,40 +408,40 @@ java.util.concurrent——time 总被指定为 long delay, TimeUnit unit
 
 ### 避免长参数列表
 
-#### 三个或更少参数是比较理想的
+三个或更少参数是比较理想的
 
 - 如果存在更多，用户则需参阅文档
 
-#### 相同类型的长参数列表是有害的
+相同类型的长参数列表是有害的
 
 - 程序员会错误地转置参数
 - 程序仍会编译、运行，但行为不端
 
-#### 两种缩短参数列表的技巧
+两种缩短参数列表的技巧
 
 - 拆分方法
 - 创建辅助类来保存参数
 
 反例：
 
-```
+```C#
 // Eleven parameters including four consecutive ints
 HWND CreateWindow(LPCTSTR lpClassName, LPCTSTR lpWindowName,
-			DWORD dwStyle, int x, int y, int nWidth, int nHeight,
-			HWND hWndParent, HMENU hMenu, HINSTANCE hInstance,
-			LPVOID lpParam);
+      DWORD dwStyle, int x, int y, int nWidth, int nHeight,
+      HWND hWndParent, HMENU hMenu, HINSTANCE hInstance,
+      LPVOID lpParam);
 ```
 
 ### 避免返回值需要异常处理
 
-#### 返回零长度数组或空集合而非 null
+返回零长度数组或空集合而非 null
 
-```
+```java
 package java.awt.image;
 public interface BufferedImageOp {
-		// Returns the rendering hints for this operation,
-		// or null if no hints have been set.
-		public RenderingHints getRenderingHints();
+    // Returns the rendering hints for this operation,
+    // or null if no hints have been set.
+    public RenderingHints getRenderingHints();
 }
 ```
 
@@ -450,120 +449,120 @@ public interface BufferedImageOp {
 
 ### 抛出异常以表明异常的条件
 
-#### 不要强迫客户端去使用异常来控制流
+不要强迫客户端去使用异常来控制流
 
 反例:
 
-```
+```java
 private byte[] a = new byte[BUF_SIZE];
 void processBuffer (ByteBuffer buf) {
-	try {
-		while (true) {
-			buf.get(a);
-			processBytes(tmp, BUF_SIZE);
-		}
-	} catch (BufferUnderflowException e) {
-		int remaining = buf.remaining();
-		buf.get(a, 0, remaning);
-		processBytes(bufArray, remaining);
-	}
+  try {
+    while (true) {
+      buf.get(a);
+      processBytes(tmp, BUF_SIZE);
+    }
+  } catch (BufferUnderflowException e) {
+    int remaining = buf.remaining();
+    buf.get(a, 0, remaning);
+    processBytes(bufArray, remaining);
+  }
 }
 ```
 
-#### 反过来，不要安静的失败
+反过来，不要安静的失败
 
 例如：
 
-```
+```java
 ThreadGroup.enumerate(Thread[] list)
 ```
 
 ### 赞成未经检查的异常
 
-#### 已检查——客户端必须采取修复措施
+已检查——客户端必须采取修复措施
 
-#### 未检查——程序报错
+未检查——程序报错
 
-#### 过度使用已检查的异常会导致样板化
+过度使用已检查的异常会导致样板化
 
 反例：
 
-```
+```java
 try {
-		Foo f = (Foo) super.clone();
-		...
+    Foo f = (Foo) super.clone();
+    ...
 } catch (CloneNotSupportedException e) {
-		// This can't happen, since we're Cloneable
-		throw new AssertionError();
+    // This can't happen, since we're Cloneable
+    throw new AssertionError();
 }
 ```
 
 ### 在异常中包含错误捕获信息
 
-#### 允许诊断、修复或恢复
+允许诊断、修复或恢复
 
-#### 对于未检查的异常，信息就足够了
+对于未检查的异常，信息就足够了
 
-#### 对于已检查的异常，提供访问者
+对于已检查的异常，提供访问者
 
 ## VI 重构 API 设计
 
 ### 向量的子列表操作
 
-```
+```java
 public class Vector {
-		public int indexOf(Object elem, int index);
-		public int lastIndexOf(Object elem, int index);
+    public int indexOf(Object elem, int index);
+    public int lastIndexOf(Object elem, int index);
 }
 ```
 
-#### 不够强大——只支持搜索
+不够强大——只支持搜索
 
-#### 没有文档很难使用
+没有文档很难使用
 
 ### 字列表操作重构
 
-```
+```java
 public interface List {
-		List subList(int fromIndex, int toIndex);
-		...
+    List subList(int fromIndex, int toIndex);
+    ...
 }
 ```
 
-#### 非常强大——支持所有的操作
+非常强大——支持所有的操作
 
-#### 接口的使用减少了概念的重量
+接口的使用减少了概念的重量
 
 - 高功率重量比
 
-#### 没有文档也易于使用
+没有文档也易于使用
 
 ### Thread-local 变量
 
-```
+```java
 // Broken - inappropriate use of String as capability.
 // Keys constitue a shared global namespace.
 public class ThreadLocal {
-		private ThreadLocal() { }		// Non-instantiable
+    private ThreadLocal() { }    // Non-instantiable
 
-		// Sets current thread's value for named variable.
-		public static void set(String key, Object value);
+    // Sets current thread's value for named variable.
+    public static void set(String key, Object value);
 
-		// Returns current thread's value for named variable.
-		public static Object get(String key);
+    // Returns current thread's value for named variable.
+    public static Object get(String key);
 }
 ```
 
 #### Thread-Local 变量重构（1）
 
-```
+```java
 public class ThreadLocal {
-		private ThreadLocal() { }  // Noninstantiable
+    private ThreadLocal() { }  // Noninstantiable
 
-		public static class Key {	Key() { } }
-		// Generates a unique, unforgeable key
-		public static void set(Key key, Object value);
-		public static Object get(Key key);
+    public static class Key {	Key() { } }
+    // Generates a unique, unforgeable key
+    public static void set(Key key, Object value);
+    public static Object get(Key key);
 }
 ```
 
@@ -571,7 +570,7 @@ public class ThreadLocal {
 
 例如:
 
-```
+```java
 static ThreadLocal.Key serialNumberKey = ThreadLocal.getKey();
 ThreadLocal.set(serialNumberKey, nextSerialNumber());
 System.out.println(ThreadLocal.get(serialNumberKey));
@@ -579,17 +578,17 @@ System.out.println(ThreadLocal.get(serialNumberKey));
 
 #### Thread-Local 变量重构（2）
 
-```
+```java
 public class ThreadLocal {
-		public ThreadLocal() { }
-		public void set(Object value);
-		public Object get();
+    public ThreadLocal() { }
+    public void set(Object value);
+    public Object get();
 }
 ```
 
 #### 消除 API 和客户端代码之间的混乱
 
-```
+```java
 static ThreadLocal serialNumber = new ThreadLocal();
 serialNumber.set(nextSerialNumber());
 System.out.println(serialNumber.get());
@@ -618,4 +617,4 @@ System.out.println(serialNumber.get());
 翻译过程也是磕磕绊绊，很多地方自我感觉翻译的不甚准确，甚至有问题，实在找不到合适的翻译的地方注明了原文或保留原文词句，希望有心读者能指正并反馈。不过翻译的过程的确为了理解作者原意，也会竭尽脑力去思考和体会字里行间所表达的思想，收益良多。
 其中不乏有些建议的确出现于日常的编程实践，并作为编程规范存在于最佳实践中，一眼就能理解。也有一些目前可能尚未在实际应用中良好实践。
 
-原文链接：<a href="https://web.archive.org/web/20110903030015/http://lcsd05.cs.tamu.edu/slides/keynote.pdf">https://web.archive.org/web/20110903030015/http://lcsd05.cs.tamu.edu/slides/keynote.pdf</a>
+原文链接：[https://web.archive.org/web/20110903030015/http://lcsd05.cs.tamu.edu/slides/keynote.pdf](https://web.archive.org/web/20110903030015/http://lcsd05.cs.tamu.edu/slides/keynote.pdf)

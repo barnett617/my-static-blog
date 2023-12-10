@@ -2,18 +2,16 @@
 title: mysql误删数据恢复
 date: 2018-02-01 15:14:45
 lastmod: 2018-02-01 15:14:45
-categories: 数据库
-tags:
-  - mysql
+tags: ["Database"]
 ---
 
 对于 MySQL 误删数据，如何通过二进制日志进行数据查找和恢复
 
 <!--more-->
 
-### 数据恢复（MySQL 传统方式）
+## 数据恢复（MySQL 传统方式）
 
-#### 前置条件
+### 前置条件
 
 MySQL 数据恢复的大前提基于 MySQL 核心配置文件（Linux 下的 my.cnf、Windows 下的 my.ini）中开启了 Binary log——MySQL 四种日志类型（Error log、General Query log、Binary log 和 Slow Query log）之一
 
@@ -127,7 +125,7 @@ SET SESSION binlog_format=MIXED;
 SET binlog_format=STATEMENT;
 ```
 
-##### 查找二进制日志文件
+### 查找二进制日志文件
 
 使用以下命令进行相应查找和查看
 
@@ -155,7 +153,7 @@ mysql> show binlog events in 'binlog_name';
 mysql> show binlog events
 ```
 
-##### 使用 mysqlbinlog 工具
+### 使用 mysqlbinlog 工具
 
 注意点：
 
@@ -165,7 +163,7 @@ mysql> show binlog events
 
 3. 若 binlog 格式为行模式，需要加-vv 参数（行模式下 DML 加密存储，使用-v 参数进行解析）
 
-###### mysqlbinlog 使用
+### mysqlbinlog 使用
 
 使用 mysqlbinlog 的方式如下：
 
@@ -267,7 +265,7 @@ BEGIN
 /*!*/;
 ```
 
-#### 数据恢复（ali-RDS）
+## 数据恢复（ali-RDS）
 
 （类似于 Git 或 SVN 的分支管理，只不过这里是对数据库实例进行克隆分支，进行修改，再合并主干）
 
@@ -279,24 +277,15 @@ BEGIN
 
 或通过 ali-RDS 的 DMS 进行数据追踪（按条件查询 binlog），找到误删操作的 SQL 进行相应恢复
 
-### 参考链接：
+## 参考链接
 
 - <a href="https://mariadb.com/kb/en/library/activating-the-binary-log/">官方推荐 binlog 启用配置</a>
-
 - <a href="https://mariadb.com/kb/en/library/binary-log-formats/">MySQL 二进制文件格式</a>
-
 - <a href="https://dev.mysql.com/doc/refman/5.7/en/mysqlbinlog.html">MySQL 官方文档 binlog 章节</a>
-
 - <a href="https://dev.mysql.com/doc/internals/en/binary-log.html">https://dev.mysql.com/doc/internals/en/binary-log.html</a>
-
 - <a href="https://mariadb.com/kb/en/library/mysqlbinlog-options/">mysqlbinlog 可选参数</a>
-
 - <a href="https://dev.mysql.com/doc/internals/en/event-header-fields.html">mysqlbinlog 输出的文件结构</a>
-
 - <a href="https://bash.cyberciti.biz/guide/Source_command">source 命令</a>
-
 - <a href="http://blog.csdn.net/zdy0_2004/article/details/65629247">http://blog.csdn.net/zdy0_2004/article/details/65629247</a>
-
 - <a href="https://help.aliyun.com/knowledge_detail/51989.html">阿里云 RDS 怎样恢复误删除的数据</a>
-
 - <a href="https://xcoder.in/2015/08/10/mysql-binlog-try/">https://xcoder.in/2015/08/10/mysql-binlog-try/</a>

@@ -2,7 +2,6 @@
 title: 工具篇——如何管理node和npm的更新
 date: 2018-02-07 14:27:19
 lastmod: 2018-02-07 14:27:19
-categories: 前端
 tags: ["node"]
 ---
 

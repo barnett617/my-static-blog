@@ -1,77 +1,75 @@
 ---
 title: 可复用面向对象软件基础——设计模式（四）之单例模式
-tags:
-  - 设计模式
+tags: ["设计模式"]
 date: 2016-12-15 19:57:13
 lastmod: 2016-12-15 19:57:13
 series: ["设计模式"]
-categories: 笔记
 ---
 
 单例对象（Singleton）是一种常用的设计模式。在 Java 应用中，单例对象能保证在一个 JVM 中，该对象**只有一个实例**存在。
 
-<!--more-->
+<!-- more -->
 
-### 单例模式优势
+## 单例模式优势
 
 1.  某些类创建繁琐，对于一些大型对象，系统开销大
 2.  省去 new 操作符，降低系统内存使用频率，减轻 GC 压力
 3.  保证某些核心类独立控制系统整个流程（控制其不可实例多个）
 
-### 简版单例类
+## 简版单例类
 
 ```java
 public class Singleton {
 
-	// 持有私有静态实例，防止被引用，此处赋值为null，目的为实现延迟加载
-	private static Singleton instance = null;
+  // 持有私有静态实例，防止被引用，此处赋值为null，目的为实现延迟加载
+  private static Singleton instance = null;
 
-	// 私有构造方法，防止被实例化
-	private Singleton() {
+  // 私有构造方法，防止被实例化
+  private Singleton() {
 
-	}
+  }
 
-	// 静态工厂方法
-	public static Singleton getInstance() {
-		if(instance == null) {
-			instance = new Singleton();
-		}
-		return instance;
-	}
+  // 静态工厂方法
+  public static Singleton getInstance() {
+    if(instance == null) {
+      instance = new Singleton();
+    }
+    return instance;
+  }
 
-	// 如果该对象被用于序列化，可保证对象在序列化前后保持一致
-	public Object readResolve() {
-		return instance;
-	}
+  // 如果该对象被用于序列化，可保证对象在序列化前后保持一致
+  public Object readResolve() {
+    return instance;
+  }
 }
 ```
 
 > 这个类可以满足基本要求，但是，像这样毫无**线程安全**保护的类，如果我们把它放入**多线程**的环境下，肯定就会出现问题了，如何解决？我们首先会想到对 getInstance 方法加**synchronized**关键字，如下：
 
 ```java
-	// 静态工厂方法
-	public static synchronized Singleton getInstance() {
-		if(instance == null) {
-			instance = new Singleton();
-		}
-		return instance;
-	}
+// 静态工厂方法
+public static synchronized Singleton getInstance() {
+  if(instance == null) {
+    instance = new Singleton();
+  }
+  return instance;
+}
 ```
 
 > 但是，synchronized 关键字锁住的是这个**对象**，这样的用法，在**性能**上会有所**下降**，因为每次调用 getInstance()，都要对对象上锁。
 
 ```java
-	// 静态工厂方法
-	public static Singleton getInstance() {
-		if(instance == null) {
-			synchronized (instance) {
-				if(instance == null) {
-					instance = new Singleton();
-				}
-			}
-		}
-		return instance;
-	}
+// 静态工厂方法
+public static Singleton getInstance() {
+  if(instance == null) {
+    synchronized (instance) {
+      if(instance == null) {
+        instance = new Singleton();
+      }
+    }
+  }
+  return instance;
+}
 ```
 
 > 似乎解决了之前提到的问题，将 synchronized 关键字加在了内部，也就是说当调用的时候是不需要加锁的，只有在 instance 为 null，并**创建对象**的时候才需要加锁，性能有一定的提升。
@@ -89,7 +87,7 @@ public class Singleton {
 >
 > 所以程序还是有可能发生错误，其实程序在运行过程是很复杂的，从这点我们就可以看出，尤其是在写**多线程**环境下的程序更有难度，有挑战性。我们对该程序做进一步优化：
 
-### 内部类维护单例
+## 内部类维护单例
 
 > 实际情况是，单例模式使用**内部类**来维护单例的实现，JVM 内部的机制能够保证当一个类被加载的时候，这个类的加载过程是**线程互斥**的。
 >
@@ -104,53 +102,53 @@ public class Singleton {
 ```java
 public class Singleton {
 
-	// 私有构造方法，防止被实例化
-	private Singleton() {
+  // 私有构造方法，防止被实例化
+  private Singleton() {
 
-	}
+  }
 
-	// 使用内部类维护单例
-	private static class SingletonFactory {
-		private static Singleton instance = new Singleton();
-	}
+  // 使用内部类维护单例
+  private static class SingletonFactory {
+    private static Singleton instance = new Singleton();
+  }
 
-	// 获取实例
-	public static Singleton getInstance() {
-		return SingletonFactory.instance;
-	}
+  // 获取实例
+  public static Singleton getInstance() {
+    return SingletonFactory.instance;
+  }
 
-	// 若该对象被用于序列化，可保证对象在序列化前后保持一致
-	public Object readResolve() {
-		return getInstance();
-	}
+  // 若该对象被用于序列化，可保证对象在序列化前后保持一致
+  public Object readResolve() {
+    return getInstance();
+  }
 }
 ```
 
-### 单独为创建加 Synchronized
+## 单独为创建加 Synchronized
 
 > 也有人这样实现：因为我们只需要在创建类的时候进行同步，所以只要将创建和 getInstance()分开，单独为创建加 synchronized 关键字，也是可以的：
 
 ```java
 public class SingletonTest {
 
-	private static SingletonTest instance = null;
+  private static SingletonTest instance = null;
 
-	private SingletonTest() {
+  private SingletonTest() {
 
-	}
+  }
 
-	private static synchronized void syncInit() {
-		if(instance == null) {
-			instance = new SingletonTest();
-		}
-	}
+  private static synchronized void syncInit() {
+    if(instance == null) {
+      instance = new SingletonTest();
+    }
+  }
 
-	public static SingletonTest getInstance() {
-		if(instance == null) {
-			syncInit();
-		}
-		return instance;
-	}
+  public static SingletonTest getInstance() {
+    if(instance == null) {
+      syncInit();
+    }
+    return instance;
+  }
 
 }
 ```

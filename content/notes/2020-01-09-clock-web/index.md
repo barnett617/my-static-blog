@@ -47,4 +47,4 @@ date: 2020-01-09 19:11:00
 - [如何让 H5 页面在手机浏览器里和微信全屏显示](https://segmentfault.com/q/1010000009276119)
 - [Flutter——启动页 splash 全屏效果实现](https://www.jianshu.com/p/95d2df476e85)
 - [Expo like tool for flutter](https://github.com/flutter/flutter/issues/29021)
-- [11、一款很酷的 CSS3 翻页时钟动画](http://www.codeceo.com/article/14-html5-clock-animation.html)
+- [一款很酷的 CSS3 翻页时钟动画](http://www.codeceo.com/article/14-html5-clock-animation.html)

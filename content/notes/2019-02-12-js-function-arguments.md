@@ -1,9 +1,7 @@
 ---
 title: JS的方法参数传递（按值传递）
-tags:
-  - javascript
+tags: ["javascript"]
 date: 2019-02-12 16:11:50
-categories: 前端
 ---
 
 出处：JavaScript 高级程序设计（第三版）第四章——变量、作用域和内存问题

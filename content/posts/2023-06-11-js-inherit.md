@@ -2,6 +2,7 @@
 title: "JavaScript的原型和继承"
 date: 2023-06-11 00:42:00
 summary: "关于JavaScript继承原理的学习"
+tags: ["JavaScript"]
 cover:
   image: "https://user-images.githubusercontent.com/23159565/79936336-c2b13200-8489-11ea-920b-7118cbd694db.jpg"
 ---

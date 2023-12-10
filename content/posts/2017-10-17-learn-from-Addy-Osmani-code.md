@@ -2,14 +2,12 @@
 title: 从谷歌"名猿"Addy Osmani一行代码中学到的东西
 date: 2017-10-17 16:45:17
 lastmod: 2017-10-17 21:09:22
-tags:
-  - javascript
-categories: 前端
+tags: ["javascript"]
 ---
 
 谷歌某大佬通过一行知识量包含极丰富的 js 代码实现了一个魔法小功能：给页面所有元素加一个彩色外边框
 
-<!--more-->
+<!-- more -->
 
 ```javascript
 [].forEach.call($$("*"), function (a) {
@@ -81,4 +79,4 @@ toString(16)可将变量转换为 16 进制的数
 
 附上大佬的博客[Addy Osmani](https://addyosmani.com/blog)并献上双膝
 
-以及本文学习源**http://arqex.com/939/learning-much-javascript-one-line-code**
+以及本文学习源 [http://arqex.com/939/learning-much-javascript-one-line-code](http://arqex.com/939/learning-much-javascript-one-line-code)

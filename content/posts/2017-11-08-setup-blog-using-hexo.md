@@ -2,31 +2,30 @@
 title: 使用hexo搭建个人博客教程
 date: 2017-11-08 10:25:17
 lastmod: 2017-11-08 10:25:17
-categories: 其他
 tags: ["其他"]
 ---
 
 用了一段时间的 hexo，本着“授人以鱼，不如授人以渔”的理念，决定整理一篇 hexo 使用教程，分享大家。
 
-<!--more-->
+<!-- more -->
 
 hexo 是一种快速、简单并且强大的博客框架，你可以通过使用 markdown 或者其他语言撰写 post（帖子），然后 hexo 引擎将其生成静态网页文件（当然，官网的说法是“在数秒内生成伴有漂亮主题的静态文件”）并以博文的形式显现出来。
 
-### 写在前面
+## 写在前面
 
 本文定位于面向非专业人士角度撰写的科普式教程，有专业基础的人可跳过大多步骤，仅阅读标\*部分
 
-### 背景
+## 背景
 
 应@JXY 邀，要我教他搭建个人博客，于是也就找了一个足够的理由来回顾一波如何使用 hexo 搭建个人博客。
 
 既然给别人讲东西，那自然要先对讲的东西深入了解，不然就是误人子弟了。于是打开<a href="https://hexo.io">hexo 官网</a>，发现！竟然！被！墙！了！好吧，后来发现是 9 点多被墙了一段时间（貌似是 hexo 使用的 CDN 服务 Cloudflare 被 block 了），介于避免日后再想参考官网文档时无法及时访问，索性这次就把官网的一些精华翻译下来，留作日后参考。
 
-### \*核心步骤
+## \*核心步骤
 
 先看官方给出的安装步骤
 
-### 准备篇
+## 准备篇
 
 首先你要做好准备掌握以下几项东西：
 
@@ -36,17 +35,17 @@ hexo 是一种快速、简单并且强大的博客框架，你可以通过使用
 
 好吧，这样讲未免显得门槛略高，其实 hexo 是一种非常零门槛的工具，只要你想学，任何没有专业知识的人都能用起来，只要照着做就可以了
 
-### 环境搭建篇
+## 环境搭建篇
 
-#### 第一步：在电脑安装<a href="https://git-scm.com/download/win">git</a>（如果下载不了,可以通过我的网盘下载<a href="http://pan.baidu.com/s/1bpJapbx">git</a>）
+### 第一步：在电脑安装<a href="https://git-scm.com/download/win">git</a>（如果下载不了,可以通过我的网盘下载<a href="http://pan.baidu.com/s/1bpJapbx">git</a>）
 
 git 是一个伟大的版本控制软件，它的作用在于作为一个代码提交工具，将你编写的每一行代码（或文字）存放到一个代码仓库，它在其中起到记录你每一次提交历史的作用，这样你就可以对自己的每一次提交历史有直观的查看，并且可以对比不同版本之间的区别，还可以回退到某一个提交历史节点，还有 balabala 很多好处。
 
-#### 第二步：安装 nodejs
+### 第二步：安装 nodejs
 
 当你安装好了 git 以后，可以鼠标右键唤出 git
 
-##### 方式一
+#### 方式一
 
 然后你就可以很方便的安装 nodejs 了，通过如下命令先安装 nvm（此方式适用于专业人士，非专业人士请参考后面下载安装包的方式二）
 
@@ -60,7 +59,7 @@ nvm 是 nodejs version manager，nodejs 版本管理器，用以在机器上安�
 
 当安装完成后，通过 cmd 窗口键入 nvm
 
-##### 方式二
+#### 方式二
 
 如果你想在电脑尚未安装 git 的情况下安装 nodejs，或者安装 nvm 失败，你也可以通过传统的方式安装 nodejs，如下：
 
@@ -76,7 +75,7 @@ nodejs 是一个基于谷歌的**V8** Javascript 引擎的 Javascript 运行环�
 
 p.s. 关于 nodejs 和 Javascript 的关联，个人理解就是 Javascript 本来是运行在客户端（浏览器）的脚本语言，如果想要 Javascript 脚本在服务器端运行怎么办呢，此时就有了 nodejs，由于 V8 引擎的存在，使得通过 Nodejs 可以在服务器端模拟出客户端的环境，从而来运行 Javascript 脚本
 
-### 安装篇
+## 安装篇
 
 在你的电脑有了 git 和 nodejs 以后，就可以正式安装 hexo 了
 
@@ -101,7 +100,7 @@ npm install -g hexo-cli
 
 安装成功后你就可以正式进行使用了
 
-### 使用篇
+## 使用篇
 
 此时你可以选电脑上的任何一个目录（文件夹）作为自己博客的存放地
 
@@ -123,7 +122,7 @@ hexo init 任意名称（比如 hexo init blog）
 
 > Tip: 既然步入程序世界，理应准备一个好用（高效）的文本编辑器，总不能使用 windows 自带记事本来编辑这些东西吧，此处我推荐<a href="https://atom.io/">Atom</a>、<a href="https://code.visualstudio.com/">Visual Studio Code、<a href="http://www.sublimetext.com/">Sublime Text</a>都是主流的文本编辑器，具体下载使用请自行查阅
 
-### 结构解释篇
+## 结构解释篇
 
 \_config.yml：主配置文件（博客写到一半时突然获知 YAML 原来是一种新型的配置文件语言，是一种比 JSON 还简洁和强大的格式，而 yml 则是这种配置文件的后缀）
 
@@ -137,7 +136,7 @@ themes（主题）：Hexo 会结合主题的网页内容和你的博文生成静
 
 当你第一次 hexo init 之后生成的一系列文件其实包含了 hexo 最核心的一些东西，其中包含如上所介绍的，包括主配置文件\_config.yml、source 目录里的\_post（帖子）里放了一篇示例博文“hello-world.md”、themes 里提供了默认主题 landscape、scaffolds 里提供了 post 文件的初始模子。这一切就足以让你快速体验如何部署一个博客在放在网上提供别人来访问。
 
-### 博客部署
+## 博客部署
 
 那么博文已经有了，怎么把它放到网上让所有人都能访问呢，这时候你需要把它部署到服务器，并提供访问地址，理论上来讲，你可能需要租服务器，并把博客丢上去，然后还要配域名，因为你总不可能让别人通过 IP 地址访问你的博客，这样看来，还有 balabala 很多事情要做，涉及到 web 应用部署发布的一系列知识。
 
@@ -145,25 +144,25 @@ themes（主题）：Hexo 会结合主题的网页内容和你的博文生成静
 
 有了这个技术，我们就可以通过 git 把本地生成的博客静态文件（public 目录里的）上传到这个仓库里，然后别人就可以通过访问这个仓库的方式来访问你的博客（只要你的代码结构符合网站基本结构）
 
-### 快速上手篇
+## 快速上手篇
 
 所以一切都配置好之后（按照个性化配置好你的\_config.yml 文件），你发布一篇博客到网上只需要三步：
 
-#### 第一步：创建博文
+### 第一步：创建博文
 
 在你的博客主目录下通过 git bash 键入 hexo new 博客标题
 
-#### 第二步：按照 hexo 的渲染方式将你的博文渲染成静态文件
+### 第二步：按照 hexo 的渲染方式将你的博文渲染成静态文件
 
 继上一步之后，hexo g（完整命令是 hexo generate，即生成文件的意思）
 
-#### 第三步：按照\_config.yml 里配置的发布方式，将 public 里的静态文件上传至你的线上代码仓库（Github 或 Coding）
+### 第三步：按照\_config.yml 里配置的发布方式，将 public 里的静态文件上传至你的线上代码仓库（Github 或 Coding）
 
 hexo d（完整命令是 hexo deploy，即发布的意思）
 
 仅此而已，这时打开浏览器，输入符合你 pages 的域名，看看自己的博客是不是显现出来了。
 
-### 后记
+## 后记
 
 其实 hexo 本身还是有不少的东西，如果想要成为一名高级玩家，需要你自己去进一步了解学习，本文仅初步安装做如此介绍，后续如果有精力的话，我会再继续出其他关于 hexo 其他配置的使用教程。
 
@@ -171,26 +170,19 @@ hexo d（完整命令是 hexo deploy，即发布的意思）
 
 本文中后部可能略去了一些详细的操作步骤，不过整体性上应该达到了教学的目的，希望读者都可以借助互联网自己完成剩余的部分。
 
-### END
+## END
 
 过程中由于`天时·地利·人和`都不同，所以可能遇到与我教程中所写不同的情况，但作为一个非专业人士，只要你肯耐着性子折腾，这些东西你也玩得转，而如果作为一个专业人士，钻研，是你的天职。比如博主写这篇教程也是通过先学习很多知识点，才“负责任”地整理出这篇博文。
 
 参考链接：
 
-- <a href="https://hexo.io/docs/setup.html">hexo 官方文档</a>
-
-- <a href="https://nodejs.org/en/">nodejs 官网</a>
-
-- <a href="https://developers.google.com/v8/">V8 引擎官网</a>
-
-- <a href="https://www.npmjs.com/">npm 官网</a>
-
-- <a href="https://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000/001434501436552e03ec6cc152b4c84959f14d0ea278488000">廖雪峰 Javascript 教程</a>
-
-- <a href="http://www.ruanyifeng.com/blog/2016/01/npm-install.html">阮一峰的网络日志</a>
-
-- <a href="http://www.ruanyifeng.com/blog/2016/07/yaml.html?f=tt">YAML 语言教程</a>
-
-- <a href="https://github.com/hexojs/hexo">Hexo 源码</a>
+- [hexo 官方文档](https://hexo.io/docs/setup.html)
+- [nodejs 官网](https://nodejs.org/en/)
+- [V8 引擎官网](https://developers.google.com/v8/)
+- [npm 官网](https://www.npmjs.com/)
+- [廖雪峰 Javascript 教程](https://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000/001434501436552e03ec6cc152b4c84959f14d0ea278488000)
+- [阮一峰的网络日志](http://www.ruanyifeng.com/blog/2016/01/npm-install.html)
+- [YAML 语言教程](http://www.ruanyifeng.com/blog/2016/07/yaml.html?f=tt)
+- [Hexo 源码](https://github.com/hexojs/hexo)
 
 `知识是理应无私分享的，而智慧是分享不了的。`

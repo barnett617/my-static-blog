@@ -2,13 +2,12 @@
 title: 在Vultr上搭建ss，包含最简版centos7安装过程中的各种坑解决
 date: 2017-08-16 20:14:53
 lastmod: 2017-8-17 21:20:30
-tags: [linux]
-categories: 操作系统
+tags: ["OS"]
 ---
 
 在 Vultr 上搭建 ss，包含最简版 centos7 安装过程中的各种坑解决
 
-<!--more-->
+<!-- more -->
 
 1.  检查是否安装 python
 2.  安装 pip

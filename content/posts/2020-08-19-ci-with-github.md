@@ -1,13 +1,11 @@
 ---
 title: 如何使用github进行持续集成
-tags:
-  - github
+tags: ["CI/CD"]
 date: 2020-08-19 22:31:55
 lastmod: 2020-08-20 17:16:49
-categories:
 ---
 
-利用 github 的 actions 为你的前端项目加上 CI(continuous integration，持续集成)
+利用 github 的 actions 为你的前端项目加上 CI(Continuous Integration，持续集成)
 
 <!--more-->
 
@@ -15,7 +13,9 @@ categories:
 
 > 这里以 angular 项目为例，其他框架同理
 
-前端的三大框架（Angular、React 和 Vue）目前均有自己比较成熟的脚手架（cli）可用于项目从**创建**、**开发**到**构建**、**部署**一系列的工作，从而使得前端部分的工作从开发到交付保持比较高的效率。但仅仅如此还不够，因为在部署环节，其实不同开发者有这不同的“套路”，有使用 jenkins 的，也有在本地编译再通过 scp 传输到服务器的。但这些在 CI 面前都显得不够“自动化”。
+前端的三大框架（Angular、React 和 Vue）目前均有自己比较成熟的脚手架（cli）可用于项目从**创建**、**开发**到**构建**、**部署**一系列的工作，从而使得前端部分的工作从开发到交付保持比较高的效率。
+
+但仅仅如此还不够，因为在部署环节，其实不同开发者有这不同的“套路”，有使用 jenkins 的，也有在本地编译再通过 scp 传输到服务器的。但这些在 CI 面前都显得不够“自动化”。
 
 我们稍微总结一下：
 
@@ -168,7 +168,7 @@ npm install -g mirror-config-china --registry=https://registry.npm.taobao.org
 
 这样我们就可以愉快地在功能分支进行开发和提交，在 master 分支进行 push 到远程仓库，并自动触发部署动作，完成更新上线了。这样既省去了每次手动部署的操作，也无需对服务器私密信息进行本地保存，实属 github actions 为我们提供的一种 CI 最佳实践
 
-## 参考链接
+## 参考资料
 
 - [Deploy Angular to Production with Github Actions](https://blog.khophi.co/deploy-angular-with-github-actions/)
 - [Managing deploy keys](https://docs.github.com/en/developers/overview/managing-deploy-keys#deploy-keys)

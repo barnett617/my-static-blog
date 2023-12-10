@@ -1,22 +1,20 @@
 ---
 title: 可复用面向对象软件基础——设计模式（二）之工厂方法模式
-tags:
-  - 设计模式
+tags: ["设计模式"]
 date: 2016-12-15 12:57:58
 lastmod: 2016-12-15 12:57:58
 series: ["设计模式"]
-categories: 笔记
 ---
 
-### 一、工厂方法模式分类（3 种）
+## 一、工厂方法模式分类（3 种）
 
 1.  普通工厂模式
 2.  多个工厂方法模式
 3.  静态工厂方法模式
 
-### 二、工厂方法模式详解
+## 二、工厂方法模式详解
 
-#### （1）普通工厂模式
+### （1）普通工厂模式
 
 普通工厂模式就是建立一个**工厂类**，对实现了**同一接口**的一些**类**进行**实例**的创建。
 
@@ -25,10 +23,10 @@ categories: 笔记
 ```java
 // 1、创建不同产品的共同接口
 public interface Sender {
-	/**
-	 * 邮寄接口中有一个邮寄方法待实现
-	 */
-	public void Send();
+  /**
+   * 邮寄接口中有一个邮寄方法待实现
+   */
+  public void Send();
 }
 ```
 
@@ -36,14 +34,13 @@ public interface Sender {
 /**
  * 2、（实现类）邮件邮寄类实现了邮寄接口，实现其邮寄的抽象方法
  * @author barnett
- *
  */
 public class MailSender implements Sender {
 
-	@Override
-	public void Send() {
-		System.out.println("I am MailSender!");
-	}
+  @Override
+  public void Send() {
+    System.out.println("I am MailSender!");
+  }
 }
 ```
 
@@ -55,10 +52,10 @@ public class MailSender implements Sender {
  */
 public class SmsSender implements Sender {
 
-	@Override
-	public void Send() {
-		System.out.println("I am SmsSender!");
-	}
+  @Override
+  public void Send() {
+    System.out.println("I am SmsSender!");
+  }
 }
 ```
 
@@ -66,25 +63,24 @@ public class SmsSender implements Sender {
 /**
  * 3、工厂类，负责多次制造产品（new出复用的类）
  * @author barnett
- *
  */
 public class SendFactory {
 
-	/**
-	 * 工厂类中的生产方法
-	 * @param type	输入要生产的产品类型
-	 * @return	返回一个产品
-	 */
-	public Sender produce(String type) {
-		if("mail".equals(type)) {
-			return new MailSender();
-		} else if("sms".equals(type)) {
-			return new SmsSender();
-		} else {
-			System.out.println("请输入正确的类型！");
-			return null;
-		}
-	}
+  /**
+   * 工厂类中的生产方法
+   * @param type	输入要生产的产品类型
+   * @return	返回一个产品
+   */
+  public Sender produce(String type) {
+    if("mail".equals(type)) {
+      return new MailSender();
+    } else if("sms".equals(type)) {
+      return new SmsSender();
+    } else {
+      System.out.println("请输入正确的类型！");
+      return null;
+    }
+  }
 }
 ```
 
@@ -96,16 +92,16 @@ public class SendFactory {
  */
 public class FactoryTest {
 
-	public static void main(String[] args) {
-		// 创建一个工厂（可多次生产）
-		SendFactory factory = new SendFactory();
-		// 使用工厂按照要求生产相应产品
-		Sender sender = factory.produce("sms");
-		// 调用产品的方法
-		sender.Send();
-		Sender sender2 = factory.produce("mail");
-		sender2.Send();
-	}
+  public static void main(String[] args) {
+    // 创建一个工厂（可多次生产）
+    SendFactory factory = new SendFactory();
+    // 使用工厂按照要求生产相应产品
+    Sender sender = factory.produce("sms");
+    // 调用产品的方法
+    sender.Send();
+    Sender sender2 = factory.produce("mail");
+    sender2.Send();
+  }
 }
 ```
 
@@ -121,7 +117,7 @@ public class FactoryTest {
 >
 > 而多个工厂方法模式是提供**多个工厂方法**，分别创建对象。
 
-![这里写图片描述](https://imgconvert.csdnimg.cn/aHR0cDovL2ltZy5ibG9nLmNzZG4ubmV0LzIwMTYxMjE1MTE0MzM4ODk1?x-oss-process=image/format,png)
+![这里写图片描述](aHR0cDovL2ltZy5ibG9nLmNzZG4ubmV0LzIwMTYxMjE1MTE0MzM4ODk1.png)
 
 ```java
 /**
@@ -131,21 +127,21 @@ public class FactoryTest {
  */
 public class MultiMethodSendFactory {
 
-	/**
-	 * 专门生产邮件邮寄器的方法
-	 * @return
-	 */
-	public Sender produceMail() {
-		return new MailSender();
-	}
+  /**
+   * 专门生产邮件邮寄器的方法
+   * @return
+   */
+  public Sender produceMail() {
+    return new MailSender();
+  }
 
-	/**
-	 * 专门生产短信邮寄器的方法
-	 * @return
-	 */
-	public Sender produceSms() {
-		return new SmsSender();
-	}
+  /**
+   * 专门生产短信邮寄器的方法
+   * @return
+   */
+  public Sender produceSms() {
+    return new SmsSender();
+  }
 }
 ```
 
@@ -157,19 +153,19 @@ public class MultiMethodSendFactory {
  */
 public class MultiMethodFactoryTest {
 
-	public static void main(String[] args) {
-		// 创建一个工厂（可多次生产）
-		MultiMethodSendFactory factory = new MultiMethodSendFactory();
-		// 根据不同的需求调用不同的方法
-		Sender mailSender = factory.produceMail();
-		mailSender.Send();
-		Sender smsSender = factory.produceSms();
-		smsSender.Send();
-	}
+  public static void main(String[] args) {
+    // 创建一个工厂（可多次生产）
+    MultiMethodSendFactory factory = new MultiMethodSendFactory();
+    // 根据不同的需求调用不同的方法
+    Sender mailSender = factory.produceMail();
+    mailSender.Send();
+    Sender smsSender = factory.produceSms();
+    smsSender.Send();
+  }
 }
 ```
 
-#### （3）静态工厂方法模式
+### （3）静态工厂方法模式
 
 > 将上面的多个工厂方法模式里的**方法**置为**静态**的，**不需**要创建**实例**，**直接调用**即可。
 
@@ -177,25 +173,24 @@ public class MultiMethodFactoryTest {
 /**
  * 工厂类，负责多次制造产品
  * @author barnett
- *
  */
 public class StaticMethodSendFactory {
 
-	/**
-	 * 专门生产邮件邮寄器的方法
-	 * @return
-	 */
-	public static Sender produceMail() {
-		return new MailSender();
-	}
+  /**
+   * 专门生产邮件邮寄器的方法
+   * @return
+   */
+  public static Sender produceMail() {
+    return new MailSender();
+  }
 
-	/**
-	 * 专门生产短信邮寄器的方法
-	 * @return
-	 */
-	public static Sender produceSms() {
-		return new SmsSender();
-	}
+  /**
+   * 专门生产短信邮寄器的方法
+   * @return
+   */
+  public static Sender produceSms() {
+    return new SmsSender();
+  }
 }
 ```
 
@@ -203,15 +198,14 @@ public class StaticMethodSendFactory {
 /**
  * 测试类，直接调用工厂中的静态方法，生产产品
  * @author barnett
- *
  */
 public class StaticMethodFactoryTest {
 
-	public static void main(String[] args) {
-		Sender mailSender = StaticMethodSendFactory.produceMail();
-		mailSender.Send();
-		Sender smsSender = StaticMethodSendFactory.produceSms();
-		smsSender.Send();
-	}
+  public static void main(String[] args) {
+    Sender mailSender = StaticMethodSendFactory.produceMail();
+    mailSender.Send();
+    Sender smsSender = StaticMethodSendFactory.produceSms();
+    smsSender.Send();
+  }
 }
 ```

@@ -2,28 +2,25 @@
 title: 虚拟机vmware使用——安装vmware-tools
 date: 2018-01-25 09:59:50
 lastmod: 2018-1-25 14:14:50
-categories: 操作系统
-tags: [操作系统]
+tags: ["OS"]
 ---
 
 每次安装虚拟机都忘记怎么安装 vmware tools，而不安装这个东西，用起来总是各种蹩脚，故做此整理。
 
-<!--more-->
+<!-- more -->
 
-### 背景
+## 背景
 
 虚拟机屏幕不能自适应大小，虽然 vmware 有相关设置，但貌似不能符合使用要求，因此仍需要安装 vmware tools（感觉甚至像一个补丁）来完善 vmware 的使用，比如与宿主机的文件传输等。
 
-### 安装前提
+## 安装前提
 
 VMware Tools 使用 Perl 编写，所以需要装有 Perl
 
-### 操作步骤（以 Ubuntu 为例）
+## 操作步骤（以 Ubuntu 为例）
 
 1. 从 VMware 菜单栏中选择“安装 VMware Tools”
-
 2. 找到 VMware Tools 安装文件（后缀为 tar.gz 的压缩文件）
-
 3. 打开终端，切换至 root 用户
 
 ```
@@ -92,4 +89,4 @@ umount /dev/cdrom
 
 参考链接：
 
-<a href="https://docs.vmware.com/cn/VMware-Workstation-Pro/12.0/com.vmware.ws.using.doc/GUID-08BB9465-D40A-4E16-9E15-8C016CC8166F.html">https://docs.vmware.com/cn/VMware-Workstation-Pro/12.0/com.vmware.ws.using.doc/GUID-08BB9465-D40A-4E16-9E15-8C016CC8166F.html</a>
+- [https://docs.vmware.com/cn/VMware-Workstation-Pro/12.0/com.vmware.ws.using.doc/GUID-08BB9465-D40A-4E16-9E15-8C016CC8166F.html](https://docs.vmware.com/cn/VMware-Workstation-Pro/12.0/com.vmware.ws.using.doc/GUID-08BB9465-D40A-4E16-9E15-8C016CC8166F.html)

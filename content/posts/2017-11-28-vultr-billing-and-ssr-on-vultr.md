@@ -2,14 +2,12 @@
 title: vultr账单解析及使用ssr在vultr搭建代理
 date: 2017-11-28 12:38:01
 lastmod: 2023-12-03 16:52:45
-categories: 瞎鼓捣
-tags:
-  - 其他
+tags: ["OS"]
 ---
 
 今天就之前疑惑不解的 vultr 账单做了一波分析，终于算是破案了，借此也记录一下服务器搭建 ssr 的详细步骤。
 
-<!--more-->
+<!-- more -->
 
 一开始打开 vultr 账单，我是懵比的
 
@@ -105,4 +103,4 @@ reboot
 
 参考链接：
 
-<a href="https://github.com/Alvin9999/new-pac/wiki/%E8%87%AA%E5%BB%BAss%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%99%E7%A8%8B">https://github.com/Alvin9999/new-pac/wiki/%E8%87%AA%E5%BB%BAss%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%99%E7%A8%8B</a>
+- [https://github.com/Alvin9999/new-pac/wiki/%E8%87%AA%E5%BB%BAss%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%99%E7%A8%8B](https://github.com/Alvin9999/new-pac/wiki/%E8%87%AA%E5%BB%BAss%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%99%E7%A8%8B)

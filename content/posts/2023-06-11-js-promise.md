@@ -2,6 +2,7 @@
 title: "JavaScript的Promise学习"
 date: 2023-06-11 00:42:00
 summary: "关于JavaScript Promise原理的学习"
+tags: ["JavaScript"]
 ---
 
 > 本文为历史博客迁移

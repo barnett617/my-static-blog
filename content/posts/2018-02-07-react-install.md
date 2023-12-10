@@ -2,7 +2,6 @@
 title: React教程——安装篇
 date: 2018-02-07 14:59:31
 lastmod: 2018-02-07 14:59:31
-categories: 前端
 tags: ["react"]
 ---
 
@@ -22,15 +21,13 @@ React 官网教程系列之前期准备
 
 如果你更想使用你自己的文本编辑器，你也可以用下载<a href="https://raw.githubusercontent.com/reactjs/reactjs.org/master/static/html/single-file-example.html">这个</a>HTML 文件，编辑它并从你本地浏览器中的文件系统打开它。它会有一个缓慢的代码转换，所以不要在生产中使用它。
 
-### 接下来
-
-#### 快速上手
+### 快速上手
 
 - 前往<a href="https://reactjs.org/docs/hello-world.html">快速上手</a>部分来一步一步按照指引学习 React 的概念
 
 - 尝试<a href="https://reactjs.org/tutorial/tutorial.html">教程</a>作为一个动手实践机会
 
-#### 完整开发环境
+### 完整开发环境
 
 如果你初次接触 React 或者仅仅用于实验，上面的轻量解决方案很适合你
 
@@ -40,7 +37,7 @@ React 官网教程系列之前期准备
 
 - 将 React<a href="https://reactjs.org/docs/add-react-to-an-existing-app.html">添加进一个已存在的应用</a>：将 React 添加进一个构建系统或一个更大的应用
 
-##### 将 React 添加一个新的应用
+### 将 React 添加一个新的应用
 
 在一个新的应用上使用 React 启动的最简单方式就是使用一个开始工具套件（strater kit）
 
@@ -50,7 +47,7 @@ React 官网教程系列之前期准备
 
 > 最后，如果你不是构建单页应用，你可以将 React<a href="https://reactjs.org/docs/add-react-to-an-existing-app.html">添加进已存在的构建管道</a>或者从<a href="https://reactjs.org/docs/cdn-links.html">CDN</a>使用它而<a href="https://reactjs.org/docs/react-without-jsx.html">无需构建</a>
 
-###### 创建 React 应用
+### 创建 React 应用
 
 <a href="https://github.com/facebook/create-react-app">Create React App</a>是开始构建一个新的 React 单页应用最好的方式。它建立了你的开发环境，这样你就可以使用到最新的 JavaScript 特性，提供你一个良好的开发体验，为你最佳化你的生产应用。你将需要机器上安装大于版本 6 的 Node
 
@@ -75,7 +72,7 @@ npm start
 
 当你准备好部署你的产品，运行 npm run build 将会在 build 目录为你的应用创建一个最佳构建。你可以通过它的<a href="https://github.com/facebook/create-react-app#create-react-app-">README</a>和<a href="https://github.com/facebook/create-react-app#create-react-app-">用户手册</a>学习更多关于 Create React App
 
-###### 其他启动工具
+### 其他启动工具
 
 我们创建了一份官方推荐的<a href="https://reactjs.org/community/starter-kits.html">第三方启动工具列表</a>
 
@@ -83,11 +80,11 @@ npm start
 
 你也可以查看一个由社区贡献的<a href="https://reactjs.org/community/starter-kits.html#other-starter-kits">其他工具列表</a>
 
-###### 高级使用
+### 高级使用
 
 如果你倾向于手动配置一个工程，查阅下一部分的<a href="https://reactjs.org/docs/add-react-to-an-existing-app.html#installing-react">安装 React</a>
 
-##### 将 React 添加进一个已存在的应用
+### 将 React 添加进一个已存在的应用
 
 你无需重写你的应用以开始使用 React
 
@@ -101,7 +98,7 @@ npm start
 
 - 一个编译器，例如<a href="http://babeljs.io/">Babel</a>。它让你书写现代化化 JavaScript 代码，却仍能工作在旧的浏览器
 
-###### 安装 React
+### 安装 React
 
 > 一旦安装，我们强烈推荐建立一个<a href="https://reactjs.org/docs/optimizing-performance.html#use-the-production-build">生产构建进程</a>以确保你在生产中使用 React 的快速版本
 
@@ -125,13 +122,13 @@ Yarn 和 npm 都是从 npm 注册中心下载
 
 > 为避免潜在的不兼容问题，所有的 react 包应该使用相同的版本。（这包括：react、react-dom、react-test-renderer 等等）
 
-###### 使 ES6 和 JSX 生效
+### 使 ES6 和 JSX 生效
 
 我们推荐使用伴随 Babel 的 React 以使得你使用 ES6 和 JSX 在你的 JavaScript 代码中。ES6 是一个现代 JavaScript 代码的集合，使得开发更简单，JSX 是一个使得 JavaScript 语言和 React 一起良好工作的拓展
 
 <a href="https://babeljs.io/docs/setup/">Babel 安装指引</a>解释了如何配置 Babel 在许多不同的构建环境。确保你安装<a href="http://babeljs.io/docs/plugins/preset-react/#basic-setup-with-the-cli-">babel-preset-react</a>和<a href="http://babeljs.io/docs/plugins/preset-env/">babel-preset-env</a>并确保它们在你的<a href="http://babeljs.io/docs/usage/babelrc/">.babelrc</a>配置中，你就可以良好工作了。
 
-###### 使用 ES6 和 JSX 的 Hello World
+### 使用 ES6 和 JSX 的 Hello World
 
 我们推荐使用像 webpack 或 Browserify 这样的打包器，这样你可以书写模块化代码并它们打包到一起进小的包裹以在加载时最优化
 
@@ -142,8 +139,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 ReactDOM.render(
-	<h1>Hello, world!</h1>,
-	document.getElementById('root')
+  <h1>Hello, world!</h1>,
+  document.getElementById('root')
 );
 ```
 
@@ -153,31 +150,26 @@ ReactDOM.render(
 
 了解更多关于<a href="https://reactjs.org/docs/integrating-with-other-libraries.html#integrating-with-other-view-libraries">集成 React 和已存在代码</a>
 
-###### 开发和生产版本
+### 开发和生产版本
 
 默认的，React 包含许多有帮助的警告。这些警告在开发中非常有用。
 
 然而，它使得开发版本变得更大更慢，所以你应该当你部署你的应用时使用生产版本。
 
-学习<a href=""https://reactjs.org/docs/optimizing-performance.html#use-the-production-build>如何辨别你的网站是否正在服务正确版本的React</a>，还有如何最高效地配置生产构建进程：
+学习 https://reactjs.org/docs/optimizing-performance.html#use-the-production-build 如何辨别你的网站是否正在服务正确版本的React</a>，还有如何最高效地配置生产构建进程：
 
-- <a href="https://reactjs.org/docs/optimizing-performance.html#create-react-app">使用 Create React App 创建一个生产构建</a>
-
+- [使用 Create React App 创建一个生产构建](https://reactjs.org/docs/optimizing-performance.html#create-react-app)
 - 使用单文件构建创建一个生产构建
-
 - 使用 Brunch 创建一个生产构建
-
 - 使用 Browserify 创建一个生产构建
-
 - 使用 Rollup 创建一个生产构建
-
 - 使用 webpack 创建一个生产构建
 
-###### 使用 CDN
+### 使用 CDN
 
 如果你不想用 npm 管理客户端包，react 和 react-dom 的 npm 包也提供了单文件版本在 umd 目录。详情见<a href="https://reactjs.org/docs/cdn-links.html">CDN 页</a>
 
-##### CDN 链接
+#### CDN 链接
 
 React 的 UMD 构建和 ReactDOM 在 CDN 之间可用
 
@@ -195,7 +187,7 @@ React 的 UMD 构建和 ReactDOM 在 CDN 之间可用
 
 加载 react 和 react-dom 一个特定的版本，用版本号替换 16 即可
 
-###### 为什么有 crossorigin 这个属性
+### 为什么有 crossorigin 这个属性
 
 如果你从 CDN 提供 React 服务，我们推荐你保持 crossorigin 这个属性：
 

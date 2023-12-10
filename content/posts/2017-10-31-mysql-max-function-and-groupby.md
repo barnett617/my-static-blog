@@ -3,12 +3,12 @@ title: 关于mysql中max函数和groupby联合使用的坑
 date: 2017-10-31 20:50:43
 lastmod: 2017-10-31 21:29:49
 categories: 数据库
-tags: [mysql]
+tags: ["database"]
 ---
 
 关于朋友随手抛出的一段 SQL，发现 MySQL 中关于 max()和 group by 联合使用中的一个坑，特此整理。
 
-<!--more-->
+<!-- more -->
 
 [YH](https://github.com/yanghua0311):老铁们，这段 hql 对不对啊
 
@@ -25,7 +25,7 @@ select predictId, max(evaluateDate) evalDate, productId from productcashpredict 
 
 首先我在本地验证了一下是不是的确如此
 
-```mysql
+```sql
 desc productcashpredict;
 
 predictId	int(11)	NO	PRI		auto_increment
@@ -139,8 +139,8 @@ AND p1.evaluated_date = p2.evaluated_date
 先来看一下错误的查询方式：
 
 ```sql
-select id, add_time, deleted, update_time, version, 
-max(evaluated_date) evalDate, other, product_id 
+select id, add_time, deleted, update_time, version,
+max(evaluated_date) evalDate, other, product_id
 from product_cash_predict group by product_id;
 
 
@@ -152,7 +152,7 @@ from product_cash_predict group by product_id;
 
 由于数据量少，上面查询的错误肉眼可以用识别
 
-```
+```sql
 
 -- 解决方案一：先排序再分组
 
@@ -179,7 +179,7 @@ select * from (select * from product_cash_predict ORDER BY evaluated_date desc) 
 
 ```
 
-```
+```sql
 -- 解决方案二：看上去很费解
 select * from product_cash_predict p where p.evaluated_date
 =
@@ -199,7 +199,7 @@ group by product_id;
 
 最后，也就是 YH 实际业务场景的处理方式再来回顾分析一波
 
-```
+```sql
 -- 解决方案三：自连接，根据max结合group by查出最大日期和分组条件product_id，再自连接查出该product_id对应的其他字段
 
 -- 只查最大日期和分组条件product_id，若查其他字段则为不准的数据（group by取分组第一条）

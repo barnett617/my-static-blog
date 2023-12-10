@@ -1,15 +1,13 @@
 ---
 title: python零碎知识点整理——注释
-tags:
-  - python
+tags: ["python"]
 date: 2017-02-07 22:05:20
 lastmod: 2017-02-07 22:05:20
-categories: 笔记
 ---
 
 python 零碎知识点整理——注释
 
-<!--more-->
+<!-- more -->
 
 ## 单行注释
 

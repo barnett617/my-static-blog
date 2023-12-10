@@ -2,13 +2,12 @@
 title: 关于matlab使用冒号定义矩阵的小栗子
 date: 2017-11-01 09:48:04
 lastmod: 2017-11-1 17:08:19
-categories: 其他
 tags: ["其他"]
 ---
 
 > 冒号是 MATLAT 中最有用的操作符之一。它用于创建向量，下标数组，并为迭代指定。
 
-<!--more-->
+<!-- more -->
 
 ## 背景
 
@@ -210,4 +209,4 @@ A(1:2:3)会被解释为 1 和 3，而这次索引没有加逗号，作为二维�
 
 参考链接：<a href="http://www.cnblogs.com/haore147/p/3633050.html">http://www.cnblogs.com/haore147/p/3633050.html</a>
 
-附：**<a href="http://octave-online.net">MATLAB 在线解释器</a>**
+附：[MATLAB 在线解释器](http://octave-online.net)

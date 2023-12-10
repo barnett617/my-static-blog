@@ -1,6 +1,7 @@
 ---
 title: vite体验
 date: 2023-06-29 23:50:58
+draft: true
 ---
 
 学习 Pinia 源码时尝试运行[Pinia 官网](https://pinia.vuejs.org/core-concepts/)提供的样例，基于 [Vite](https://vitejs.dev/guide/)初始化了项目，在初始化 Pinia Store 中遇到的一些问题记录

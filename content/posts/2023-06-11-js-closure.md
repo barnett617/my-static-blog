@@ -2,6 +2,7 @@
 title: "JavaScript闭包学习"
 date: 2023-06-11 00:42:00
 summary: "关于JavaScript闭包原理的学习"
+tags: ["JavaScript"]
 ---
 
 > 本文为历史博客迁移
@@ -64,6 +65,7 @@ inner();
 所以这里`outer`就把 inner 函数返回了，重点是 inner 做了什么事呢，它里面在访问不属于自己却属于 outer 作用域的变量 a，这么一来这个 return inner 仿佛就在 outer 内部和其外部之间打了一个秘密通道。
 
 导致结果有两个：
+
 1. outer 作用域内的变量被泄露到作用域外部；
 2. outer 作为一个函数，在 return 后理应释放占有的内存，也就是其内部声明的变量回被回收。
 

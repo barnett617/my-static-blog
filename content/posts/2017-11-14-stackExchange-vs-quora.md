@@ -2,7 +2,6 @@
 title: 关于StackExchange和Quora的区别
 date: 2017-11-14 14:15:57
 lastmod: 2017-11-14 14:15:57
-categories: 其他
 tags: ["其他"]
 ---
 
@@ -10,11 +9,11 @@ tags: ["其他"]
 
 查阅相关说明之后了解了二者的关系，StackExchange 是在 StackOverFlow 成功推出以后，在其基础上将仅仅讨论编程问题的网站拓展成话题更丰富的论坛。
 
-<!--more-->
+<!-- more -->
 
 当更加深入了解二者关系之余发现一篇关于对比 StackExchange 和 Quora 二者区别的帖子写得很清楚，特将其翻译如下：
 
-### 正文
+## 正文
 
 简短版本：
 StackExchange 是你的助教
@@ -33,11 +32,11 @@ Quora 是一个著名的在其演讲后回答问题的知识分子
 
 StackExchange 不同于其他在于其基于目的或者基于问题。我来到 StackExchange 大多情况是通过搜索引擎，因为我在处理某些事情上遇到问题并且需要答案。它绝大多数时候当然充当了一个技术支持，经常可以处理……(未完待续)
 
-### 尾声
+## 尾声
 
 通篇下来个人觉得充满了蹩脚的翻译，这篇文章看起来大体可以理解作者的意思，但落实翻译对于我而言是不小的挑战。
 
-### 个人比拟
+## 个人比拟
 
 | 国外网站      | 对应  | 国内网站      |
 | :------------ | :---- | :------------ |
@@ -45,14 +44,6 @@ StackExchange 不同于其他在于其基于目的或者基于问题。我来到
 | Quora         | <---> | 知乎          |
 | StackOverFlow | <---> | SegamentFault |
 
-### 相关链接
+## 相关链接
 
 - <a href="https://www.quora.com/What-is-the-difference-between-Quora-and-Stack-Exchange/answer/Harry-Simperingham">原文链接</a>
-
-- <a href="">StackExchange 官网</a>
-
-- <a href="">StackOverFlow 官网</a>
-
-- <a href="">Quora 官网</a>
-
-- <a href="">SegamentFault 官网</a>

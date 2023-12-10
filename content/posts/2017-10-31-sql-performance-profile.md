@@ -2,13 +2,12 @@
 title: 关于SQL性能评估的一些分析
 date: 2017-10-31 22:44:35
 lastmod: 2017-11-3 17:02:24
-categories: 数据库
-tags: [mysql]
+tags: ["database"]
 ---
 
 继[《关于 mysql 中 max 函数和 groupby 联合使用的坑》](../2017-10-31-mysql-max-function-and-groupby)后进一步关于 SQL 性能的探究
 
-<!--more-->
+<!-- more -->
 
 <style>
 table th:first-of-type {
@@ -75,19 +74,19 @@ mysql> show index from t3;
 2 rows in set
 ```
 
-#### id
+## id
 
 - 从里往外执行，从 id 为 3 往上执行
 
 - 同时作为一个解释序号，比如 id 为 2 中的 table 中的 derived3 就是指 id 为 3 的那个 DERIVED（衍生表）
 
-#### select_type
+### select_type
 
 SIMPLE | PRIMARY | UNION | DEPENDENT UNION | UNION RESULT | SUBQUERY | DEPENDENT SUBQUERY | DERIVED | 共 7 种
 
 逐个分析
 
-###### SIMPLE
+#### SIMPLE
 
 简单查询，即不使用 UNION 或子查询
 
@@ -101,7 +100,7 @@ mysql> explain select * from t3 where id = 3952602;
 1 row in set
 ```
 
-####### PRIMARY
+#### PRIMARY
 
 最外层的主查询
 
@@ -117,11 +116,11 @@ mysql> explain select * from (select * from t3 where id = 3952602) a;
 2 rows in set
 ```
 
-###### UNION
+#### UNION
 
 union 中的第二个或者后面的 select 语句
 
-###### UNION RESULT
+#### UNION RESULT
 
 ```SQL
 mysql> select * from t3 where id = 3952602 union all select * from t3;
@@ -146,7 +145,7 @@ mysql> explain select * from t3 where id = 3952602 union all select * from t3;
 3 rows in set
 ```
 
-###### DEPENDENT UNION
+#### DEPENDENT UNION
 
 union 的结果
 
@@ -174,7 +173,7 @@ mysql> explain select * from t3 where id in (select id from t3 where id = 395260
 4 rows in set
 ```
 
-###### SUBQUERY
+#### SUBQUERY
 
 子查询的第一个 select
 
@@ -199,7 +198,7 @@ mysql> explain select * from t3 where id = (select id from t3 where id = 3952602
 2 rows in set
 ```
 
-###### DEPENDENT SUBQUERY
+#### DEPENDENT SUBQUERY
 
 子查询的第一个查询，取决于外面的查询
 
@@ -214,7 +213,7 @@ mysql> explain select * from t3 where id in (select id from t3 where id = 395260
 2 rows in set
 ```
 
-###### DERIVED
+#### DERIVED
 
 派生表的 select（from 子句的子查询）
 
@@ -261,7 +260,7 @@ mysql> explain select * from (select * from (select * from t3 where id = 3952602
 3 rows in set
 ```
 
-#### type
+### type
 
 重要指标，查询类型/访问类型
 
@@ -271,11 +270,11 @@ mysql> explain select * from (select * from (select * from t3 where id = 3952602
 
 一般来说，得保证查询至少达到 range 级别，最好能达到 ref
 
-###### null
+#### null
 
 MySQL 在优化过程中分解语句，执行时甚至不用访问表或索引
 
-###### system
+#### system
 
 system 是 const 连接类型的一个特例，即当查询的表中仅有一行满足条件
 
@@ -290,7 +289,7 @@ mysql> explain select * from (select * from t3 where id = 3952602) a;
 2 rows in set
 ```
 
-###### const
+#### const
 
 表最多有一个匹配行，它将在查询开始时被读取。因为仅有一行，在这行的列值可被优化器剩余部分认为是常数。const 表很快，因为只读取一次
 
@@ -304,7 +303,7 @@ mysql> explain select * from t3 where id = 3952602;
 1 row in set
 ```
 
-###### eq_ref
+#### eq_ref
 
 唯一性索引扫描，对于每个索引键，表中只有一条记录与之匹配。常见于主键或唯一索引扫描
 
@@ -321,27 +320,27 @@ mysql> explain select * from t3,t4 where t3.id = t4.accountId;
 2 rows in set
 ```
 
-###### ref
+#### ref
 
 非唯一性索引扫描，返回匹配某个单独值的所有行。常见于使用非唯一索引及唯一索引的非唯一前缀进行的查找
 
-###### ref_or_null
+#### ref_or_null
 
 该类型如同 ref，但是添加了 MySQL 可以专门搜索包含 null 值的行
 
-###### index_merge
+#### index_merge
 
 该连接类型表示使用了索引合并优化方法。这种情况下，key 列包含了使用的索引清单，key_len 包含了使用的索引最长的关键元素
 
-###### unique_subquery
+#### unique_subquery
 
 子查询中的返回结果字段组合是主键或唯一索引，可以完全替换子查询，效率更高
 
-###### index_subquery
+#### index_subquery
 
 类似于 unique_subquery，可以替换 IN 子查询，但只适合子查询中的返回结果字段组合是非唯一索引
 
-###### range
+#### range
 
 只检索给定范围的行，使用一个索引来选择行。
 
@@ -359,23 +358,23 @@ mysql> explain select * from t3 where id = 3952602 or id = 3952603;
 1 row in set
 ```
 
-###### index
+#### index
 
 该连接类型与 ALL 相同，但只有索引树被扫描。通常比 ALL 快，因为索引文件通常比数据文件小
 
-###### ALL
+#### ALL
 
 对于每个来自于先前的表的行组合，进行完整的表扫描。
 
 通常可以增加更多的索引而不要使用 ALL
 
-#### possible_keys
+## possible_keys
 
 指出 MySQL 能使用哪个索引在该表中找到行
 
 如果是空的，则表示没有相关的索引。这时要提高性能，可通过检验 WHERE 子句，看是否它引用某些列或适合索引的列来提高查询性能。
 
-#### key
+### key
 
 MySQL 实际决定使用的键（索引）
 
@@ -383,59 +382,59 @@ MySQL 实际决定使用的键（索引）
 
 若想强制 MySQL 使用或忽视 possible_keys 中的索引，查询中可用 FORCE INDEX、USE INDEX、IGNORE INDEX
 
-#### key_len
+### key_len
 
 MySQL 决定使用的键长度，在不损失精确性的情况下，长度越短越好。特别注意这个值可以得出一个多重主键里 mysql 实际使用了哪一部分
 
-#### ref
+### ref
 
 表示 MySQL 使用哪个列或常数与 key 一起从表中选择行
 
-#### rows
+### rows
 
 MySQL 认为其执行查询时必须检查的行数
 
-#### extra
+### extra
 
 包含 MySQL 解决查询的详细信息
 
-###### distinct
+### distinct
 
 一旦找到与行相联合匹配的行就不再搜索了
 
-###### not exists
+#### not exists
 
 MySQL 优化了 left join，一旦找到了匹配 left join 标准的行，就不再搜索了
 
-###### range checked for each Record(index map:#)
+#### range checked for each Record(index map:#)
 
 没有找到理想的索引，这是使用索引的最慢连接之一
 
-###### using filesort
+#### using filesort
 
 出现这种情况需要优化，因为 MySQL 需要进行额外的步骤来发现如何对返回的行排序。它根据连接类型以及存储排序键值和匹配条件的全部行的行指针来排序全部行。
 
-###### using temporary
+#### using temporary
 
 MySQL 需要建立一个临时表来存储结果，通常发生在对不同的列集进行 order by 而不是 group by 上。
 
 如果此信息显示 Using filesort 或者 Using temporary 的话会很吃力，WHERE 和 ORDER BY 的索引经常无法兼顾，如果按照 WHERE 来确定索引，那么在 ORDER BY 时，就必然会引起 Using filesort，这就要看是先过滤再排序划算，还是先排序再过滤划算。
 
-###### using index
+#### using index
 
 不读数据文件，只从索引文件获取数据
 
-###### Only index
+#### Only index
 
 这意味着信息只用索引树中的信息检索出的，这比扫描整个表要快。
 
-###### where used
+#### where used
 
 就是使用上了 where 限制。
 
 如果是 impossible where 表示用不着 where，一般就是没查出来啥。
 
-### END
+## END
 
 这篇博客写了好几天，中间断断续续，东拼西凑，内容有待改进。参考了很多，但都找不到完整详细的解释，关于参考的实例都进行了本地验证，特此整理
 

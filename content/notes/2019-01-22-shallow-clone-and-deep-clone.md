@@ -1,7 +1,7 @@
 ---
 title: 浅拷贝和深拷贝
 date: 2019-01-22 16:47:00
-tags:
+tags: ["JavaScript"]
 ---
 
 关于 js 浅拷贝和深拷贝
@@ -335,10 +335,10 @@ var special = {
 	},
 	c: Symbol('world'),
 }
-undefined
+// undefined
 
 var specialcopy = JSON.parse(JSON.stringify(special))
-undefined
+// undefined
 
 special
 {name: "normal", a: undefined, b: ƒ, c: Symbol(world)}a: undefinedb: ƒ test()c: Symbol(world)name: "normal"__proto__: Object

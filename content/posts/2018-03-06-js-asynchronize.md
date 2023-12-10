@@ -2,9 +2,7 @@
 title: js异步编程
 date: 2018-03-06 19:10:33
 lastmod: 2018-03-06 19:10:33
-categories: 前端
-tags:
-  - javascript
+tags: ["javascript"]
 ---
 
 js 异步编程的**4**种方式

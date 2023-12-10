@@ -2,7 +2,6 @@
 title: 记一次关于运行redux示例启动错误的分析
 date: 2018-02-25 17:43:24
 lastmod: 2018-02-25 17:43:24
-categories: 前端
 tags: [react]
 ---
 

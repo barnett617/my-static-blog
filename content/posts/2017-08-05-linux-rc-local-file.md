@@ -2,19 +2,18 @@
 title: 关于Linux启动文件rc.local的解惑
 date: 2017-08-05 01:23:14
 lastmod: 2023-12-03 15:32:10
-tags: [linux]
-categories: 操作系统
+tags: ["OS"]
 ---
 
 rc.local 是 Linux 启动程序在 login 程序前执行的最后一个脚本，有的服务器中在 rc.local 中可能会有一句 touch /var/lock/subsys/local，这是干什么的呢，在百度中没找到，最终在[Linuxquestions.org 论坛](http://www.linuxquestions.org/questions/linux-newbie-8/touch-var-lock-subsys-local-why-287719/)成功找到满意的解答。
 
-<!--more-->
+<!-- more -->
 
-### touch
+## touch
 
 首先要了解 touch 这个命令是做什么用的，在此用于创建一个不存在的文件，详细了解请见[Linux touch 命令](http://www.jb51.net/LINUXjishu/257946.html)
 
-### 解释
+## 解释
 
 /var/lock/subsys/local 这个文件的存在证明 rc.local 这个脚本已经执行过了，目的在于避免这个脚本重复执行，除非这个文件不存在时，它才失效，也就是当系统关闭（shut down）时会发生，翻译的不是很好，原文是
 

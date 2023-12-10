@@ -1,45 +1,48 @@
 ---
 title: 一周时间使用Vue+Koa全栈开发论坛项目
 date: 2018-08-27 09:30:00
+tags: ["web"]
 ---
 
-使用vue-cli3脚手架初始化前端项目
+使用 vue-cli3 脚手架初始化前端项目
 
 <!--more-->
 
-### 1. 安装vue-cli3
+## 1. 安装 vue-cli3
 
 ```
 npm install -g @vue/cli
 ```
 
-### 2. 创建项目
+## 2. 创建项目
 
 ```
 vue create code-monkeys-fe-vue
 ```
 
-### 3. 核心配置文件
+## 3. 核心配置文件
 
-> vue-cli3采用`约定优于配置`的思想，去除了很多配置项，转而都由项目根目录下的`vue.config.js`中既定的格式进行配置
+> vue-cli3 采用`约定优于配置`的思想，去除了很多配置项，转而都由项目根目录下的`vue.config.js`中既定的格式进行配置
 
-### 4. 示例配置
+## 4. 示例配置
 
 ```js
-const express = require('express');
+const express = require("express");
 const app = express();
-const fs = require('fs');
-const path = require('path');
+const fs = require("fs");
+const path = require("path");
 
 var apiRoutes = express.Router();
-app.use('/mock',apiRoutes)
+app.use("/mock", apiRoutes);
 
 const responseFunction = (req, res) => {
   const fileName = req.params.fileName;
   let obj = null;
   try {
     // require 有缓存问题
-    let objStr = fs.readFileSync(path.join(__dirname, '/mock/data/' + fileName)).toString();
+    let objStr = fs
+      .readFileSync(path.join(__dirname, "/mock/data/" + fileName))
+      .toString();
     if (objStr) {
       obj = JSON.parse(objStr);
     }
@@ -48,7 +51,7 @@ const responseFunction = (req, res) => {
   }
   if (!obj || obj == undefined) {
     res.json({
-      err: 'json文件无数据'
+      err: "json文件无数据",
     });
   } else {
     res.json(obj);
@@ -59,28 +62,28 @@ module.exports = {
   devServer: {
     // 中间加一道代理，根据识别到的路由规则拦截请求（此函数相当于拦截器）
     before(app) {
-      app.get('/mock/data/:fileName', responseFunction);
-      app.post('/mock/data/:fileName', responseFunction);
+      app.get("/mock/data/:fileName", responseFunction);
+      app.post("/mock/data/:fileName", responseFunction);
     },
     // 解决跨域问题，对`/api`请求代理跨域
     proxy: {
-      '/api': {
-        // target: 'http://127.0.0.1:3000/',//设置你调用的接口域名和端口号 
-        target: 'http://xx.xx.xx.xx:3000/',//设置你调用的接口域名和端口号 
-        changeOrigin: true,     //跨域
+      "/api": {
+        // target: 'http://127.0.0.1:3000/',//设置你调用的接口域名和端口号
+        target: "http://xx.xx.xx.xx:3000/", //设置你调用的接口域名和端口号
+        changeOrigin: true, //跨域
         // pathRewrite: {
         //   '^/api': '/'          //这里理解成用‘/api’代替target里面的地址，后面组件中我们掉接口时直接用api代替 比如我要调用'http://10.1.5.11:8080/xxx/duty?time=2017-07-07 14:57:22'，直接写‘/api/xxx/duty?time=2017-07-07 14:57:22’即可
         // }
-      }
-    }
+      },
+    },
   },
   configureWebpack: {
-    devtool: 'source-map'
+    devtool: "source-map",
   },
-}
+};
 ```
 
-### 5. package.json
+## 5. package.json
 
 ```json
 {
@@ -109,10 +112,7 @@ module.exports = {
     "env": {
       "node": true
     },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
+    "extends": ["plugin:vue/essential", "eslint:recommended"],
     "rules": {},
     "parserOptions": {
       "parser": "babel-eslint"
@@ -123,33 +123,28 @@ module.exports = {
       "autoprefixer": {}
     }
   },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ]
+  "browserslist": ["> 1%", "last 2 versions", "not ie <= 8"]
 }
-
 ```
 
-### 6. 加入router
+## 6. 加入 router
 
 > 修改入口文件
 
 ```js
-import Vue from 'vue'
-import App from './App.vue'
-import './utils/global'
-import router from './router'
+import Vue from "vue";
+import App from "./App.vue";
+import "./utils/global";
+import router from "./router";
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 
 new Vue({
   router,
-  render: h => h(App)
-}).$mount('#app')
+  render: (h) => h(App),
+}).$mount("#app");
 
-router.push('/');
+router.push("/");
 
 // 相当于以下完整写法，见：https://segmentfault.com/a/1190000014254740
 // const app=new Vue({
@@ -165,31 +160,31 @@ router.push('/');
 > 增加路由配置
 
 ```js
-import Vue from 'vue'
-import Router from 'vue-router'
-import HomeContent from '@/views/HomeContent';
-import SinglePostContent from '@/components/ForumPost/SinglePostContent.vue'
+import Vue from "vue";
+import Router from "vue-router";
+import HomeContent from "@/views/HomeContent";
+import SinglePostContent from "@/components/ForumPost/SinglePostContent.vue";
 
-Vue.use(Router)
+Vue.use(Router);
 
 export default new Router({
-  mode: 'history',
+  mode: "history",
   routes: [
     {
-      path: '/',
-      name: 'homeContent',
-      component: HomeContent
+      path: "/",
+      name: "homeContent",
+      component: HomeContent,
     },
     {
-      path: '/single-post/:id',
-      name: 'single-post-content',
-      component: SinglePostContent
+      path: "/single-post/:id",
+      name: "single-post-content",
+      component: SinglePostContent,
     },
-  ]
-})
+  ],
+});
 ```
 
-### 7. 开发主页面
+## 7. 开发主页面
 
 ```css
 <template>
@@ -229,83 +224,85 @@ a {
 
 ```
 
-### 8. 封装ajax请求对象
+## 8. 封装 ajax 请求对象
 
 ```js
 // export 时使用default，则import时不需要加大括号，否则需要加大括号引入export导出的变量
-import apiConfig from './apiConfig';
-import axios from 'axios';
+import apiConfig from "./apiConfig";
+import axios from "axios";
 /**
  * 使用立即执行函数表达式（IIFE）声明一些全局性（window对象的）方法或属性
  */
-(function(win) {
-    /**
-     * 为 String 添加 endsWith 方法，此方法在ES6中实现，以下为向下兼容处理（Polyfill）
-     */
-    if (!String.prototype.endsWith) {
-        String.prototype.endsWith = function(search, this_len) {
-            if (this_len === undefined || this_len > this.length) {
-                this_len = this.length;
-            }
-            return this.substring(this_len - search.length, this_len) === search;
-        };
+(function (win) {
+  /**
+   * 为 String 添加 endsWith 方法，此方法在ES6中实现，以下为向下兼容处理（Polyfill）
+   */
+  if (!String.prototype.endsWith) {
+    String.prototype.endsWith = function (search, this_len) {
+      if (this_len === undefined || this_len > this.length) {
+        this_len = this.length;
+      }
+      return this.substring(this_len - search.length, this_len) === search;
+    };
+  }
+  /**
+   * 判断是否是字符串
+   * @param {*} obj
+   */
+  function isStr(obj) {
+    return typeof obj === "string";
+  }
+  /**
+   * ajax请求
+   * @param {*} obj
+   */
+  const ajax = function (obj) {
+    // 最终ajax请求的地址
+    let url;
+    const ajaxUrl = obj.url;
+    // 如果地址以Api结尾
+    if (isStr(ajaxUrl) && ajaxUrl.endsWith("Api")) {
+      // 判断环境是否为开发环境
+      const env = process.env.NODE_ENV;
+      // 存在环境变量设置并且在枚举范围内
+      if (env && apiConfig[ajaxUrl] && apiConfig[ajaxUrl][env]) {
+        url = apiConfig[ajaxUrl][env];
+      }
+    } else {
+      url = ajaxUrl;
     }
-    /**
-     * 判断是否是字符串
-     * @param {*} obj 
-     */
-    function isStr(obj) {
-        return (typeof obj === 'string')
+    /* eslint-disable */
+    console.log(obj);
+    console.log(url);
+    if (obj.type == "get") {
+      axios
+        .get(url)
+        .then(function (response) {
+          obj.callback(response);
+        })
+        .catch(function (error) {
+          obj.err(error);
+        });
+    } else {
+      console.log(url, obj.params);
+      axios
+        .post(url, obj.params)
+        .then(function (response) {
+          obj.callback(response);
+        })
+        .catch(function (error) {
+          obj.err(error);
+        });
     }
-    /**
-     * ajax请求
-     * @param {*} obj 
-     */
-    const ajax = function (obj) {
-        // 最终ajax请求的地址
-        let url;
-        const ajaxUrl = obj.url;
-        // 如果地址以Api结尾
-        if (isStr(ajaxUrl) && ajaxUrl.endsWith('Api')) {
-            // 判断环境是否为开发环境
-            const env = process.env.NODE_ENV;
-            // 存在环境变量设置并且在枚举范围内
-            if (env && apiConfig[ajaxUrl] && apiConfig[ajaxUrl][env]) {
-                url = apiConfig[ajaxUrl][env];
-            }
-        } else {
-            url = ajaxUrl;
-        }
-        /* eslint-disable */
-        console.log(obj);
-        console.log(url);
-        if (obj.type == 'get') {
-            axios.get(url)
-            .then(function (response) {
-                obj.callback(response);
-            })
-            .catch(function (error) {
-                obj.err(error);
-            });
-        } else {
-            console.log(url, obj.params)
-            axios.post(url, obj.params)
-            .then(function (response) {
-                obj.callback(response);
-            })
-            .catch(function (error) {
-                obj.err(error);
-            });
-        }
-    }
-    win.ajax = ajax;
-    win.isStr = isStr;
-})(window)
+  };
+  win.ajax = ajax;
+  win.isStr = isStr;
+})(window);
 ```
 
-### 9. 路由使用
+## 9. 路由使用
 
-```css
+```vue
 <template>
   <div class="home-center">
     <div class="home-center-nav">
@@ -364,9 +361,9 @@ body {
 
 ```
 
-### 10. jenkins自动化打包发布
+## 10. jenkins 自动化打包发布
 
-> 拉取指定git仓库指定分支或指定tag代码并执行以下脚本完成编译打包
+> 拉取指定 git 仓库指定分支或指定 tag 代码并执行以下脚本完成编译打包
 
 ```sh
 npm config set registry http://registry.npm.taobao.org/ &&
@@ -376,7 +373,7 @@ cd dist &&
 tar -zcvf dist.tar.gz *
 ```
 
-> 指定服务器地址，通过ssh方式发送项目包并解压到指定目录
+> 指定服务器地址，通过 ssh 方式发送项目包并解压到指定目录
 
 ```sh
 cd /opt/www/codemonkeys-fe
@@ -384,7 +381,7 @@ tar -zxvf dist.tar.gz
 rm -rf dist.tar.gz
 ```
 
-### 11. 配置Nginx
+## 11. 配置 Nginx
 
 ```
 server {
@@ -408,15 +405,15 @@ server {
 }
 ```
 
-### 12. 使用Koa开发后端服务器提供接口
+## 12. 使用 Koa 开发后端服务器提供接口
 
-> 初始化package.json
+> 初始化 package.json
 
 ```
 npm init
 ```
 
-> 配置package.json
+> 配置 package.json
 
 ```json
 {
@@ -456,22 +453,21 @@ npm init
     "pm2": "^3.2.2"
   }
 }
-
 ```
 
 > 入口主文件`app.js`
 
 ```js
-const Koa = require('koa');
+const Koa = require("koa");
 const app = new Koa();
-const routers = require('./router/index');
-const koaLogger = require('koa-logger');
-const session = require('koa-session-minimal');
-const redisStore = require('koa-redis');
-const cors = require('koa2-cors');
-const bodyParser = require('koa-bodyparser');
+const routers = require("./router/index");
+const koaLogger = require("koa-logger");
+const session = require("koa-session-minimal");
+const redisStore = require("koa-redis");
+const cors = require("koa2-cors");
+const bodyParser = require("koa-bodyparser");
 
-const { HOST, PORT } = require('./config/server-info');
+const { HOST, PORT } = require("./config/server-info");
 
 const env = process.env.NODE_ENV;
 
@@ -479,15 +475,15 @@ const env = process.env.NODE_ENV;
 // 存放sessionId的cookie配置
 /* session cookie */
 let cookieConfig = {
-  maxAge: 86400000,      // cookie有效时长
-  expires: '',        // cookie失效时间
-  path: '',          // 写cookie所在的路径
-  domain: HOST,        // 写cookie所在的域名
-  httpOnly: true,        // 是否只用于http请求中获取
-  overwrite: true,      // 是否允许重写
-  secure: '',
-  sameSite: '',
-  signed: '',
+  maxAge: 86400000, // cookie有效时长
+  expires: "", // cookie失效时间
+  path: "", // 写cookie所在的路径
+  domain: HOST, // 写cookie所在的域名
+  httpOnly: true, // 是否只用于http请求中获取
+  overwrite: true, // 是否允许重写
+  secure: "",
+  sameSite: "",
+  signed: "",
 };
 
 // 使用koa2-cors中间件解决跨域请求
@@ -496,19 +492,21 @@ app.use(cors());
 app.use(bodyParser());
 
 // 配置session中间件
-app.use(session({
-  key: 'USER_SID',
-  store: redisStore(),
-  cookie: cookieConfig
-}));
+app.use(
+  session({
+    key: "USER_SID",
+    store: redisStore(),
+    cookie: cookieConfig,
+  })
+);
 
 app.use(koaLogger());
 
 // 初始化路由中间件
 app.use(routers.routes()).use(routers.allowedMethods());
-app.use(async ctx => {
+app.use(async (ctx) => {
   if (ctx.status === 404) {
-    ctx.redirect('/not-found');
+    ctx.redirect("/not-found");
   }
 });
 
@@ -517,114 +515,117 @@ app.listen(PORT);
 console.log(`the server is start at port ${PORT}`);
 ```
 
-### 13. 使用pm2部署启动后端项目，核心配置文件
+## 13. 使用 pm2 部署启动后端项目
+
+核心配置文件
 
 ```js
 module.exports = {
-  apps : [{
-    script: 'app.js',
-    interpreter : 'node@10.0.0',
-    // Options reference: https://pm2.io/doc/en/runtime/reference/ecosystem-file/
-    // args: 'one two',
-    instances: 1,
-    autorestart: true,
-    watch: false,
-    max_memory_restart: '300M',
-    env: {
-      NODE_ENV: 'development'
+  apps: [
+    {
+      script: "app.js",
+      interpreter: "node@10.0.0",
+      // Options reference: https://pm2.io/doc/en/runtime/reference/ecosystem-file/
+      // args: 'one two',
+      instances: 1,
+      autorestart: true,
+      watch: false,
+      max_memory_restart: "300M",
+      env: {
+        NODE_ENV: "development",
+      },
+      env_production: {
+        NODE_ENV: "production",
+      },
     },
-    env_production: {
-      NODE_ENV: 'production'
-    }
-  }],
+  ],
 
-  deploy : {
-    production : {
-      user : 'root',
-      host : 'xx.xx.xx.xx',
-      ref  : 'origin/master',
-      repo : 'git@xx.git',
-      path : '/opt/www/xxx',
-      "ssh_options":"StrictHostKeyChecking=no",
-      'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production'
-    }
-  }
+  deploy: {
+    production: {
+      user: "root",
+      host: "xx.xx.xx.xx",
+      ref: "origin/master",
+      repo: "git@xx.git",
+      path: "/opt/www/xxx",
+      ssh_options: "StrictHostKeyChecking=no",
+      "post-deploy":
+        "npm install && pm2 reload ecosystem.config.js --env production",
+    },
+  },
 };
-
 ```
 
-### 14. 增加后端请求路由配置
+## 14. 增加后端请求路由配置
 
 ```js
-const router = require('koa-router')();
-const api = require('../controller/api');
+const router = require("koa-router")();
+const api = require("../controller/api");
 
 module.exports = router
-  .get('/', api.homepage)
-  .get('/api/forum-post/list', api.getPosts)
-  .post('/api/forum-post/getById', api.getPostById);
+  .get("/", api.homepage)
+  .get("/api/forum-post/list", api.getPosts)
+  .post("/api/forum-post/getById", api.getPostById);
 ```
 
-### 15. 接收请求并处理
+## 15. 接收请求并处理
 
 ```js
-const forumPost = require('../models/forum-post');
-const timeFormat = require('../utils/time-format');
+const forumPost = require("../models/forum-post");
+const timeFormat = require("../utils/time-format");
 
 module.exports = {
   async homepage(ctx) {
-    return ctx.body = 'server running'
+    return (ctx.body = "server running");
   },
   /**
    * 分页查询列表
-   * @param {*} ctx 
+   * @param {*} ctx
    */
   async getPosts(ctx) {
     const currentPage = ctx.request.query.currentPage || 1;
     let pageSize = ctx.request.query.pageSize || 10;
     const page = {
       currentPage: currentPage,
-      pageSize: pageSize
+      pageSize: pageSize,
     };
     let result = await forumPost.getPostList(page);
-    result = result.map(item => {
+    result = result.map((item) => {
       item.create_time = timeFormat(item.create_time);
       return item;
     });
-    return ctx.body = {
+    return (ctx.body = {
       status: 200,
       data: {
-        result
-      }
-    };
+        result,
+      },
+    });
   },
   /**
    * 根据ID查询
-   * @param {*} ctx 
+   * @param {*} ctx
    */
   async getPostById(ctx) {
     const postId = ctx.request.body.postId;
     let result = await forumPost.getPostById(postId);
-    return ctx.body = {
+    return (ctx.body = {
       status: 200,
       data: {
-        result
-      }
-    };
+        result,
+      },
+    });
   },
-}
+};
 ```
 
-### 16. 操纵数据库做数据获取
+## 16. 操纵数据库做数据获取
 
 ```js
-const dbUtils = require('../utils/db-utils');
+const dbUtils = require("../utils/db-utils");
 
 const ForumPost = {
-
   /**
    * 分页查询文章列表
-   * @param {*} page 
+   * @param {*} page
    */
   async getPostList(page) {
     const _sql = `
@@ -652,12 +653,12 @@ const ForumPost = {
     }
     return null;
   },
-}
+};
 
 module.exports = ForumPost;
 ```
 
-### 17. 新建数据库
+## 17. 新建数据库
 
 ```sql
 
@@ -681,9 +682,9 @@ CREATE TABLE IF NOT EXISTS `forum_post`(
 )ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 /** 原始数据 **/
-INSERT INTO forum_post 
-(avatar, title, author, date, category, content, commentNum) 
-VALUES 
+INSERT INTO forum_post
+(avatar, title, author, date, category, content, commentNum)
+VALUES
 ('http://ourcia6f4.bkt.clouddn.com/avatar3.jpg','基于Spring Cloud的微服务设计','wangzhenzhong','2018-08-27','微服务','微服务这个词大家应该都不陌生，是最近几年技术发展的热门词汇之一。在当前系统需求越来越复杂，实现和维护成本越来越高的背景下，微服务确实是未来的发展趋势之一。由于工作的需要，最近花了半个月左右的时间研究了基于Spring Cloud的微服务设计与实现，颇有收获，本文就来对这半个月的成果进行一个总结，并聊一聊在我对微服务的一些思考。','64'
 ),
 ('http://ourcia6f4.bkt.clouddn.com/avatar4.jpg','再品Git, 深度解读','Taikoo','2018-08-23','git','和一个长期使用IDE(eclipse)集成git进行代码版本管理的人交流项目，博文内容将采用类似《大话设计模式》的对话体进行，场景真实，有代入感，正文部门前面是对方参照我写的readme搭建基于vue-cli的demo项目，安装node并通过npm安装项目依赖并本地启动项目等等，由于对方为后端Java开发，对新前端技术栈了解比较少，在搭建环境和启动项目过程中滋生一些趣事，比如使用npm启动项目后如何在浏览器访问项目，我为了让其醒目意识到我们的项目首页就是未经改动的Vue-cli首页，于是我将首页改动并推到远程master分支，后面便是我们的搞笑对话。','60'
@@ -691,7 +692,7 @@ VALUES
 
 ```
 
-### 18. 后端接口服务nginx配置
+## 18. 后端接口服务 nginx 配置
 
 ```
 
@@ -712,7 +713,7 @@ server {
 }
 ```
 
-### 19. 发布后端服务到服务器指定目录
+## 19. 发布后端服务到服务器指定目录
 
 ```
 npm run deploy_setup
@@ -726,7 +727,7 @@ npm run deploy
 
 > 会将后端项目部署到指定目录
 
-### 20. 启动后端项目在服务器后端运行
+## 20. 启动后端项目在服务器后端运行
 
 > 进入服务器，在后端项目目录执行
 
@@ -734,4 +735,6 @@ npm run deploy
 npm run start
 ```
 
-### 21. 即可通过浏览器访问前端项目，调用后端接口返回数据进行显示
+## 21. 完成
+
+即可通过浏览器访问前端项目，调用后端接口返回数据进行显示

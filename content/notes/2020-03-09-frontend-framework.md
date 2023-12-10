@@ -1,10 +1,8 @@
 ---
 title: 三大框架对比
-tags:
-  - 框架
+tags: ["Frontend"]
 date: 2020-03-09 15:51:14
 lastmod: 2020-03-09 15:51:14
-categories: 前端
 ---
 
 前端三大框架有什么不同

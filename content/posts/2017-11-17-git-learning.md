@@ -2,18 +2,16 @@
 title: git学习总结
 date: 2017-11-17 09:54:33
 lastmod: 2017-11-17 09:54:33
-categories: 开发
-tags:
-  - git
+tags: ["git"]
 ---
 
 对于 Git 学习的一些整理，包含常用命令整理
 
-<!--more-->
+<!-- more -->
 
 个人觉得，对于一些开源工具，最好的学习资源还是其官网，我们就先来分析一波 Git 究竟是做什么的。
 
-### 概念解析
+## 概念解析
 
 git 官网的定义是：Git 是一种免费并且开源的分布式版本控制系统，被设计用来快速高效地处理堆积成大工程的每一块小部分。（个人翻译，不喜勿喷）
 
@@ -21,19 +19,15 @@ Git 简单易用、占用空间小并且性能优越。它远超过一些伴有�
 
 Git 允许同一组下的人们同一时刻在相同的文档上工作（通常是代码），并且不会踩到其他人的脚趾（形容两个人同时在相同的文档上工作也不会发生冲突）
 
-### 特性
+## 特性
 
 - 小而快速（Small and Fast）
-
 - 分布式（Distributed,这也是它比 SVN 优势明显的地方）
-
 - 数据保证（Data Assurance）
-
 - 分阶段区域（Staging Area）
-
 - 免费并开源（Free and Open Source）
 
-### 教程
+## 教程
 
 初级教程：<a href="https://try.github.io/levels/1/challenges/1">Try Git</a>
 
@@ -41,7 +35,7 @@ Git 允许同一组下的人们同一时刻在相同的文档上工作（通常�
 
 官方书籍：<a href="https://git-scm.com/book/zh/v2">Pro Git</a>
 
-### 使用步骤（包含常见命令）
+## 使用步骤（包含常见命令）
 
 1.初始化
 
@@ -132,7 +126,7 @@ git diff HEAD
 
 HEAD 是一个指针，指向我们最新 commit 的地方，不加 HEAD，默认也是与 HEAD 对比
 
-#### 其他命令
+### 其他命令
 
 10.使用 diff 命令对比暂存区文件之间的区别
 
@@ -201,7 +195,7 @@ git branch -d branchname
 
 当分支合并回主分支后，就没用了，可以进行删除
 
-### 使用场景
+## 使用场景
 
 1.先在本地通过 git 创建工程，然后上传到远程新建的空仓库(Github)
 
@@ -211,4 +205,4 @@ git branch -d branchname
 
 参考链接：
 
-- <a href="https://git-scm.com/">git 官网</a>
+- [git 官网](https://git-scm.com/)

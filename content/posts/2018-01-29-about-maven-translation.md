@@ -2,7 +2,6 @@
 title: Apache项目Maven官方文档学习及翻译（译）
 date: 2018-01-29 14:34:24
 lastmod: 2018-01-29 14:34:24
-categories: 后端
 tags: ["java"]
 ---
 
@@ -10,7 +9,7 @@ tags: ["java"]
 
 <!--more-->
 
-### pom 是什么
+## pom 是什么
 
 POM 表示“Project Object Model(工程对象模型)”，同其他对象模型一样，pom 用于表示一个工程的结构。
 
@@ -18,7 +17,7 @@ POM 表示“Project Object Model(工程对象模型)”，同其他对象模型
 
 官网的形容是：pom 是关乎工程的“一站式商店（one-stop-store）”，所以对工程的配置仅需一个 pom.xml 文件
 
-### 概览
+## 概览
 
 ```Maven
 <project xmlns="http://maven.apache.org/POM/4.0.0"
@@ -79,7 +78,7 @@ modelVersion 是必填参数，4.0.0 当前仅支持 Maven2 及 Maven3 版本
 
 4. 环境配置（Environment Settings）
 
-### 基本配置
+## 基本配置
 
 pom 包含了关于工程的所有必要信息，包括构建过程中所用的插件配置。
 
@@ -87,7 +86,7 @@ pom 包含了关于工程的所有必要信息，包括构建过程中所用的�
 
 与此同时，构建生命周期是“when”和“how”（何时做以及怎么做）
 
-#### 特别之处
+### 特别之处
 
 上述的构建生命周期去决定“何时以及如何去做”并不意味着 pom 不能**干涉（影响）**生命周期流
 
@@ -101,7 +100,7 @@ pom 包含了关于工程的所有必要信息，包括构建过程中所用的�
 
 这不像 build.xml 的任务几乎总是依赖于执行流上前一个任务的执行
 
-### Maven 坐标
+## Maven 坐标
 
 示例：
 
@@ -124,7 +123,7 @@ groupId:artifactId:version 是都被要求配置的参数（如果继承自父 p
 
 这三个域对于一个工程扮演了地址和时间戳的角色，这在仓库中标记出一个特定的位置，像是扮演了 Maven 工程中的坐标系统这一角色
 
-#### groupId
+### groupId
 
 这通常对于一个组织或者一个工程是唯一的。例如 Maven 所有的核心组件都存在于 org.apache.maven 这一 groupId 下
 
@@ -136,7 +135,7 @@ groupId 不是必须添加“.”符号，比如 junit 工程
 
 在所给例子中，org.codehaus.mojo 组存在于$M2_REPO/org/codehaus/mojo 中
 
-#### artifactId
+### artifactId
 
 artifactId 通常是工程所被知晓的名称
 
@@ -146,7 +145,7 @@ artifactId 在 groupId 之下对于将这个工程区别于所有其他工程创
 
 在上例中，即是 my-project 居住在$M2_REPO/org/codehaus/mojo/my-project
 
-#### version
+### version
 
 这是命名谜题中的最后一块
 
@@ -162,7 +161,7 @@ version 这个元素在组件线上定义了那些版本改动
 
 上述这三个元素指出了一个特定的工程版本，使得 Maven 知晓我们在处理哪一个工程，还有何时我们需要它们
 
-#### packaging
+### packaging
 
 知道了地址结构 groupId:artifactId:version 之后，还有一个标准标签提供真正完整的地址，那就是工程的组件类型
 
@@ -173,19 +172,12 @@ version 这个元素在组件线上定义了那些版本改动
 有效类型有：
 
 1. pom
-
 2. jar
-
 3. maven-plugin
-
 4. ejb
-
 5. war
-
 6. ear
-
 7. rar
-
 8. par
 
 对于一个指定的包结构，这些定义了和构建声明周期阶段所一致的某个默认目标列表
@@ -195,23 +187,23 @@ version 这个元素在组件线上定义了那些版本改动
 
 groupId:artifactId:packaging:version
 
-#### classfier
+### classfier
 
 你可能会在坐标中碰巧发现第五个元素，那就是 classifier
 
-### POM 关系
+## POM 关系
 
 Maven 强大的一个方面在于它对工程关系的处理，包括**依赖**和**可传递依赖**、继承、聚合（多模块工程）
 
 Maven 在处理依赖管理这一老生常谈的问题上通过一个本地公共仓库正确处理工程联系及版本问题
 
-#### 依赖
+### 依赖
 
 POM 的基石是其依赖列表，几乎每一个工程都依赖于其他包或工程去正确地实现构建和运行
 
 当你需要时，Maven 会为你复杂的目标任务下载并关联依赖
 
-##### groupId,artifactId,version
+#### groupId,artifactId,version
 
 你会经常看到这些元素，这个三元组合用来及时计算针对某个特定工程的 Maven 坐标
 
@@ -237,7 +229,7 @@ mvn install:install-file -Dfile=non-maven-proj.jar -DgroupId=some.group -Dartifa
 
 3. 设置依赖域为 system 并定义一个 systemPath。这不被推荐，然而引出了接下来要解释的元素。
 
-##### classfier
+#### classfier
 
 classfier 用来区分由相同 POM 构建，但内容不同的 artifacts。这是可选项，并且是任意的字符串，当它呈现时，它附加于 artfact 名称的版本后面
 
@@ -245,7 +237,7 @@ classfier 用来区分由相同 POM 构建，但内容不同的 artifacts。这�
 
 另一个 classfiers 的通用用例是对于工程主 artifact 所附加的第二 artifacts。如果你浏览 Maven 中央仓库，会注意到在打包的文件中 sources 分类器和 javadoc 分类器被用于部署工程源码和 API 文档
 
-##### type
+#### type
 
 和所依赖的 artifact 的 packaging 类型保持一致。默认是 jar。
 
@@ -257,7 +249,7 @@ classfier 用来区分由相同 POM 构建，但内容不同的 artifacts。这�
 
 可以通过插件定义新的类型，设置 extensions 为 true，所以这不是一个完整的列表
 
-##### scope
+#### scope
 
 这个元素涉及到即将到来的（编译时、运行时、测试时）任务的类路径（classpath），同时也涉及如何限制可传递依赖，共有一下五个域变量：
 
@@ -271,7 +263,7 @@ classfier 用来区分由相同 POM 构建，但内容不同的 artifacts。这�
 
 5. system：这个域和 provided 类似，除非你不得不明确提供所包含的 JAR
 
-##### systemPath
+#### systemPath
 
 仅被用来当 scope 是 system 时，否则如果这个设置被配置，构建将会失败
 
@@ -279,35 +271,28 @@ classfier 用来区分由相同 POM 构建，但内容不同的 artifacts。这�
 
 假定系统域依赖安装一个 priori，Maven 不会为这个工程从仓库检查，取而代之的是去检查那个文件是否存在。如果不存在，，Maven 将会构建失败并建议你手动下载并安装它
 
-##### optional
+#### optional
 
 当工程本身是一个依赖时标记可选配置为一个依赖。这困惑吗？举个例子，想象一个工程 A 依赖于工程 B 去编译一部分在运行时不会被使用的代码，然后我们可能没必要对于所有工程都需要工程 B。所以如果工程 X 添加了工程 A 作为它自己的依赖，然后 Maven 将根本不必安装工程 B。用象征性的符号表示，如果=>表示一个需要的依赖，-->表示可选，虽然情况是 A=>B 可能当构建 A 时，但情况是 X=>A-->B 当构建 X 时
 
 简言之，optional 让其他工程知道这样一点，就是当你使用这个工程，你不必需要这个依赖以正确工作
 
-#### 依赖版本需求指定
+### 依赖版本需求指定
 
 依赖的版本元素定义了版本的需求，用来计算有效的依赖版本
 
 版本需求有如下的语法：
 
 - 1.0：软需求，需要 1.0 版本（仅是推荐，如果它匹配了所有其他的范围也可以，例如 1.1 或 0.9）
-
 - [1.0]：硬需求，指定 1.0 版本
-
 - (,1.0)：x <= 1.0
-
 - [1.2,1.3]：1.2 <= x <= 1.3
-
 - [1.0,2.0)：1.0 <= x < 2.0
-
 - [1.5,)：x >= 1.5
-
 - (,1.0],[1.2,)：x <= 1.0 or x >= 1.2（多个范围以逗号隔开）
-
 - (,1.1),(1.1,)：这排除了 1.1（例如知道 1.1 这个版本不能正常工作）
 
-#### 版本顺序指定
+### 版本顺序指定
 
 Maven 坐标在符号之间以点符(.)和连线符(-)分割，在数字和字符之间以
 
@@ -323,7 +308,7 @@ Maven 坐标在符号之间以点符(.)和连线符(-)分割，在数字和字�
 
 1-1.foo-bar1baz-.1 -> 1-1.foo-bar-1-baz-0.1
 
-#### 排除项
+### 排除项
 
 exclusions 明确告诉 Maven 你在某个特定工程中某个依赖中不想包含的依赖（换言之，它的传递依赖）
 
@@ -389,7 +374,7 @@ exclusions 包含了一个或多个 exclusion 元素，每一个都包含 groupI
 
 不像 optional 会可能或者可能不需要安装和使用，exclusions 将其完全移除出依赖树
 
-### 继承
+## 继承
 
 Maven 为构建管理带来的另一个强大力量是工程继承概念
 
@@ -474,7 +459,7 @@ prerequisites
 
 注意 relativePath 元素，是不必须的，但可能会用来作为提供给 Maven 搜索父工程路径的信号，在搜索本地仓库然后远程仓库之前（relativePath -> local repository -> remote repository）
 
-#### 超类 POM
+### 超类 POM
 
 和面向编程中对象都继承自跟对象类似，POMs 都继承自一个根 POM，此外正如 java 对象最终都继承自 java.lang.Object，所有工程对象模型都继承自一个基类 POM，下面的片段这 Maven3.0.4 的超类 POM
 
@@ -610,11 +595,11 @@ prerequisites
 
 你可以创建一个最小 pom.xml 来看一下超类 POM 是如何影响你的工程对象模型，并且通过在命令行执行 mvn help:effective-pom
 
-#### 依赖管理
+### 依赖管理
 
 除了对于顶级元素的继承，父 pom 还有一些元素配置用于子 POMs 和可传递依赖，其中之一是 dependenceManagement
 
-##### dependencyManagement
+#### dependencyManagement
 
 dependencyManagement 被 POMs 用来管理贯穿其所有子 pom 的依赖信息
 
@@ -626,7 +611,7 @@ dependencyManagement 被 POMs 用来管理贯穿其所有子 pom 的依赖信息
 
 mvn:dependence:tree 会派上用场
 
-### 聚合（或说多模块）
+## 聚合（或说多模块）
 
 一个包含模块的工程被认为是一个多模块，或说聚合工程。
 
@@ -654,13 +639,13 @@ mvn:dependence:tree 会派上用场
 
 当列出模式时，你不必亲自考虑内部模块的依赖，例如 POM 给出的模块次序是不重要的。Maven 会拓扑地排序模块以使依赖模块总会在依赖其的模块之前被构建（被依赖者总会先构建）
 
-#### 最后需要注意关于继承和聚合的一点
+### 最后需要注意关于继承和聚合的一点
 
 继承和聚合创造了一个良好的动态操作去控制构建一个单一的、高级的 POM。你将经常看到工程既是父工程，又是聚合工程。例如，整个 Maven 核心运行于一个简单的基 POM——org.apache.maven:maven，所以构建 Maven 工程可以通过一个简单的命令 mvn compile 去执行。
 
 然而虽然 POM 工程、聚合工程还有父工程都不同并且不应该令人困惑。一个 POM 工程可能会被继承——但不必需要——任何它聚合的模块。相反，一个 POM 工程可能聚合工程而并没有继承自它的工程
 
-### 属性
+## 属性
 
 属性是理解 POM 基本元素的最后一块。Maven 属性是占位值，像 Ant 中的属性。它们的值可以被 POM 中任何位置通过${X}所获取到，X 是属性值。或者它们可被用于作为插件默认值，例如：
 
@@ -691,11 +676,11 @@ mvn:dependence:tree 会派上用场
 
 5. x：通过<properties />在 POM 中设置的元素。<properties><someVar>value</someVar></properties>的值可通过${someVar}获得
 
-### 构建设置
+## 构建设置
 
 在上述给出的 Maven 基本设置之上，有两个元素必须在声明完整的 POM 之前被理解。它们就是 build 元素，就是像声明你工程目录结构和管理插件一样的处理器。还有 reporting 元素，能最大化反映构建元素的报告
 
-#### 构建
+### 构建
 
 根据 POM 4.0.0 XSD，build 元素被概念上拆分成两部分：一个 BaseBuild 类型包含了 build 元素（project 层级下的顶级构建元素和 profiles 下的构建元素）的通用元素集；还有一个 Build 类型，包含了 BaseBuild 集同时还有更多用于顶级定义的元素。让我们开始分析这二者的通用元素
 
@@ -719,7 +704,7 @@ mvn:dependence:tree 会派上用场
 </project>
 ```
 
-##### BaseBuild 元素集
+#### BaseBuild 元素集
 
 BaseBuild 恰如其名：在 POM 文件中两个 build 元素之间的基本元素集
 
@@ -745,7 +730,7 @@ finalName 这个术语有点用词不当，然而，正如插件构建捆绑项�
 
 4. filter：定义\*.properties 文件，该文件包含一个属性列表，这个属性列表是用于作为其他接受设置的资源。换句话说，在 filter 文件中被定义的“键值对”在构建时会用实际资源替换掉${name}字符串。上述例子定义了filter/目录下的filter1.properties文件。Maven的默认过滤器目录是${basedir}/src/main/filters/
 
-##### 资源
+#### 资源
 
 build 元素的另一个特征是指定资源存在于你工程的哪里。资源不是代码。它们不被编译，但也是要被绑定进你项目的项或被用作其他理由，比如代码生成
 
@@ -793,7 +778,7 @@ build 元素的另一个特征是指定资源存在于你工程的哪里。资�
 
 7. testResources：这个元素块包含了 testResource 元素。它们的定义类似 resource 元素，但只在 test 时期使用。有一点不同的是一个工程的默认（超 POM 所定义的）测试资源目录是${basedir}/src/test/resources。测试资源不会被部署
 
-##### 插件
+#### 插件
 
 ```
 <project xmlns="http://maven.apache.org/POM/4.0.0"
@@ -820,7 +805,7 @@ build 元素的另一个特征是指定资源存在于你工程的哪里。资�
 </project>
 ```
 
-### 总结
+## 总结
 
 本文源自 apache 官网 Maven 项目的官方文档，本人初读此文档时感觉晦涩难度，难以完整通读。但苦于找不到其他关于 Maven 学习的高质有效资料，遂决定再次“品味”官方文档并作翻译，并借此对官方文档逐行理解，并做此译文，以便后人。部分字句由于鄙人才疏学浅，无法做到准确翻译，伴有原文。翻译不当之处还请指正。
 

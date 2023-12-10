@@ -1,10 +1,8 @@
 ---
 title: 如何使用原生技术写一个倒计时时钟
-tags:
-  - HTML5
+tags: ["HTML"]
 date: 2018-09-05 15:55:05
 lastmod: 2018-09-05 15:55:05
-categories: 前端
 ---
 
 心血来潮，想做一个苹果发布会的倒计时
@@ -472,18 +470,12 @@ mac 版的 vscode 中这个隐藏字符默认隐藏，可通过修改如下配�
 
 原理解析：`BS`为 ASCII 码中的退格符的 Unicode 表示法，而所有 ASCII[控制字符](https://en.wikipedia.org/wiki/Control_character)都有一个图形外观
 
-参考链接：
+参考资料：
 
-[jianshu-【CSS】渐变背景](https://www.jianshu.com/p/58b340a037ea)
-
-[runoob-CSS3 渐变](http://www.runoob.com/css3/css3-gradients.html)
-
-[oschina-介绍 JavaScript 国际化 API](https://www.oschina.net/translate/introducing-the-javascript-internationalization-api)
-
-[JavaScript 标准参考教程（alpha）之 Date](http://javascript.ruanyifeng.com/stdlib/date.html#toc4)
-
-[segmentfault-JavaScript 时间与日期处理实战:你肯定被坑过](https://segmentfault.com/a/1190000007581722)
-
-[runoob-jquery](http://www.runoob.com/jquery/jquery-tutorial.html)
-
-[jianshu-如何优雅的选择字体](https://segmentfault.com/a/1190000006110417)
+- [jianshu-【CSS】渐变背景](https://www.jianshu.com/p/58b340a037ea)
+- [runoob-CSS3 渐变](http://www.runoob.com/css3/css3-gradients.html)
+- [oschina-介绍 JavaScript 国际化 API](https://www.oschina.net/translate/introducing-the-javascript-internationalization-api)
+- [JavaScript 标准参考教程（alpha）之 Date](http://javascript.ruanyifeng.com/stdlib/date.html#toc4)
+- [segmentfault-JavaScript 时间与日期处理实战:你肯定被坑过](https://segmentfault.com/a/1190000007581722)
+- [runoob-jquery](http://www.runoob.com/jquery/jquery-tutorial.html)
+- [jianshu-如何优雅的选择字体](https://segmentfault.com/a/1190000006110417)
