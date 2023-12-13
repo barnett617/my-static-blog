@@ -124,12 +124,60 @@ git submodule add https://github.</description>
     </item>
     
     <item>
+      <title>如何基于 Node.js 开发一个完整的项目</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2021-08-25-nodejs-app/</link>
+      <pubDate>Wed, 25 Aug 2021 15:31:00 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2021-08-25-nodejs-app/</guid>
+      <description>本文我们将围绕Node.js为核心，开发一个具有前端页面和后端存储，前后端通过API进行数据通信的完整项目。</description>
+    </item>
+    
+    <item>
+      <title>Node.js 开发必备基础知识</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2021-08-25-nodejs-basic/</link>
+      <pubDate>Wed, 25 Aug 2021 14:31:00 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2021-08-25-nodejs-basic/</guid>
+      <description>综述 开门见山，先说结论：
+文件读写 网络请求 回调函数 这三点绝对是使用Node.js进行开发的三项核心必备基础知识，接下来我们来逐一介绍这三点为什么是最基础的核心知识。
+整体认知 首先要搞清楚Node.js是什么，它为什么叫“运行时”。可以这样理解，JavaScript是一种编程语言，使用JavaScript编写的代码需要某个环境来运行它。
+JavaScript最初被创造出来，是为了在浏览器内执行一些简单的逻辑，实现一些网页调整的功能。所以那时候JavaScript是运行在浏览器所提供的执行环境内进行执行的，也就是浏览器这个程序内部拥有可以执行JavaScript的东西，你可以叫它编译器，也可以叫它为解释器，因此浏览器内可以运行由JavaScript编写的代码逻辑。
+后来人们发现JavaScript的语法很友好，容易掌握，因此使用它的语法创造了Node.js，这同样是一个可以运行JavaScript代码的环境，并且它还支持你通过使用JavaScript代码访问操作系统的文件和网络资源。
+概念详解 文件读写 这个很好理解，Node.js相当于一门功能强大的编程语言，它可以访问和操作计算机内的各种资源，比如计算机内存、进程、文件等。
+前提就是在某台计算机安装Node.js，并通过Node.js语法编写代码。下载可以通过这里，编写代码只需要你按照JavaScript的编程习惯进行使用即可。只不过在浏览器内的JavaScript可以访问浏览器所提供的API，比如window.alert()、console.log()等。
+Node.js同样有其环境所提供的一系列API。只不过有些API是和浏览器一样存放在全局对象上的，而另外很大一部分则是封装在一个个模块内部的。
+就比如关于文件读写的API，你需要在代码内通过引入fs模块来进行使用，fs是“File System，文件系统”的含义。
+假如我们有一个readme.md文件，内容如下
+# 标题一 我们可以使用如下代码来读取这个文件的内容
+const fs = require(&amp;#39;fs&amp;#39;); const file = fs.readFileSync(&amp;#39;./readme.md&amp;#39;); console.log(file.toString()) 输出
+# 标题一 同样，我们可以使用相应的API进行写文件操作，如下
+const fs = require(&amp;#39;fs&amp;#39;); fs.writeFileSync(&amp;#39;./out.md&amp;#39;, &amp;#39;# out&amp;#39;) 会发现当前目录下多了个out.md文件，内容如下
+# out 网络请求 仅仅能够访问本地文件是远远不够的，我们还需要利用网络的能力来访问网络上的内容。对于浏览器来说，由于同源策略的存在，其网络资源访问能力有限，而在Node.js中，我们则可以使用http和https模块进行各种网络资源的获取。
+例如我们创建如下这样一个Node.js文件
+const https = require(&amp;#39;https&amp;#39;); const api = &amp;#39;https://api.juejin.cn/user_api/v1/author/recommend?limit=5&amp;#39; https.get(api, res =&amp;gt; { let content = &amp;#39;&amp;#39;; res.on(&amp;#39;data&amp;#39;, chunk =&amp;gt; { content += chunk; }) res.</description>
+    </item>
+    
+    <item>
       <title>基于B/S架构的webapp开发</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2021-07-24-webapp-based-on-bs-arch/</link>
       <pubDate>Sat, 24 Jul 2021 21:40:00 +0000</pubDate>
       
       <guid>https://barnett617.github.io/wilson-blog/posts/2021-07-24-webapp-based-on-bs-arch/</guid>
       <description>&lt;p&gt;使用 vscode 远程开发一个全栈 Web 项目&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>理解【观察者模式】和【发布订阅】的区别</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2021-06-28-observer-pattern/</link>
+      <pubDate>Mon, 28 Jun 2021 15:31:00 +0000</pubDate>
+      
+      <guid>https://barnett617.github.io/wilson-blog/posts/2021-06-28-observer-pattern/</guid>
+      <description>一、定性区别 首先，观察者是经典软件设计模式中的一种，但发布订阅只是软件架构中的一种消息范式。所以不要再被“观察者模式和发布订阅模式xxx”这样的问题误导。
+二、组成区别 其次，就是实现二者所需的角色数量有着明显的区别。观察者模式本身只需要2个角色便可成型，即观察者和被观察者，其中被观察者是重点。而发布订阅需要至少3个角色来组成，包括发布者、订阅者和发布订阅中心，其中发布订阅中心是重点。
+观察者模式 发布订阅 2个角色 3个角色 重点是被观察者 重点是发布订阅中心 三、各自实现 1、观察者模式实现 观察者模式一般至少有一个可被观察的对象 Subject ，可以有多个观察者去观察这个对象。二者的关系是通过被观察者主动建立的，被观察者至少要有三个方法——添加观察者、移除观察者、通知观察者。
+当被观察者将某个观察者添加到自己的观察者列表后，观察者与被观察者的关联就建立起来了。此后只要被观察者在某种时机触发通知观察者方法时，观察者即可接收到来自被观察者的消息。
+上图重点表示出了被观察者通知观察者的动作，省略了观察者是如何被添加到被观察者的列表内以及接收到被观察者后是具体如何拿到通知消息的。接下来我们使用 JavaScript 来实现一版，以具体展示这部分细节。
+1）被观察者对象 class Subject { constructor() { this.observerList = []; } addObserver(observer) { this.observerList.push(observer); } removeObserver(observer) { const index = this.observerList.findIndex(o =&amp;gt; o.name === observer.name); this.observerList.splice(index, 1); } notifyObservers(message) { const observers = this.observerList; observers.forEach(observer =&amp;gt; observer.notified(message)); } } 2）观察者 class Observer { constructor(name, subject) { this.name = name; if (subject) { subject.</description>
     </item>
     
     <item>

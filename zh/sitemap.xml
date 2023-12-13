@@ -130,8 +130,23 @@
     <loc>https://barnett617.github.io/wilson-blog/tags/%E6%80%BB%E7%BB%93/</loc>
     <lastmod>2022-09-21T23:02:00+00:00</lastmod>
   </url><url>
+    <loc>https://barnett617.github.io/wilson-blog/tags/node.js/</loc>
+    <lastmod>2021-08-25T15:31:00+00:00</lastmod>
+  </url><url>
+    <loc>https://barnett617.github.io/wilson-blog/posts/2021-08-25-nodejs-app/</loc>
+    <lastmod>2021-08-25T15:31:00+00:00</lastmod>
+  </url><url>
+    <loc>https://barnett617.github.io/wilson-blog/posts/2021-08-25-nodejs-basic/</loc>
+    <lastmod>2021-08-25T14:31:00+00:00</lastmod>
+  </url><url>
     <loc>https://barnett617.github.io/wilson-blog/posts/2021-07-24-webapp-based-on-bs-arch/</loc>
     <lastmod>2021-07-24T21:40:00+00:00</lastmod>
+  </url><url>
+    <loc>https://barnett617.github.io/wilson-blog/posts/2021-06-28-observer-pattern/</loc>
+    <lastmod>2021-06-28T15:31:00+00:00</lastmod>
+  </url><url>
+    <loc>https://barnett617.github.io/wilson-blog/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</loc>
+    <lastmod>2021-06-28T15:31:00+00:00</lastmod>
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/en/posts/2021-03-01-projects-2020/</loc>
     <lastmod>2021-03-01T15:49:00+00:00</lastmod>
@@ -343,9 +358,6 @@
     <loc>https://barnett617.github.io/wilson-blog/posts/2018-02-07-react-install/</loc>
     <lastmod>2018-02-07T14:59:31+00:00</lastmod>
   </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/tags/node.js/</loc>
-    <lastmod>2018-02-07T14:27:19+00:00</lastmod>
-  </url><url>
     <loc>https://barnett617.github.io/wilson-blog/posts/2018-02-07-nodejs-and-npm-update/</loc>
     <lastmod>2018-02-07T14:27:19+00:00</lastmod>
   </url><url>
@@ -392,9 +404,6 @@
     <lastmod>2018-01-25T09:59:50+00:00</lastmod>
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/series/</loc>
-    <lastmod>2018-01-24T15:56:32+00:00</lastmod>
-  </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</loc>
     <lastmod>2018-01-24T15:56:32+00:00</lastmod>
   </url><url>
     <loc>https://barnett617.github.io/wilson-blog/series/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</loc>
