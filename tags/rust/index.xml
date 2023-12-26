@@ -1,56 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rust on Wilson&#39;s Blog</title>
     <link>https://barnett617.github.io/wilson-blog/tags/rust/</link>
     <description>Recent content in Rust on Wilson&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans-CN</language>
-    <lastBuildDate>Thu, 31 Aug 2023 22:54:51 +0000</lastBuildDate><atom:link href="https://barnett617.github.io/wilson-blog/tags/rust/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 31 Aug 2023 22:54:51 +0000</lastBuildDate>
+    <atom:link href="https://barnett617.github.io/wilson-blog/tags/rust/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rust语法学习-使用包、预置库和模块管理不断增长的项目</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2023-08-31-rust-05/</link>
       <pubDate>Thu, 31 Aug 2023 22:54:51 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2023-08-31-rust-05/</guid>
       <description>使用包、预置库和模块管理不断增长的项目</description>
     </item>
-    
     <item>
       <title>Rust语法学习-使用 if let 管理简约控制流</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2023-08-31-rust-04/</link>
       <pubDate>Thu, 31 Aug 2023 22:41:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2023-08-31-rust-04/</guid>
       <description>&lt;p&gt;使用 if let 管理简约控制流&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Rust语法学习-枚举和模式匹配</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2023-07-11-rust-03/</link>
       <pubDate>Tue, 11 Jul 2023 22:37:39 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2023-07-11-rust-03/</guid>
       <description>关于枚举和模式匹配</description>
     </item>
-    
     <item>
       <title>Rust语法学习-结构体</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2023-07-10-rust-02/</link>
       <pubDate>Mon, 10 Jul 2023 23:39:34 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2023-07-10-rust-02/</guid>
       <description>&lt;p&gt;使用结构体可以自定义一系列数据结构并打包在一起，然后用其定义多个符合这个结构的值。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Rust语法学习-类比其他编程语言</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2023-07-10-rust-01/</link>
       <pubDate>Mon, 10 Jul 2023 22:02:15 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2023-07-10-rust-01/</guid>
       <description>&lt;p&gt;rust 语法融合了多门编程语言的特性，可以看到很多语言的影子，例如 JavaScript、Java、Python、C、Go 等。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

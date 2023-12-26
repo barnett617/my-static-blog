@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vue on Wilson&#39;s Blog</title>
     <link>https://barnett617.github.io/wilson-blog/tags/vue/</link>
     <description>Recent content in Vue on Wilson&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans-CN</language>
-    <lastBuildDate>Wed, 28 Jun 2023 21:38:46 +0000</lastBuildDate><atom:link href="https://barnett617.github.io/wilson-blog/tags/vue/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Jun 2023 21:38:46 +0000</lastBuildDate>
+    <atom:link href="https://barnett617.github.io/wilson-blog/tags/vue/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>vuex对比pinia</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2023-06-28-vuex-vs-pinia/</link>
       <pubDate>Wed, 28 Jun 2023 21:38:46 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2023-06-28-vuex-vs-pinia/</guid>
       <description>&lt;p&gt;vuex@3 对比 pinia@v2&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Vue.js技术回顾——实例</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2018-02-22-vue-basic/</link>
       <pubDate>Thu, 22 Feb 2018 21:33:38 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-02-22-vue-basic/</guid>
       <description>Vue.js 教程之 Vue 实例
 创建实例 每个 Vue 应用都是通过用Vue函数创建一个新的Vue 实例开始
@@ -38,15 +36,12 @@ viewmodel 可实现中介者模式，组织对 view 所支持的用例集的后�
 分类 标记语言通常分为三种：表示性、过程性、描述性
 表示性：编码过程中标记文档的结构信息 例如文本文件中，文件标题可能需要特定格式（居中、放大等），则需要标记文件的标题。</description>
     </item>
-    
     <item>
       <title>Vue.js技术回顾——概述</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2018-02-22-vue-basic-01/</link>
       <pubDate>Thu, 22 Feb 2018 12:34:42 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-02-22-vue-basic-01/</guid>
       <description>&lt;p&gt;初探 Vue.js&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

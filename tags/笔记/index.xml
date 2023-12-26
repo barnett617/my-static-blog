@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>笔记 on Wilson&#39;s Blog</title>
     <link>https://barnett617.github.io/wilson-blog/tags/%E7%AC%94%E8%AE%B0/</link>
     <description>Recent content in 笔记 on Wilson&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans-CN</language>
-    <lastBuildDate>Thu, 17 Jan 2019 21:12:35 +0000</lastBuildDate><atom:link href="https://barnett617.github.io/wilson-blog/tags/%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Jan 2019 21:12:35 +0000</lastBuildDate>
+    <atom:link href="https://barnett617.github.io/wilson-blog/tags/%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>重读javascript第一篇</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2019-01-17-reread-js/</link>
       <pubDate>Thu, 17 Jan 2019 21:12:35 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2019-01-17-reread-js/</guid>
       <description>&lt;p&gt;对于 &lt;a href=&#34;https://javascript.info/intro&#34;&gt;An Introduction to JavaScript&lt;/a&gt; 的个人翻译及一些“添油加醋”&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>JavaScript高级程序设计第3版笔记（一）</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2018-09-03-js-note/</link>
       <pubDate>Mon, 03 Sep 2018 18:54:18 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2018-09-03-js-note/</guid>
       <description>函数表达式 定义函数方式 函数声明 function fun() {} 函数表达式 var fun = function () {}; 关键词 函数声明提升 执行代码前会先读取函数声明，所以在函数声明前也可以调用函数
 test(); function test() { alert(&amp;#34;test&amp;#34;); } // ok 匿名函数（lambda 函数） 函数表达式同其他表达式，使用前需先声明，否则报错
@@ -28,6 +26,5 @@ test(); function test() { alert(&amp;#34;test&amp;#34;); } // 报错 递归 经�
 function factorial(num) { if (num &amp;lt;= 1) { return 1; } else { return num * factorial(num - 1); } } 如下会使这个函数报错
 // 把factorial()函数保存在another变量中 var another = factorial; // 把变量factorial置空 factorial = null; // 调用another()必须执行factorial(),而factorial不再是函数 alert(another(4)); 解决：使用arguments.</description>
     </item>
-    
   </channel>
 </rss>

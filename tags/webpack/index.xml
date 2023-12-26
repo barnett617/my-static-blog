@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Webpack on Wilson&#39;s Blog</title>
     <link>https://barnett617.github.io/wilson-blog/tags/webpack/</link>
     <description>Recent content in Webpack on Wilson&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans-CN</language>
-    <lastBuildDate>Wed, 17 Jan 2018 11:41:10 +0000</lastBuildDate><atom:link href="https://barnett617.github.io/wilson-blog/tags/webpack/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 Jan 2018 11:41:10 +0000</lastBuildDate>
+    <atom:link href="https://barnett617.github.io/wilson-blog/tags/webpack/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>webpack学习笔记</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2018-01-17-webpack-basic/</link>
       <pubDate>Wed, 17 Jan 2018 11:41:10 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-01-17-webpack-basic/</guid>
       <description>关于 Webpack 基础使用的整理
 背景 网站由网页模式进化成 Webapp 模式
@@ -26,6 +26,5 @@ CommonJS 服务端的 Node.js 遵循 CommonJS 规范
 核心思想 允许模块通过 require 方法来同步加载要依赖的其他模块 通过 exports 或 module.exports 导出需要暴露的接口 require(&amp;#34;module&amp;#34;); require(&amp;#34;../file.js&amp;#34;); exports.doStuff = function() {}; module.exports = someValue; 优势 服务端模块便于重用 NPM 中已有大量可用模块包（20w） 简单易用 缺陷 同步的模块加载方式不适合在浏览器环境中，同步意味着阻塞加载，浏览器资源是异步加载的 不能非阻塞的并行加载多个模块 ES6 模块 ES6 标准增加了 js 语言层面的模块体系定义
 ES6 的设计思想是尽量的静态化，使得编译时就能确定模块的依赖关系，以及输入和输出的变量。</description>
     </item>
-    
   </channel>
 </rss>

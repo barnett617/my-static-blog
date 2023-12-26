@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Markdown on Wilson&#39;s Blog</title>
     <link>https://barnett617.github.io/wilson-blog/tags/markdown/</link>
     <description>Recent content in Markdown on Wilson&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans-CN</language>
-    <lastBuildDate>Fri, 03 Jan 2020 11:30:00 +0000</lastBuildDate><atom:link href="https://barnett617.github.io/wilson-blog/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Jan 2020 11:30:00 +0000</lastBuildDate>
+    <atom:link href="https://barnett617.github.io/wilson-blog/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>markdown使用</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2020-01-03-markdown/</link>
       <pubDate>Fri, 03 Jan 2020 11:30:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2020-01-03-markdown/</guid>
       <description>markdown 基本使用</description>
     </item>
-    
     <item>
       <title>Markdown语法学习整理</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2017-11-17-markdown-programmer/</link>
       <pubDate>Fri, 17 Nov 2017 10:09:16 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-11-17-markdown-programmer/</guid>
       <description>虽说 markdown 用了一段时间，但还未曾专门地阅读文档对其进行过相对系统的学习。刚才使用分割线时发现分割线下面的文字变成标题般字体，专门查了一波，发现还是有必要系统学习一下 md 语法，以节省日后使用时的查阅时间。
 宗旨 易读易写
@@ -35,6 +33,5 @@
 比如这里的 HTML 标签如果我想要以标签的样子显示在屏幕上，那我其实需要在文本里通过 md 标记来编辑，类似使用 code 标签、转义字符（通过转义字符来“画出”尖括号，code 标签可以使其成为块状文本）
 另外，markdown 生成器不会在 HTML 区块标签外加上不必要的&amp;lt;p&amp;gt;标签，区别于对于 HTML 文本进行编辑时，若你写了大段内容而未加任何标签的话，HTML 生成器会为你在内容前后加上&amp;lt;p&amp;gt;标签</description>
     </item>
-    
   </channel>
 </rss>

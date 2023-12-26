@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wilson&#39;s Blog</title>
     <link>https://barnett617.github.io/wilson-blog/</link>
     <description>Recent content on Wilson&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans-CN</language>
-    <lastBuildDate>Sun, 26 Nov 2023 23:30:59 +0800</lastBuildDate><atom:link href="https://barnett617.github.io/wilson-blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Nov 2023 23:30:59 +0800</lastBuildDate>
+    <atom:link href="https://barnett617.github.io/wilson-blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>使用Hugo搭建博客站点下篇——正式使用</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2023-11-26-hugo-blog-2/</link>
       <pubDate>Sun, 26 Nov 2023 23:30:59 +0800</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2023-11-26-hugo-blog-2/</guid>
       <description>接上篇
 环境准备好以后的使用还是比较简单的，我准备直接在原本基于 hexo 的博客项目中进行，因为想保留原先仓库的 git 提交记录。
@@ -23,219 +23,171 @@
 这里我选择将主题项目作为 git 子模块集成到项目的方式，在 hugo 工程的目录下载主题文件后，在主配置文件内设置 theme 配置项，然后就可以启动项目了
 git submodule add https://github.</description>
     </item>
-    
     <item>
       <title>使用Hugo搭建博客站点上篇——环境准备</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2023-11-26-hugo-blog-1/</link>
       <pubDate>Sun, 26 Nov 2023 21:44:59 +0800</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2023-11-26-hugo-blog-1/</guid>
       <description>本篇介绍将博客站点从 Hexo 迁移为 Hugo 的过程以及途中遇到一些问题的解决记录</description>
     </item>
-    
     <item>
       <title>Rust语法学习-使用包、预置库和模块管理不断增长的项目</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2023-08-31-rust-05/</link>
       <pubDate>Thu, 31 Aug 2023 22:54:51 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2023-08-31-rust-05/</guid>
       <description>使用包、预置库和模块管理不断增长的项目</description>
     </item>
-    
     <item>
       <title>Rust语法学习-使用 if let 管理简约控制流</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2023-08-31-rust-04/</link>
       <pubDate>Thu, 31 Aug 2023 22:41:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2023-08-31-rust-04/</guid>
       <description>&lt;p&gt;使用 if let 管理简约控制流&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Rust语法学习-枚举和模式匹配</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2023-07-11-rust-03/</link>
       <pubDate>Tue, 11 Jul 2023 22:37:39 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2023-07-11-rust-03/</guid>
       <description>关于枚举和模式匹配</description>
     </item>
-    
     <item>
       <title>Rust语法学习-结构体</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2023-07-10-rust-02/</link>
       <pubDate>Mon, 10 Jul 2023 23:39:34 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2023-07-10-rust-02/</guid>
       <description>&lt;p&gt;使用结构体可以自定义一系列数据结构并打包在一起，然后用其定义多个符合这个结构的值。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Rust语法学习-类比其他编程语言</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2023-07-10-rust-01/</link>
       <pubDate>Mon, 10 Jul 2023 22:02:15 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2023-07-10-rust-01/</guid>
       <description>&lt;p&gt;rust 语法融合了多门编程语言的特性，可以看到很多语言的影子，例如 JavaScript、Java、Python、C、Go 等。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Figma Config 2023 观后感下篇——开发模式</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2023-07-03-figma-config-2023-02/</link>
       <pubDate>Mon, 03 Jul 2023 21:46:34 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2023-07-03-figma-config-2023-02/</guid>
       <description>&lt;p&gt;关于 Figma Config 2023 后半部分“开发模式”演讲的总结&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Figma Config 2023 观后感上篇——变量、原型</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2023-07-02-figma-config-2023-01/</link>
       <pubDate>Sun, 02 Jul 2023 21:45:54 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2023-07-02-figma-config-2023-01/</guid>
       <description>&lt;p&gt;关于 Figma Config 2023 的一些总结和所思所想&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>vuex对比pinia</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2023-06-28-vuex-vs-pinia/</link>
       <pubDate>Wed, 28 Jun 2023 21:38:46 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2023-06-28-vuex-vs-pinia/</guid>
       <description>&lt;p&gt;vuex@3 对比 pinia@v2&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>关于WebAssembly</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2023-06-21-wasm/</link>
       <pubDate>Wed, 21 Jun 2023 22:37:22 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2023-06-21-wasm/</guid>
       <description>&lt;p&gt;WebAssembly 是什么&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>CSS基础知识</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2023-07-11-css-basic/</link>
       <pubDate>Sun, 11 Jun 2023 11:42:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2023-07-11-css-basic/</guid>
       <description>一些CSS基础知识学习和整理</description>
     </item>
-    
     <item>
       <title>JavaScript Basic Points</title>
       <link>https://barnett617.github.io/wilson-blog/en/posts/2023-07-11-js-basic/</link>
       <pubDate>Sun, 11 Jun 2023 11:37:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/en/posts/2023-07-11-js-basic/</guid>
       <description>Some basic JavaScript things</description>
     </item>
-    
     <item>
       <title>JavaScript闭包学习</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-closure/</link>
       <pubDate>Sun, 11 Jun 2023 00:42:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-closure/</guid>
       <description>关于JavaScript闭包原理的学习</description>
     </item>
-    
     <item>
       <title>JavaScript的Promise学习</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-promise/</link>
       <pubDate>Sun, 11 Jun 2023 00:42:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-promise/</guid>
       <description>关于JavaScript Promise原理的学习</description>
     </item>
-    
     <item>
       <title>JavaScript的this关键字</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-this/</link>
       <pubDate>Sun, 11 Jun 2023 00:42:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-this/</guid>
       <description>关于JavaScript的关键字this的原理的学习</description>
     </item>
-    
     <item>
       <title>JavaScript的防抖和节流</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-debounce-and-throttle/</link>
       <pubDate>Sun, 11 Jun 2023 00:42:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-debounce-and-throttle/</guid>
       <description>关于JavaScript防抖节流的学习</description>
     </item>
-    
     <item>
       <title>JavaScript的基础排序实现</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-sort/</link>
       <pubDate>Sun, 11 Jun 2023 00:42:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-sort/</guid>
       <description>关于JavaScript基础排序算法的整理</description>
     </item>
-    
     <item>
       <title>JavaScript的原型和继承</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-inherit/</link>
       <pubDate>Sun, 11 Jun 2023 00:42:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-inherit/</guid>
       <description>关于JavaScript继承原理的学习</description>
     </item>
-    
     <item>
       <title>JavaScript数组学习</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-array/</link>
       <pubDate>Sun, 11 Jun 2023 00:42:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-array/</guid>
       <description>关于JavaScript数组的学习</description>
     </item>
-    
     <item>
       <title>JavaScript运算符</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-operator/</link>
       <pubDate>Sun, 11 Jun 2023 00:42:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-operator/</guid>
       <description>关于JavaScript运算符的学习</description>
     </item>
-    
     <item>
       <title>2022年项目总结</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2022-09-21-2022-projects/</link>
       <pubDate>Wed, 21 Sep 2022 23:02:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2022-09-21-2022-projects/</guid>
       <description>&lt;p&gt;关于 2022 年的项目总结&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Personal Projects Description Using STAR Principle</title>
       <link>https://barnett617.github.io/wilson-blog/en/posts/2022-09-21-projects-star-2022/</link>
       <pubDate>Wed, 21 Sep 2022 23:02:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/en/posts/2022-09-21-projects-star-2022/</guid>
       <description>STAR Template S: Situation T: Task A: Action R: Result Explanation S describe a specific situation and establish context don&amp;rsquo;t generalize or offer a litany of your accomplishments speak directly to the question as posed be detailed enough T go to the specific task you had to do be clear what the task was related to the question and whatever ability the interviewer is looking to evaluate clarity and relevancy A stay on topic focus on what you did in the situation to resolve the task and keep that focus on you first person singular, not we or out team only talk about what you did R explain the outcome of the task due to your actions take credit for what you did it&amp;rsquo;s not the time for modesty explain what happened, how did the situation or task resolve itself, what did you accomplish, did you learn anything keep it positive even if the situation or task didn&amp;rsquo;t end that way Projects Description Operating activity for drivers during the Spring Festival S the project&amp;rsquo;s deadline is tight for the whole tech team we have two front-end developers, a backend developer, three UI designers and a project manager we totally have a week to develop a brand new html5 single page application which can run on both native app and weixin miniapplication platform, and it has a lot of UI animations and sharing logic T I am this project&amp;rsquo;s frontend development owner and had to ensure this project will be deployed online and runs great in the end I need to keep us on our production schedule and develop my part of work A I dive into develop the basic logic without UI first I call another experienced developer to help us build a jssdk for this project which includes login, tracking, ajax modules R I finished my work as expected and did some refactoring to make my codes more strong I read the code that experenced developer wrote and learnt more about how to use webpack or vue-cli-plugin to supply different packages by different environments I got to know how developers to face projects with limit time and how to ensure the project to be done in time, such as meetings to synchronize progress between others and talk about diffculties in time, and try to call others to help LiveShow on WeChat MiniProgram platform S the marketing team announced to build an app to attractive more drivers to know our another feature which can gain more income(which called benefit center) using liveshow format T I need to know how to use liveshow ability in wechat miniprogram platform and know its conditions I need to develop a tiny function which use wechat pay to make our miniprogram can apply liveshow right I need to build a standalone h5 to deployed in our main native app and support to jump into out wechat miniprogram directly Finally, I had to develop the goods detail of buying webpages to support the ability which liveshow need A First, I got to read the documentation of wechat development about paying, liveshow, jump from native app Then I started to develop a simple function which used wechat pay sdk and deployed it online for liveshow applying Then I started to set up a single h5 to develop the function jump from our native app to the specific wechat miniprogram, for this function need our native app to integrate the wechat sdk for jumping, I carefully researched the action flow and read the demo from wechat official, then I talked to our native developing team to help me Finally, I develop the core function of buying things from liveshow and coroperate with our backend developer R Finally, I finished a h5 which supplied to jump to miniprogram, a function in miniprogram which supports to watch liveshow and buy things.</description>
     </item>
-    
     <item>
       <title>如何基于 Node.js 开发一个完整的项目</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2021-08-25-nodejs-app/</link>
       <pubDate>Wed, 25 Aug 2021 15:31:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2021-08-25-nodejs-app/</guid>
       <description>本文我们将围绕Node.js为核心，开发一个具有前端页面和后端存储，前后端通过API进行数据通信的完整项目。</description>
     </item>
-    
     <item>
       <title>Node.js 开发必备基础知识</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2021-08-25-nodejs-basic/</link>
       <pubDate>Wed, 25 Aug 2021 14:31:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2021-08-25-nodejs-basic/</guid>
       <description>综述 开门见山，先说结论：
 文件读写 网络请求 回调函数 这三点绝对是使用Node.js进行开发的三项核心必备基础知识，接下来我们来逐一介绍这三点为什么是最基础的核心知识。
@@ -255,21 +207,17 @@ const fs = require(&amp;#39;fs&amp;#39;); fs.writeFileSync(&amp;#39;./out.md&amp
 例如我们创建如下这样一个Node.js文件
 const https = require(&amp;#39;https&amp;#39;); const api = &amp;#39;https://api.juejin.cn/user_api/v1/author/recommend?limit=5&amp;#39; https.get(api, res =&amp;gt; { let content = &amp;#39;&amp;#39;; res.on(&amp;#39;data&amp;#39;, chunk =&amp;gt; { content += chunk; }) res.</description>
     </item>
-    
     <item>
       <title>基于B/S架构的webapp开发</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2021-07-24-webapp-based-on-bs-arch/</link>
       <pubDate>Sat, 24 Jul 2021 21:40:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2021-07-24-webapp-based-on-bs-arch/</guid>
       <description>&lt;p&gt;使用 vscode 远程开发一个全栈 Web 项目&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>理解【观察者模式】和【发布订阅】的区别</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2021-06-28-observer-pattern/</link>
       <pubDate>Mon, 28 Jun 2021 15:31:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2021-06-28-observer-pattern/</guid>
       <description>一、定性区别 首先，观察者是经典软件设计模式中的一种，但发布订阅只是软件架构中的一种消息范式。所以不要再被“观察者模式和发布订阅模式xxx”这样的问题误导。
 二、组成区别 其次，就是实现二者所需的角色数量有着明显的区别。观察者模式本身只需要2个角色便可成型，即观察者和被观察者，其中被观察者是重点。而发布订阅需要至少3个角色来组成，包括发布者、订阅者和发布订阅中心，其中发布订阅中心是重点。
@@ -278,12 +226,10 @@ const https = require(&amp;#39;https&amp;#39;); const api = &amp;#39;https://api
 上图重点表示出了被观察者通知观察者的动作，省略了观察者是如何被添加到被观察者的列表内以及接收到被观察者后是具体如何拿到通知消息的。接下来我们使用 JavaScript 来实现一版，以具体展示这部分细节。
 1）被观察者对象 class Subject { constructor() { this.observerList = []; } addObserver(observer) { this.observerList.push(observer); } removeObserver(observer) { const index = this.observerList.findIndex(o =&amp;gt; o.name === observer.name); this.observerList.splice(index, 1); } notifyObservers(message) { const observers = this.observerList; observers.forEach(observer =&amp;gt; observer.notified(message)); } } 2）观察者 class Observer { constructor(name, subject) { this.name = name; if (subject) { subject.</description>
     </item>
-    
     <item>
       <title>Projects Review of 2020</title>
       <link>https://barnett617.github.io/wilson-blog/en/posts/2021-03-01-projects-2020/</link>
       <pubDate>Mon, 01 Mar 2021 15:49:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/en/posts/2021-03-01-projects-2020/</guid>
       <description>Business projects smart-interview
 double-lift
@@ -303,302 +249,236 @@ spring-festval-active
 earlybird
 Project details Smart Interview self development get used to team&amp;rsquo;s workflow jsbridge jssdk Car Face Recognition rxjs New Users Missions vuex Users Back Flow scheme protocol Live Show wxAPI pay Spring Festival Operating Activity cross platform development vue-cli-plugin Tech stack vue composition api vuex vue-router vue-cli vue-cli-plugin vue-rx webpack loader plugin js jsSDK jsBridge </description>
     </item>
-    
     <item>
       <title>Personal Tech Review of 2020</title>
       <link>https://barnett617.github.io/wilson-blog/en/posts/2021-03-01-review-2020/</link>
       <pubDate>Mon, 01 Mar 2021 15:19:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/en/posts/2021-03-01-review-2020/</guid>
       <description>Career join didiglobal and work for didi driver hybrid app become the owner of Flower Piggy (a ride-hailing service of Didi targeting younger customers) driver-side services finish two impressive projects alone(smart interview SPA html5 project and make a live in wechat miniprogram) Work staff build hybrid web app pages(no pc websites) learn to use group-related develop tools such as vue-cli-plugin, UI component library, jssdk, and jsbridge etc. keyboard component page track cubeui UI library and biz library jsbridge develop standalone projects using HTML5/Vue2 develop new features as requirement or bugfix code review refactor and improve performance online problems locating(server side problem/frontend logic errors/data tracking exception) locate problems and communicate with other group and push them to realize requirements miniprogram UI component unit testing and document(refer to weui/j-component/miniprogram-simulate) integrate third party SDKs(paying SDK etc.</description>
     </item>
-    
     <item>
       <title>如何使用github进行持续集成</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2020-08-19-ci-with-github/</link>
       <pubDate>Wed, 19 Aug 2020 22:31:55 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2020-08-19-ci-with-github/</guid>
       <description>&lt;p&gt;利用 github 的 actions 为你的前端项目加上 CI(Continuous Integration，持续集成)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>整理博客过程中的一些思考</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2020-05-04-thinking-about-blog/</link>
       <pubDate>Mon, 04 May 2020 12:05:55 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2020-05-04-thinking-about-blog/</guid>
       <description>&lt;p&gt;重新把很早以前写的“博客”看了一下，发现有新的感悟&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>博客重新更新了</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2020-05-02-refresh-blog/</link>
       <pubDate>Sat, 02 May 2020 18:36:54 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2020-05-02-refresh-blog/</guid>
       <description>&lt;p&gt;时隔许久，决定重新打开尘封许久的博客。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>二叉树的三种遍历（递归&#43;迭代）</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2020-04-16-binary-tree-iteration-methods/</link>
       <pubDate>Thu, 16 Apr 2020 17:10:48 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2020-04-16-binary-tree-iteration-methods/</guid>
       <description>二叉树的三种遍历（递归+迭代）</description>
     </item>
-    
     <item>
       <title>为什么程序员要学习计算机基础知识</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2020-04-02-about-programmer-basic-learning/</link>
       <pubDate>Thu, 02 Apr 2020 12:27:18 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2020-04-02-about-programmer-basic-learning/</guid>
       <description>因为一道 leetcode 题而引发的思考。</description>
     </item>
-    
     <item>
       <title>重新介绍JavaScript</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2020-03-15-reintroduce-javascript/</link>
       <pubDate>Sun, 15 Mar 2020 11:25:04 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2020-03-15-reintroduce-javascript/</guid>
       <description>读‘重新介绍 JavaScript（JS 教程）’一文整理的脑图</description>
     </item>
-    
     <item>
       <title>三大框架对比</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2020-03-09-frontend-framework/</link>
       <pubDate>Mon, 09 Mar 2020 15:51:14 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2020-03-09-frontend-framework/</guid>
       <description>&lt;p&gt;前端三大框架有什么不同&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>关于z-index的最大值</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2020-01-20-css-zindex/</link>
       <pubDate>Mon, 20 Jan 2020 14:49:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2020-01-20-css-zindex/</guid>
       <description>&lt;p&gt;小知识: 关于 z-index 的最大值&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>反转数组</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2020-01-15-js-revert-array/</link>
       <pubDate>Wed, 15 Jan 2020 20:31:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2020-01-15-js-revert-array/</guid>
       <description>&lt;p&gt;关于 js 反转数组&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>滑动穿透（遮罩下不允许滑动）</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2020-01-15-scroll-strike/</link>
       <pubDate>Wed, 15 Jan 2020 20:31:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2020-01-15-scroll-strike/</guid>
       <description>&lt;p&gt;滑动穿透&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>mpvue刷新问题</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2020-01-10-mpvue/</link>
       <pubDate>Fri, 10 Jan 2020 18:16:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2020-01-10-mpvue/</guid>
       <description>&lt;p&gt;&lt;code&gt;mpvue&lt;/code&gt;小程序迁移为&lt;code&gt;uniapp&lt;/code&gt;项目&lt;code&gt;A&lt;/code&gt;(用于标识项目)，同时编译部署微信小程序和微信服务号&lt;code&gt;H5&lt;/code&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>HTTP访问控制（CORS）</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2020-01-09-http-cors/</link>
       <pubDate>Thu, 09 Jan 2020 19:11:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2020-01-09-http-cors/</guid>
       <description>&lt;p&gt;关于 HTTP CORS&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>翻页时钟</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2020-01-09-clock-web/</link>
       <pubDate>Thu, 09 Jan 2020 19:11:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2020-01-09-clock-web/</guid>
       <description>&lt;p&gt;翻页时钟实现调研&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>正则表达式</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2020-01-08-regexp/</link>
       <pubDate>Wed, 08 Jan 2020 09:33:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2020-01-08-regexp/</guid>
       <description>&lt;p&gt;关于正则表达式学习&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>markdown使用</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2020-01-03-markdown/</link>
       <pubDate>Fri, 03 Jan 2020 11:30:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2020-01-03-markdown/</guid>
       <description>markdown 基本使用</description>
     </item>
-    
     <item>
       <title>如何用vscode调试node程序和vue源码</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2019-12-17-debug-node-vue/</link>
       <pubDate>Tue, 17 Dec 2019 19:46:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2019-12-17-debug-node-vue/</guid>
       <description>如何用 vscode 调试 node 程序和 vue 源码</description>
     </item>
-    
     <item>
       <title>2019年终总结</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2019-12-11-review-of-2019/</link>
       <pubDate>Wed, 11 Dec 2019 17:38:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2019-12-11-review-of-2019/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;2019 年快结束了，又来到一年一度的复盘总结时&lt;/p&gt;
 &lt;/blockquote&gt;</description>
     </item>
-    
     <item>
       <title>2020年你为什么要学习js</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2019-12-05-why-2020-learn-js/</link>
       <pubDate>Thu, 05 Dec 2019 10:46:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2019-12-05-why-2020-learn-js/</guid>
       <description>&lt;p&gt;js 全称是 javascript，它既不是 java 的嫡系，也不单单是一门脚本语言（script 直译）。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>做事方法论总结</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2019-12-03-do-things-methods/</link>
       <pubDate>Tue, 03 Dec 2019 11:49:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2019-12-03-do-things-methods/</guid>
       <description>&lt;p&gt;一些做事方法论的总结&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>什么样的人适合做技术</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2019-10-17-technical-people/</link>
       <pubDate>Thu, 17 Oct 2019 17:48:17 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2019-10-17-technical-people/</guid>
       <description>&lt;p&gt;突然有感而发想到这样一个话题——什么样的人适合做技术&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>《ECMAScript6入门》读后感</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2019-05-21-ecmascript6-reading-review/</link>
       <pubDate>Tue, 21 May 2019 21:21:28 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2019-05-21-ecmascript6-reading-review/</guid>
       <description>&lt;p&gt;关于阮一峰《ECMAScript6 入门》一书的观感，就把此文当做本人对于《ECMAScript6 入门》的书评吧&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Git子模块功能使用实践</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2019-05-21-git-submodule/</link>
       <pubDate>Tue, 21 May 2019 20:21:32 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2019-05-21-git-submodule/</guid>
       <description>&lt;p&gt;关于一次使用 git 子模块功能备份 hexo 主题文件的记录&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>用Python生成柱状图、折线图、饼状图来统计自己的手机话费</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2019-05-07-use-python-visualize-to-statistics/</link>
       <pubDate>Tue, 07 May 2019 16:14:54 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2019-05-07-use-python-visualize-to-statistics/</guid>
       <description>&lt;p&gt;用 Python 生成柱状图、折线图、饼状图来统计自己的手机话费&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>关于WEB中宽高的一些整理</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2019-04-12-web-height/</link>
       <pubDate>Fri, 12 Apr 2019 15:31:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2019-04-12-web-height/</guid>
       <description>&lt;p&gt;关于 WEB 中宽高的一些整理&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>JS的方法参数传递（按值传递）</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2019-02-12-js-function-arguments/</link>
       <pubDate>Tue, 12 Feb 2019 16:11:50 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2019-02-12-js-function-arguments/</guid>
       <description>&lt;p&gt;出处：JavaScript 高级程序设计（第三版）第四章——变量、作用域和内存问题&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>浅拷贝和深拷贝</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2019-01-22-shallow-clone-and-deep-clone/</link>
       <pubDate>Tue, 22 Jan 2019 16:47:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2019-01-22-shallow-clone-and-deep-clone/</guid>
       <description>&lt;p&gt;关于 js 浅拷贝和深拷贝&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>js中的“拷贝”（第一篇）——js数据类型</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2019-01-21-js-copy/</link>
       <pubDate>Mon, 21 Jan 2019 15:44:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2019-01-21-js-copy/</guid>
       <description>&lt;p&gt;关于 js 数据类型&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>重读javascript第一篇</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2019-01-17-reread-js/</link>
       <pubDate>Thu, 17 Jan 2019 21:12:35 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2019-01-17-reread-js/</guid>
       <description>&lt;p&gt;对于 &lt;a href=&#34;https://javascript.info/intro&#34;&gt;An Introduction to JavaScript&lt;/a&gt; 的个人翻译及一些“添油加醋”&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>2017-2018年个人盘点(多图)</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2018-10-02-review-of-2017-to-2018/</link>
       <pubDate>Tue, 02 Oct 2018 16:36:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-10-02-review-of-2017-to-2018/</guid>
       <description>&lt;p&gt;每当思绪万千，就想化作文字来记录片刻的美好。每当提笔却又不知从何写起，索性只能洋洋洒洒。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>如何使用原生技术写一个倒计时时钟</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2018-09-05-html5-clock-webapp/</link>
       <pubDate>Wed, 05 Sep 2018 15:55:05 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-09-05-html5-clock-webapp/</guid>
       <description>&lt;p&gt;心血来潮，想做一个苹果发布会的倒计时&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>我是如何备份博客的</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2018-09-03-blog-backup/</link>
       <pubDate>Mon, 03 Sep 2018 19:57:17 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-09-03-blog-backup/</guid>
       <description>&lt;p&gt;记录如何把博客从离线存储配置成可通过 git 维护&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>JavaScript高级程序设计第3版笔记（一）</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2018-09-03-js-note/</link>
       <pubDate>Mon, 03 Sep 2018 18:54:18 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2018-09-03-js-note/</guid>
       <description>函数表达式 定义函数方式 函数声明 function fun() {} 函数表达式 var fun = function () {}; 关键词 函数声明提升 执行代码前会先读取函数声明，所以在函数声明前也可以调用函数
 test(); function test() { alert(&amp;#34;test&amp;#34;); } // ok 匿名函数（lambda 函数） 函数表达式同其他表达式，使用前需先声明，否则报错
@@ -606,84 +486,66 @@ test(); function test() { alert(&amp;#34;test&amp;#34;); } // 报错 递归 经�
 function factorial(num) { if (num &amp;lt;= 1) { return 1; } else { return num * factorial(num - 1); } } 如下会使这个函数报错
 // 把factorial()函数保存在another变量中 var another = factorial; // 把变量factorial置空 factorial = null; // 调用another()必须执行factorial(),而factorial不再是函数 alert(another(4)); 解决：使用arguments.</description>
     </item>
-    
     <item>
       <title>服务器搭建Gitlab</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2018-08-27-gitlab-use/</link>
       <pubDate>Mon, 27 Aug 2018 09:30:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-08-27-gitlab-use/</guid>
       <description>&lt;p&gt;服务器搭建 Gitlab&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>一周时间使用Vue&#43;Koa全栈开发论坛项目</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2018-08-27-koa-vue-forum/</link>
       <pubDate>Mon, 27 Aug 2018 09:30:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-08-27-koa-vue-forum/</guid>
       <description>&lt;p&gt;使用 vue-cli3 脚手架初始化前端项目&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>在Ubuntu 16.04安装禅道</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2018-08-27-install-zendao-on-ubuntu/</link>
       <pubDate>Mon, 27 Aug 2018 09:30:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-08-27-install-zendao-on-ubuntu/</guid>
       <description>&lt;p&gt;在 Ubuntu 16.04 安装禅道&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>再品Git, 深度解读</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2018-08-23-git-use/</link>
       <pubDate>Thu, 23 Aug 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-08-23-git-use/</guid>
       <description>&lt;p&gt;和一个长期使用 IDE(eclipse)集成 git 进行代码版本管理的人交流项目，博文内容将采用类似《大话设计模式》的对话体进行，场景真实，有代入感。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>js异步编程</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2018-03-06-js-asynchronize/</link>
       <pubDate>Tue, 06 Mar 2018 19:10:33 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-03-06-js-asynchronize/</guid>
       <description>&lt;p&gt;js 异步编程的&lt;strong&gt;4&lt;/strong&gt;种方式&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>记一次关于运行redux示例启动错误的分析</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2018-02-25-redux-using/</link>
       <pubDate>Sun, 25 Feb 2018 17:43:24 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-02-25-redux-using/</guid>
       <description>&lt;p&gt;记录在运行 redux 官方文档中给出的基础实例运行时报错的解决思路&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>前端基础知识整理——jQuery选择器</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2018-02-23-js-basic-about-jquery-selector/</link>
       <pubDate>Fri, 23 Feb 2018 20:01:25 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2018-02-23-js-basic-about-jquery-selector/</guid>
       <description>&lt;p&gt;关于 jQuery 选择器的整理&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Angular学习笔记</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2018-02-22-angular4/</link>
       <pubDate>Thu, 22 Feb 2018 22:36:27 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2018-02-22-angular4/</guid>
       <description>&lt;p&gt;关于 Angular 学习整理&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Vue.js技术回顾——实例</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2018-02-22-vue-basic/</link>
       <pubDate>Thu, 22 Feb 2018 21:33:38 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-02-22-vue-basic/</guid>
       <description>Vue.js 教程之 Vue 实例
 创建实例 每个 Vue 应用都是通过用Vue函数创建一个新的Vue 实例开始
@@ -701,174 +563,136 @@ viewmodel 可实现中介者模式，组织对 view 所支持的用例集的后�
 分类 标记语言通常分为三种：表示性、过程性、描述性
 表示性：编码过程中标记文档的结构信息 例如文本文件中，文件标题可能需要特定格式（居中、放大等），则需要标记文件的标题。</description>
     </item>
-    
     <item>
       <title>Vue.js技术回顾——概述</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2018-02-22-vue-basic-01/</link>
       <pubDate>Thu, 22 Feb 2018 12:34:42 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-02-22-vue-basic-01/</guid>
       <description>&lt;p&gt;初探 Vue.js&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>HTML5语义提升篇</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2018-02-16-html5-sementical/</link>
       <pubDate>Fri, 16 Feb 2018 15:54:37 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2018-02-16-html5-sementical/</guid>
       <description>&lt;p&gt;关于 HTML5 中语义方面的改变&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>HTML5基础回顾</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2018-02-16-html-basic/</link>
       <pubDate>Fri, 16 Feb 2018 15:09:48 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2018-02-16-html-basic/</guid>
       <description>&lt;p&gt;HTML5 作为如今前端必备“新”技术，理应成为前端基础的必备技能之一&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>javascript常见问题整理</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2018-02-15-js-exercise/</link>
       <pubDate>Thu, 15 Feb 2018 15:16:31 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-02-15-js-exercise/</guid>
       <description>&lt;p&gt;25 个最基本的 javascript 问题整理&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>记一次失眠</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2018-02-14-insomnia/</link>
       <pubDate>Wed, 14 Feb 2018 08:36:24 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-02-14-insomnia/</guid>
       <description>&lt;p&gt;关于一次莫名失眠的研究和总结&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>关于hexo阅读次数统计及访问次数插件使用</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2018-02-13-hexo-reading-count/</link>
       <pubDate>Tue, 13 Feb 2018 14:46:31 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2018-02-13-hexo-reading-count/</guid>
       <description>&lt;p&gt;前一段时间换域名，发现博客的访问次数不显示了。一开始没时间关注，最近闲了，研究一下到底是怎么回事，发现原来当初这里不是基于本地配置，而是使用 leancloud 进行统计，查阅到一篇很易懂的教程，顺便整理了一下 PV 和 UV 的统计&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>微信公众号和小程序开发</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2018-02-13-wechat-miniprogram/</link>
       <pubDate>Tue, 13 Feb 2018 09:47:22 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-02-13-wechat-miniprogram/</guid>
       <description>&lt;p&gt;关于微信公众号平台使用相关&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>关于javascript的严格模式（use strict）</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2018-02-12-js-use-strict/</link>
       <pubDate>Mon, 12 Feb 2018 20:55:06 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-02-12-js-use-strict/</guid>
       <description>&lt;p&gt;探析 javascript 中的严格模式&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>2017年个人技术盘点</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2018-02-09-review-of-2017/</link>
       <pubDate>Fri, 09 Feb 2018 23:37:50 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-02-09-review-of-2017/</guid>
       <description>&lt;p&gt;关于 2017 年个人博客点滴的年终总结&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>linux常用命令(长期更新)</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2018-02-07-linux-basic-commands/</link>
       <pubDate>Wed, 07 Feb 2018 20:42:57 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2018-02-07-linux-basic-commands/</guid>
       <description>&lt;p&gt;记录一下常用到的 linux 命令（包含相应 Windows 中的操作）&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>React教程——安装篇</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2018-02-07-react-install/</link>
       <pubDate>Wed, 07 Feb 2018 14:59:31 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-02-07-react-install/</guid>
       <description>&lt;p&gt;React 官网教程系列之前期准备&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>工具篇——如何管理node和npm的更新</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2018-02-07-nodejs-and-npm-update/</link>
       <pubDate>Wed, 07 Feb 2018 14:27:19 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-02-07-nodejs-and-npm-update/</guid>
       <description>&lt;p&gt;管理 node 和 npm 的更新&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>VMware使用macOS如何全屏</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2018-02-07-vmware-macos-max-window/</link>
       <pubDate>Wed, 07 Feb 2018 14:10:45 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2018-02-07-vmware-macos-max-window/</guid>
       <description>&lt;p&gt;如何解决 VMware 安装 VMware Tools 后仍不能全屏显示的问题&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>关于浏览器缓存</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2018-02-02-browser-cache/</link>
       <pubDate>Fri, 02 Feb 2018 14:38:49 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2018-02-02-browser-cache/</guid>
       <description>&lt;p&gt;探讨浏览器缓存相关&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>JavaScript知识巩固</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2018-02-01-js-refresh/</link>
       <pubDate>Thu, 01 Feb 2018 21:28:22 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-02-01-js-refresh/</guid>
       <description>&lt;p&gt;Refresh your JavaScript Knowledge&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>React教程之快速上手篇</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2018-02-01-react-quick-start/</link>
       <pubDate>Thu, 01 Feb 2018 15:32:54 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-02-01-react-quick-start/</guid>
       <description>&lt;p&gt;React 官方教程系列之快速上手篇&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>mysql误删数据恢复</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2018-02-01-mysql-data-recovery/</link>
       <pubDate>Thu, 01 Feb 2018 15:14:45 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-02-01-mysql-data-recovery/</guid>
       <description>&lt;p&gt;对于 MySQL 误删数据，如何通过二进制日志进行数据查找和恢复&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Apache项目Maven官方文档学习及翻译（译）</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2018-01-29-about-maven-translation/</link>
       <pubDate>Mon, 29 Jan 2018 14:34:24 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-01-29-about-maven-translation/</guid>
       <description>&lt;p&gt;从理解 pom.xml 探析 Maven&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>关于域名</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2018-01-25-domain/</link>
       <pubDate>Thu, 25 Jan 2018 15:09:24 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2018-01-25-domain/</guid>
       <description>探析域名
 概念 域名（简称“网域”），与互联网上的一个物理 IP 关联
@@ -884,12 +708,10 @@ viewmodel 可实现中介者模式，组织对 view 所支持的用例集的后�
 发送至用户任一地址的邮件均会递送到用户的同一个电子邮件收件箱
 IP 地址 一个域名可能有一个或多个关联的 IP 地址</description>
     </item>
-    
     <item>
       <title>关于DNS</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2018-01-25-dns/</link>
       <pubDate>Thu, 25 Jan 2018 14:46:04 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2018-01-25-dns/</guid>
       <description>探析 DNS
 DNS 概念 Domain Name System，域名系统
@@ -915,12 +737,10 @@ TTL 生存时间，Time To Live
 原因 较短的 TTL 在之前的有效期到期后才会生效
 若想快速还原一项更改，则可设置较短的 TTL 值（如 300,5 分钟）</description>
     </item>
-    
     <item>
       <title>linux发行版理解</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2018-01-25-linux-distributions/</link>
       <pubDate>Thu, 25 Jan 2018 10:51:20 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-01-25-linux-distributions/</guid>
       <description>linux 作为开源系统，有着众多的发行版本（毕竟有着庞大的社区和狂热的爱好者），不同的发行版本(Linux Distribution)随着发展，在使用方式上也有一些不同，例如各自的包管理器、已经适用场景等等。借此整理一下 linux 的不同发行版本，以便在使用不同版 linux 时不至混乱。
 大致分类 商业发行版
@@ -932,12 +752,10 @@ Linux 桌面发行版组成 Linux 内核 GNU 工具&amp;amp;库 附加软件、�
 软件包 软件包通常是已编译的机器码，由软件包管理器安装和卸载
 软件包组成 元数据：软件描述、版本、依赖（提供给软件包管理器以使用元数据进行搜索、自动更新到最新版本、自动解决依赖） 常见软件包格式 deb——Debian rpm——Fedora(Red Hat) 流行的发行版 基于 Dpkg(Debian 系) 商业发行版 Ubuntu（流行的桌面发行版，由 Canonical 维护） 社区发行版 Debian（强烈信奉自由软件，由志愿者维护） Kubuntu（使用 KDE 桌面的 Ubuntu） Linux Mint（由 Ubuntu 派生，与 Ubuntu 兼容） OpenGEU（Ubuntu 派生） Elementary OS（基于 Ubuntu，形似 Mac OS X） gOS 及其他 基于 RPM（Red Hat 系） 商业发行版 Red Hat Enterprise Linux（Fedora 的商业版，由 Red Hat 维护） Mandriva（最初派生自 Red Hat，现由法国同名公司维护） openSUSE（最初由 Slackware 分离出，现由 Novell 维护） 社区发行版 Fedora（Red Hat 社区版，会引入新特性测试） PCLinuxOS（Mandriva 派生版） CentOS（Red Hat 发展而来，由志愿者维护，旨在提供开源，与 Red Hat 完全兼容） 基于其他包格式 ArchLinux（基于 KISS——Keep It Simple and Stupid 的滚动更新的操作系统） Chakra（由 ArchLinux 派生，只是用 KDE 桌面的半滚动更新发行版） Gentoo（面向高级用户，所有软件源代码需自行编译） Slackware（最早发行版之一，1993 年创建，由Patrick Volkerding维护） 参考链接</description>
     </item>
-    
     <item>
       <title>谷歌机器学习开源框架Tensorflow安装相关</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2018-01-25-tensorflow-install/</link>
       <pubDate>Thu, 25 Jan 2018 10:17:43 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-01-25-tensorflow-install/</guid>
       <description>关于安装 TensorFlow 的一系列准备
 前期准备 tensorflow 官方推荐安装是通过 pip 安装的，先来看看 pip 是什么
@@ -947,12 +765,10 @@ pip 本质 包安装器
 pip install some-package 具体行为 去 PyPI（Python Package Index）下载相关包
 安装 预安装情况 装有大于等于 2.7.9 或 3.4 版本的 python，已预装</description>
     </item>
-    
     <item>
       <title>虚拟机vmware使用——安装vmware-tools</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2018-01-25-vmware-tools-install/</link>
       <pubDate>Thu, 25 Jan 2018 09:59:50 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-01-25-vmware-tools-install/</guid>
       <description>每次安装虚拟机都忘记怎么安装 vmware tools，而不安装这个东西，用起来总是各种蹩脚，故做此整理。
 背景 虚拟机屏幕不能自适应大小，虽然 vmware 有相关设置，但貌似不能符合使用要求，因此仍需要安装 vmware tools（感觉甚至像一个补丁）来完善 vmware 的使用，比如与宿主机的文件传输等。
@@ -962,12 +778,10 @@ mount df 若未装载，则需安装 CD-ROM 驱动器
 检查装载点目录 可能在/mnt/cdrom 或/media/VMware Tools(例如本例)
 若不存在装载点目录则创建 mkdir /mnt/cdrom 装载 CD-ROM 驱动器 mount /dev/cdrom /mnt/cdrom 某些 Linux 发行版使用不同的设备名称，或以不同的方式组织/dev 目录，若 CD-ROM 驱动器不是/dev/cdrom 或 CD-ROM 装载点不是/mnt/cdrom，则需根据实际情况进行装载</description>
     </item>
-    
     <item>
       <title>设计模式学习笔记（下）</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2018-01-24-design-pattern-02/</link>
       <pubDate>Wed, 24 Jan 2018 15:56:32 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2018-01-24-design-pattern-02/</guid>
       <description>继设计模式学习笔记（上）
 15 抽象工厂模式 场景 不同数据库在 SQL 的具体实现上有差距，若存在系统中使用 SQL 语句上过多的使用专门的某种数据库的 SQL 语句，在迁移数据库时，会导致很多 SQL 在新的数据库中不能运行。
@@ -977,12 +791,10 @@ mount df 若未装载，则需安装 CD-ROM 驱动器
 抽象工厂模式 提供一个创建一系列相关或相互依赖对象的接口，而无需指定具体的类
 实际使用步骤 先通过抽象工厂创建一个具体工厂，再通过具体工厂生产特定实现的产品对象</description>
     </item>
-    
     <item>
       <title>设计模式学习笔记（上）</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2018-01-24-design-pattern-01/</link>
       <pubDate>Wed, 24 Jan 2018 15:53:31 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2018-01-24-design-pattern-01/</guid>
       <description>关于 Java 设计模式的学习
 继承 两个类之间是 is-a 的关系可以考虑用继承 而两个类之间是 has-a，表示某个角色具有某一项责任，不适合用继承 例如：飞机场有飞机，但是飞机不能去继承飞机场
@@ -1018,12 +830,10 @@ UML 关联
 解释 所有的算法完成相同的工作，只是实现不同，它可以以相同的方式调用所有的算法，减少了各种算法类与使用算法类之间的耦合。
 优势 另外策略模式简化了单元测试，因为每个算法有独立的类，可以通过自己的接口单独测试。</description>
     </item>
-    
     <item>
       <title>从输入网址到浏览器呈现内容期间发生的事情</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2018-01-24-what-happens-about-url/</link>
       <pubDate>Wed, 24 Jan 2018 09:49:03 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-01-24-what-happens-about-url/</guid>
       <description>探析浏览器访问站点这一行为背后的具体行为。
 浏览器地址栏输入网址www.coder.com
@@ -1043,12 +853,10 @@ web 服务器处理请求（三种方式）
 以 Nginx 为例，对于 HTTP GET 请求，Nginx 利用 epoll 方式读取出来，Nginx 判断该请求是静态 or 动态
 若为静态（HTML、JavaScript、CSS、图片等），依赖于 Nginx 配置，可能转发到其他缓存服务器，可能读取本机硬盘上相关文件直接返回</description>
     </item>
-    
     <item>
       <title>使用vmware安装macOS</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2018-01-23-install-macos-using-vmware/</link>
       <pubDate>Tue, 23 Jan 2018 12:04:14 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2018-01-23-install-macos-using-vmware/</guid>
       <description>虽然类似这样的文章网上一搜一大把，但应 youngwa 邀，还是决定重新整理一下个人安装的详细流程及相关资源链接，以备后用。
 资源准备 macOS 系统镜像 8G 左右 cdr 后缀 点击下载
@@ -1058,12 +866,10 @@ vmware 补丁（用于添加 macOS 类镜像）点击下载
 注意点 安装 macOS 和安装其他系统镜像类型的虚拟机没什么大的区别，主要在于以下几点：
 为 VMware 安装补丁，拓展镜像类型（实用 unlock） 修改 vmx，虚拟机配置文件，添加 smc.version = 0 </description>
     </item>
-    
     <item>
       <title>linux忘记密码</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2018-01-23-linux-password-forget/</link>
       <pubDate>Tue, 23 Jan 2018 09:48:20 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-01-23-linux-password-forget/</guid>
       <description>这算不上一篇博客，只是不想再重复在解决这个问题上花费时间。另外对于解决方案的原理有待深究。
 核心操作 进入GRUB修改 kernel 镜像启动参数
@@ -1071,12 +877,10 @@ vmware 补丁（用于添加 macOS 类镜像）点击下载
 参考
 https://books.google.com/books?id=X3tZDgAAQBAJ&amp;amp;pg=PA191&amp;amp;lpg=PA191&amp;amp;dq=recovery+nomodeset&amp;amp;source=bl&amp;amp;ots=HOI9ga8YBl&amp;amp;sig=J8_HlXL2v9V9BnpNpvXKoPbW2MM&amp;amp;hl=zh-CN&amp;amp;sa=X&amp;amp;ved=0ahUKEwjh0MWQ--zYAhVBl5QKHSfvBd0Q6AEIVDAE#v=onepage&amp;amp;q=recovery%20nomodeset&amp;amp;f=false </description>
     </item>
-    
     <item>
       <title>js学习笔记——一些常用的高级属性</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2018-01-20-js-advanced/</link>
       <pubDate>Sat, 20 Jan 2018 14:11:34 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2018-01-20-js-advanced/</guid>
       <description>MSDN 学习 js 高级教程 note
 构造函数 使用构造函数定义类型（type） 概念 构造函数是一个为 Object 初始化一个特定类型的函数
@@ -1090,12 +894,10 @@ js 只有 6 中类型：object、function、string、number、boolean、undefine
 typeof操作符以字符串形式返回类型信息
 var index = 5; var result = typeof index === &amp;#34;number&amp;#34;; var description = &amp;#34;abc&amp;#34;; var result = typeof description === &amp;#34;string&amp;#34;; true true 为声明和未声明的变量测试 undefined 数据类型</description>
     </item>
-    
     <item>
       <title>js学习笔记——变量作用域</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2018-01-20-js-parameter-scope/</link>
       <pubDate>Sat, 20 Jan 2018 10:53:32 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2018-01-20-js-parameter-scope/</guid>
       <description>js 变量作用域探析
 背景 var o = {}; o.fun = test(); o.fun(); function test() { var fn = function () { console.log(this); }; return fn; } {fun: ƒ} 由于对这个程序的输出结果感到不解，于是决定深入了解 js 作用域究竟是什么个东西
@@ -1106,12 +908,10 @@ var index = 5; var result = typeof index === &amp;#34;number&amp;#34;; var descr
 js 不支持块范围（通过一组大括号定义新范围），于是就只有全局（函数外）和局部（函数内），以函数划分的这两种范围
 js 范围 var aNumber = 100; tweak(); function tweak() { document.write(aNumber); if (false) { var aNumber = 123; } } undefined 虽然 if（false），var aNumber = 123 不会执行，但是 js 在执行函数 tweak()时，会查找所有变量声明，var aNumber 被扫描到，js 使用初始值undefined创建变量，即使使用一个值声明变量 var aNumber = 123，但 aNumber 变量的初始值仍为undefined，仅当执行包含声明的行（var aNumber = 123）时才会使用已声明的值。</description>
     </item>
-    
     <item>
       <title>javascript-puzzlers</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2018-01-20-javascript-puzzlers/</link>
       <pubDate>Sat, 20 Jan 2018 09:22:05 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-01-20-javascript-puzzlers/</guid>
       <description>关于深入理解 js 的 44 道 wired 题目，经实际验证及分析的学习笔记。
 [&amp;#34;1&amp;#34;, &amp;#34;2&amp;#34;, &amp;#34;3&amp;#34;].map(parseInt) [1, NaN, NaN] map() map passes 3 params (element, index, array) parseInt take two parameters (val, radix)
@@ -1119,12 +919,10 @@ typeof null &amp;#34;object&amp;#34; null instanceof object false typeof always 
 [ [3, 2, 1].reduce(Math.pow), [].reduce(Math.pow) ] reduce on an empty array without an initial value throws TypeError array.reduce() Math.pow
 var val = &amp;#34;smtg&amp;#34;; console.log(&amp;#34;Value is &amp;#34; + (val === &amp;#34;smtg&amp;#34;) ?</description>
     </item>
-    
     <item>
       <title>js学习笔记——this关键字</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2018-01-19-js-this/</link>
       <pubDate>Fri, 19 Jan 2018 18:22:06 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2018-01-19-js-this/</guid>
       <description>js 关键字 this 用法解析
 解释 函数运行时自动生成的一个内部对象，只能在函数内部使用（想起了 Python 函数的 self）
@@ -1138,12 +936,10 @@ apply 调用
 function test() { this.x = 1; alert(this.x); } test(); 1 var x = 1; function test() { alert(this.x); } test(); 1 不会报错，因为相当于 alert(Global.x)
 var x = 1; function test() { this.x = 0; } test(); alert(x); 0 test()之后相当于将全局变量的 x 重新赋值 0，Global.</description>
     </item>
-    
     <item>
       <title>js学习笔记——局部变量和全局变量</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2018-01-19-js-variables/</link>
       <pubDate>Fri, 19 Jan 2018 16:34:02 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2018-01-19-js-variables/</guid>
       <description>js 的局部变量和全局变量
 大纲 如何声明局部变量和全局变量 js 变量作用域基于特有的作用域链 js 没有块级作用域（ES5-） 函数中声明的变量在整个函数中都有定义 声明局部变量和全局变量 全局变量——定义在函数外的变量 局部变量——函数内部声明的变量 var a = &amp;#34;global&amp;#34;; function getLocal() { var a = &amp;#34;local&amp;#34;; console.log(a); } getLocal(); console.log(a); local global a = &amp;#34;global&amp;#34;; function getLocal() { a = &amp;#34;local&amp;#34;; console.log(a); b = &amp;#34;local&amp;#34;; console.log(b); } getLocal(); console.log(a); console.log(b); local local local local 疑问：
@@ -1157,12 +953,10 @@ var x = 1; function test() { this.x = 0; } test(); alert(x); 0 test()之后相�
 函数的执行环境包含了调用对象，调用对象的属性就是函数的局部变量，每个函数在这样的执行环境中执行。函数之外的代码在另一个环境中执行，包含了全局变量。
 作用域链 对象组成的列表或链</description>
     </item>
-    
     <item>
       <title>js学习笔记——闭包</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2018-01-19-js-closure/</link>
       <pubDate>Fri, 19 Jan 2018 15:33:28 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2018-01-19-js-closure/</guid>
       <description>JS 闭包探析。What exactly the Closure is?
 计算机术语 闭包：引用了自由变量的函数。这个被引用的自由变量和这个函数一同存在，即使已经离开了创造它的环境。
@@ -1175,12 +969,10 @@ var x = 1; function test() { this.x = 0; } test(); alert(x); 0 test()之后相�
 方法：在函数内部再定义一个函数
 function f4() { var n4 = 9999; function f5() { alert(n4); } } 解析：</description>
     </item>
-    
     <item>
       <title>比特币协议是如何工作的（译）</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2018-01-18-how-bitcorn-works-translation/</link>
       <pubDate>Thu, 18 Jan 2018 09:38:05 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-01-18-how-bitcorn-works-translation/</guid>
       <description>本文翻译自 13 年一篇关于比特币协议的深度解析文章
 成千上万篇文章为了解释比特币这一线上、点对点的货币而撰写。大多数文章对于其底层加密协议都只给出一些简短的解释，却忽略了很多细节。甚至那些文章常常掩盖重点进行更深入的研究。我这篇文章的目的是以一种清晰、容易理解的方式解释隐藏在比特币协议后面的主要思想。我们将从第一原则开始，对于比特币如何工作建立一个广义的理论上的理解，然后再深挖其细节，检查比特币交易的原始数据。
@@ -1201,12 +993,10 @@ function f4() { var n4 = 9999; function f5() { alert(n4); } } 解析：</descrip
 使用序列号来使得货币被唯一标识
 第一个版本的信息币的问题在于 Alice 可以一次又一次地继续向 Bob 发送相同的签名消息。假定 Bob 收到了十份“我，爱丽丝，给 Bob 一个信息币”这样的拷贝签名信息。意味着 Alice 向 Bob 发送了十个不同的信息币吗？她的信息是巧合复制出来的吗？可能她只是试图戏弄 Bob 使其相信她给了他十个不同的信息币，当这条信息向全世界证明才表示她真的企图传送一个信息币。</description>
     </item>
-    
     <item>
       <title>webpack学习笔记</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2018-01-17-webpack-basic/</link>
       <pubDate>Wed, 17 Jan 2018 11:41:10 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-01-17-webpack-basic/</guid>
       <description>关于 Webpack 基础使用的整理
 背景 网站由网页模式进化成 Webapp 模式
@@ -1221,12 +1011,10 @@ CommonJS 服务端的 Node.js 遵循 CommonJS 规范
 核心思想 允许模块通过 require 方法来同步加载要依赖的其他模块 通过 exports 或 module.exports 导出需要暴露的接口 require(&amp;#34;module&amp;#34;); require(&amp;#34;../file.js&amp;#34;); exports.doStuff = function() {}; module.exports = someValue; 优势 服务端模块便于重用 NPM 中已有大量可用模块包（20w） 简单易用 缺陷 同步的模块加载方式不适合在浏览器环境中，同步意味着阻塞加载，浏览器资源是异步加载的 不能非阻塞的并行加载多个模块 ES6 模块 ES6 标准增加了 js 语言层面的模块体系定义
 ES6 的设计思想是尽量的静态化，使得编译时就能确定模块的依赖关系，以及输入和输出的变量。</description>
     </item>
-    
     <item>
       <title>如何设计良好的API并且为什么这很重要（译）</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2018-01-16-api-designing-translation/</link>
       <pubDate>Tue, 16 Jan 2018 11:38:31 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-01-16-api-designing-translation/</guid>
       <description>本文翻译自 Effective Java 作者 Joshua Bloch 撰写的一篇关于 API 设计的分享
 API 可以是公司最大的资产之一 客户投入巨资：购买、撰写、学习（售前一系列培训） 停止使用 API 导致的花费令人望而却步（如果不使用 API 可能要花费更多） 成功的公共 API 赢得客户 也可以成为公司最大的负债之一 糟糕的 APIs 将导致无休止的电话技术支持（需要接听很多来自客户的反映） 公共的 APIs 是永久的——一次去做正确事情的机会
@@ -1234,12 +1022,10 @@ API 可以是公司最大的资产之一 客户投入巨资：购买、撰写、
 好的 API 所具备的特征 易于学习 易于使用，甚至无需任何文档 不易误用 易于阅读并且对所使用的代码部分易于维护 足够强大以满足需求 易于拓展 适用于大众 大纲 API 设计的过程 一般原则 类设计 方法设计 异常设计 API 重构设计 I API 设计的过程 收集需求——以一种健康的程度怀疑
 通常你会得到建议的解决方法作为替代方案 可能存在更好的解决方案 你的工作是去提取出真正的需求 应采取用例的形式 可以更容易、更有意义地建立更普遍的东西 从简短的规范页开始比较理想 在这个阶段，敏捷胜过完整性 和尽可能多的人谈（原文：Bounce spec off as many people as possible） 倾听他们的输入并认真对待 如果你保持规范简短，那么将易于修改 充分自信 这涉及到编码时也很必要 尽早写给你的 API 以下应开始于在你实现 API 之前</description>
     </item>
-    
     <item>
       <title>vultr账单解析及使用ssr在vultr搭建代理</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2017-11-28-vultr-billing-and-ssr-on-vultr/</link>
       <pubDate>Tue, 28 Nov 2017 12:38:01 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-11-28-vultr-billing-and-ssr-on-vultr/</guid>
       <description>今天就之前疑惑不解的 vultr 账单做了一波分析，终于算是破案了，借此也记录一下服务器搭建 ssr 的详细步骤。
 一开始打开 vultr 账单，我是懵比的
@@ -1258,12 +1044,10 @@ API 可以是公司最大的资产之一 客户投入巨资：购买、撰写、
 至此，整体应该算是破案了，我们可以用类比的思想（把陌生的事物类比成熟悉的事物，以便理解）可以理解为，vultr 在开通账户的时候是需要先付款后消费，不存在试用（先免费用，再补交费用）的情况。
 但是当开通账户并充值以后，它的收费方式是每月 1 号，结算上个月的消费实际情况，会给你账单记录中发送一枚发票（invoice），你使用 paypal 进行的主动充值也会有所记录。但是可以先消费，后缴费。具体体现就是你这个月使用的费用是下个月 1 号结算，如果到时候你的 vultr 账户余额不足，它就会从你绑定的支付方式（比如 paypal 或信用卡）中自动扣款。</description>
     </item>
-    
     <item>
       <title>使用分支备份hexo博客</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2017-11-17-hexo-backup-using-git-branch/</link>
       <pubDate>Fri, 17 Nov 2017 17:39:36 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-11-17-hexo-backup-using-git-branch/</guid>
       <description>使用一台电脑使用 hexo 创建博文、生成静态文件、发布，没毛病，但由于 hexo 在本地生成静态文件的模式，如果你换一台电脑呢？很明显你需要把原始电脑上的 hexo 文件夹拷贝到新电脑。这样带来的问题就是多台电脑上的 hexo 不能总保持同步，需要通过物理拷贝的方式，很不方便。
 正文 实现方式可能有多种，但我看到的主流方式是通过在远端仓库添加分支来保存 hexo 原始文件来将你的整个博客工程交由 git 管理。
@@ -1276,12 +1060,10 @@ git init 这样 hexo 主目录会多一个隐藏目录.git
 创建本地分支，与远端的分支对应
 git checkout -b source 然后将 hexo 主目录的所有文件按照.</description>
     </item>
-    
     <item>
       <title>Markdown语法学习整理</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2017-11-17-markdown-programmer/</link>
       <pubDate>Fri, 17 Nov 2017 10:09:16 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-11-17-markdown-programmer/</guid>
       <description>虽说 markdown 用了一段时间，但还未曾专门地阅读文档对其进行过相对系统的学习。刚才使用分割线时发现分割线下面的文字变成标题般字体，专门查了一波，发现还是有必要系统学习一下 md 语法，以节省日后使用时的查阅时间。
 宗旨 易读易写
@@ -1296,12 +1078,10 @@ git checkout -b source 然后将 hexo 主目录的所有文件按照.</descripti
 比如这里的 HTML 标签如果我想要以标签的样子显示在屏幕上，那我其实需要在文本里通过 md 标记来编辑，类似使用 code 标签、转义字符（通过转义字符来“画出”尖括号，code 标签可以使其成为块状文本）
 另外，markdown 生成器不会在 HTML 区块标签外加上不必要的&amp;lt;p&amp;gt;标签，区别于对于 HTML 文本进行编辑时，若你写了大段内容而未加任何标签的话，HTML 生成器会为你在内容前后加上&amp;lt;p&amp;gt;标签</description>
     </item>
-    
     <item>
       <title>git学习总结</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2017-11-17-git-learning/</link>
       <pubDate>Fri, 17 Nov 2017 09:54:33 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-11-17-git-learning/</guid>
       <description>对于 Git 学习的一些整理，包含常用命令整理
 个人觉得，对于一些开源工具，最好的学习资源还是其官网，我们就先来分析一波 Git 究竟是做什么的。
@@ -1319,12 +1099,10 @@ git status 可在任何时间阶段使用， 以查看当前 git 管理下的文
 3.将文件交予 git 管理
 git add filename 对于在 git init 后的目录里的每一个文件都有 tracked 和 untracked 两种状态，也就是是否被 git 追溯（管理）</description>
     </item>
-    
     <item>
       <title>关于centos的iptables以及firewalld的总结</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2017-11-16-centos-iptables-and-firewalld/</link>
       <pubDate>Thu, 16 Nov 2017 15:57:50 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-11-16-centos-iptables-and-firewalld/</guid>
       <description>centos 内置一个非常强劲的防火墙，统称为 iptables，实际原理是 iptables 是用户空间的模块，在内核中存在一个 netfilter 核心模块用于实现 iptables 中设置的规则，进行底层的实际过滤。
 iptables 关键字 IP 地址 协议（TCP、UDP、ICMP） 端口 原理 iptables 将规则放入缺省规则链（INPUT、FORWARD、OUTPUT），所有流量（IP 封包）会被相关的规则链检查，根据规则处理每个封包（ACCEPT/REJECT），这些动作称为目标（target）
@@ -1339,12 +1117,10 @@ iptables 是缺省安装在 centos5.x 及 6.x 上，而 centos7.x 使用 firewal
 lsmod | grep ip_table 检查 iptables 模块是否被装入，
 当 iptables 模块被装入后可通过 iptables -L 查看活动规则</description>
     </item>
-    
     <item>
       <title>关于StackExchange和Quora的区别</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2017-11-14-stackexchange-vs-quora/</link>
       <pubDate>Tue, 14 Nov 2017 14:15:57 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-11-14-stackexchange-vs-quora/</guid>
       <description>今天在查问题的时候偶然进了一篇 StackExchange 的帖子，无论是站点名字还是首页界面，第一反应都是：StackOverFlow？
 查阅相关说明之后了解了二者的关系，StackExchange 是在 StackOverFlow 成功推出以后，在其基础上将仅仅讨论编程问题的网站拓展成话题更丰富的论坛。
@@ -1358,12 +1134,10 @@ StackExchange 不同于其他在于其基于目的或者基于问题。我来到
 尾声 通篇下来个人觉得充满了蹩脚的翻译，这篇文章看起来大体可以理解作者的意思，但落实翻译对于我而言是不小的挑战。
 个人比拟 国外网站 对应 国内网站 StackExchange &amp;lt;&amp;mdash;&amp;gt; 暂无 Quora &amp;lt;&amp;mdash;&amp;gt; 知乎 StackOverFlow &amp;lt;&amp;mdash;&amp;gt; SegamentFault 相关链接 原文链接 </description>
     </item>
-    
     <item>
       <title>关于负载均衡的理解小结</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2017-11-09-about-load-balance/</link>
       <pubDate>Thu, 09 Nov 2017 17:37:16 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-11-09-about-load-balance/</guid>
       <description>均衡，存乎万物之间
 负载均衡（Load Balance）是指将请求均匀分摊到多个操作单元上执行，关键在于均匀
@@ -1387,12 +1161,10 @@ IP 哈希：通过客户端 IP 的哈希值来路由到某一个 web 服务器�
 按照数据范围切分：每个数据服务存储一定范围内的数据 DataServiceA：存储 uid 为[1-1kw)内的数据 DataServiceB：存储 uid 为[1kw-2kw)内的数据
 优点：</description>
     </item>
-    
     <item>
       <title>关于职业规划</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2017-11-09-about-career/</link>
       <pubDate>Thu, 09 Nov 2017 09:55:14 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-11-09-about-career/</guid>
       <description>最近几天开发任务不甚紧张，每天可能一部分是在读博客或者写博客。在此过程中，突然想给自己炖一锅鸡汤醒醒脑。
 作为一个软件工程毕业的人，或许更宏观的讲，作为一个计算机专业毕业的人，该怎么规划自己的职业生涯呢？
@@ -1416,12 +1188,10 @@ IP 哈希：通过客户端 IP 的哈希值来路由到某一个 web 服务器�
 这些能力没有人能教的了你，同时也是决定你能否成为一个拥有独立完整人格的个体。
 后续 未来毕竟还是很难预知的，所以我也不想给自己太远的未来做太过具体的规划，每个人都有自己的想法和规划，我的观点不一定适用别人，所以本篇博文也仅仅是一篇与自己灵魂的对话，仅此而已。</description>
     </item>
-    
     <item>
       <title>使用hexo搭建个人博客教程</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2017-11-08-setup-blog-using-hexo/</link>
       <pubDate>Wed, 08 Nov 2017 10:25:17 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-11-08-setup-blog-using-hexo/</guid>
       <description>用了一段时间的 hexo，本着“授人以鱼，不如授人以渔”的理念，决定整理一篇 hexo 使用教程，分享大家。
 hexo 是一种快速、简单并且强大的博客框架，你可以通过使用 markdown 或者其他语言撰写 post（帖子），然后 hexo 引擎将其生成静态网页文件（当然，官网的说法是“在数秒内生成伴有漂亮主题的静态文件”）并以博文的形式显现出来。
@@ -1436,12 +1206,10 @@ git nodejs bash 命令 好吧，这样讲未免显得门槛略高，其实 hexo 
 方式一 然后你就可以很方便的安装 nodejs 了，通过如下命令先安装 nvm（此方式适用于专业人士，非专业人士请参考后面下载安装包的方式二）
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash nvm 是 nodejs version manager，nodejs 版本管理器，用以在机器上安装并维护多个 node 的版本</description>
     </item>
-    
     <item>
       <title>关于反向代理的整理</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2017-11-07-about-nginx-reverse-proxy/</link>
       <pubDate>Tue, 07 Nov 2017 16:41:24 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-11-07-about-nginx-reverse-proxy/</guid>
       <description>之前一直对反向代理这个概念理解的很模糊，网上参阅了很多解释，看完也是觉得不够信服，相比较而言觉得解释的还算良好的是知乎上看到的一个回答，但看了之后也仅限于“当时理解，过后就忘”，于是今天再次在 stackoverflow 看到的解释版本，特此翻译整理，留作备忘。
 原文链接：https://stackoverflow.com/questions/224664/difference-between-proxy-server-and-reverse-proxy-server/366212#366212
@@ -1461,12 +1229,10 @@ Z = 你想要访问的网站，www.example.net
 X 无法直接访问到 Z:
 a)在 X 的互联网连接中某个拥有管理权限的人决定拦截所有 X 到 Z 站点的访问（比如 GFW : ) ）</description>
     </item>
-    
     <item>
       <title>关于matlab使用冒号定义矩阵的小栗子</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2017-11-01-matlab-matrix/</link>
       <pubDate>Wed, 01 Nov 2017 09:48:04 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-11-01-matlab-matrix/</guid>
       <description>冒号是 MATLAT 中最有用的操作符之一。它用于创建向量，下标数组，并为迭代指定。
 背景 怎么解释？作为初学者可能一下子看不懂，但是研究后你会发现，作为老手，你也不应该看懂，因为，这是个印刷错误！
@@ -1476,23 +1242,19 @@ octave:2&amp;gt; 1:10 ans = 1 2 3 4 5 6 7 8 9 10 指定增量值
 octave:3&amp;gt; 100:-5:50 ans = 100 95 90 85 80 75 70 65 60 55 50 one more 栗子
 octave:4&amp;gt; 0:pi/8:pi ans = Columns 1 through 7: 0.00000 0.39270 0.78540 1.17810 1.57080 1.96350 2.35619 Columns 8 and 9: 2.74889 3.</description>
     </item>
-    
     <item>
       <title>关于SQL性能评估的一些分析</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2017-10-31-sql-performance-profile/</link>
       <pubDate>Tue, 31 Oct 2017 22:44:35 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-10-31-sql-performance-profile/</guid>
       <description>继《关于 mysql 中 max 函数和 groupby 联合使用的坑》后进一步关于 SQL 性能的探究
 类型 解释 id select 查询的序列号 select_type select 查询的类型，主要是区别普通查询和联合查询、子查询之类的复杂查询 table 输出的行所引用的表 type 联合查询所使用的类型 possible_keys MySQL 能使用哪个索引在该表中找到行 key MySQL 实际决定使用的键 key_len MySQL 决定使用的键长 ref 哪个字段或常数与 key 一起被使用 rows mysql 要遍历多少数据才能找到，在 innodb 上是不准确的 Extra - 实例解释
 mysql&amp;gt; desc t3; +-------+--------------+------+-----+---------+----------------+ | Field | Type | Null | Key | Default | Extra | +-------+--------------+------+-----+---------+----------------+ | id | int(11) | NO | PRI | NULL | auto_increment | | other | varchar(255) | YES | | NULL | | +-------+--------------+------+-----+---------+----------------+ 2 rows in set mysql&amp;gt; select * from (select * from (select * from t3 where id = 3952602) a) b; +---------+-------+ | id | other | +---------+-------+ | 3952602 | sth | +---------+-------+ 1 row in set mysql&amp;gt; explain select * from (select * from (select * from t3 where id = 3952602) a) b; +----+-------------+------------+--------+-------------------+---------+---------+-------+------+-------+ | id | select_type | table | type | possible_keys | key | key_len | ref | rows | Extra | +----+-------------+------------+--------+-------------------+---------+---------+-------+------+-------+ | 1 | PRIMARY | &amp;lt;derived2&amp;gt; | system | NULL | NULL | NULL | NULL | 1 | NULL | | 2 | DERIVED | &amp;lt;derived3&amp;gt; | system | NULL | NULL | NULL | NULL | 1 | NULL | | 3 | DERIVED | t3 | const | PRIMARY,idx_t3_id | PRIMARY | 4 | const | 1 | NULL | +----+-------------+------------+--------+-------------------+---------+---------+-------+------+-------+ 3 rows in set mysql&amp;gt; show index from t3; +-------+------------+-----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+ | Table | Non_unique | Key_name | Seq_in_index | Column_name | Collation | Cardinality | Sub_part | Packed | Null | Index_type | Comment | Index_comment | +-------+------------+-----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+ | t3 | 0 | PRIMARY | 1 | id | A | 1 | NULL | NULL | | BTREE | | | | t3 | 1 | idx_t3_id | 1 | id | A | 1 | NULL | NULL | | BTREE | | | +-------+------------+-----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+ 2 rows in set id 从里往外执行，从 id 为 3 往上执行</description>
     </item>
-    
     <item>
       <title>关于mysql中max函数和groupby联合使用的坑</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2017-10-31-mysql-max-function-and-groupby/</link>
       <pubDate>Tue, 31 Oct 2017 20:50:43 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-10-31-mysql-max-function-and-groupby/</guid>
       <description>关于朋友随手抛出的一段 SQL，发现 MySQL 中关于 max()和 group by 联合使用中的一个坑，特此整理。
 YH:老铁们，这段 hql 对不对啊
@@ -1502,12 +1264,10 @@ select predictId, max(evaluateDate) evalDate, productId from productcashpredict 
 首先我在本地验证了一下是不是的确如此
 desc productcashpredict; predictId	int(11)	NO	PRI	auto_increment evaluateDate	datetime	YES	on update CURRENT_TIMESTAMP other	varchar(255)	YES productId	int(11)	YES select * from productcashpredict +-----------+---------------------+-------+-----------+ | predictId | evaluateDate | other | productId | +-----------+---------------------+-------+-----------+ | 1 | 2017-10-31 18:14:37 | NULL | 10001 | | 2 | 2017-10-31 18:14:45 | NULL | 10002 | | 3 | 2017-10-31 18:14:59 | NULL | 10002 | | 4 | 2017-10-31 18:15:09 | NULL | 10003 | | 5 | 2017-10-31 18:15:22 | NULL | 10001 | +-----------+---------------------+-------+-----------+ select predictId, max(evaluateDate) evalDate, productId from productcashpredict group by productId; +-----------+---------------------+-----------+ | predictId | evalDate | productId | +-----------+---------------------+-----------+ | 1 | 2017-10-31 18:15:22 | 10001 | | 2 | 2017-10-31 18:14:59 | 10002 | | 4 | 2017-10-31 18:15:09 | 10003 | +-----------+---------------------+-----------+ 直接这样查的确是错的，看 predictId 可以看出</description>
     </item>
-    
     <item>
       <title>从谷歌&#34;名猿&#34;Addy Osmani一行代码中学到的东西</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2017-10-17-learn-from-addy-osmani-code/</link>
       <pubDate>Tue, 17 Oct 2017 16:45:17 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-10-17-learn-from-addy-osmani-code/</guid>
       <description>谷歌某大佬通过一行知识量包含极丰富的 js 代码实现了一个魔法小功能：给页面所有元素加一个彩色外边框
 [].forEach.call($$(&amp;#34;*&amp;#34;), function (a) { a.style.outline = &amp;#34;1px solid #&amp;#34; + (~~(Math.random() * (1 &amp;lt;&amp;lt; 24))).toString(16); }); 单行形式：
@@ -1518,12 +1278,10 @@ desc productcashpredict; predictId	int(11)	NO	PRI	auto_increment evaluateDate	da
 [].forEach.call($$(&amp;#34;*&amp;#34;), function (e) {}); 以上即实现了遍历页面的每一个元素，并可以将获得的非数组元素使用数组的遍历方法来取到每一个元素 e
 a.style.outline = &amp;#34;1px solid #&amp;#34; + color; outline 是 CSS 的一个属性，它是在 CSS 盒模型以外，所以它不会影响元素的 size 以及元素在 larout 中的 position</description>
     </item>
-    
     <item>
       <title>atom实现html实时预览</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2017-10-16-preview-html-using-atom-editor/</link>
       <pubDate>Mon, 16 Oct 2017 19:00:44 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2017-10-16-preview-html-using-atom-editor/</guid>
       <description>如何使用 atom 编辑器实现 html 实时预览
 atom 自带 markdown 实时预览插件，但当我想用 atom 进行进端开发并取代 webstorm 这样的收费 IDE 时，我发现基于文件进行操作的编辑器 atom 只能高亮显示 html、js 这样的文件，但不能实时显示进行调试，很不方便。
@@ -1535,12 +1293,10 @@ atom 自带 markdown 实时预览插件，但当我想用 atom 进行进端开�
 atom-html-preview 初始快捷键为 ctrl+p，于 atom 已有快捷键冲突，修改为 ctrl+F12，如下 点击 File-&amp;gt;Settings-&amp;gt;KeyBindings-&amp;gt;your keymap file 超链接-&amp;gt;在末尾添加
 &amp;#39;atom-text-editor&amp;#39;: &amp;#39;ctrl-F12&amp;#39;:&amp;#39;atom-html-preview:toggle&amp;#39; </description>
     </item>
-    
     <item>
       <title>漫谈博客这东西——漫谈系列</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2017-10-12-talk-about-blog/</link>
       <pubDate>Thu, 12 Oct 2017 11:53:58 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-10-12-talk-about-blog/</guid>
       <description>日常知识总结及记录，本次关于由搜索区块链这一关键词引发的关于“为什么要记博客”这一问题的思考
 比特币 区块链 博客 微博 比特币&amp;amp;区块链 昨天看了今年的云栖峰会，再次听到了今年听到最多的“区块链”技术，于是今天闲暇之余，想了解一下这个区块链究竟是个什么东西。看了半天，并没有像某些编程技术一样，能够快速理解大概意思，反倒是产生了更多的陌生词汇，比如拜占庭将军问题，不过一个熟悉的字眼“比特币”倒是快速映入眼帘，原来区块链技术是和比特币原理紧密联系在一起的。
@@ -1552,21 +1308,17 @@ atom-html-preview 初始快捷键为 ctrl+p，于 atom 已有快捷键冲突，�
 我把人的大脑比作计算机的 CPU，而理解能力和表达能力分别相当于计算机的 I/O 设备（Input 输入、Output 输入），人类向外界展现其内部思考的媒介依赖于这两者。比如作家、教师，属于输出能力示范的人群，而读者、观众属于展现输入过程人群。如今我们借助于互联网这个第三次技术革命的产物，每天都在输入大量的数据，而与此同时我认识到，仅仅有输入，却没有输出，是很可悲的。首先，对于 CPU 来说，仅仅有输入，而没有输出，不算是一次成功的数据处理，人也一样，对知识的学习，若仅仅停留于摄入，而不能经过大脑的思考，做出相应的反馈输出，比如分享，那样未必是一件好事。
 分享知识不会像分苹果一样越分越少</description>
     </item>
-    
     <item>
       <title>一些个人语录整理</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2017-09-22-some-personal-quotes/</link>
       <pubDate>Fri, 22 Sep 2017 14:13:45 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2017-09-22-some-personal-quotes/</guid>
       <description> Do each of things in a decent way. 软件工程专业最失败的是培养出两种人：一，是只会编程的人，二，是连编程都不会的人。 知而不改，恶莫大焉 Always be young, never be die.(保持年轻，绝不作咸鱼) 生活应该是两件事：IN And OUT，IN 指 INPUT（读书、学习和思考），OUT 指 OUTPUT（做事、工作和实践） 天妒英才，所以天才总会被凡人当白痴 因为他经历完了过程，得到了结果，再看过程，就感觉没什么了，但如果他没这个过程，得不到结果，站在起点再看，就会觉得这个过程很必要了 卓越的方式有很多种，唯独不应该是以健康为代价的那种 If you want to win, you got to know exactly what the rule is. 有意识地在细节之处刻意不同，就能在和别人差不多的生活中活出不一样的自己 Pure to complex is accessible, but complex back to pure is irreversible. 灵感是转瞬即逝的，所以才需要记录下来 别给自己设上限，才能知道自己的极限；而每次的挑战极限，都是在提高自己的上限 理论上你可以成为任何你想要成为的人，而最难的是成为你自己 拒绝命运的审判，而是主动撰写命运 </description>
     </item>
-    
     <item>
       <title>每年九月份给自己的一份健康警告</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2017-09-18-health-tip/</link>
       <pubDate>Mon, 18 Sep 2017 14:10:33 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-09-18-health-tip/</guid>
       <description>从百度拇指医生某热心网友总结那里引用来，觉得写得很不错，有参考意义，特此记录下来
 ”为什么每年九月份过敏鼻炎就严重“
@@ -1580,22 +1332,18 @@ atom-html-preview 初始快捷键为 ctrl+p，于 atom 已有快捷键冲突，�
 【药物】对我而言基本没什么用。抗过敏药:氯雷他定或者扑尔敏。缓解眼睛：双氯芬酸钠滴眼液。喷剂：丙酸倍氯米松鼻喷雾剂（少用，只有特别难受的时候用用吧）。头痛只能吃点去痛片了。其他遵医嘱（其实大夫也没办法）
 关键时刻，网民的建议也是有效的，感谢互联网让同病相怜的人可以分享彼此之间的感受和应对措施。</description>
     </item>
-    
     <item>
       <title>关于写博客的一些想法</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2017-08-21-thinking/</link>
       <pubDate>Mon, 21 Aug 2017 23:08:33 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2017-08-21-thinking/</guid>
       <description>写博客的好处在于，能够对所学、所做、所想之事有所记录，返璞归真，互联网花了那么多的精力将传统办公进化到无纸办公，人们从纸质书籍的阅读习惯变成了碎片化学习。
 能够在这样的环境中圈出自己的一亩三分田，经营自己的博客，对自己既是记录，也是肯定，还能在经营博客的过程中更加认识自己。</description>
     </item>
-    
     <item>
       <title>在Vultr上搭建ss，包含最简版centos7安装过程中的各种坑解决</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2017-08-16-setup-ss-using-vultr-and-centos7/</link>
       <pubDate>Wed, 16 Aug 2017 20:14:53 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-08-16-setup-ss-using-vultr-and-centos7/</guid>
       <description>&lt;p&gt;在 Vultr 上搭建 ss，包含最简版 centos7 安装过程中的各种坑解决&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;
@@ -1607,12 +1355,10 @@ atom-html-preview 初始快捷键为 ctrl+p，于 atom 已有快捷键冲突，�
 &lt;li&gt;M2Crypto 安装前置条件：安装 pcre，然后安装 swig(直接安装 pcre，去安装 swig 会提示 pcre 未安装，即使 pcre 已安装-&amp;gt;解决方案，安装 pcre-devel，在发现这个问题之前卡住很久)&lt;/li&gt;
 &lt;/ol&gt;</description>
     </item>
-    
     <item>
       <title>关于python科学计算库numpy学习总结</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2017-08-15-python-numpy/</link>
       <pubDate>Tue, 15 Aug 2017 14:20:49 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-08-15-python-numpy/</guid>
       <description>关于 python 科学计算库 numpy 学习总结
 本文中部分 print 输出可能会报错，原因为 python3 的 print 通过函数方式使用，与 python2 中的 print 通过解释执行不同，需要使用 print()进行控制台打印
@@ -1626,22 +1372,18 @@ reshape()函数用于重新构造数组成为其他维度数组
 例如：np.arange(20).reshape(4,5)
 [[0 1 2 3 4] [ 5 6 7 8 9] [10 11 12 13 14] [15 16 17 18 19]]</description>
     </item>
-    
     <item>
       <title>mysql远端数据库与本地数据库间导入导出</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2017-08-12-mysql-remote-and-local-data-export/</link>
       <pubDate>Sat, 12 Aug 2017 16:35:16 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-08-12-mysql-remote-and-local-data-export/</guid>
       <description>mysql 远端数据库与本地数据库间导入导出
 远程数据库导出 mysqldump -hxxx -uxxx -pxxx 数据库名 &amp;gt; 脚本名.sql sz 脚本名.sql（SecureCRT 将文件下载到本地） 本地数据库导入 若直接用 navicat 运行本脚本，失败 打开 cmd，进入本地数据库，mysql -uxxxx -pxxxx，use 创建好的数据库 source 脚本名.sql，可以将 2MB 以上的 sql 脚本导入 成功执行，完成远端数据库到本地的克隆 </description>
     </item>
-    
     <item>
       <title>关于Linux启动文件rc.local的解惑</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2017-08-05-linux-rc-local-file/</link>
       <pubDate>Sat, 05 Aug 2017 01:23:14 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-08-05-linux-rc-local-file/</guid>
       <description>rc.local 是 Linux 启动程序在 login 程序前执行的最后一个脚本，有的服务器中在 rc.local 中可能会有一句 touch /var/lock/subsys/local，这是干什么的呢，在百度中没找到，最终在Linuxquestions.org 论坛成功找到满意的解答。
 touch 首先要了解 touch 这个命令是做什么用的，在此用于创建一个不存在的文件，详细了解请见Linux touch 命令
@@ -1649,35 +1391,29 @@ touch 首先要了解 touch 这个命令是做什么用的，在此用于创建�
 What this does is create a lock file that tells the system that &amp;rsquo;local&amp;rsquo; is up and running already. It prevents the script from being run twice, as it will fail until the lockfile is removed, which will happen when you shut down.
 Typically this is used with bigger services such as database servers and so forth to make sure they are not started twice.</description>
     </item>
-    
     <item>
       <title>java零碎知识点整理（3）</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2017-02-08-java-basic-03/</link>
       <pubDate>Wed, 08 Feb 2017 15:01:26 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2017-02-08-java-basic-03/</guid>
       <description>关于 java 字符串 String 以及 Hashcode 的一些整理
 hashcode 即是对象地址的十进制形式，而 equals 方法即是在比较两个对象的 hashcode 是否相等
 package com.test.wx.testequals; public class TestEquals { public static void testEquals() { String a = &amp;#34;a&amp;#34;; String b = &amp;#34;a&amp;#34;; boolean result = a.equals(b); System.out.println(result); // true System.out.println(a.hashCode() == b.hashCode()); // true } public static void testEqual() { String a = &amp;#34;a&amp;#34;; String b = &amp;#34;a&amp;#34;; if (a == b) { // true System.out.println(&amp;#34;true&amp;#34;); System.out.println(a.hashCode() == b.hashCode()); } else { System.</description>
     </item>
-    
     <item>
       <title>正则表达式——学习笔记</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2017-02-07-regexp/</link>
       <pubDate>Tue, 07 Feb 2017 22:06:19 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2017-02-07-regexp/</guid>
       <description>一些常用正则表达式的整理
 非打印字符 1. \t (table)制表符 等价于\x09和\cl 2. \n (line feed)换行符 等价于\x0a和\cJ 3. \v (vertical)垂直制表符 等价于\x0b和\cK 4. \f (form feed)换页符 等价于\x0c和\cL 5. \r (rarriage return)回车符 等价于\x0d和\cM 6. \s (str)匹配任何空白字符，包括空格、制表符、换页符等） 等价于[\f\n\r\t\v] 7. \S匹配任何非空白字符 等价于[^\f\n\r\t\v] 特殊字符 1. ^ 表示匹配输入字符串的开始位置，若在方括号中使用，则表示不接受该字符集合（例如上述\S的等价匹配） 2. $ 匹配输入字符串的结尾，若设置了RegExp对象的Multiline属性，则$也匹配\n或\r 3. ? 匹配前面的子表达式0-1次，或指明一个非贪婪限定符 4. + 匹配前面的子表达式1-n次 5. * 匹配前面的子表达式0-n次 6. . 匹配除换行符（\n）外的任何单字符（相当于windows系统中的?） 7. () 标记一个子表达式的开始和结束位置，子表达式可供以后使用 8. [ 标记一个中括号表达式的开始（）用于字符集合 9. { 标记限定符表达式的开始 10. \ 将下一个字符标记为特殊字符、或原义字符、或后向引用、或八进制转义符 上述所有特殊字符，若要匹配其本身，都需要在其前面加反斜杠来转义使用
 限定符 限定符表示给定组件出现多少次才能满足匹配
 1. * 0-n次 2. + 1-n次 3.</description>
     </item>
-    
     <item>
       <title>python零碎知识点整理——注释</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2017-02-07-python-comment/</link>
       <pubDate>Tue, 07 Feb 2017 22:05:20 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2017-02-07-python-comment/</guid>
       <description>python 零碎知识点整理——注释
 单行注释 python 的单行注释用#，可在任意位置添加（单独一行或语句/表达式后面，python 是解释型语言，逐行按序解释代码）
@@ -1686,12 +1422,10 @@ package com.test.wx.testequals; public class TestEquals { public static void tes
 从 python3 开始，python 默认使用 utf-8 编码（python3 以前使用 ascii 编码）
 平台注释 使 python 程序运行在 windows 平台上，需要在 python 文件的最前面加上#!/usr/bin/python，这说明了程序用的环境的路径</description>
     </item>
-    
     <item>
       <title>java零碎知识点整理（2）</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2017-02-07-java-basic-02/</link>
       <pubDate>Tue, 07 Feb 2017 20:01:52 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2017-02-07-java-basic-02/</guid>
       <description>构造器（构造方法）
 在类实例化时被调用，对实例对象进行初始化
@@ -1699,22 +1433,18 @@ package com.test.wx.testinit; public class Color { int red, green, blue; /** * �
 final/abstract
 abstract 不能与 final 同时使用，abstract类为抽象类，包含抽象的方法待实现，需要其他类继承该类，对抽象方法进行具体实现，而final修饰的类表示该类不可被继承，二者相违背。</description>
     </item>
-    
     <item>
       <title>java零碎知识点整理（1）</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2017-02-07-java-basic-01/</link>
       <pubDate>Tue, 07 Feb 2017 17:27:54 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2017-02-07-java-basic-01/</guid>
       <description>字符串相关方法、数据类型转换、正则表达式
 package com.test.wx.teststr; import java.util.regex.Matcher; import java.util.regex.Pattern; public class TestString { public static void intToString() { int i = 10; Integer j = 11; int k = 12; Integer l = 13; String iStr = String.valueOf(i); // String iStr2 = (String)j; // String iStr3 = (String)k; String iStr4 = String.valueOf(l); System.out.println(iStr); System.out.println(iStr4); } public static void indexOfTest() { String quote = &amp;#34;An *onion* a day keeps everyone away!&amp;#34;; int startBound = quote.</description>
     </item>
-    
     <item>
       <title>windows删除“找不到该项目”的文件</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2017-02-06-windows-missing-file/</link>
       <pubDate>Mon, 06 Feb 2017 11:47:56 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2017-02-06-windows-missing-file/</guid>
       <description>windows 删除“找不到该项目”的文件该怎么办
 编写一个自动删除脚本，内容如下：
@@ -1722,12 +1452,10 @@ package com.test.wx.teststr; import java.util.regex.Matcher; import java.util.re
 原理
 方法采纳自百度经验删除文件时提示“找不到该项目”，怎么解决? del 为 windows 删除文件的命令，rd 为 windows 删除目录的命令，/F 为强制删除参数，/A 为根据文件属性删除文件，/Q 为安静删除模式参数（删除全局通配符时不需要确认），后面的\?即为全局通配符（UNC），？表示一个字符，在此仅为&amp;quot;.&amp;quot;，即当前电脑 </description>
     </item>
-    
     <item>
       <title>IDEA2016配置运行基于Maven的Git项目</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2016-12-27-config-idea-for-maven-projects-with-git/</link>
       <pubDate>Tue, 27 Dec 2016 20:22:56 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2016-12-27-config-idea-for-maven-projects-with-git/</guid>
       <description>IDEA2016 配置运行基于 Maven 的 Git 项目
 一、IDEA&amp;amp;Maven&amp;amp;Git 作用 IDEA（项目容器） Maven（管理 Jar 和项目打包） Git（版本控制） 二、从远程 clone git 项目 使用工具 clone 下 git 项目
@@ -1738,12 +1466,10 @@ package com.test.wx.teststr; import java.util.regex.Matcher; import java.util.re
 但有 pom.xml 文件（Idea 导入基于 Maven 的项目依赖该文件，即导入项目时需找到 pom.xml 文件）
 三、将 clone 到本地的 Maven 项目使用 IDEA 编辑（导入或打开） 如果一个项目有多个相互依赖的 module 组成（各自 module 分别有 pom.</description>
     </item>
-    
     <item>
       <title>Maven学习</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2016-12-20-maven-basic/</link>
       <pubDate>Tue, 20 Dec 2016 09:28:04 +0800</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2016-12-20-maven-basic/</guid>
       <description>Maven 学习
 一、什么是 Maven Apache Maven 是一个软件项目管理和综合工具，基于项目对象模型（POM——Project Object Model），Maven 可以从一个中心资料片管理项目构建，报告和文件。
@@ -1753,12 +1479,10 @@ Maven 提供了开发人员构建一个完整的生命周期框架。开发团�
 四、安装配置 JDK（若未按照默认安装在 C 盘，则 PATH 中需要将 jdk 的 bin 目录放在PATH 开头） Maven 根目录（添加 M2_HOME、MAVEN_HOME 都指向 Maven 安装文件夹） 添加到环境变量（添加%M2_HOME%\bin 到 PATH） 验证环境变量配置（mvn -version） 五、启用代理访问 若公司存在防火墙，并使用HTTP 代理服务器阻止用户直接连接到互联网（若使用代理，Maven 将无法下载任何依赖），则需要在 Maven 配置文件（setting.xml）中设置代理服务器，设置完成后保存（无需重启，Maven 是一个批处理文件，调用时会重新读取配置文件）
 六、本地仓库 默认本地存储文件夹为用户目录下到.m2 目录，可在配置文件（setting.xml）中修改默认仓库位置，并重新命名</description>
     </item>
-    
     <item>
       <title>ECMAScript6(ECMAScript2015)学习笔记</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2016-12-15-es6-learning/</link>
       <pubDate>Fri, 16 Dec 2016 15:34:31 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2016-12-15-es6-learning/</guid>
       <description>ECMAScript 6（以下简称 ES6）是 JavaScript 语言的下一代标准。因为当前版本的 ES6 是在2015 年发布的，所以又称 ECMAScript 2015。
 一、ES6 简介 ECMAScript 6（以下简称 ES6）是 JavaScript 语言的下一代标准。因为当前版本的 ES6 是在2015 年发布的，所以又称 ECMAScript 2015。
@@ -1767,24 +1491,20 @@ Maven 提供了开发人员构建一个完整的生命周期框架。开发团�
 三、常用特性 let / const（与传统 var 对比） class / extends / super（面向对象） arrow functions（箭头函数） template string（模板字符串） destructing（解构） default（默认值） rest / arguments（函数参数） 四、特性详解 （1）let 与 var 类似，都是用来声明变量的，但在实际运用中他俩都有各自的特殊用途。
 var name = &amp;#34;tom&amp;#34;; while (true) { var name = &amp;#34;bar&amp;#34;; console.</description>
     </item>
-    
     <item>
       <title>Java基础算法（插入、选择、冒泡、快排）</title>
       <link>https://barnett617.github.io/wilson-blog/notes/2016-12-15-java-basic-sort-algorithms/</link>
       <pubDate>Thu, 15 Dec 2016 23:20:37 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/notes/2016-12-15-java-basic-sort-algorithms/</guid>
       <description>Java 基础算法（插入、选择、冒泡、快排）
 一、直接插入排序 1、原理 从待排序的数中选出一个来，插入到前面的合适位置。
 2、适用场景 基本有序的数据
 3、代码实现 static int data[] = {12, 6, 17, 108, 97, 93, 256, 1024}; public static void insertSort() { int tmp, i = 0; // 遍历数组 for(int j = 0; j&amp;lt;data.length; j++) { // 依次取出每个数放入tmp tmp = data[j]; // 将取出的数与之前面一个比较 i = j - 1; // 若小于前面一个数，则将前面一个数后移（覆盖取出来的这个数的位置） while(i &amp;gt;= 0 &amp;amp;&amp;amp; tmp &amp;lt; data[i]) { data[i+1] = data[i]; // 继续和再前面一个数比较 i--; } // 将取出的数插入 data[i+1] = tmp; System.</description>
     </item>
-    
     <item>
       <title>可复用面向对象软件基础——设计模式（六）之原型模式</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2016-12-15-design-pattern-06/</link>
       <pubDate>Thu, 15 Dec 2016 21:06:11 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2016-12-15-design-pattern-06/</guid>
       <description>原型模式虽然是创建型的模式，但是与工程模式没有关系，从名字即可看出，该模式的思想就是将一个对象作为原型，对其进行复制、克隆，产生一个和原对象类似的新对象。
 一、原型模式（Prototype） /** * 原型类，实现可复制接口 * @author barnett * */ public class Prototype implements Cloneable { /** * 复制方法，调用父类的复制方法 */ public Object clone() throws CloneNotSupportedException { Prototype prototype = (Prototype) super.clone(); return prototype; } } 很简单，一个原型类，只需要实现Cloneable接口，覆写 clone 方法，此处 clone 方法可以改成任意的名称，因为 Cloneable 接口是个空接口，你可以任意定义实现类的方法名，如 cloneA 或者 cloneB。
@@ -1793,115 +1513,93 @@ var name = &amp;#34;tom&amp;#34;; while (true) { var name = &amp;#34;bar&amp;#34
 深复制：将一个对象复制后，不论是基本数据类型还有引用类型，都是重新创建的。简单来说，就是深复制进行了完全彻底的复制，而浅复制不彻底。
 public class PrototypeDeepAndThinClone implements Cloneable, Serializable { private static final long serialVersionUID = 1L; private String string; private SerializableObject obj; // 浅复制 public Object clone() throws CloneNotSupportedException { Prototype prototype = (Prototype) super.</description>
     </item>
-    
     <item>
       <title>可复用面向对象软件基础——设计模式（五）之建造者模式</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2016-12-15-design-pattern-05/</link>
       <pubDate>Thu, 15 Dec 2016 20:22:46 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2016-12-15-design-pattern-05/</guid>
       <description>工厂类模式提供的是创建单个类的模式，而建造者模式则是将各种产品集中起来进行管理，用来创建复合对象，所谓复合对象就是指某个类具有不同的属性，其实建造者模式就是前面抽象工厂模式和最后的 Test 结合起来得到的。
 代码实现 /** * 发送接口，有一个发送方法待实现 * @author barnett * */ public interface Sender { public void send(); } /** * 2、邮件发送类，实现发送接口，实现其发送方法，用以发送邮件 * @author barnett * */ public class MailSender implements Sender { @Override public void send() { System.out.println(&amp;#34;I am MailSender!&amp;#34;); } } /** * 短信发送类，实现了发送接口的发送方法，用以发送短信 * @author barnett * */ public class SmsSender implements Sender { @Override public void send() { System.out.println(&amp;#34;I am SmsSender!&amp;#34;); } } /** * 3、建造者类 * @author barnett * */ public class Builder { // 用以存储生产出的多个发送器 private List&amp;lt;Sender&amp;gt; list = new ArrayList&amp;lt;Sender&amp;gt;(); /** * 用于生产邮件发送器，当该方法被调用时会生产多个邮件发送器放入集合 * @param count	生产个数 */ public void produceMailSender(int count) { for(int i=0; i&amp;lt;count; i++) { list.</description>
     </item>
-    
     <item>
       <title>可复用面向对象软件基础——设计模式（四）之单例模式</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2016-12-15-design-pattern-04/</link>
       <pubDate>Thu, 15 Dec 2016 19:57:13 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2016-12-15-design-pattern-04/</guid>
       <description>单例对象（Singleton）是一种常用的设计模式。在 Java 应用中，单例对象能保证在一个 JVM 中，该对象只有一个实例存在。
 单例模式优势 某些类创建繁琐，对于一些大型对象，系统开销大 省去 new 操作符，降低系统内存使用频率，减轻 GC 压力 保证某些核心类独立控制系统整个流程（控制其不可实例多个） 简版单例类 public class Singleton { // 持有私有静态实例，防止被引用，此处赋值为null，目的为实现延迟加载 private static Singleton instance = null; // 私有构造方法，防止被实例化 private Singleton() { } // 静态工厂方法 public static Singleton getInstance() { if(instance == null) { instance = new Singleton(); } return instance; } // 如果该对象被用于序列化，可保证对象在序列化前后保持一致 public Object readResolve() { return instance; } } 这个类可以满足基本要求，但是，像这样毫无线程安全保护的类，如果我们把它放入多线程的环境下，肯定就会出现问题了，如何解决？我们首先会想到对 getInstance 方法加synchronized关键字，如下：
 // 静态工厂方法 public static synchronized Singleton getInstance() { if(instance == null) { instance = new Singleton(); } return instance; } 但是，synchronized 关键字锁住的是这个对象，这样的用法，在性能上会有所下降，因为每次调用 getInstance()，都要对对象上锁。</description>
     </item>
-    
     <item>
       <title>可复用面向对象软件基础——设计模式（三）之抽象工厂模式</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2016-12-15-design-pattern-03/</link>
       <pubDate>Thu, 15 Dec 2016 16:59:43 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2016-12-15-design-pattern-03/</guid>
       <description>一、工厂方法模式缺陷 工厂方法模式有一个问题就是，类的创建依赖工厂类，也就是说，如果想要拓展程序，必须修改工厂类，这违背了设计模式六大原则第一条闭包原则。
 所以，从设计角度考虑，有一定的问题，如何解决？就用到抽象工厂模式，创建多个工厂类，这样一旦需要增加新的功能，直接增加新的工厂类就可以了，不需要修改之前的代码。
 二、抽象工厂模式实现 /** * 1、邮寄接口，有一个抽象邮寄方法待实现 * @author barnett * */ public interface Sender { public void send(); } /** * 2、实现类，邮件邮寄类实现邮寄接口，实现其邮寄的方法 * @author barnett * */ public class MailSender implements Sender { @Override public void send() { System.out.println(&amp;#34;I am MailSender!&amp;#34;); } } /** * 短信邮寄类实现邮寄接口，实现其邮寄方法 * @author barnett * */ public class SmsSender implements Sender { @Override public void send() { System.out.println(&amp;#34;I am SmsSender!&amp;#34;); } } /** * 3、提供器接口，返回邮寄对象，其生产方法待实现 * 工厂依靠实现该接口，生产产品（Sender） * @author barnett * */ public interface Provider { public Sender produce(); } /** * 4、工厂，邮件邮寄工厂，负责专门生产邮件邮寄实例 * @author barnett * */ public class SendMailFactory implements Provider { @Override public Sender produce() { return new MailSender(); } } /** * 短信邮寄工厂，专门生产短信邮寄实例 * @author barnett * */ public class SendSmsFactory implements Provider { @Override public Sender produce() { return new SmsSender(); } } /** * 5、测试类 * @author barnett * */ public class Test { public static void main(String[] args) { // 实例一个邮件工厂(因其实现了提供器接口，可返回一个具有专门生产某种产品生产方法的实例） Provider provider = new SendMailFactory(); // 通过该实例生产产品 Sender sender = provider.</description>
     </item>
-    
     <item>
       <title>可复用面向对象软件基础——设计模式（二）之工厂方法模式</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2016-12-15-design-pattern-02/</link>
       <pubDate>Thu, 15 Dec 2016 12:57:58 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2016-12-15-design-pattern-02/</guid>
       <description>一、工厂方法模式分类（3 种） 普通工厂模式 多个工厂方法模式 静态工厂方法模式 二、工厂方法模式详解 （1）普通工厂模式 普通工厂模式就是建立一个工厂类，对实现了同一接口的一些类进行实例的创建。
 // 1、创建不同产品的共同接口 public interface Sender { /** * 邮寄接口中有一个邮寄方法待实现 */ public void Send(); } /** * 2、（实现类）邮件邮寄类实现了邮寄接口，实现其邮寄的抽象方法 * @author barnett */ public class MailSender implements Sender { @Override public void Send() { System.out.println(&amp;#34;I am MailSender!&amp;#34;); } } /** * 短信邮寄类实现了邮寄接口，实现其邮寄的抽象方法 * @author barnett * */ public class SmsSender implements Sender { @Override public void Send() { System.out.println(&amp;#34;I am SmsSender!&amp;#34;); } } /** * 3、工厂类，负责多次制造产品（new出复用的类） * @author barnett */ public class SendFactory { /** * 工厂类中的生产方法 * @param type	输入要生产的产品类型 * @return	返回一个产品 */ public Sender produce(String type) { if(&amp;#34;mail&amp;#34;.</description>
     </item>
-    
     <item>
       <title>可复用面向对象软件基础——设计模式（一）之总览</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2016-12-15-design-pattern-01/</link>
       <pubDate>Thu, 15 Dec 2016 10:43:05 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2016-12-15-design-pattern-01/</guid>
       <description>一、设计模式特点 反复使用 分类编目 经验总结 二、设计模式宗旨 代码重用 使代码易于理解 保证代码可靠性 三、设计模式分类（23+2） 创建型（5 种） 结构型（7 种） 行为型（11 种） 其他（2 种） （1）创建型模式 工厂方法模式 抽象工厂模式 单例模式 建造者模式 原型模式 （2）结构型模式 适配器模式 装饰器模式 代理模式 外观模式 桥接模式 组合模式 享元模式 （3）行为型模式 策略模式 模板方法模式 观察者模式 迭代子模式 责任链模式 命令模式 备忘录模式 状态模式 访问者模式 中介者模式 解释器模式 （4）其他 并发型模式 线程池模式 四、设计模式原则（6 项） 开闭原则（Open Close Principle） 里氏代换原则（Liskov Substitution Principle） 依赖倒转原则（Dependence Inversion Principle） 接口隔离原则（Interface Segregation Principle） 迪米特法则（最少知道原则）（Demeter Principle） 合成复用原则（Composite Reuse Principle） 五、原则详解 （1）开闭原则 开闭原则就是说对扩展开放，对修改关闭。在程序需要进行拓展的时候，不能去修改原有的代码，实现一个热插拔的效果。目的在于使程序的扩展性好，易于维护和升级。所以需要使用到接口和抽象类
 （2）里氏代换原则 里氏代换原则（LSP）是面向对象设计的基本原则之一。 里氏代换原则中说，任何基类可以出现的地方，子类一定可以出现。</description>
     </item>
-    
     <item>
       <title>基于SSH三大框架的员工管理系统</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2016-11-02-ssh-web-05/</link>
       <pubDate>Wed, 02 Nov 2016 15:32:34 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2016-11-02-ssh-web-05/</guid>
       <description>摘要 本系统为本人学习 SSH 三大框架时所做的整合实例，系统角色包括普通用户和管理员两种，首页有管理员登录入口链接。系统功能主要包括管理员对用户的基本增、删、改、查和分页显示用户信息等。
 系统环境 本系统使用 eclipse+mysql+jdk1.8+tomcat8 进行开发 框架使用 struts2+hibernate3+spring3 页面展示 首页一开始没考虑屏幕分辨率和比例问题以及浏览器的兼容问题，后该用 bootstrap 简单模板，达到兼容旧版 IE 浏览器效果，并且为响应式布局，屏幕可任意缩放。 注册页面采用 angularJS 前端框架实现客户端表单验证 日期使用jedate.js控件 注册成功提示（后台为新注册用户分配三个随机邀请码用于邀请其他用户注册本系统） 个人主页使用 easyui 框架 管理员首页（可分页显示用户） 添加用户 核心代码解析 1、随机邀请码生成 使用 UUID 并将其切片，取前八位作为验证码（本算法尚不成熟，在大量使用后可能出现重复）
 public static String[] codeMaker() { String[] code = new String[3]; for (int i=0; i&amp;lt;3; i++) { code[i] = UUID.randomUUID().toString().substring(0,8).toUpperCase(); } return code; } 2、登录验证 action 层 public String login() { User existUser = userService.login(user); if (existUser == null) { this.</description>
     </item>
-    
     <item>
       <title>基于SSH的员工管理系统（四）——项目流程</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2016-11-02-ssh-web-04/</link>
       <pubDate>Wed, 02 Nov 2016 13:55:11 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2016-11-02-ssh-web-04/</guid>
       <description>flowchat st=&amp;gt;start: localhost:8080/项目名 e=&amp;gt;end: 访问结束 fir=&amp;gt;: web.xml op=&amp;gt;operation: 我的操作 cond=&amp;gt;condition: 确认？ st-&amp;gt;op-&amp;gt;cond cond(yes)-&amp;gt;e cond(no)-&amp;gt;op </description>
     </item>
-    
     <item>
       <title>基于SSH的员工管理系统（三）——配置文件</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2016-11-02-ssh-web-03/</link>
       <pubDate>Wed, 02 Nov 2016 13:45:29 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2016-11-02-ssh-web-03/</guid>
       <description>1. Web 项目入口——web.xml &amp;lt;!-- spring核心监听器 --&amp;gt; &amp;lt;listener&amp;gt; &amp;lt;listener-class&amp;gt;org.springframework.web.context.ContextLoaderListener&amp;lt;/listener-class&amp;gt; &amp;lt;/listener&amp;gt; &amp;lt;!-- ctrl+shift+T:contextLoaderListener监听器全路径 --&amp;gt; &amp;lt;!-- 默认情况会加载WEB-INF中的配置文件 --&amp;gt; &amp;lt;!-- 配置全局初始化参数：设置为加载classes中的配置文件 --&amp;gt; &amp;lt;context-param&amp;gt; &amp;lt;param-name&amp;gt;contextConfigLocation&amp;lt;/param-name&amp;gt; &amp;lt;param-value&amp;gt;classpath:applicationContext.xml&amp;lt;/param-value&amp;gt; &amp;lt;/context-param&amp;gt; &amp;lt;!-- struts核心过滤器（与传统servlet配置类似） --&amp;gt; &amp;lt;filter&amp;gt; &amp;lt;filter-name&amp;gt;struts&amp;lt;/filter-name&amp;gt; &amp;lt;filter-class&amp;gt;org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter&amp;lt;/filter-class&amp;gt; &amp;lt;/filter&amp;gt; &amp;lt;!-- ctrl+shift+T:strutsPrepareAndExecuteFilter --&amp;gt; &amp;lt;filter-mapping&amp;gt; &amp;lt;filter-name&amp;gt;struts&amp;lt;/filter-name&amp;gt; &amp;lt;url-pattern&amp;gt;/*&amp;lt;/url-pattern&amp;gt; &amp;lt;/filter-mapping&amp;gt; &amp;lt;display-name&amp;gt;ssh&amp;lt;/display-name&amp;gt; &amp;lt;welcome-file-list&amp;gt; &amp;lt;welcome-file&amp;gt;index.jsp&amp;lt;/welcome-file&amp;gt; &amp;lt;/welcome-file-list&amp;gt; 2. struts 配置文件——struts.xml &amp;lt;struts&amp;gt; &amp;lt;package name=&amp;#34;ssh&amp;#34; extends=&amp;#34;struts-default&amp;#34;&amp;gt; &amp;lt;action name=&amp;#34;user_*&amp;#34; class=&amp;#34;userAction&amp;#34; method=&amp;#34;{1}&amp;#34;&amp;gt; &amp;lt;result name=&amp;#34;input&amp;#34;&amp;gt;/index.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;success&amp;#34; type=&amp;#34;redirect&amp;#34;&amp;gt;/jsp/layout.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;info&amp;#34; type=&amp;#34;redirect&amp;#34;&amp;gt;/jsp/myinfo.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;invi&amp;#34;&amp;gt;/jsp/invi.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;regSuccess&amp;#34;&amp;gt;/jsp/regSuccess1.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;getCodes&amp;#34;&amp;gt;/jsp/mycode.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;toHome&amp;#34;&amp;gt;/jsp/layout.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;linkPersion&amp;#34;&amp;gt;/jsp/otherInfo.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;update&amp;#34;&amp;gt;/jsp/updateUser.</description>
     </item>
-    
     <item>
       <title>基于SSH的员工管理系统（二）——lib 导入各 jar 包详解</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2016-11-02-ssh-web-02/</link>
       <pubDate>Wed, 02 Nov 2016 12:55:29 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2016-11-02-ssh-web-02/</guid>
       <description>本节将关于本项目所需导入的 jar 包进行逐一解释，基本适用于普通的 Struts2+Hibernate3+Spring3 的项目， 此为相对较老的组合版本，若使用 Hibernate4 或 Mybatis 等其他较新框架，请自行查阅相关资料。
 1、struts2 基础必备包（解压 blank.war 可得） 本项目使用 struts2.3.4.1 附加 Jar 解释：
 struts2-convention-plugin-2.3.4.1.jar——支持 struts2 的注解开发 struts2-spring-plugin-2.3.4.1.jar——用于整合 spring 2、hibernate3 基础必备包 本项目使用 hibernate3.3.1 根路径 hibernate3.jar——核心 jar 包 required 目录所有 jar 包 hibernate 日志记录——slf4j-log4j.jar 数据库驱动包——mysql-connector-java.jar（本项目使用 mysql 数据库） 3、spring 基础必备包 本项目使用 spring3.2.2 spring 基本 jar 包包括
 IoC 开发 spring-beans.jar spring-context.jar spring-core.jar spring-expression.jar com.springsource.org.apache.log4j.jar——作日志记录 com.springsource.org.apache.commons.logging.jar——日志整合，不作具体日志记录，用于整合其他日志系统 AOP spring-aop.jar spring-aspect.jar——整合 aspect com.spinrgsource.org.aopalliance.jar——aop 联盟 com.springsource.org.aspectj.weaver.jar 其他 spring-tx.jar——事务管理 spring-jdbc.jar——jdbc 模板 spring-orm.jar——整合 hibernate spring-web.</description>
     </item>
-    
     <item>
       <title>基于SSH的员工管理系统（一）——包结构</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2016-11-02-ssh-web-01/</link>
       <pubDate>Wed, 02 Nov 2016 11:10:02 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2016-11-02-ssh-web-01/</guid>
       <description>本项目是使用 Struts2+Hibernate3+Spring3,基于 MVC 开发模式的一个简单实例，第一篇先建立项目总体包结构，后续将详细解释项目细节。
 1、整体包结构 2、action 包 3、domain 实体包 4、service 层 5、dao 层 6、util 工具包 7、页面层 </description>
     </item>
-    
     <item>
       <title>三大GUI库——AWT、swing、SWT</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2015-12-23-java-ui/</link>
       <pubDate>Wed, 23 Dec 2015 20:06:30 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2015-12-23-java-ui/</guid>
       <description>（一）AWT（abstract window toolkit，抽象窗口工具包）
 特点：
@@ -1935,12 +1633,10 @@ IoC 开发 spring-beans.jar spring-context.jar spring-core.jar spring-expression
 （1）未通过 JAVA 虚拟机操作，直接调用 Windows GDI 和 Shell（通过 JNI 方法调用完成）
 （2）基于 SWT 实现的 Eclipse 界面速度快、效率高，比 Swing 美观</description>
     </item>
-    
     <item>
       <title>重写与重载的区别</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2015-12-23-override-vs-overload/</link>
       <pubDate>Wed, 23 Dec 2015 13:30:18 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2015-12-23-override-vs-overload/</guid>
       <description>override(覆盖)=重写
 对象：方法
@@ -1965,27 +1661,20 @@ overload(重载)
 2、不能通过访问权限、返回类型、抛出的异常进行重载
 3、方法的异常类型和数目不会对重载造成影响</description>
     </item>
-    
     <item>
       <title>按标签分类</title>
       <link>https://barnett617.github.io/wilson-blog/tags/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/tags/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>关于我</title>
       <link>https://barnett617.github.io/wilson-blog/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/about/</guid>
       <description>前滴滴前端工程师，目前在 MG 负责核心模块维护及架构升级。
 技术栈 Vue.js TypeScript Webpack 负责过 基于 Web Vitals 的首帧加载及使用卡顿优化（包括资源体积、数量和加载时序等优化） 基于 eslint-plugin-import 的模块循环依赖治理 状态管理库迁移 Vuex -&amp;gt; Pinia 组件范式迁移 vue class component -&amp;gt; composition api 基于 Sentry 的线上报错监控及治理 人生哲学 追求内心的宁静、自洽，更加笃定</description>
     </item>
-    
-    
-    
   </channel>
 </rss>

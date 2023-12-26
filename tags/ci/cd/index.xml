@@ -1,28 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CI/CD on Wilson&#39;s Blog</title>
     <link>https://barnett617.github.io/wilson-blog/tags/ci/cd/</link>
     <description>Recent content in CI/CD on Wilson&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-Hans-CN</language><atom:link href="https://barnett617.github.io/wilson-blog/tags/ci/cd/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-Hans-CN</language>
+    <atom:link href="https://barnett617.github.io/wilson-blog/tags/ci/cd/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>如何使用github进行持续集成</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2020-08-19-ci-with-github/</link>
       <pubDate>Wed, 19 Aug 2020 22:31:55 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2020-08-19-ci-with-github/</guid>
       <description>&lt;p&gt;利用 github 的 actions 为你的前端项目加上 CI(Continuous Integration，持续集成)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>服务器搭建Gitlab</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2018-08-27-gitlab-use/</link>
       <pubDate>Mon, 27 Aug 2018 09:30:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-08-27-gitlab-use/</guid>
       <description>&lt;p&gt;服务器搭建 Gitlab&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

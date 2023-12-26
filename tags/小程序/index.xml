@@ -1,29 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>小程序 on Wilson&#39;s Blog</title>
     <link>https://barnett617.github.io/wilson-blog/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/</link>
     <description>Recent content in 小程序 on Wilson&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans-CN</language>
-    <lastBuildDate>Fri, 10 Jan 2020 18:16:00 +0000</lastBuildDate><atom:link href="https://barnett617.github.io/wilson-blog/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Jan 2020 18:16:00 +0000</lastBuildDate>
+    <atom:link href="https://barnett617.github.io/wilson-blog/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>mpvue刷新问题</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2020-01-10-mpvue/</link>
       <pubDate>Fri, 10 Jan 2020 18:16:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2020-01-10-mpvue/</guid>
       <description>&lt;p&gt;&lt;code&gt;mpvue&lt;/code&gt;小程序迁移为&lt;code&gt;uniapp&lt;/code&gt;项目&lt;code&gt;A&lt;/code&gt;(用于标识项目)，同时编译部署微信小程序和微信服务号&lt;code&gt;H5&lt;/code&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>微信公众号和小程序开发</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2018-02-13-wechat-miniprogram/</link>
       <pubDate>Tue, 13 Feb 2018 09:47:22 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-02-13-wechat-miniprogram/</guid>
       <description>&lt;p&gt;关于微信公众号平台使用相关&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

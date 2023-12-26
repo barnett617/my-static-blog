@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>IDE on Wilson&#39;s Blog</title>
     <link>https://barnett617.github.io/wilson-blog/tags/ide/</link>
     <description>Recent content in IDE on Wilson&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans-CN</language>
-    <lastBuildDate>Tue, 17 Dec 2019 19:46:00 +0000</lastBuildDate><atom:link href="https://barnett617.github.io/wilson-blog/tags/ide/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Dec 2019 19:46:00 +0000</lastBuildDate>
+    <atom:link href="https://barnett617.github.io/wilson-blog/tags/ide/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>如何用vscode调试node程序和vue源码</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2019-12-17-debug-node-vue/</link>
       <pubDate>Tue, 17 Dec 2019 19:46:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2019-12-17-debug-node-vue/</guid>
       <description>如何用 vscode 调试 node 程序和 vue 源码</description>
     </item>
-    
   </channel>
 </rss>

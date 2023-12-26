@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Node.js on Wilson&#39;s Blog</title>
     <link>https://barnett617.github.io/wilson-blog/tags/node.js/</link>
     <description>Recent content in Node.js on Wilson&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans-CN</language>
-    <lastBuildDate>Wed, 25 Aug 2021 15:31:00 +0000</lastBuildDate><atom:link href="https://barnett617.github.io/wilson-blog/tags/node.js/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Aug 2021 15:31:00 +0000</lastBuildDate>
+    <atom:link href="https://barnett617.github.io/wilson-blog/tags/node.js/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>如何基于 Node.js 开发一个完整的项目</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2021-08-25-nodejs-app/</link>
       <pubDate>Wed, 25 Aug 2021 15:31:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2021-08-25-nodejs-app/</guid>
       <description>本文我们将围绕Node.js为核心，开发一个具有前端页面和后端存储，前后端通过API进行数据通信的完整项目。</description>
     </item>
-    
     <item>
       <title>Node.js 开发必备基础知识</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2021-08-25-nodejs-basic/</link>
       <pubDate>Wed, 25 Aug 2021 14:31:00 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2021-08-25-nodejs-basic/</guid>
       <description>综述 开门见山，先说结论：
 文件读写 网络请求 回调函数 这三点绝对是使用Node.js进行开发的三项核心必备基础知识，接下来我们来逐一介绍这三点为什么是最基础的核心知识。
@@ -40,15 +38,12 @@ const fs = require(&amp;#39;fs&amp;#39;); fs.writeFileSync(&amp;#39;./out.md&amp
 例如我们创建如下这样一个Node.js文件
 const https = require(&amp;#39;https&amp;#39;); const api = &amp;#39;https://api.juejin.cn/user_api/v1/author/recommend?limit=5&amp;#39; https.get(api, res =&amp;gt; { let content = &amp;#39;&amp;#39;; res.on(&amp;#39;data&amp;#39;, chunk =&amp;gt; { content += chunk; }) res.</description>
     </item>
-    
     <item>
       <title>工具篇——如何管理node和npm的更新</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2018-02-07-nodejs-and-npm-update/</link>
       <pubDate>Wed, 07 Feb 2018 14:27:19 +0000</pubDate>
-      
       <guid>https://barnett617.github.io/wilson-blog/posts/2018-02-07-nodejs-and-npm-update/</guid>
       <description>&lt;p&gt;管理 node 和 npm 的更新&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
