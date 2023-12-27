@@ -1,8 +1,8 @@
 ---
-title: "Wilson的2023年度回顾"
+title: "图说2023"
 date: 2023-12-17 16:10:34
 lastmod: 2023-12-27 00:10:36
-summary: "又到一年尾声，回顾一下这一年的工作和生活，图文并茂，让2023更加立体"
+summary: "Wilson的年度回顾"
 draft: true
 ---
 
@@ -304,4 +304,18 @@ R.I.P.
 
 ![snowy](IMG_6560.JPG)
 
-十二月，迎来了2023年的初雪
+十二月，北京初雪
+
+### 小宇宙
+
+![podcast](EFD9153A-17D6-40EE-8A01-1C5DD6032BD8.PNG)
+
+今年开始收听小宇宙，最喜欢的两档节目分别是——[代码之外](https://bento.me/beyondcode)和[捕蛇者说](https://pythonhunter.org/)。
+
+前者是 [Randy](https://lutaonan.com/) 和 [GeekPlux](https://geekplux.com/) 的无主题闲聊，是一档今年新成立的播客，后者是几个 Python 爱好者的技术讨论播客，每天通勤路上听他们聊 Python 的各种，偶尔感到与 JavaScript 何其相似，十分共鸣，偶尔学习到各种关于 Python 的语法和发展，很是有趣。
+
+---
+
+好了，关于2023年就先盘到这里了
+
+2024，未来可期。
