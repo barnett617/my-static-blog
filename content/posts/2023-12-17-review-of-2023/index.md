@@ -200,15 +200,15 @@ R.I.P.
 
 七月中带老婆到三里屯放松，因为出月子了。
 
-![音乐会](IMG_4801.jpg)
+![音乐会](https://foruda.gitee.com/images/1703781505688780544/c597e279_1214641.jpeg)
 
 听了音乐会，吃了日料
 
-![日料](IMG_4789.jpg)
+![日料](https://foruda.gitee.com/images/1703781478275086937/8358e7cb_1214641.jpeg)
 
 小儿子也即将出生100天，我用新手机给他拍了一组写真，效果还不错。
 
-![百天](IMG_4963.jpg)
+![百天](https://foruda.gitee.com/images/1703781528027529350/92d36cc2_1214641.jpeg)
 
 ## 八月
 
@@ -216,15 +216,15 @@ R.I.P.
 
 八月，逛商场的时候看上了一双亚瑟士跑鞋，老婆给我下单买了，于是为了新买的跑鞋开始晨跑。
 
-![奥森跑步](IMG_5424.JPG)
+![奥森跑步](https://foruda.gitee.com/images/1703780680808841033/98fc33c9_1214641.jpeg)
 
 后来又因为跑步，自己从拼多多上买了一块二手 Apple Watch。
 
-![Apple Watch](IMG_5460.jpg)
+![Apple Watch](https://foruda.gitee.com/images/1703781550683323709/0943a7da_1214641.jpeg)
 
 到现在也用了几个月了，中间有过一次因为游泳进水返修过，后来没再游泳戴，也就没再出过问题。
 
-![丁达尔效应](IMG_5599.jpg)
+![丁达尔效应](https://foruda.gitee.com/images/1703781572789336595/5d2a6099_1214641.jpeg)
 
 那段时间因为每天跑步，整个人状态很好。
 
@@ -246,7 +246,7 @@ R.I.P.
 
 中间学了一个[在线课程](https://www.coursera.org/learn/classification-vector-spaces-in-nlp)，了解了一下如今大火的 ChatGPT 背后的基础 [NLP](https://zh.wikipedia.org/wiki/%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86)（自然语言学习）原理。
 
-![coursea](coursea.png)
+![coursea](https://foruda.gitee.com/images/1703781599987304636/1a491e0b_1214641.png)
 
 学这个课程也是因为在网上频繁看到[吴恩达](https://zh.wikipedia.org/zh-cn/%E5%90%B4%E6%81%A9%E8%BE%BE)这个名字，他出了一门 ChatGPT 提示工程的课程，而且他还是谷歌大脑项目的创办者。
 
