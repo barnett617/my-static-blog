@@ -6,8 +6,15 @@
     <description>Recent content on Wilson&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans-CN</language>
-    <lastBuildDate>Sun, 26 Nov 2023 23:30:59 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 17 Dec 2023 16:10:34 +0000</lastBuildDate>
     <atom:link href="https://barnett617.github.io/wilson-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>图说2023</title>
+      <link>https://barnett617.github.io/wilson-blog/posts/2023-12-17-review-of-2023/</link>
+      <pubDate>Sun, 17 Dec 2023 16:10:34 +0000</pubDate>
+      <guid>https://barnett617.github.io/wilson-blog/posts/2023-12-17-review-of-2023/</guid>
+      <description>Wilson的年度回顾</description>
+    </item>
     <item>
       <title>使用Hugo搭建博客站点下篇——正式使用</title>
       <link>https://barnett617.github.io/wilson-blog/posts/2023-11-26-hugo-blog-2/</link>
