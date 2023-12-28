@@ -152,11 +152,11 @@ R.I.P.
 
 同时他还是百万级用户量代码打包工具 [esbuild](https://esbuild.github.io/) 的作者，这样的技术热情确实令人敬佩。🫡
 
-![JJ-Lin](jj-lin.PNG)
+![JJ-Lin](https://foruda.gitee.com/images/1703779696706007534/80dce164_1214641.png)
 
 六月还看了JJ在B站的线上演唱会，其实一开始是为了在B站看《古惑仔》，然后开了大会员，结果送了林俊杰线上演唱会的门票。
 
-![郑伊健](IMG_0033.PNG)
+![郑伊健](https://foruda.gitee.com/images/1703779672487808816/cb32eb84_1214641.png)
 
 既然会员开了，所以当然电影该看还得看。
 
@@ -184,7 +184,7 @@ R.I.P.
 
 ### Arc体验
 
-![arc](IMG_4678.PNG)
+![arc](https://foruda.gitee.com/images/1703779753423212066/2deb56e5_1214641.png)
 
 七月，拿到了 [Arc](https://arc.net/) 浏览器内测的体验券。
 
@@ -238,7 +238,7 @@ R.I.P.
 
 八月刚锻炼完，九月就住院😂，不过住院只是做个小手术，和八月的锻炼没啥关联。
 
-![住院](IMG_5936.JPG)
+![住院](https://foruda.gitee.com/images/1703779793014251855/efce2980_1214641.jpeg)
 
 ## 十月
 
@@ -278,15 +278,15 @@ R.I.P.
 
 ### 生日
 
-![niz](IMG_6245.JPG)
+![niz](https://foruda.gitee.com/images/1703779833438103544/91c50116_1214641.jpeg)
 
 十一月也是生日月，老婆问我今年想要啥礼物，我就没出息地要了一个新键盘——宁芝，这是我的第一个静电容键盘，放在家里码字不错。
 
-![niz](IMG_6246.JPG)
+![niz](https://foruda.gitee.com/images/1703779855159208573/b5f61c4c_1214641.jpeg)
 
 当然还有老婆早早起来做的生日面🍜
 
-![noodles](IMG_6413.JPG)
+![noodles](https://foruda.gitee.com/images/1703779892015754663/b62cbc8c_1214641.jpeg)
 
 ---
 
@@ -302,7 +302,7 @@ R.I.P.
 
 今年六月开始用多邻国，没想到半年打卡就这么坚持下来了。
 
-![snowy](IMG_6560.JPG)
+![snowy](https://foruda.gitee.com/images/1703779920491612024/1c17209a_1214641.jpeg)
 
 十二月，北京初雪
 
