@@ -298,7 +298,7 @@ R.I.P.
 
 ### 多邻国
 
-![duolingo](duolingo.PNG)
+![duolingo](https://foruda.gitee.com/images/1703866232770849630/6567e075_1214641.png)
 
 今年六月开始用多邻国，没想到半年打卡就这么坚持下来了。
 
@@ -308,7 +308,7 @@ R.I.P.
 
 ### 小宇宙
 
-![podcast](EFD9153A-17D6-40EE-8A01-1C5DD6032BD8.PNG)
+![podcast](https://foruda.gitee.com/images/1703866187261629497/72abd2ef_1214641.png)
 
 今年开始收听小宇宙，最喜欢的两档节目分别是——[代码之外](https://bento.me/beyondcode)和[捕蛇者说](https://pythonhunter.org/)。
 
