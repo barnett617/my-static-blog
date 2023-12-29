@@ -138,11 +138,11 @@ R.I.P.
 
 ### 换手机
 
-![iphone14](IMG_4485.jpg)
+![iphone14](https://foruda.gitee.com/images/1703862473511951836/0ca5fc4a_1214641.jpeg)
 
 六月换了新手机——iPhone14 Pro，因为之前用的 iPhone12 从去年年底开始拍照总有小黑点，上班也一直没时间去修，就干脆换了。而且这次直接换 Pro，可以当做家庭相机，记录小孩成长。
 
-![poly-wasm](IMG_4526.PNG)
+![poly-wasm](https://foruda.gitee.com/images/1703862504609338708/d901fe27_1214641.png)
 
 关注到 [Figma](https://www.figma.com/about/) 前 CTO [Evan Wallace](https://madebyevan.com/) 准备使用 [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) 实现一个用于兼容那些不支持 [WASM](https://webassembly.org/) 的浏览器使用的[库](https://github.com/evanw/polywasm)。
 
@@ -162,7 +162,7 @@ R.I.P.
 
 之所以看《古惑仔》是因为之前确实没有完整看过，那段时间偶然八卦到这个系列其实是当年香港影视圈的部分真实写照，因此出于好奇考了古。
 
-![王小波](IMG_4621.JPG#center)
+![王小波](https://foruda.gitee.com/images/1703862536186751640/68e212e6_1214641.jpeg#center)
 
 偶然在网上看到这样一张图，价值观又一次受到冲击，哈哈。果然人的一生不断提升认知还是很重要的，不然可能会多走一些不必要的弯路。
 
@@ -170,13 +170,13 @@ R.I.P.
 
 人年轻的时候虽有棱角，却也是思考和精力最旺盛的年纪，年轻的时候如果没有思想上的叛逆，那该多无聊啊。
 
-![45](IMG_4636.JPG)
+![45](https://foruda.gitee.com/images/1703862557603158491/4c595def_1214641.jpeg)
 
 ## 七月
 
 ### Figma发布会
 
-![figma config](IMG_4653.jpg)
+![figma config](https://foruda.gitee.com/images/1703862580265923673/12e6199d_1214641.jpeg)
 
 七月的开篇是从 Figma 年度发布会开始的。
 
@@ -256,7 +256,7 @@ R.I.P.
 
 十月中，重新返回职场
 
-![工位](IMG_6075.jpg)
+![工位](https://foruda.gitee.com/images/1703862606164934652/e7888fdb_1214641.jpeg)
 
 国庆节后，团队上有些调整，我被推上一个更重要的位置。
 
@@ -272,7 +272,7 @@ R.I.P.
 
 ## 十一月
 
-![manner](IMG_6239.jpg)
+![manner](https://foruda.gitee.com/images/1703862640213926224/c899df5c_1214641.jpeg)
 
 十一月的冬日从一杯 Manner 咖啡开启
 
@@ -290,7 +290,7 @@ R.I.P.
 
 ---
 
-![tree](IMG_6329.jpg)
+![tree](https://foruda.gitee.com/images/1703862725394679549/5777c69f_1214641.jpeg)
 
 这是 11月3日 上班路上拍的，今年冬天的寒冷到来的稍晚了一些。
 
