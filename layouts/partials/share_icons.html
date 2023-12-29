@@ -17,7 +17,7 @@
 {{- if (cond ($custom) (in $ShareButtons "wechat") (true)) }}
 {{- if not site.Params.assets.disableFingerprinting }}
 {{- $qrcode := slice (resources.Get "js/qrcode.min.js") | resources.Concat "assets/js/qrcode.js" | fingerprint }}
-<script defer crossorigin="anonymous" src="{{ $qrcode.RelPermalink }}" integrity="{{ $qrcode.Data.Integrity }}"
+<script async crossorigin="anonymous" src="{{ $qrcode.RelPermalink }}" integrity="{{ $qrcode.Data.Integrity }}"
     onload="
         const wechatShareBtnFingerprint = document.getElementById('wechat-share-btn');
         if (wechatShareBtnFingerprint) {
@@ -53,7 +53,7 @@
 ></script>
 {{- else }}
 {{- $qrcode := slice (resources.Get "js/qrcode.min.js") | resources.Concat "assets/js/qrcode.js" }}
-<script defer crossorigin="anonymous" src="{{ $qrcode.RelPermalink }}"
+<script async crossorigin="anonymous" src="{{ $qrcode.RelPermalink }}"
     onload="
         const wechatShareBtn = document.getElementById('wechat-share-btn');
         if (wechatShareBtn) {
