@@ -2,73 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Web on Wilson&#39;s Blog</title>
-    <link>https://barnett617.github.io/wilson-blog/tags/web/</link>
+    <link>https://fexapp.org/tags/web/</link>
     <description>Recent content in Web on Wilson&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans-CN</language>
     <lastBuildDate>Wed, 21 Jun 2023 22:37:22 +0000</lastBuildDate>
-    <atom:link href="https://barnett617.github.io/wilson-blog/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://fexapp.org/tags/web/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>关于WebAssembly</title>
-      <link>https://barnett617.github.io/wilson-blog/notes/2023-06-21-wasm/</link>
+      <link>https://fexapp.org/notes/2023-06-21-wasm/</link>
       <pubDate>Wed, 21 Jun 2023 22:37:22 +0000</pubDate>
-      <guid>https://barnett617.github.io/wilson-blog/notes/2023-06-21-wasm/</guid>
+      <guid>https://fexapp.org/notes/2023-06-21-wasm/</guid>
       <description>&lt;p&gt;WebAssembly 是什么&lt;/p&gt;</description>
     </item>
     <item>
       <title>基于B/S架构的webapp开发</title>
-      <link>https://barnett617.github.io/wilson-blog/posts/2021-07-24-webapp-based-on-bs-arch/</link>
+      <link>https://fexapp.org/posts/2021-07-24-webapp-based-on-bs-arch/</link>
       <pubDate>Sat, 24 Jul 2021 21:40:00 +0000</pubDate>
-      <guid>https://barnett617.github.io/wilson-blog/posts/2021-07-24-webapp-based-on-bs-arch/</guid>
+      <guid>https://fexapp.org/posts/2021-07-24-webapp-based-on-bs-arch/</guid>
       <description>&lt;p&gt;使用 vscode 远程开发一个全栈 Web 项目&lt;/p&gt;</description>
     </item>
     <item>
       <title>HTTP访问控制（CORS）</title>
-      <link>https://barnett617.github.io/wilson-blog/notes/2020-01-09-http-cors/</link>
+      <link>https://fexapp.org/notes/2020-01-09-http-cors/</link>
       <pubDate>Thu, 09 Jan 2020 19:11:00 +0000</pubDate>
-      <guid>https://barnett617.github.io/wilson-blog/notes/2020-01-09-http-cors/</guid>
+      <guid>https://fexapp.org/notes/2020-01-09-http-cors/</guid>
       <description>&lt;p&gt;关于 HTTP CORS&lt;/p&gt;</description>
     </item>
     <item>
       <title>关于WEB中宽高的一些整理</title>
-      <link>https://barnett617.github.io/wilson-blog/posts/2019-04-12-web-height/</link>
+      <link>https://fexapp.org/posts/2019-04-12-web-height/</link>
       <pubDate>Fri, 12 Apr 2019 15:31:00 +0000</pubDate>
-      <guid>https://barnett617.github.io/wilson-blog/posts/2019-04-12-web-height/</guid>
+      <guid>https://fexapp.org/posts/2019-04-12-web-height/</guid>
       <description>&lt;p&gt;关于 WEB 中宽高的一些整理&lt;/p&gt;</description>
     </item>
     <item>
       <title>一周时间使用Vue&#43;Koa全栈开发论坛项目</title>
-      <link>https://barnett617.github.io/wilson-blog/posts/2018-08-27-koa-vue-forum/</link>
+      <link>https://fexapp.org/posts/2018-08-27-koa-vue-forum/</link>
       <pubDate>Mon, 27 Aug 2018 09:30:00 +0000</pubDate>
-      <guid>https://barnett617.github.io/wilson-blog/posts/2018-08-27-koa-vue-forum/</guid>
+      <guid>https://fexapp.org/posts/2018-08-27-koa-vue-forum/</guid>
       <description>&lt;p&gt;使用 vue-cli3 脚手架初始化前端项目&lt;/p&gt;</description>
     </item>
     <item>
       <title>在Ubuntu 16.04安装禅道</title>
-      <link>https://barnett617.github.io/wilson-blog/posts/2018-08-27-install-zendao-on-ubuntu/</link>
+      <link>https://fexapp.org/posts/2018-08-27-install-zendao-on-ubuntu/</link>
       <pubDate>Mon, 27 Aug 2018 09:30:00 +0000</pubDate>
-      <guid>https://barnett617.github.io/wilson-blog/posts/2018-08-27-install-zendao-on-ubuntu/</guid>
+      <guid>https://fexapp.org/posts/2018-08-27-install-zendao-on-ubuntu/</guid>
       <description>&lt;p&gt;在 Ubuntu 16.04 安装禅道&lt;/p&gt;</description>
     </item>
     <item>
       <title>关于hexo阅读次数统计及访问次数插件使用</title>
-      <link>https://barnett617.github.io/wilson-blog/notes/2018-02-13-hexo-reading-count/</link>
+      <link>https://fexapp.org/notes/2018-02-13-hexo-reading-count/</link>
       <pubDate>Tue, 13 Feb 2018 14:46:31 +0000</pubDate>
-      <guid>https://barnett617.github.io/wilson-blog/notes/2018-02-13-hexo-reading-count/</guid>
+      <guid>https://fexapp.org/notes/2018-02-13-hexo-reading-count/</guid>
       <description>&lt;p&gt;前一段时间换域名，发现博客的访问次数不显示了。一开始没时间关注，最近闲了，研究一下到底是怎么回事，发现原来当初这里不是基于本地配置，而是使用 leancloud 进行统计，查阅到一篇很易懂的教程，顺便整理了一下 PV 和 UV 的统计&lt;/p&gt;</description>
     </item>
     <item>
       <title>关于浏览器缓存</title>
-      <link>https://barnett617.github.io/wilson-blog/notes/2018-02-02-browser-cache/</link>
+      <link>https://fexapp.org/notes/2018-02-02-browser-cache/</link>
       <pubDate>Fri, 02 Feb 2018 14:38:49 +0000</pubDate>
-      <guid>https://barnett617.github.io/wilson-blog/notes/2018-02-02-browser-cache/</guid>
+      <guid>https://fexapp.org/notes/2018-02-02-browser-cache/</guid>
       <description>&lt;p&gt;探讨浏览器缓存相关&lt;/p&gt;</description>
     </item>
     <item>
       <title>关于域名</title>
-      <link>https://barnett617.github.io/wilson-blog/notes/2018-01-25-domain/</link>
+      <link>https://fexapp.org/notes/2018-01-25-domain/</link>
       <pubDate>Thu, 25 Jan 2018 15:09:24 +0000</pubDate>
-      <guid>https://barnett617.github.io/wilson-blog/notes/2018-01-25-domain/</guid>
+      <guid>https://fexapp.org/notes/2018-01-25-domain/</guid>
       <description>探析域名
 概念 域名（简称“网域”），与互联网上的一个物理 IP 关联
 是电子邮件地址中@符号之后和网址中 www.之后的唯一名称
@@ -85,9 +85,9 @@ IP 地址 一个域名可能有一个或多个关联的 IP 地址</description>
     </item>
     <item>
       <title>关于DNS</title>
-      <link>https://barnett617.github.io/wilson-blog/notes/2018-01-25-dns/</link>
+      <link>https://fexapp.org/notes/2018-01-25-dns/</link>
       <pubDate>Thu, 25 Jan 2018 14:46:04 +0000</pubDate>
-      <guid>https://barnett617.github.io/wilson-blog/notes/2018-01-25-dns/</guid>
+      <guid>https://fexapp.org/notes/2018-01-25-dns/</guid>
       <description>探析 DNS
 DNS 概念 Domain Name System，域名系统
 本质 整理和识别各个域名的网络电话簿
@@ -114,9 +114,9 @@ TTL 生存时间，Time To Live
     </item>
     <item>
       <title>从输入网址到浏览器呈现内容期间发生的事情</title>
-      <link>https://barnett617.github.io/wilson-blog/posts/2018-01-24-what-happens-about-url/</link>
+      <link>https://fexapp.org/posts/2018-01-24-what-happens-about-url/</link>
       <pubDate>Wed, 24 Jan 2018 09:49:03 +0000</pubDate>
-      <guid>https://barnett617.github.io/wilson-blog/posts/2018-01-24-what-happens-about-url/</guid>
+      <guid>https://fexapp.org/posts/2018-01-24-what-happens-about-url/</guid>
       <description>探析浏览器访问站点这一行为背后的具体行为。
 浏览器地址栏输入网址www.coder.com
 浏览器发送一个 UDP 包给 DNS 服务器
@@ -137,9 +137,9 @@ web 服务器处理请求（三种方式）
     </item>
     <item>
       <title>关于反向代理的整理</title>
-      <link>https://barnett617.github.io/wilson-blog/posts/2017-11-07-about-nginx-reverse-proxy/</link>
+      <link>https://fexapp.org/posts/2017-11-07-about-nginx-reverse-proxy/</link>
       <pubDate>Tue, 07 Nov 2017 16:41:24 +0000</pubDate>
-      <guid>https://barnett617.github.io/wilson-blog/posts/2017-11-07-about-nginx-reverse-proxy/</guid>
+      <guid>https://fexapp.org/posts/2017-11-07-about-nginx-reverse-proxy/</guid>
       <description>之前一直对反向代理这个概念理解的很模糊，网上参阅了很多解释，看完也是觉得不够信服，相比较而言觉得解释的还算良好的是知乎上看到的一个回答，但看了之后也仅限于“当时理解，过后就忘”，于是今天再次在 stackoverflow 看到的解释版本，特此翻译整理，留作备忘。
 原文链接：https://stackoverflow.com/questions/224664/difference-between-proxy-server-and-reverse-proxy-server/366212#366212
 如果当你访问不了这个链接的时候，也就说明，GFW 限制了大陆网络内的主机访问 stackoverflow 的网站内容，此时你即需要通过代理服务器来作为你的代理，帮你取拿到远端 stackoverflow 网站上的内容取回给你，这就是正向代理的使用实例。

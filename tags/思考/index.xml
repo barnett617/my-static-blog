@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>思考 on Wilson&#39;s Blog</title>
-    <link>https://barnett617.github.io/wilson-blog/tags/%E6%80%9D%E8%80%83/</link>
+    <link>https://fexapp.org/tags/%E6%80%9D%E8%80%83/</link>
     <description>Recent content in 思考 on Wilson&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans-CN</language>
     <lastBuildDate>Mon, 04 May 2020 12:05:55 +0000</lastBuildDate>
-    <atom:link href="https://barnett617.github.io/wilson-blog/tags/%E6%80%9D%E8%80%83/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://fexapp.org/tags/%E6%80%9D%E8%80%83/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>整理博客过程中的一些思考</title>
-      <link>https://barnett617.github.io/wilson-blog/notes/2020-05-04-thinking-about-blog/</link>
+      <link>https://fexapp.org/notes/2020-05-04-thinking-about-blog/</link>
       <pubDate>Mon, 04 May 2020 12:05:55 +0000</pubDate>
-      <guid>https://barnett617.github.io/wilson-blog/notes/2020-05-04-thinking-about-blog/</guid>
+      <guid>https://fexapp.org/notes/2020-05-04-thinking-about-blog/</guid>
       <description>&lt;p&gt;重新把很早以前写的“博客”看了一下，发现有新的感悟&lt;/p&gt;</description>
     </item>
     <item>
       <title>为什么程序员要学习计算机基础知识</title>
-      <link>https://barnett617.github.io/wilson-blog/posts/2020-04-02-about-programmer-basic-learning/</link>
+      <link>https://fexapp.org/posts/2020-04-02-about-programmer-basic-learning/</link>
       <pubDate>Thu, 02 Apr 2020 12:27:18 +0000</pubDate>
-      <guid>https://barnett617.github.io/wilson-blog/posts/2020-04-02-about-programmer-basic-learning/</guid>
+      <guid>https://fexapp.org/posts/2020-04-02-about-programmer-basic-learning/</guid>
       <description>因为一道 leetcode 题而引发的思考。</description>
     </item>
     <item>
       <title>2020年你为什么要学习js</title>
-      <link>https://barnett617.github.io/wilson-blog/posts/2019-12-05-why-2020-learn-js/</link>
+      <link>https://fexapp.org/posts/2019-12-05-why-2020-learn-js/</link>
       <pubDate>Thu, 05 Dec 2019 10:46:00 +0000</pubDate>
-      <guid>https://barnett617.github.io/wilson-blog/posts/2019-12-05-why-2020-learn-js/</guid>
+      <guid>https://fexapp.org/posts/2019-12-05-why-2020-learn-js/</guid>
       <description>&lt;p&gt;js 全称是 javascript，它既不是 java 的嫡系，也不单单是一门脚本语言（script 直译）。&lt;/p&gt;</description>
     </item>
     <item>
       <title>做事方法论总结</title>
-      <link>https://barnett617.github.io/wilson-blog/notes/2019-12-03-do-things-methods/</link>
+      <link>https://fexapp.org/notes/2019-12-03-do-things-methods/</link>
       <pubDate>Tue, 03 Dec 2019 11:49:00 +0000</pubDate>
-      <guid>https://barnett617.github.io/wilson-blog/notes/2019-12-03-do-things-methods/</guid>
+      <guid>https://fexapp.org/notes/2019-12-03-do-things-methods/</guid>
       <description>&lt;p&gt;一些做事方法论的总结&lt;/p&gt;</description>
     </item>
     <item>
       <title>什么样的人适合做技术</title>
-      <link>https://barnett617.github.io/wilson-blog/posts/2019-10-17-technical-people/</link>
+      <link>https://fexapp.org/posts/2019-10-17-technical-people/</link>
       <pubDate>Thu, 17 Oct 2019 17:48:17 +0000</pubDate>
-      <guid>https://barnett617.github.io/wilson-blog/posts/2019-10-17-technical-people/</guid>
+      <guid>https://fexapp.org/posts/2019-10-17-technical-people/</guid>
       <description>&lt;p&gt;突然有感而发想到这样一个话题——什么样的人适合做技术&lt;/p&gt;</description>
     </item>
     <item>
       <title>关于职业规划</title>
-      <link>https://barnett617.github.io/wilson-blog/posts/2017-11-09-about-career/</link>
+      <link>https://fexapp.org/posts/2017-11-09-about-career/</link>
       <pubDate>Thu, 09 Nov 2017 09:55:14 +0000</pubDate>
-      <guid>https://barnett617.github.io/wilson-blog/posts/2017-11-09-about-career/</guid>
+      <guid>https://fexapp.org/posts/2017-11-09-about-career/</guid>
       <description>最近几天开发任务不甚紧张，每天可能一部分是在读博客或者写博客。在此过程中，突然想给自己炖一锅鸡汤醒醒脑。
 作为一个软件工程毕业的人，或许更宏观的讲，作为一个计算机专业毕业的人，该怎么规划自己的职业生涯呢？
 （这里不讨论想转行的同学们，我很幸运当初坚持了自己的选择和判断，由于兴趣，入行了计算机，如今应该称呼为“互联网”领域）
@@ -72,9 +72,9 @@
     </item>
     <item>
       <title>漫谈博客这东西——漫谈系列</title>
-      <link>https://barnett617.github.io/wilson-blog/posts/2017-10-12-talk-about-blog/</link>
+      <link>https://fexapp.org/posts/2017-10-12-talk-about-blog/</link>
       <pubDate>Thu, 12 Oct 2017 11:53:58 +0000</pubDate>
-      <guid>https://barnett617.github.io/wilson-blog/posts/2017-10-12-talk-about-blog/</guid>
+      <guid>https://fexapp.org/posts/2017-10-12-talk-about-blog/</guid>
       <description>日常知识总结及记录，本次关于由搜索区块链这一关键词引发的关于“为什么要记博客”这一问题的思考
 比特币 区块链 博客 微博 比特币&amp;amp;区块链 昨天看了今年的云栖峰会，再次听到了今年听到最多的“区块链”技术，于是今天闲暇之余，想了解一下这个区块链究竟是个什么东西。看了半天，并没有像某些编程技术一样，能够快速理解大概意思，反倒是产生了更多的陌生词汇，比如拜占庭将军问题，不过一个熟悉的字眼“比特币”倒是快速映入眼帘，原来区块链技术是和比特币原理紧密联系在一起的。
 博客&amp;amp;微博 于是就想着，为了理解这种概念东西，就记篇博客以助理解吧，但看着看着，觉得不懂的概念越来越多，而且查到的资料感觉讲的都很详细，感觉自己写不出更加合理的解释。于是就想到，为什么要记博客这个东西。
@@ -87,16 +87,16 @@
     </item>
     <item>
       <title>一些个人语录整理</title>
-      <link>https://barnett617.github.io/wilson-blog/notes/2017-09-22-some-personal-quotes/</link>
+      <link>https://fexapp.org/notes/2017-09-22-some-personal-quotes/</link>
       <pubDate>Fri, 22 Sep 2017 14:13:45 +0000</pubDate>
-      <guid>https://barnett617.github.io/wilson-blog/notes/2017-09-22-some-personal-quotes/</guid>
+      <guid>https://fexapp.org/notes/2017-09-22-some-personal-quotes/</guid>
       <description> Do each of things in a decent way. 软件工程专业最失败的是培养出两种人：一，是只会编程的人，二，是连编程都不会的人。 知而不改，恶莫大焉 Always be young, never be die.(保持年轻，绝不作咸鱼) 生活应该是两件事：IN And OUT，IN 指 INPUT（读书、学习和思考），OUT 指 OUTPUT（做事、工作和实践） 天妒英才，所以天才总会被凡人当白痴 因为他经历完了过程，得到了结果，再看过程，就感觉没什么了，但如果他没这个过程，得不到结果，站在起点再看，就会觉得这个过程很必要了 卓越的方式有很多种，唯独不应该是以健康为代价的那种 If you want to win, you got to know exactly what the rule is. 有意识地在细节之处刻意不同，就能在和别人差不多的生活中活出不一样的自己 Pure to complex is accessible, but complex back to pure is irreversible. 灵感是转瞬即逝的，所以才需要记录下来 别给自己设上限，才能知道自己的极限；而每次的挑战极限，都是在提高自己的上限 理论上你可以成为任何你想要成为的人，而最难的是成为你自己 拒绝命运的审判，而是主动撰写命运 </description>
     </item>
     <item>
       <title>关于写博客的一些想法</title>
-      <link>https://barnett617.github.io/wilson-blog/notes/2017-08-21-thinking/</link>
+      <link>https://fexapp.org/notes/2017-08-21-thinking/</link>
       <pubDate>Mon, 21 Aug 2017 23:08:33 +0000</pubDate>
-      <guid>https://barnett617.github.io/wilson-blog/notes/2017-08-21-thinking/</guid>
+      <guid>https://fexapp.org/notes/2017-08-21-thinking/</guid>
       <description>写博客的好处在于，能够对所学、所做、所想之事有所记录，返璞归真，互联网花了那么多的精力将传统办公进化到无纸办公，人们从纸质书籍的阅读习惯变成了碎片化学习。
 能够在这样的环境中圈出自己的一亩三分田，经营自己的博客，对自己既是记录，也是肯定，还能在经营博客的过程中更加认识自己。</description>
     </item>

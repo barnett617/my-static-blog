@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Webpack on Wilson&#39;s Blog</title>
-    <link>https://barnett617.github.io/wilson-blog/tags/webpack/</link>
+    <link>https://fexapp.org/tags/webpack/</link>
     <description>Recent content in Webpack on Wilson&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans-CN</language>
     <lastBuildDate>Wed, 17 Jan 2018 11:41:10 +0000</lastBuildDate>
-    <atom:link href="https://barnett617.github.io/wilson-blog/tags/webpack/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://fexapp.org/tags/webpack/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>webpack学习笔记</title>
-      <link>https://barnett617.github.io/wilson-blog/posts/2018-01-17-webpack-basic/</link>
+      <link>https://fexapp.org/posts/2018-01-17-webpack-basic/</link>
       <pubDate>Wed, 17 Jan 2018 11:41:10 +0000</pubDate>
-      <guid>https://barnett617.github.io/wilson-blog/posts/2018-01-17-webpack-basic/</guid>
+      <guid>https://fexapp.org/posts/2018-01-17-webpack-basic/</guid>
       <description>关于 Webpack 基础使用的整理
 背景 网站由网页模式进化成 Webapp 模式
 网站运行在高级浏览器中，使用 HTML5、CSS3、ES6 等新技术

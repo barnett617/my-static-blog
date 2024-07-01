@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>React on Wilson&#39;s Blog</title>
-    <link>https://barnett617.github.io/wilson-blog/tags/react/</link>
+    <link>https://fexapp.org/tags/react/</link>
     <description>Recent content in React on Wilson&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans-CN</language>
     <lastBuildDate>Sun, 25 Feb 2018 17:43:24 +0000</lastBuildDate>
-    <atom:link href="https://barnett617.github.io/wilson-blog/tags/react/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://fexapp.org/tags/react/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>记一次关于运行redux示例启动错误的分析</title>
-      <link>https://barnett617.github.io/wilson-blog/posts/2018-02-25-redux-using/</link>
+      <link>https://fexapp.org/posts/2018-02-25-redux-using/</link>
       <pubDate>Sun, 25 Feb 2018 17:43:24 +0000</pubDate>
-      <guid>https://barnett617.github.io/wilson-blog/posts/2018-02-25-redux-using/</guid>
+      <guid>https://fexapp.org/posts/2018-02-25-redux-using/</guid>
       <description>&lt;p&gt;记录在运行 redux 官方文档中给出的基础实例运行时报错的解决思路&lt;/p&gt;</description>
     </item>
     <item>
       <title>React教程——安装篇</title>
-      <link>https://barnett617.github.io/wilson-blog/posts/2018-02-07-react-install/</link>
+      <link>https://fexapp.org/posts/2018-02-07-react-install/</link>
       <pubDate>Wed, 07 Feb 2018 14:59:31 +0000</pubDate>
-      <guid>https://barnett617.github.io/wilson-blog/posts/2018-02-07-react-install/</guid>
+      <guid>https://fexapp.org/posts/2018-02-07-react-install/</guid>
       <description>&lt;p&gt;React 官网教程系列之前期准备&lt;/p&gt;</description>
     </item>
     <item>
       <title>React教程之快速上手篇</title>
-      <link>https://barnett617.github.io/wilson-blog/posts/2018-02-01-react-quick-start/</link>
+      <link>https://fexapp.org/posts/2018-02-01-react-quick-start/</link>
       <pubDate>Thu, 01 Feb 2018 15:32:54 +0000</pubDate>
-      <guid>https://barnett617.github.io/wilson-blog/posts/2018-02-01-react-quick-start/</guid>
+      <guid>https://fexapp.org/posts/2018-02-01-react-quick-start/</guid>
       <description>&lt;p&gt;React 官方教程系列之快速上手篇&lt;/p&gt;</description>
     </item>
   </channel>

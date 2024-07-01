@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Regex on Wilson&#39;s Blog</title>
-    <link>https://barnett617.github.io/wilson-blog/tags/regex/</link>
+    <link>https://fexapp.org/tags/regex/</link>
     <description>Recent content in Regex on Wilson&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans-CN</language>
     <lastBuildDate>Wed, 08 Jan 2020 09:33:00 +0000</lastBuildDate>
-    <atom:link href="https://barnett617.github.io/wilson-blog/tags/regex/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://fexapp.org/tags/regex/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>正则表达式</title>
-      <link>https://barnett617.github.io/wilson-blog/notes/2020-01-08-regexp/</link>
+      <link>https://fexapp.org/notes/2020-01-08-regexp/</link>
       <pubDate>Wed, 08 Jan 2020 09:33:00 +0000</pubDate>
-      <guid>https://barnett617.github.io/wilson-blog/notes/2020-01-08-regexp/</guid>
+      <guid>https://fexapp.org/notes/2020-01-08-regexp/</guid>
       <description>&lt;p&gt;关于正则表达式学习&lt;/p&gt;</description>
     </item>
     <item>
       <title>正则表达式——学习笔记</title>
-      <link>https://barnett617.github.io/wilson-blog/notes/2017-02-07-regexp/</link>
+      <link>https://fexapp.org/notes/2017-02-07-regexp/</link>
       <pubDate>Tue, 07 Feb 2017 22:06:19 +0000</pubDate>
-      <guid>https://barnett617.github.io/wilson-blog/notes/2017-02-07-regexp/</guid>
+      <guid>https://fexapp.org/notes/2017-02-07-regexp/</guid>
       <description>一些常用正则表达式的整理
 非打印字符 1. \t (table)制表符 等价于\x09和\cl 2. \n (line feed)换行符 等价于\x0a和\cJ 3. \v (vertical)垂直制表符 等价于\x0b和\cK 4. \f (form feed)换页符 等价于\x0c和\cL 5. \r (rarriage return)回车符 等价于\x0d和\cM 6. \s (str)匹配任何空白字符，包括空格、制表符、换页符等） 等价于[\f\n\r\t\v] 7. \S匹配任何非空白字符 等价于[^\f\n\r\t\v] 特殊字符 1. ^ 表示匹配输入字符串的开始位置，若在方括号中使用，则表示不接受该字符集合（例如上述\S的等价匹配） 2. $ 匹配输入字符串的结尾，若设置了RegExp对象的Multiline属性，则$也匹配\n或\r 3. ? 匹配前面的子表达式0-1次，或指明一个非贪婪限定符 4. + 匹配前面的子表达式1-n次 5. * 匹配前面的子表达式0-n次 6. . 匹配除换行符（\n）外的任何单字符（相当于windows系统中的?） 7. () 标记一个子表达式的开始和结束位置，子表达式可供以后使用 8. [ 标记一个中括号表达式的开始（）用于字符集合 9. { 标记限定符表达式的开始 10. \ 将下一个字符标记为特殊字符、或原义字符、或后向引用、或八进制转义符 上述所有特殊字符，若要匹配其本身，都需要在其前面加反斜杠来转义使用
 限定符 限定符表示给定组件出现多少次才能满足匹配

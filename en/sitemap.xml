@@ -2,84 +2,84 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://barnett617.github.io/wilson-blog/en/posts/2023-07-11-js-basic/</loc>
+    <loc>https://fexapp.org/en/posts/2023-07-11-js-basic/</loc>
     <lastmod>2023-06-11T11:37:00+00:00</lastmod>
   </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/en/posts/</loc>
-    <lastmod>2023-06-11T11:37:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-Hans-CN"
-                href="https://barnett617.github.io/wilson-blog/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://barnett617.github.io/wilson-blog/en/posts/"
-                />
-  </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/en/</loc>
+    <loc>https://fexapp.org/en/posts/</loc>
     <lastmod>2023-06-11T11:37:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-Hans-CN"
-                href="https://barnett617.github.io/wilson-blog/"
+                href="https://fexapp.org/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://barnett617.github.io/wilson-blog/en/"
+                href="https://fexapp.org/en/posts/"
                 />
   </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/en/posts/2022-09-21-projects-star-2022/</loc>
+    <loc>https://fexapp.org/en/</loc>
+    <lastmod>2023-06-11T11:37:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-Hans-CN"
+                href="https://fexapp.org/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://fexapp.org/en/"
+                />
+  </url><url>
+    <loc>https://fexapp.org/en/posts/2022-09-21-projects-star-2022/</loc>
     <lastmod>2022-09-21T23:02:00+00:00</lastmod>
   </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/en/posts/2021-03-01-projects-2020/</loc>
+    <loc>https://fexapp.org/en/posts/2021-03-01-projects-2020/</loc>
     <lastmod>2021-03-01T15:49:00+00:00</lastmod>
   </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/en/posts/2021-03-01-review-2020/</loc>
+    <loc>https://fexapp.org/en/posts/2021-03-01-review-2020/</loc>
     <lastmod>2021-03-01T15:19:00+00:00</lastmod>
   </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/en/about/</loc>
+    <loc>https://fexapp.org/en/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-Hans-CN"
-                href="https://barnett617.github.io/wilson-blog/about/"
+                href="https://fexapp.org/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://barnett617.github.io/wilson-blog/en/about/"
+                href="https://fexapp.org/en/about/"
                 />
   </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/en/archives/</loc>
+    <loc>https://fexapp.org/en/archives/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-Hans-CN"
-                href="https://barnett617.github.io/wilson-blog/archives/"
+                href="https://fexapp.org/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://barnett617.github.io/wilson-blog/en/archives/"
+                href="https://fexapp.org/en/archives/"
                 />
   </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/en/encategories/</loc>
+    <loc>https://fexapp.org/en/encategories/</loc>
   </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/en/enseries/</loc>
+    <loc>https://fexapp.org/en/enseries/</loc>
   </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/en/entags/</loc>
+    <loc>https://fexapp.org/en/entags/</loc>
   </url><url>
-    <loc>https://barnett617.github.io/wilson-blog/en/search/</loc>
+    <loc>https://fexapp.org/en/search/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-Hans-CN"
-                href="https://barnett617.github.io/wilson-blog/search/"
+                href="https://fexapp.org/search/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://barnett617.github.io/wilson-blog/en/search/"
+                href="https://fexapp.org/en/search/"
                 />
   </url>
 </urlset>
