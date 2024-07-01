@@ -2,84 +2,84 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://fexapp.org/en/posts/2023-07-11-js-basic/</loc>
+    <loc>https://www.fexapp.org/en/posts/2023-07-11-js-basic/</loc>
     <lastmod>2023-06-11T11:37:00+00:00</lastmod>
   </url><url>
-    <loc>https://fexapp.org/en/posts/</loc>
-    <lastmod>2023-06-11T11:37:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-Hans-CN"
-                href="https://fexapp.org/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://fexapp.org/en/posts/"
-                />
-  </url><url>
-    <loc>https://fexapp.org/en/</loc>
+    <loc>https://www.fexapp.org/en/posts/</loc>
     <lastmod>2023-06-11T11:37:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-Hans-CN"
-                href="https://fexapp.org/"
+                href="https://www.fexapp.org/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://fexapp.org/en/"
+                href="https://www.fexapp.org/en/posts/"
                 />
   </url><url>
-    <loc>https://fexapp.org/en/posts/2022-09-21-projects-star-2022/</loc>
+    <loc>https://www.fexapp.org/en/</loc>
+    <lastmod>2023-06-11T11:37:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-Hans-CN"
+                href="https://www.fexapp.org/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://www.fexapp.org/en/"
+                />
+  </url><url>
+    <loc>https://www.fexapp.org/en/posts/2022-09-21-projects-star-2022/</loc>
     <lastmod>2022-09-21T23:02:00+00:00</lastmod>
   </url><url>
-    <loc>https://fexapp.org/en/posts/2021-03-01-projects-2020/</loc>
+    <loc>https://www.fexapp.org/en/posts/2021-03-01-projects-2020/</loc>
     <lastmod>2021-03-01T15:49:00+00:00</lastmod>
   </url><url>
-    <loc>https://fexapp.org/en/posts/2021-03-01-review-2020/</loc>
+    <loc>https://www.fexapp.org/en/posts/2021-03-01-review-2020/</loc>
     <lastmod>2021-03-01T15:19:00+00:00</lastmod>
   </url><url>
-    <loc>https://fexapp.org/en/about/</loc>
+    <loc>https://www.fexapp.org/en/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-Hans-CN"
-                href="https://fexapp.org/about/"
+                href="https://www.fexapp.org/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://fexapp.org/en/about/"
+                href="https://www.fexapp.org/en/about/"
                 />
   </url><url>
-    <loc>https://fexapp.org/en/archives/</loc>
+    <loc>https://www.fexapp.org/en/archives/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-Hans-CN"
-                href="https://fexapp.org/archives/"
+                href="https://www.fexapp.org/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://fexapp.org/en/archives/"
+                href="https://www.fexapp.org/en/archives/"
                 />
   </url><url>
-    <loc>https://fexapp.org/en/encategories/</loc>
+    <loc>https://www.fexapp.org/en/encategories/</loc>
   </url><url>
-    <loc>https://fexapp.org/en/enseries/</loc>
+    <loc>https://www.fexapp.org/en/enseries/</loc>
   </url><url>
-    <loc>https://fexapp.org/en/entags/</loc>
+    <loc>https://www.fexapp.org/en/entags/</loc>
   </url><url>
-    <loc>https://fexapp.org/en/search/</loc>
+    <loc>https://www.fexapp.org/en/search/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-Hans-CN"
-                href="https://fexapp.org/search/"
+                href="https://www.fexapp.org/search/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://fexapp.org/en/search/"
+                href="https://www.fexapp.org/en/search/"
                 />
   </url>
 </urlset>

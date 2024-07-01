@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>API on Wilson&#39;s Blog</title>
-    <link>https://fexapp.org/tags/api/</link>
+    <link>https://www.fexapp.org/tags/api/</link>
     <description>Recent content in API on Wilson&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans-CN</language>
     <lastBuildDate>Tue, 16 Jan 2018 11:38:31 +0000</lastBuildDate>
-    <atom:link href="https://fexapp.org/tags/api/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.fexapp.org/tags/api/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>如何设计良好的API并且为什么这很重要（译）</title>
-      <link>https://fexapp.org/posts/2018-01-16-api-designing-translation/</link>
+      <link>https://www.fexapp.org/posts/2018-01-16-api-designing-translation/</link>
       <pubDate>Tue, 16 Jan 2018 11:38:31 +0000</pubDate>
-      <guid>https://fexapp.org/posts/2018-01-16-api-designing-translation/</guid>
+      <guid>https://www.fexapp.org/posts/2018-01-16-api-designing-translation/</guid>
       <description>本文翻译自 Effective Java 作者 Joshua Bloch 撰写的一篇关于 API 设计的分享
 API 可以是公司最大的资产之一 客户投入巨资：购买、撰写、学习（售前一系列培训） 停止使用 API 导致的花费令人望而却步（如果不使用 API 可能要花费更多） 成功的公共 API 赢得客户 也可以成为公司最大的负债之一 糟糕的 APIs 将导致无休止的电话技术支持（需要接听很多来自客户的反映） 公共的 APIs 是永久的——一次去做正确事情的机会
 为什么 API 设计对于你来说很重要 如果你编码，你就是一个 API 的设计者 良好的代码应该是模块化的——每一个模块都有一个 API 有用的模块往往被重用 对于 API 方面的思考将提高代码的质量

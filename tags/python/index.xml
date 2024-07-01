@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on Wilson&#39;s Blog</title>
-    <link>https://fexapp.org/tags/python/</link>
+    <link>https://www.fexapp.org/tags/python/</link>
     <description>Recent content in Python on Wilson&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans-CN</language>
     <lastBuildDate>Tue, 07 May 2019 16:14:54 +0000</lastBuildDate>
-    <atom:link href="https://fexapp.org/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.fexapp.org/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>用Python生成柱状图、折线图、饼状图来统计自己的手机话费</title>
-      <link>https://fexapp.org/posts/2019-05-07-use-python-visualize-to-statistics/</link>
+      <link>https://www.fexapp.org/posts/2019-05-07-use-python-visualize-to-statistics/</link>
       <pubDate>Tue, 07 May 2019 16:14:54 +0000</pubDate>
-      <guid>https://fexapp.org/posts/2019-05-07-use-python-visualize-to-statistics/</guid>
+      <guid>https://www.fexapp.org/posts/2019-05-07-use-python-visualize-to-statistics/</guid>
       <description>&lt;p&gt;用 Python 生成柱状图、折线图、饼状图来统计自己的手机话费&lt;/p&gt;</description>
     </item>
     <item>
       <title>关于python科学计算库numpy学习总结</title>
-      <link>https://fexapp.org/posts/2017-08-15-python-numpy/</link>
+      <link>https://www.fexapp.org/posts/2017-08-15-python-numpy/</link>
       <pubDate>Tue, 15 Aug 2017 14:20:49 +0000</pubDate>
-      <guid>https://fexapp.org/posts/2017-08-15-python-numpy/</guid>
+      <guid>https://www.fexapp.org/posts/2017-08-15-python-numpy/</guid>
       <description>关于 python 科学计算库 numpy 学习总结
 本文中部分 print 输出可能会报错，原因为 python3 的 print 通过函数方式使用，与 python2 中的 print 通过解释执行不同，需要使用 print()进行控制台打印
 安装 numpy python3 -m pip install -U pip 更新 pip pip install numpy
@@ -34,9 +34,9 @@ reshape()函数用于重新构造数组成为其他维度数组
     </item>
     <item>
       <title>python零碎知识点整理——注释</title>
-      <link>https://fexapp.org/posts/2017-02-07-python-comment/</link>
+      <link>https://www.fexapp.org/posts/2017-02-07-python-comment/</link>
       <pubDate>Tue, 07 Feb 2017 22:05:20 +0000</pubDate>
-      <guid>https://fexapp.org/posts/2017-02-07-python-comment/</guid>
+      <guid>https://www.fexapp.org/posts/2017-02-07-python-comment/</guid>
       <description>python 零碎知识点整理——注释
 单行注释 python 的单行注释用#，可在任意位置添加（单独一行或语句/表达式后面，python 是解释型语言，逐行按序解释代码）
 多行注释 多行注释使用三个单引号或双引号 这实际上是多行字符串的书写方式，并非 python 本身提倡的多行注释

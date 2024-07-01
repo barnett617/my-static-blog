@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AI on Wilson&#39;s Blog</title>
-    <link>https://fexapp.org/tags/ai/</link>
+    <link>https://www.fexapp.org/tags/ai/</link>
     <description>Recent content in AI on Wilson&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans-CN</language>
     <lastBuildDate>Thu, 25 Jan 2018 10:17:43 +0000</lastBuildDate>
-    <atom:link href="https://fexapp.org/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.fexapp.org/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>谷歌机器学习开源框架Tensorflow安装相关</title>
-      <link>https://fexapp.org/posts/2018-01-25-tensorflow-install/</link>
+      <link>https://www.fexapp.org/posts/2018-01-25-tensorflow-install/</link>
       <pubDate>Thu, 25 Jan 2018 10:17:43 +0000</pubDate>
-      <guid>https://fexapp.org/posts/2018-01-25-tensorflow-install/</guid>
+      <guid>https://www.fexapp.org/posts/2018-01-25-tensorflow-install/</guid>
       <description>关于安装 TensorFlow 的一系列准备
 前期准备 tensorflow 官方推荐安装是通过 pip 安装的，先来看看 pip 是什么
 pip 本质 包安装器

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>jQuery on Wilson&#39;s Blog</title>
-    <link>https://fexapp.org/tags/jquery/</link>
+    <link>https://www.fexapp.org/tags/jquery/</link>
     <description>Recent content in jQuery on Wilson&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans-CN</language>
     <lastBuildDate>Fri, 23 Feb 2018 20:01:25 +0000</lastBuildDate>
-    <atom:link href="https://fexapp.org/tags/jquery/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.fexapp.org/tags/jquery/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>前端基础知识整理——jQuery选择器</title>
-      <link>https://fexapp.org/notes/2018-02-23-js-basic-about-jquery-selector/</link>
+      <link>https://www.fexapp.org/notes/2018-02-23-js-basic-about-jquery-selector/</link>
       <pubDate>Fri, 23 Feb 2018 20:01:25 +0000</pubDate>
-      <guid>https://fexapp.org/notes/2018-02-23-js-basic-about-jquery-selector/</guid>
+      <guid>https://www.fexapp.org/notes/2018-02-23-js-basic-about-jquery-selector/</guid>
       <description>&lt;p&gt;关于 jQuery 选择器的整理&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>其他 on Wilson&#39;s Blog</title>
-    <link>https://fexapp.org/tags/%E5%85%B6%E4%BB%96/</link>
+    <link>https://www.fexapp.org/tags/%E5%85%B6%E4%BB%96/</link>
     <description>Recent content in 其他 on Wilson&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans-CN</language>
     <lastBuildDate>Tue, 14 Nov 2017 14:15:57 +0000</lastBuildDate>
-    <atom:link href="https://fexapp.org/tags/%E5%85%B6%E4%BB%96/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.fexapp.org/tags/%E5%85%B6%E4%BB%96/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>关于StackExchange和Quora的区别</title>
-      <link>https://fexapp.org/posts/2017-11-14-stackexchange-vs-quora/</link>
+      <link>https://www.fexapp.org/posts/2017-11-14-stackexchange-vs-quora/</link>
       <pubDate>Tue, 14 Nov 2017 14:15:57 +0000</pubDate>
-      <guid>https://fexapp.org/posts/2017-11-14-stackexchange-vs-quora/</guid>
+      <guid>https://www.fexapp.org/posts/2017-11-14-stackexchange-vs-quora/</guid>
       <description>今天在查问题的时候偶然进了一篇 StackExchange 的帖子，无论是站点名字还是首页界面，第一反应都是：StackOverFlow？
 查阅相关说明之后了解了二者的关系，StackExchange 是在 StackOverFlow 成功推出以后，在其基础上将仅仅讨论编程问题的网站拓展成话题更丰富的论坛。
 当更加深入了解二者关系之余发现一篇关于对比 StackExchange 和 Quora 二者区别的帖子写得很清楚，特将其翻译如下：
@@ -27,9 +27,9 @@ StackExchange 不同于其他在于其基于目的或者基于问题。我来到
     </item>
     <item>
       <title>使用hexo搭建个人博客教程</title>
-      <link>https://fexapp.org/posts/2017-11-08-setup-blog-using-hexo/</link>
+      <link>https://www.fexapp.org/posts/2017-11-08-setup-blog-using-hexo/</link>
       <pubDate>Wed, 08 Nov 2017 10:25:17 +0000</pubDate>
-      <guid>https://fexapp.org/posts/2017-11-08-setup-blog-using-hexo/</guid>
+      <guid>https://www.fexapp.org/posts/2017-11-08-setup-blog-using-hexo/</guid>
       <description>用了一段时间的 hexo，本着“授人以鱼，不如授人以渔”的理念，决定整理一篇 hexo 使用教程，分享大家。
 hexo 是一种快速、简单并且强大的博客框架，你可以通过使用 markdown 或者其他语言撰写 post（帖子），然后 hexo 引擎将其生成静态网页文件（当然，官网的说法是“在数秒内生成伴有漂亮主题的静态文件”）并以博文的形式显现出来。
 写在前面 本文定位于面向非专业人士角度撰写的科普式教程，有专业基础的人可跳过大多步骤，仅阅读标*部分
@@ -45,9 +45,9 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | b
     </item>
     <item>
       <title>关于matlab使用冒号定义矩阵的小栗子</title>
-      <link>https://fexapp.org/posts/2017-11-01-matlab-matrix/</link>
+      <link>https://www.fexapp.org/posts/2017-11-01-matlab-matrix/</link>
       <pubDate>Wed, 01 Nov 2017 09:48:04 +0000</pubDate>
-      <guid>https://fexapp.org/posts/2017-11-01-matlab-matrix/</guid>
+      <guid>https://www.fexapp.org/posts/2017-11-01-matlab-matrix/</guid>
       <description>冒号是 MATLAT 中最有用的操作符之一。它用于创建向量，下标数组，并为迭代指定。
 背景 怎么解释？作为初学者可能一下子看不懂，但是研究后你会发现，作为老手，你也不应该看懂，因为，这是个印刷错误！
 借此学习一下 MATLAB 的冒号符和矩阵定义
@@ -58,9 +58,9 @@ octave:4&amp;gt; 0:pi/8:pi ans = Columns 1 through 7: 0.00000 0.39270 0.78540 1.
     </item>
     <item>
       <title>atom实现html实时预览</title>
-      <link>https://fexapp.org/notes/2017-10-16-preview-html-using-atom-editor/</link>
+      <link>https://www.fexapp.org/notes/2017-10-16-preview-html-using-atom-editor/</link>
       <pubDate>Mon, 16 Oct 2017 19:00:44 +0000</pubDate>
-      <guid>https://fexapp.org/notes/2017-10-16-preview-html-using-atom-editor/</guid>
+      <guid>https://www.fexapp.org/notes/2017-10-16-preview-html-using-atom-editor/</guid>
       <description>如何使用 atom 编辑器实现 html 实时预览
 atom 自带 markdown 实时预览插件，但当我想用 atom 进行进端开发并取代 webstorm 这样的收费 IDE 时，我发现基于文件进行操作的编辑器 atom 只能高亮显示 html、js 这样的文件，但不能实时显示进行调试，很不方便。
 于是上网查，结果都是很简略的方法，作为刚开始上手 atom 的新手，一时不理解，终于经过自己的折腾成功使用
@@ -73,9 +73,9 @@ atom-html-preview 初始快捷键为 ctrl+p，于 atom 已有快捷键冲突，�
     </item>
     <item>
       <title>每年九月份给自己的一份健康警告</title>
-      <link>https://fexapp.org/posts/2017-09-18-health-tip/</link>
+      <link>https://www.fexapp.org/posts/2017-09-18-health-tip/</link>
       <pubDate>Mon, 18 Sep 2017 14:10:33 +0000</pubDate>
-      <guid>https://fexapp.org/posts/2017-09-18-health-tip/</guid>
+      <guid>https://www.fexapp.org/posts/2017-09-18-health-tip/</guid>
       <description>从百度拇指医生某热心网友总结那里引用来，觉得写得很不错，有参考意义，特此记录下来
 ”为什么每年九月份过敏鼻炎就严重“
 ”因为天气冷热温差比较大。 因为是过敏鼻炎，也可能是你的过敏原在秋季比较丰富。具体你要去医院查过敏原。 我过敏性鼻炎，每天早上起来打喷嚏，流鼻涕，流眼泪，眼睛痒痛充血，如遇天气干燥就容易流鼻血，部分时候会引起头痛。过敏原比较悲催，很普遍， 甲醛、尘螨、灰尘、温度变化都比较敏感。 吃的药基本没什么用。 弄点抗过敏的药就可以了，我现在连喷剂都不太管用。以下是我经过很多测试得到的一些经验，效果挺好，但是也要自己注意保养。

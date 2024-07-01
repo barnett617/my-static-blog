@@ -2,33 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Java on Wilson&#39;s Blog</title>
-    <link>https://fexapp.org/tags/java/</link>
+    <link>https://www.fexapp.org/tags/java/</link>
     <description>Recent content in Java on Wilson&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans-CN</language>
     <lastBuildDate>Mon, 29 Jan 2018 14:34:24 +0000</lastBuildDate>
-    <atom:link href="https://fexapp.org/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.fexapp.org/tags/java/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Apache项目Maven官方文档学习及翻译（译）</title>
-      <link>https://fexapp.org/posts/2018-01-29-about-maven-translation/</link>
+      <link>https://www.fexapp.org/posts/2018-01-29-about-maven-translation/</link>
       <pubDate>Mon, 29 Jan 2018 14:34:24 +0000</pubDate>
-      <guid>https://fexapp.org/posts/2018-01-29-about-maven-translation/</guid>
+      <guid>https://www.fexapp.org/posts/2018-01-29-about-maven-translation/</guid>
       <description>&lt;p&gt;从理解 pom.xml 探析 Maven&lt;/p&gt;</description>
     </item>
     <item>
       <title>java零碎知识点整理（3）</title>
-      <link>https://fexapp.org/notes/2017-02-08-java-basic-03/</link>
+      <link>https://www.fexapp.org/notes/2017-02-08-java-basic-03/</link>
       <pubDate>Wed, 08 Feb 2017 15:01:26 +0000</pubDate>
-      <guid>https://fexapp.org/notes/2017-02-08-java-basic-03/</guid>
+      <guid>https://www.fexapp.org/notes/2017-02-08-java-basic-03/</guid>
       <description>关于 java 字符串 String 以及 Hashcode 的一些整理
 hashcode 即是对象地址的十进制形式，而 equals 方法即是在比较两个对象的 hashcode 是否相等
 package com.test.wx.testequals; public class TestEquals { public static void testEquals() { String a = &amp;#34;a&amp;#34;; String b = &amp;#34;a&amp;#34;; boolean result = a.equals(b); System.out.println(result); // true System.out.println(a.hashCode() == b.hashCode()); // true } public static void testEqual() { String a = &amp;#34;a&amp;#34;; String b = &amp;#34;a&amp;#34;; if (a == b) { // true System.out.println(&amp;#34;true&amp;#34;); System.out.println(a.hashCode() == b.hashCode()); } else { System.</description>
     </item>
     <item>
       <title>java零碎知识点整理（2）</title>
-      <link>https://fexapp.org/notes/2017-02-07-java-basic-02/</link>
+      <link>https://www.fexapp.org/notes/2017-02-07-java-basic-02/</link>
       <pubDate>Tue, 07 Feb 2017 20:01:52 +0000</pubDate>
-      <guid>https://fexapp.org/notes/2017-02-07-java-basic-02/</guid>
+      <guid>https://www.fexapp.org/notes/2017-02-07-java-basic-02/</guid>
       <description>构造器（构造方法）
 在类实例化时被调用，对实例对象进行初始化
 package com.test.wx.testinit; public class Color { int red, green, blue; /** * 以下这个方法不是构造器，构造器没有“void”这个返回值 */ void Color() { red = 10; green = 10; blue = 10; } /** * 这才是正确的构造器，会在类实例化一个对象时被调用，对对象进行初始化 */ Color() { red = 10; green = 10; blue = 10; } void printColor() { System.out.println(&amp;#34;red:&amp;#34;+red+&amp;#34;green:&amp;#34;+green+&amp;#34;blue:&amp;#34;+blue); } public static void main(String[] args) { Color color = new Color(); color.printColor();	// red:0green:0blue:0 } } 修饰符（关键字）
@@ -37,17 +37,17 @@ abstract 不能与 final 同时使用，abstract类为抽象类，包含抽象�
     </item>
     <item>
       <title>java零碎知识点整理（1）</title>
-      <link>https://fexapp.org/notes/2017-02-07-java-basic-01/</link>
+      <link>https://www.fexapp.org/notes/2017-02-07-java-basic-01/</link>
       <pubDate>Tue, 07 Feb 2017 17:27:54 +0000</pubDate>
-      <guid>https://fexapp.org/notes/2017-02-07-java-basic-01/</guid>
+      <guid>https://www.fexapp.org/notes/2017-02-07-java-basic-01/</guid>
       <description>字符串相关方法、数据类型转换、正则表达式
 package com.test.wx.teststr; import java.util.regex.Matcher; import java.util.regex.Pattern; public class TestString { public static void intToString() { int i = 10; Integer j = 11; int k = 12; Integer l = 13; String iStr = String.valueOf(i); // String iStr2 = (String)j; // String iStr3 = (String)k; String iStr4 = String.valueOf(l); System.out.println(iStr); System.out.println(iStr4); } public static void indexOfTest() { String quote = &amp;#34;An *onion* a day keeps everyone away!&amp;#34;; int startBound = quote.</description>
     </item>
     <item>
       <title>Maven学习</title>
-      <link>https://fexapp.org/posts/2016-12-20-maven-basic/</link>
+      <link>https://www.fexapp.org/posts/2016-12-20-maven-basic/</link>
       <pubDate>Tue, 20 Dec 2016 09:28:04 +0800</pubDate>
-      <guid>https://fexapp.org/posts/2016-12-20-maven-basic/</guid>
+      <guid>https://www.fexapp.org/posts/2016-12-20-maven-basic/</guid>
       <description>Maven 学习
 一、什么是 Maven Apache Maven 是一个软件项目管理和综合工具，基于项目对象模型（POM——Project Object Model），Maven 可以从一个中心资料片管理项目构建，报告和文件。
 Maven 提供了开发人员构建一个完整的生命周期框架。开发团队可以自动完成项目的基础工具建设，Maven 使用标准的目录结构和默认构建生命周期。
@@ -58,32 +58,32 @@ Maven 提供了开发人员构建一个完整的生命周期框架。开发团�
     </item>
     <item>
       <title>基于SSH三大框架的员工管理系统</title>
-      <link>https://fexapp.org/posts/2016-11-02-ssh-web-05/</link>
+      <link>https://www.fexapp.org/posts/2016-11-02-ssh-web-05/</link>
       <pubDate>Wed, 02 Nov 2016 15:32:34 +0000</pubDate>
-      <guid>https://fexapp.org/posts/2016-11-02-ssh-web-05/</guid>
+      <guid>https://www.fexapp.org/posts/2016-11-02-ssh-web-05/</guid>
       <description>摘要 本系统为本人学习 SSH 三大框架时所做的整合实例，系统角色包括普通用户和管理员两种，首页有管理员登录入口链接。系统功能主要包括管理员对用户的基本增、删、改、查和分页显示用户信息等。
 系统环境 本系统使用 eclipse+mysql+jdk1.8+tomcat8 进行开发 框架使用 struts2+hibernate3+spring3 页面展示 首页一开始没考虑屏幕分辨率和比例问题以及浏览器的兼容问题，后该用 bootstrap 简单模板，达到兼容旧版 IE 浏览器效果，并且为响应式布局，屏幕可任意缩放。 注册页面采用 angularJS 前端框架实现客户端表单验证 日期使用jedate.js控件 注册成功提示（后台为新注册用户分配三个随机邀请码用于邀请其他用户注册本系统） 个人主页使用 easyui 框架 管理员首页（可分页显示用户） 添加用户 核心代码解析 1、随机邀请码生成 使用 UUID 并将其切片，取前八位作为验证码（本算法尚不成熟，在大量使用后可能出现重复）
 public static String[] codeMaker() { String[] code = new String[3]; for (int i=0; i&amp;lt;3; i++) { code[i] = UUID.randomUUID().toString().substring(0,8).toUpperCase(); } return code; } 2、登录验证 action 层 public String login() { User existUser = userService.login(user); if (existUser == null) { this.</description>
     </item>
     <item>
       <title>基于SSH的员工管理系统（四）——项目流程</title>
-      <link>https://fexapp.org/posts/2016-11-02-ssh-web-04/</link>
+      <link>https://www.fexapp.org/posts/2016-11-02-ssh-web-04/</link>
       <pubDate>Wed, 02 Nov 2016 13:55:11 +0000</pubDate>
-      <guid>https://fexapp.org/posts/2016-11-02-ssh-web-04/</guid>
+      <guid>https://www.fexapp.org/posts/2016-11-02-ssh-web-04/</guid>
       <description>flowchat st=&amp;gt;start: localhost:8080/项目名 e=&amp;gt;end: 访问结束 fir=&amp;gt;: web.xml op=&amp;gt;operation: 我的操作 cond=&amp;gt;condition: 确认？ st-&amp;gt;op-&amp;gt;cond cond(yes)-&amp;gt;e cond(no)-&amp;gt;op </description>
     </item>
     <item>
       <title>基于SSH的员工管理系统（三）——配置文件</title>
-      <link>https://fexapp.org/posts/2016-11-02-ssh-web-03/</link>
+      <link>https://www.fexapp.org/posts/2016-11-02-ssh-web-03/</link>
       <pubDate>Wed, 02 Nov 2016 13:45:29 +0000</pubDate>
-      <guid>https://fexapp.org/posts/2016-11-02-ssh-web-03/</guid>
+      <guid>https://www.fexapp.org/posts/2016-11-02-ssh-web-03/</guid>
       <description>1. Web 项目入口——web.xml &amp;lt;!-- spring核心监听器 --&amp;gt; &amp;lt;listener&amp;gt; &amp;lt;listener-class&amp;gt;org.springframework.web.context.ContextLoaderListener&amp;lt;/listener-class&amp;gt; &amp;lt;/listener&amp;gt; &amp;lt;!-- ctrl+shift+T:contextLoaderListener监听器全路径 --&amp;gt; &amp;lt;!-- 默认情况会加载WEB-INF中的配置文件 --&amp;gt; &amp;lt;!-- 配置全局初始化参数：设置为加载classes中的配置文件 --&amp;gt; &amp;lt;context-param&amp;gt; &amp;lt;param-name&amp;gt;contextConfigLocation&amp;lt;/param-name&amp;gt; &amp;lt;param-value&amp;gt;classpath:applicationContext.xml&amp;lt;/param-value&amp;gt; &amp;lt;/context-param&amp;gt; &amp;lt;!-- struts核心过滤器（与传统servlet配置类似） --&amp;gt; &amp;lt;filter&amp;gt; &amp;lt;filter-name&amp;gt;struts&amp;lt;/filter-name&amp;gt; &amp;lt;filter-class&amp;gt;org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter&amp;lt;/filter-class&amp;gt; &amp;lt;/filter&amp;gt; &amp;lt;!-- ctrl+shift+T:strutsPrepareAndExecuteFilter --&amp;gt; &amp;lt;filter-mapping&amp;gt; &amp;lt;filter-name&amp;gt;struts&amp;lt;/filter-name&amp;gt; &amp;lt;url-pattern&amp;gt;/*&amp;lt;/url-pattern&amp;gt; &amp;lt;/filter-mapping&amp;gt; &amp;lt;display-name&amp;gt;ssh&amp;lt;/display-name&amp;gt; &amp;lt;welcome-file-list&amp;gt; &amp;lt;welcome-file&amp;gt;index.jsp&amp;lt;/welcome-file&amp;gt; &amp;lt;/welcome-file-list&amp;gt; 2. struts 配置文件——struts.xml &amp;lt;struts&amp;gt; &amp;lt;package name=&amp;#34;ssh&amp;#34; extends=&amp;#34;struts-default&amp;#34;&amp;gt; &amp;lt;action name=&amp;#34;user_*&amp;#34; class=&amp;#34;userAction&amp;#34; method=&amp;#34;{1}&amp;#34;&amp;gt; &amp;lt;result name=&amp;#34;input&amp;#34;&amp;gt;/index.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;success&amp;#34; type=&amp;#34;redirect&amp;#34;&amp;gt;/jsp/layout.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;info&amp;#34; type=&amp;#34;redirect&amp;#34;&amp;gt;/jsp/myinfo.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;invi&amp;#34;&amp;gt;/jsp/invi.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;regSuccess&amp;#34;&amp;gt;/jsp/regSuccess1.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;getCodes&amp;#34;&amp;gt;/jsp/mycode.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;toHome&amp;#34;&amp;gt;/jsp/layout.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;linkPersion&amp;#34;&amp;gt;/jsp/otherInfo.jsp&amp;lt;/result&amp;gt; &amp;lt;result name=&amp;#34;update&amp;#34;&amp;gt;/jsp/updateUser.</description>
     </item>
     <item>
       <title>基于SSH的员工管理系统（二）——lib 导入各 jar 包详解</title>
-      <link>https://fexapp.org/posts/2016-11-02-ssh-web-02/</link>
+      <link>https://www.fexapp.org/posts/2016-11-02-ssh-web-02/</link>
       <pubDate>Wed, 02 Nov 2016 12:55:29 +0000</pubDate>
-      <guid>https://fexapp.org/posts/2016-11-02-ssh-web-02/</guid>
+      <guid>https://www.fexapp.org/posts/2016-11-02-ssh-web-02/</guid>
       <description>本节将关于本项目所需导入的 jar 包进行逐一解释，基本适用于普通的 Struts2+Hibernate3+Spring3 的项目， 此为相对较老的组合版本，若使用 Hibernate4 或 Mybatis 等其他较新框架，请自行查阅相关资料。
 1、struts2 基础必备包（解压 blank.war 可得） 本项目使用 struts2.3.4.1 附加 Jar 解释：
 struts2-convention-plugin-2.3.4.1.jar——支持 struts2 的注解开发 struts2-spring-plugin-2.3.4.1.jar——用于整合 spring 2、hibernate3 基础必备包 本项目使用 hibernate3.3.1 根路径 hibernate3.jar——核心 jar 包 required 目录所有 jar 包 hibernate 日志记录——slf4j-log4j.jar 数据库驱动包——mysql-connector-java.jar（本项目使用 mysql 数据库） 3、spring 基础必备包 本项目使用 spring3.2.2 spring 基本 jar 包包括
@@ -91,17 +91,17 @@ IoC 开发 spring-beans.jar spring-context.jar spring-core.jar spring-expression
     </item>
     <item>
       <title>基于SSH的员工管理系统（一）——包结构</title>
-      <link>https://fexapp.org/posts/2016-11-02-ssh-web-01/</link>
+      <link>https://www.fexapp.org/posts/2016-11-02-ssh-web-01/</link>
       <pubDate>Wed, 02 Nov 2016 11:10:02 +0000</pubDate>
-      <guid>https://fexapp.org/posts/2016-11-02-ssh-web-01/</guid>
+      <guid>https://www.fexapp.org/posts/2016-11-02-ssh-web-01/</guid>
       <description>本项目是使用 Struts2+Hibernate3+Spring3,基于 MVC 开发模式的一个简单实例，第一篇先建立项目总体包结构，后续将详细解释项目细节。
 1、整体包结构 2、action 包 3、domain 实体包 4、service 层 5、dao 层 6、util 工具包 7、页面层 </description>
     </item>
     <item>
       <title>三大GUI库——AWT、swing、SWT</title>
-      <link>https://fexapp.org/posts/2015-12-23-java-ui/</link>
+      <link>https://www.fexapp.org/posts/2015-12-23-java-ui/</link>
       <pubDate>Wed, 23 Dec 2015 20:06:30 +0000</pubDate>
-      <guid>https://fexapp.org/posts/2015-12-23-java-ui/</guid>
+      <guid>https://www.fexapp.org/posts/2015-12-23-java-ui/</guid>
       <description>（一）AWT（abstract window toolkit，抽象窗口工具包）
 特点：
 （1）重量级控件
@@ -136,9 +136,9 @@ IoC 开发 spring-beans.jar spring-context.jar spring-core.jar spring-expression
     </item>
     <item>
       <title>重写与重载的区别</title>
-      <link>https://fexapp.org/posts/2015-12-23-override-vs-overload/</link>
+      <link>https://www.fexapp.org/posts/2015-12-23-override-vs-overload/</link>
       <pubDate>Wed, 23 Dec 2015 13:30:18 +0000</pubDate>
-      <guid>https://fexapp.org/posts/2015-12-23-override-vs-overload/</guid>
+      <guid>https://www.fexapp.org/posts/2015-12-23-override-vs-overload/</guid>
       <description>override(覆盖)=重写
 对象：方法
 解释：重写一个方法，以实现不同的功能

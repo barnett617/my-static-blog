@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>设计模式 on Wilson&#39;s Blog</title>
-    <link>https://fexapp.org/series/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</link>
+    <link>https://www.fexapp.org/series/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</link>
     <description>Recent content in 设计模式 on Wilson&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans-CN</language>
     <lastBuildDate>Wed, 24 Jan 2018 15:56:32 +0000</lastBuildDate>
-    <atom:link href="https://fexapp.org/series/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.fexapp.org/series/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>设计模式学习笔记（下）</title>
-      <link>https://fexapp.org/notes/2018-01-24-design-pattern-02/</link>
+      <link>https://www.fexapp.org/notes/2018-01-24-design-pattern-02/</link>
       <pubDate>Wed, 24 Jan 2018 15:56:32 +0000</pubDate>
-      <guid>https://fexapp.org/notes/2018-01-24-design-pattern-02/</guid>
+      <guid>https://www.fexapp.org/notes/2018-01-24-design-pattern-02/</guid>
       <description>继设计模式学习笔记（上）
 15 抽象工厂模式 场景 不同数据库在 SQL 的具体实现上有差距，若存在系统中使用 SQL 语句上过多的使用专门的某种数据库的 SQL 语句，在迁移数据库时，会导致很多 SQL 在新的数据库中不能运行。
 解决 使用原生 SQL 语句
@@ -23,9 +23,9 @@
     </item>
     <item>
       <title>设计模式学习笔记（上）</title>
-      <link>https://fexapp.org/notes/2018-01-24-design-pattern-01/</link>
+      <link>https://www.fexapp.org/notes/2018-01-24-design-pattern-01/</link>
       <pubDate>Wed, 24 Jan 2018 15:53:31 +0000</pubDate>
-      <guid>https://fexapp.org/notes/2018-01-24-design-pattern-01/</guid>
+      <guid>https://www.fexapp.org/notes/2018-01-24-design-pattern-01/</guid>
       <description>关于 Java 设计模式的学习
 继承 两个类之间是 is-a 的关系可以考虑用继承 而两个类之间是 has-a，表示某个角色具有某一项责任，不适合用继承 例如：飞机场有飞机，但是飞机不能去继承飞机场
 多态 多态表示不同的对象可以执行相同的动作，但要通过它们自己的实现代码来执行
@@ -62,9 +62,9 @@ UML 关联
     </item>
     <item>
       <title>可复用面向对象软件基础——设计模式（六）之原型模式</title>
-      <link>https://fexapp.org/posts/2016-12-15-design-pattern-06/</link>
+      <link>https://www.fexapp.org/posts/2016-12-15-design-pattern-06/</link>
       <pubDate>Thu, 15 Dec 2016 21:06:11 +0000</pubDate>
-      <guid>https://fexapp.org/posts/2016-12-15-design-pattern-06/</guid>
+      <guid>https://www.fexapp.org/posts/2016-12-15-design-pattern-06/</guid>
       <description>原型模式虽然是创建型的模式，但是与工程模式没有关系，从名字即可看出，该模式的思想就是将一个对象作为原型，对其进行复制、克隆，产生一个和原对象类似的新对象。
 一、原型模式（Prototype） /** * 原型类，实现可复制接口 * @author barnett * */ public class Prototype implements Cloneable { /** * 复制方法，调用父类的复制方法 */ public Object clone() throws CloneNotSupportedException { Prototype prototype = (Prototype) super.clone(); return prototype; } } 很简单，一个原型类，只需要实现Cloneable接口，覆写 clone 方法，此处 clone 方法可以改成任意的名称，因为 Cloneable 接口是个空接口，你可以任意定义实现类的方法名，如 cloneA 或者 cloneB。
 因为此处的重点是 super.clone()这句话，super.clone()调用的是 Object 的 clone()方法，而在 Object 类中，clone()是 native 的。
@@ -74,43 +74,43 @@ public class PrototypeDeepAndThinClone implements Cloneable, Serializable { priv
     </item>
     <item>
       <title>可复用面向对象软件基础——设计模式（五）之建造者模式</title>
-      <link>https://fexapp.org/posts/2016-12-15-design-pattern-05/</link>
+      <link>https://www.fexapp.org/posts/2016-12-15-design-pattern-05/</link>
       <pubDate>Thu, 15 Dec 2016 20:22:46 +0000</pubDate>
-      <guid>https://fexapp.org/posts/2016-12-15-design-pattern-05/</guid>
+      <guid>https://www.fexapp.org/posts/2016-12-15-design-pattern-05/</guid>
       <description>工厂类模式提供的是创建单个类的模式，而建造者模式则是将各种产品集中起来进行管理，用来创建复合对象，所谓复合对象就是指某个类具有不同的属性，其实建造者模式就是前面抽象工厂模式和最后的 Test 结合起来得到的。
 代码实现 /** * 发送接口，有一个发送方法待实现 * @author barnett * */ public interface Sender { public void send(); } /** * 2、邮件发送类，实现发送接口，实现其发送方法，用以发送邮件 * @author barnett * */ public class MailSender implements Sender { @Override public void send() { System.out.println(&amp;#34;I am MailSender!&amp;#34;); } } /** * 短信发送类，实现了发送接口的发送方法，用以发送短信 * @author barnett * */ public class SmsSender implements Sender { @Override public void send() { System.out.println(&amp;#34;I am SmsSender!&amp;#34;); } } /** * 3、建造者类 * @author barnett * */ public class Builder { // 用以存储生产出的多个发送器 private List&amp;lt;Sender&amp;gt; list = new ArrayList&amp;lt;Sender&amp;gt;(); /** * 用于生产邮件发送器，当该方法被调用时会生产多个邮件发送器放入集合 * @param count	生产个数 */ public void produceMailSender(int count) { for(int i=0; i&amp;lt;count; i++) { list.</description>
     </item>
     <item>
       <title>可复用面向对象软件基础——设计模式（四）之单例模式</title>
-      <link>https://fexapp.org/posts/2016-12-15-design-pattern-04/</link>
+      <link>https://www.fexapp.org/posts/2016-12-15-design-pattern-04/</link>
       <pubDate>Thu, 15 Dec 2016 19:57:13 +0000</pubDate>
-      <guid>https://fexapp.org/posts/2016-12-15-design-pattern-04/</guid>
+      <guid>https://www.fexapp.org/posts/2016-12-15-design-pattern-04/</guid>
       <description>单例对象（Singleton）是一种常用的设计模式。在 Java 应用中，单例对象能保证在一个 JVM 中，该对象只有一个实例存在。
 单例模式优势 某些类创建繁琐，对于一些大型对象，系统开销大 省去 new 操作符，降低系统内存使用频率，减轻 GC 压力 保证某些核心类独立控制系统整个流程（控制其不可实例多个） 简版单例类 public class Singleton { // 持有私有静态实例，防止被引用，此处赋值为null，目的为实现延迟加载 private static Singleton instance = null; // 私有构造方法，防止被实例化 private Singleton() { } // 静态工厂方法 public static Singleton getInstance() { if(instance == null) { instance = new Singleton(); } return instance; } // 如果该对象被用于序列化，可保证对象在序列化前后保持一致 public Object readResolve() { return instance; } } 这个类可以满足基本要求，但是，像这样毫无线程安全保护的类，如果我们把它放入多线程的环境下，肯定就会出现问题了，如何解决？我们首先会想到对 getInstance 方法加synchronized关键字，如下：
 // 静态工厂方法 public static synchronized Singleton getInstance() { if(instance == null) { instance = new Singleton(); } return instance; } 但是，synchronized 关键字锁住的是这个对象，这样的用法，在性能上会有所下降，因为每次调用 getInstance()，都要对对象上锁。</description>
     </item>
     <item>
       <title>可复用面向对象软件基础——设计模式（三）之抽象工厂模式</title>
-      <link>https://fexapp.org/posts/2016-12-15-design-pattern-03/</link>
+      <link>https://www.fexapp.org/posts/2016-12-15-design-pattern-03/</link>
       <pubDate>Thu, 15 Dec 2016 16:59:43 +0000</pubDate>
-      <guid>https://fexapp.org/posts/2016-12-15-design-pattern-03/</guid>
+      <guid>https://www.fexapp.org/posts/2016-12-15-design-pattern-03/</guid>
       <description>一、工厂方法模式缺陷 工厂方法模式有一个问题就是，类的创建依赖工厂类，也就是说，如果想要拓展程序，必须修改工厂类，这违背了设计模式六大原则第一条闭包原则。
 所以，从设计角度考虑，有一定的问题，如何解决？就用到抽象工厂模式，创建多个工厂类，这样一旦需要增加新的功能，直接增加新的工厂类就可以了，不需要修改之前的代码。
 二、抽象工厂模式实现 /** * 1、邮寄接口，有一个抽象邮寄方法待实现 * @author barnett * */ public interface Sender { public void send(); } /** * 2、实现类，邮件邮寄类实现邮寄接口，实现其邮寄的方法 * @author barnett * */ public class MailSender implements Sender { @Override public void send() { System.out.println(&amp;#34;I am MailSender!&amp;#34;); } } /** * 短信邮寄类实现邮寄接口，实现其邮寄方法 * @author barnett * */ public class SmsSender implements Sender { @Override public void send() { System.out.println(&amp;#34;I am SmsSender!&amp;#34;); } } /** * 3、提供器接口，返回邮寄对象，其生产方法待实现 * 工厂依靠实现该接口，生产产品（Sender） * @author barnett * */ public interface Provider { public Sender produce(); } /** * 4、工厂，邮件邮寄工厂，负责专门生产邮件邮寄实例 * @author barnett * */ public class SendMailFactory implements Provider { @Override public Sender produce() { return new MailSender(); } } /** * 短信邮寄工厂，专门生产短信邮寄实例 * @author barnett * */ public class SendSmsFactory implements Provider { @Override public Sender produce() { return new SmsSender(); } } /** * 5、测试类 * @author barnett * */ public class Test { public static void main(String[] args) { // 实例一个邮件工厂(因其实现了提供器接口，可返回一个具有专门生产某种产品生产方法的实例） Provider provider = new SendMailFactory(); // 通过该实例生产产品 Sender sender = provider.</description>
     </item>
     <item>
       <title>可复用面向对象软件基础——设计模式（二）之工厂方法模式</title>
-      <link>https://fexapp.org/posts/2016-12-15-design-pattern-02/</link>
+      <link>https://www.fexapp.org/posts/2016-12-15-design-pattern-02/</link>
       <pubDate>Thu, 15 Dec 2016 12:57:58 +0000</pubDate>
-      <guid>https://fexapp.org/posts/2016-12-15-design-pattern-02/</guid>
+      <guid>https://www.fexapp.org/posts/2016-12-15-design-pattern-02/</guid>
       <description>一、工厂方法模式分类（3 种） 普通工厂模式 多个工厂方法模式 静态工厂方法模式 二、工厂方法模式详解 （1）普通工厂模式 普通工厂模式就是建立一个工厂类，对实现了同一接口的一些类进行实例的创建。
 // 1、创建不同产品的共同接口 public interface Sender { /** * 邮寄接口中有一个邮寄方法待实现 */ public void Send(); } /** * 2、（实现类）邮件邮寄类实现了邮寄接口，实现其邮寄的抽象方法 * @author barnett */ public class MailSender implements Sender { @Override public void Send() { System.out.println(&amp;#34;I am MailSender!&amp;#34;); } } /** * 短信邮寄类实现了邮寄接口，实现其邮寄的抽象方法 * @author barnett * */ public class SmsSender implements Sender { @Override public void Send() { System.out.println(&amp;#34;I am SmsSender!&amp;#34;); } } /** * 3、工厂类，负责多次制造产品（new出复用的类） * @author barnett */ public class SendFactory { /** * 工厂类中的生产方法 * @param type	输入要生产的产品类型 * @return	返回一个产品 */ public Sender produce(String type) { if(&amp;#34;mail&amp;#34;.</description>
     </item>
     <item>
       <title>可复用面向对象软件基础——设计模式（一）之总览</title>
-      <link>https://fexapp.org/posts/2016-12-15-design-pattern-01/</link>
+      <link>https://www.fexapp.org/posts/2016-12-15-design-pattern-01/</link>
       <pubDate>Thu, 15 Dec 2016 10:43:05 +0000</pubDate>
-      <guid>https://fexapp.org/posts/2016-12-15-design-pattern-01/</guid>
+      <guid>https://www.fexapp.org/posts/2016-12-15-design-pattern-01/</guid>
       <description>一、设计模式特点 反复使用 分类编目 经验总结 二、设计模式宗旨 代码重用 使代码易于理解 保证代码可靠性 三、设计模式分类（23+2） 创建型（5 种） 结构型（7 种） 行为型（11 种） 其他（2 种） （1）创建型模式 工厂方法模式 抽象工厂模式 单例模式 建造者模式 原型模式 （2）结构型模式 适配器模式 装饰器模式 代理模式 外观模式 桥接模式 组合模式 享元模式 （3）行为型模式 策略模式 模板方法模式 观察者模式 迭代子模式 责任链模式 命令模式 备忘录模式 状态模式 访问者模式 中介者模式 解释器模式 （4）其他 并发型模式 线程池模式 四、设计模式原则（6 项） 开闭原则（Open Close Principle） 里氏代换原则（Liskov Substitution Principle） 依赖倒转原则（Dependence Inversion Principle） 接口隔离原则（Interface Segregation Principle） 迪米特法则（最少知道原则）（Demeter Principle） 合成复用原则（Composite Reuse Principle） 五、原则详解 （1）开闭原则 开闭原则就是说对扩展开放，对修改关闭。在程序需要进行拓展的时候，不能去修改原有的代码，实现一个热插拔的效果。目的在于使程序的扩展性好，易于维护和升级。所以需要使用到接口和抽象类
 （2）里氏代换原则 里氏代换原则（LSP）是面向对象设计的基本原则之一。 里氏代换原则中说，任何基类可以出现的地方，子类一定可以出现。</description>
     </item>

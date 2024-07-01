@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>读后感 on Wilson&#39;s Blog</title>
-    <link>https://fexapp.org/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/</link>
+    <link>https://www.fexapp.org/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/</link>
     <description>Recent content in 读后感 on Wilson&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans-CN</language>
     <lastBuildDate>Mon, 03 Jul 2023 21:46:34 +0000</lastBuildDate>
-    <atom:link href="https://fexapp.org/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.fexapp.org/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Figma Config 2023 观后感下篇——开发模式</title>
-      <link>https://fexapp.org/posts/2023-07-03-figma-config-2023-02/</link>
+      <link>https://www.fexapp.org/posts/2023-07-03-figma-config-2023-02/</link>
       <pubDate>Mon, 03 Jul 2023 21:46:34 +0000</pubDate>
-      <guid>https://fexapp.org/posts/2023-07-03-figma-config-2023-02/</guid>
+      <guid>https://www.fexapp.org/posts/2023-07-03-figma-config-2023-02/</guid>
       <description>&lt;p&gt;关于 Figma Config 2023 后半部分“开发模式”演讲的总结&lt;/p&gt;</description>
     </item>
     <item>
       <title>Figma Config 2023 观后感上篇——变量、原型</title>
-      <link>https://fexapp.org/posts/2023-07-02-figma-config-2023-01/</link>
+      <link>https://www.fexapp.org/posts/2023-07-02-figma-config-2023-01/</link>
       <pubDate>Sun, 02 Jul 2023 21:45:54 +0000</pubDate>
-      <guid>https://fexapp.org/posts/2023-07-02-figma-config-2023-01/</guid>
+      <guid>https://www.fexapp.org/posts/2023-07-02-figma-config-2023-01/</guid>
       <description>&lt;p&gt;关于 Figma Config 2023 的一些总结和所思所想&lt;/p&gt;</description>
     </item>
     <item>
       <title>《ECMAScript6入门》读后感</title>
-      <link>https://fexapp.org/posts/2019-05-21-ecmascript6-reading-review/</link>
+      <link>https://www.fexapp.org/posts/2019-05-21-ecmascript6-reading-review/</link>
       <pubDate>Tue, 21 May 2019 21:21:28 +0000</pubDate>
-      <guid>https://fexapp.org/posts/2019-05-21-ecmascript6-reading-review/</guid>
+      <guid>https://www.fexapp.org/posts/2019-05-21-ecmascript6-reading-review/</guid>
       <description>&lt;p&gt;关于阮一峰《ECMAScript6 入门》一书的观感，就把此文当做本人对于《ECMAScript6 入门》的书评吧&lt;/p&gt;</description>
     </item>
     <item>
       <title>比特币协议是如何工作的（译）</title>
-      <link>https://fexapp.org/posts/2018-01-18-how-bitcorn-works-translation/</link>
+      <link>https://www.fexapp.org/posts/2018-01-18-how-bitcorn-works-translation/</link>
       <pubDate>Thu, 18 Jan 2018 09:38:05 +0000</pubDate>
-      <guid>https://fexapp.org/posts/2018-01-18-how-bitcorn-works-translation/</guid>
+      <guid>https://www.fexapp.org/posts/2018-01-18-how-bitcorn-works-translation/</guid>
       <description>本文翻译自 13 年一篇关于比特币协议的深度解析文章
 成千上万篇文章为了解释比特币这一线上、点对点的货币而撰写。大多数文章对于其底层加密协议都只给出一些简短的解释，却忽略了很多细节。甚至那些文章常常掩盖重点进行更深入的研究。我这篇文章的目的是以一种清晰、容易理解的方式解释隐藏在比特币协议后面的主要思想。我们将从第一原则开始，对于比特币如何工作建立一个广义的理论上的理解，然后再深挖其细节，检查比特币交易的原始数据。
 以细节的方式理解协议是一项困难的工作。人们转而接受比特币，并从事投机关于如何通过比特币致富、比特币吧是否泡沫，比特币是否意味着税收结束的一天等等。这很有趣，但是严重限制你理解它。理解比特币的协议细节打开了难以进入的远景。特别是，理解比特币内建脚本语言的基础会使得使用比特币创造新的金融工具成为可能，比如智能合同。反过来，新的金融工具可以被用来创造新的市场并缔造人类行为新的集合形式。聊聊这些趣事吧！
