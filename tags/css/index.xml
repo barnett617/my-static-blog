@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CSS on Wilson&#39;s Blog</title>
-    <link>https://www.fexapp.org/tags/css/</link>
+    <link>https://www.wilsonpage.com/tags/css/</link>
     <description>Recent content in CSS on Wilson&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans-CN</language>
     <lastBuildDate>Sun, 11 Jun 2023 11:42:00 +0000</lastBuildDate>
-    <atom:link href="https://www.fexapp.org/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.wilsonpage.com/tags/css/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CSS基础知识</title>
-      <link>https://www.fexapp.org/notes/2023-07-11-css-basic/</link>
+      <link>https://www.wilsonpage.com/notes/2023-07-11-css-basic/</link>
       <pubDate>Sun, 11 Jun 2023 11:42:00 +0000</pubDate>
-      <guid>https://www.fexapp.org/notes/2023-07-11-css-basic/</guid>
+      <guid>https://www.wilsonpage.com/notes/2023-07-11-css-basic/</guid>
       <description>一些CSS基础知识学习和整理</description>
     </item>
     <item>
       <title>关于z-index的最大值</title>
-      <link>https://www.fexapp.org/notes/2020-01-20-css-zindex/</link>
+      <link>https://www.wilsonpage.com/notes/2020-01-20-css-zindex/</link>
       <pubDate>Mon, 20 Jan 2020 14:49:00 +0000</pubDate>
-      <guid>https://www.fexapp.org/notes/2020-01-20-css-zindex/</guid>
+      <guid>https://www.wilsonpage.com/notes/2020-01-20-css-zindex/</guid>
       <description>&lt;p&gt;小知识: 关于 z-index 的最大值&lt;/p&gt;</description>
     </item>
     <item>
       <title>滑动穿透（遮罩下不允许滑动）</title>
-      <link>https://www.fexapp.org/posts/2020-01-15-scroll-strike/</link>
+      <link>https://www.wilsonpage.com/posts/2020-01-15-scroll-strike/</link>
       <pubDate>Wed, 15 Jan 2020 20:31:00 +0000</pubDate>
-      <guid>https://www.fexapp.org/posts/2020-01-15-scroll-strike/</guid>
+      <guid>https://www.wilsonpage.com/posts/2020-01-15-scroll-strike/</guid>
       <description>&lt;p&gt;滑动穿透&lt;/p&gt;</description>
     </item>
   </channel>

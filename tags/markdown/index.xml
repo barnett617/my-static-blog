@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Markdown on Wilson&#39;s Blog</title>
-    <link>https://www.fexapp.org/tags/markdown/</link>
+    <link>https://www.wilsonpage.com/tags/markdown/</link>
     <description>Recent content in Markdown on Wilson&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans-CN</language>
     <lastBuildDate>Fri, 03 Jan 2020 11:30:00 +0000</lastBuildDate>
-    <atom:link href="https://www.fexapp.org/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.wilsonpage.com/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>markdown使用</title>
-      <link>https://www.fexapp.org/posts/2020-01-03-markdown/</link>
+      <link>https://www.wilsonpage.com/posts/2020-01-03-markdown/</link>
       <pubDate>Fri, 03 Jan 2020 11:30:00 +0000</pubDate>
-      <guid>https://www.fexapp.org/posts/2020-01-03-markdown/</guid>
+      <guid>https://www.wilsonpage.com/posts/2020-01-03-markdown/</guid>
       <description>markdown 基本使用</description>
     </item>
     <item>
       <title>Markdown语法学习整理</title>
-      <link>https://www.fexapp.org/posts/2017-11-17-markdown-programmer/</link>
+      <link>https://www.wilsonpage.com/posts/2017-11-17-markdown-programmer/</link>
       <pubDate>Fri, 17 Nov 2017 10:09:16 +0000</pubDate>
-      <guid>https://www.fexapp.org/posts/2017-11-17-markdown-programmer/</guid>
+      <guid>https://www.wilsonpage.com/posts/2017-11-17-markdown-programmer/</guid>
       <description>虽说 markdown 用了一段时间，但还未曾专门地阅读文档对其进行过相对系统的学习。刚才使用分割线时发现分割线下面的文字变成标题般字体，专门查了一波，发现还是有必要系统学习一下 md 语法，以节省日后使用时的查阅时间。
 宗旨 易读易写
 一份使用 markdown 格式撰写的文档理应可以直接以纯文本发布，也就意味着 markdown 的一系列标签语法对于纯文本来说应该是低浸入、无感知的，用户阅读不会因为增加了 md 标签而变得晦涩。

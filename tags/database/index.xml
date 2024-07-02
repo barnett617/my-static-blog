@@ -2,33 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Database on Wilson&#39;s Blog</title>
-    <link>https://www.fexapp.org/tags/database/</link>
+    <link>https://www.wilsonpage.com/tags/database/</link>
     <description>Recent content in Database on Wilson&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans-CN</language>
     <lastBuildDate>Thu, 01 Feb 2018 15:14:45 +0000</lastBuildDate>
-    <atom:link href="https://www.fexapp.org/tags/database/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.wilsonpage.com/tags/database/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>mysql误删数据恢复</title>
-      <link>https://www.fexapp.org/posts/2018-02-01-mysql-data-recovery/</link>
+      <link>https://www.wilsonpage.com/posts/2018-02-01-mysql-data-recovery/</link>
       <pubDate>Thu, 01 Feb 2018 15:14:45 +0000</pubDate>
-      <guid>https://www.fexapp.org/posts/2018-02-01-mysql-data-recovery/</guid>
+      <guid>https://www.wilsonpage.com/posts/2018-02-01-mysql-data-recovery/</guid>
       <description>&lt;p&gt;对于 MySQL 误删数据，如何通过二进制日志进行数据查找和恢复&lt;/p&gt;</description>
     </item>
     <item>
       <title>关于SQL性能评估的一些分析</title>
-      <link>https://www.fexapp.org/posts/2017-10-31-sql-performance-profile/</link>
+      <link>https://www.wilsonpage.com/posts/2017-10-31-sql-performance-profile/</link>
       <pubDate>Tue, 31 Oct 2017 22:44:35 +0000</pubDate>
-      <guid>https://www.fexapp.org/posts/2017-10-31-sql-performance-profile/</guid>
+      <guid>https://www.wilsonpage.com/posts/2017-10-31-sql-performance-profile/</guid>
       <description>继《关于 mysql 中 max 函数和 groupby 联合使用的坑》后进一步关于 SQL 性能的探究
 类型 解释 id select 查询的序列号 select_type select 查询的类型，主要是区别普通查询和联合查询、子查询之类的复杂查询 table 输出的行所引用的表 type 联合查询所使用的类型 possible_keys MySQL 能使用哪个索引在该表中找到行 key MySQL 实际决定使用的键 key_len MySQL 决定使用的键长 ref 哪个字段或常数与 key 一起被使用 rows mysql 要遍历多少数据才能找到，在 innodb 上是不准确的 Extra - 实例解释
 mysql&amp;gt; desc t3; +-------+--------------+------+-----+---------+----------------+ | Field | Type | Null | Key | Default | Extra | +-------+--------------+------+-----+---------+----------------+ | id | int(11) | NO | PRI | NULL | auto_increment | | other | varchar(255) | YES | | NULL | | +-------+--------------+------+-----+---------+----------------+ 2 rows in set mysql&amp;gt; select * from (select * from (select * from t3 where id = 3952602) a) b; +---------+-------+ | id | other | +---------+-------+ | 3952602 | sth | +---------+-------+ 1 row in set mysql&amp;gt; explain select * from (select * from (select * from t3 where id = 3952602) a) b; +----+-------------+------------+--------+-------------------+---------+---------+-------+------+-------+ | id | select_type | table | type | possible_keys | key | key_len | ref | rows | Extra | +----+-------------+------------+--------+-------------------+---------+---------+-------+------+-------+ | 1 | PRIMARY | &amp;lt;derived2&amp;gt; | system | NULL | NULL | NULL | NULL | 1 | NULL | | 2 | DERIVED | &amp;lt;derived3&amp;gt; | system | NULL | NULL | NULL | NULL | 1 | NULL | | 3 | DERIVED | t3 | const | PRIMARY,idx_t3_id | PRIMARY | 4 | const | 1 | NULL | +----+-------------+------------+--------+-------------------+---------+---------+-------+------+-------+ 3 rows in set mysql&amp;gt; show index from t3; +-------+------------+-----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+ | Table | Non_unique | Key_name | Seq_in_index | Column_name | Collation | Cardinality | Sub_part | Packed | Null | Index_type | Comment | Index_comment | +-------+------------+-----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+ | t3 | 0 | PRIMARY | 1 | id | A | 1 | NULL | NULL | | BTREE | | | | t3 | 1 | idx_t3_id | 1 | id | A | 1 | NULL | NULL | | BTREE | | | +-------+------------+-----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+ 2 rows in set id 从里往外执行，从 id 为 3 往上执行</description>
     </item>
     <item>
       <title>关于mysql中max函数和groupby联合使用的坑</title>
-      <link>https://www.fexapp.org/posts/2017-10-31-mysql-max-function-and-groupby/</link>
+      <link>https://www.wilsonpage.com/posts/2017-10-31-mysql-max-function-and-groupby/</link>
       <pubDate>Tue, 31 Oct 2017 20:50:43 +0000</pubDate>
-      <guid>https://www.fexapp.org/posts/2017-10-31-mysql-max-function-and-groupby/</guid>
+      <guid>https://www.wilsonpage.com/posts/2017-10-31-mysql-max-function-and-groupby/</guid>
       <description>关于朋友随手抛出的一段 SQL，发现 MySQL 中关于 max()和 group by 联合使用中的一个坑，特此整理。
 YH:老铁们，这段 hql 对不对啊
 我扫了一眼，总觉得看着别扭，自己试着去掉字符串拼接，还原出 SQL 来看，依然感觉不对，然后自己试着写了查询，在本地建个表，造了些数据，用简化后的 SQL 做测试时， 当我定睛检查以下这句 SQL
@@ -39,9 +39,9 @@ desc productcashpredict; predictId	int(11)	NO	PRI	auto_increment evaluateDate	da
     </item>
     <item>
       <title>mysql远端数据库与本地数据库间导入导出</title>
-      <link>https://www.fexapp.org/posts/2017-08-12-mysql-remote-and-local-data-export/</link>
+      <link>https://www.wilsonpage.com/posts/2017-08-12-mysql-remote-and-local-data-export/</link>
       <pubDate>Sat, 12 Aug 2017 16:35:16 +0000</pubDate>
-      <guid>https://www.fexapp.org/posts/2017-08-12-mysql-remote-and-local-data-export/</guid>
+      <guid>https://www.wilsonpage.com/posts/2017-08-12-mysql-remote-and-local-data-export/</guid>
       <description>mysql 远端数据库与本地数据库间导入导出
 远程数据库导出 mysqldump -hxxx -uxxx -pxxx 数据库名 &amp;gt; 脚本名.sql sz 脚本名.sql（SecureCRT 将文件下载到本地） 本地数据库导入 若直接用 navicat 运行本脚本，失败 打开 cmd，进入本地数据库，mysql -uxxxx -pxxxx，use 创建好的数据库 source 脚本名.sql，可以将 2MB 以上的 sql 脚本导入 成功执行，完成远端数据库到本地的克隆 </description>
     </item>

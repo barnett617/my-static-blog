@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vue on Wilson&#39;s Blog</title>
-    <link>https://www.fexapp.org/tags/vue/</link>
+    <link>https://www.wilsonpage.com/tags/vue/</link>
     <description>Recent content in Vue on Wilson&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans-CN</language>
     <lastBuildDate>Wed, 28 Jun 2023 21:38:46 +0000</lastBuildDate>
-    <atom:link href="https://www.fexapp.org/tags/vue/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.wilsonpage.com/tags/vue/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>vuex对比pinia</title>
-      <link>https://www.fexapp.org/notes/2023-06-28-vuex-vs-pinia/</link>
+      <link>https://www.wilsonpage.com/notes/2023-06-28-vuex-vs-pinia/</link>
       <pubDate>Wed, 28 Jun 2023 21:38:46 +0000</pubDate>
-      <guid>https://www.fexapp.org/notes/2023-06-28-vuex-vs-pinia/</guid>
+      <guid>https://www.wilsonpage.com/notes/2023-06-28-vuex-vs-pinia/</guid>
       <description>&lt;p&gt;vuex@3 对比 pinia@v2&lt;/p&gt;</description>
     </item>
     <item>
       <title>Vue.js技术回顾——实例</title>
-      <link>https://www.fexapp.org/posts/2018-02-22-vue-basic/</link>
+      <link>https://www.wilsonpage.com/posts/2018-02-22-vue-basic/</link>
       <pubDate>Thu, 22 Feb 2018 21:33:38 +0000</pubDate>
-      <guid>https://www.fexapp.org/posts/2018-02-22-vue-basic/</guid>
+      <guid>https://www.wilsonpage.com/posts/2018-02-22-vue-basic/</guid>
       <description>Vue.js 教程之 Vue 实例
 创建实例 每个 Vue 应用都是通过用Vue函数创建一个新的Vue 实例开始
 var vm = new Vue({ // options }); 虽然没有遵守MVVM模型，但 Vue 的设计也受 MVVM 启发，故示例中常使用 vm(viewmodel 缩写)表示 Vue 实例
@@ -38,9 +38,9 @@ viewmodel 可实现中介者模式，组织对 view 所支持的用例集的后�
     </item>
     <item>
       <title>Vue.js技术回顾——概述</title>
-      <link>https://www.fexapp.org/posts/2018-02-22-vue-basic-01/</link>
+      <link>https://www.wilsonpage.com/posts/2018-02-22-vue-basic-01/</link>
       <pubDate>Thu, 22 Feb 2018 12:34:42 +0000</pubDate>
-      <guid>https://www.fexapp.org/posts/2018-02-22-vue-basic-01/</guid>
+      <guid>https://www.wilsonpage.com/posts/2018-02-22-vue-basic-01/</guid>
       <description>&lt;p&gt;初探 Vue.js&lt;/p&gt;</description>
     </item>
   </channel>
