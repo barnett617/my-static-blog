@@ -2,227 +2,227 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Wilson&#39;s Blog</title>
-    <link>https://www.wilsonpage.com/tags/</link>
+    <link>https://barnett617.github.io/wilson-blog/tags/</link>
     <description>Recent content in Tags on Wilson&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans-CN</language>
     <lastBuildDate>Thu, 31 Aug 2023 22:54:51 +0000</lastBuildDate>
-    <atom:link href="https://www.wilsonpage.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://barnett617.github.io/wilson-blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rust</title>
-      <link>https://www.wilsonpage.com/tags/rust/</link>
+      <link>https://barnett617.github.io/wilson-blog/tags/rust/</link>
       <pubDate>Thu, 31 Aug 2023 22:54:51 +0000</pubDate>
-      <guid>https://www.wilsonpage.com/tags/rust/</guid>
+      <guid>https://barnett617.github.io/wilson-blog/tags/rust/</guid>
       <description></description>
     </item>
     <item>
       <title>读后感</title>
-      <link>https://www.wilsonpage.com/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/</link>
+      <link>https://barnett617.github.io/wilson-blog/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/</link>
       <pubDate>Mon, 03 Jul 2023 21:46:34 +0000</pubDate>
-      <guid>https://www.wilsonpage.com/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/</guid>
+      <guid>https://barnett617.github.io/wilson-blog/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/</guid>
       <description></description>
     </item>
     <item>
       <title>Vue</title>
-      <link>https://www.wilsonpage.com/tags/vue/</link>
+      <link>https://barnett617.github.io/wilson-blog/tags/vue/</link>
       <pubDate>Wed, 28 Jun 2023 21:38:46 +0000</pubDate>
-      <guid>https://www.wilsonpage.com/tags/vue/</guid>
+      <guid>https://barnett617.github.io/wilson-blog/tags/vue/</guid>
       <description></description>
     </item>
     <item>
       <title>Web</title>
-      <link>https://www.wilsonpage.com/tags/web/</link>
+      <link>https://barnett617.github.io/wilson-blog/tags/web/</link>
       <pubDate>Wed, 21 Jun 2023 22:37:22 +0000</pubDate>
-      <guid>https://www.wilsonpage.com/tags/web/</guid>
+      <guid>https://barnett617.github.io/wilson-blog/tags/web/</guid>
       <description></description>
     </item>
     <item>
       <title>CSS</title>
-      <link>https://www.wilsonpage.com/tags/css/</link>
+      <link>https://barnett617.github.io/wilson-blog/tags/css/</link>
       <pubDate>Sun, 11 Jun 2023 11:42:00 +0000</pubDate>
-      <guid>https://www.wilsonpage.com/tags/css/</guid>
+      <guid>https://barnett617.github.io/wilson-blog/tags/css/</guid>
       <description></description>
     </item>
     <item>
       <title>Algorithms</title>
-      <link>https://www.wilsonpage.com/tags/algorithms/</link>
+      <link>https://barnett617.github.io/wilson-blog/tags/algorithms/</link>
       <pubDate>Sun, 11 Jun 2023 00:42:00 +0000</pubDate>
-      <guid>https://www.wilsonpage.com/tags/algorithms/</guid>
+      <guid>https://barnett617.github.io/wilson-blog/tags/algorithms/</guid>
       <description></description>
     </item>
     <item>
       <title>JavaScript</title>
-      <link>https://www.wilsonpage.com/tags/javascript/</link>
+      <link>https://barnett617.github.io/wilson-blog/tags/javascript/</link>
       <pubDate>Sun, 11 Jun 2023 00:42:00 +0000</pubDate>
-      <guid>https://www.wilsonpage.com/tags/javascript/</guid>
+      <guid>https://barnett617.github.io/wilson-blog/tags/javascript/</guid>
       <description></description>
     </item>
     <item>
       <title>总结</title>
-      <link>https://www.wilsonpage.com/tags/%E6%80%BB%E7%BB%93/</link>
+      <link>https://barnett617.github.io/wilson-blog/tags/%E6%80%BB%E7%BB%93/</link>
       <pubDate>Wed, 21 Sep 2022 23:02:00 +0000</pubDate>
-      <guid>https://www.wilsonpage.com/tags/%E6%80%BB%E7%BB%93/</guid>
+      <guid>https://barnett617.github.io/wilson-blog/tags/%E6%80%BB%E7%BB%93/</guid>
       <description></description>
     </item>
     <item>
       <title>Node.js</title>
-      <link>https://www.wilsonpage.com/tags/node.js/</link>
+      <link>https://barnett617.github.io/wilson-blog/tags/node.js/</link>
       <pubDate>Wed, 25 Aug 2021 15:31:00 +0000</pubDate>
-      <guid>https://www.wilsonpage.com/tags/node.js/</guid>
+      <guid>https://barnett617.github.io/wilson-blog/tags/node.js/</guid>
       <description></description>
     </item>
     <item>
       <title>设计模式</title>
-      <link>https://www.wilsonpage.com/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</link>
+      <link>https://barnett617.github.io/wilson-blog/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</link>
       <pubDate>Mon, 28 Jun 2021 15:31:00 +0000</pubDate>
-      <guid>https://www.wilsonpage.com/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</guid>
+      <guid>https://barnett617.github.io/wilson-blog/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</guid>
       <description></description>
     </item>
     <item>
       <title>思考</title>
-      <link>https://www.wilsonpage.com/tags/%E6%80%9D%E8%80%83/</link>
+      <link>https://barnett617.github.io/wilson-blog/tags/%E6%80%9D%E8%80%83/</link>
       <pubDate>Mon, 04 May 2020 12:05:55 +0000</pubDate>
-      <guid>https://www.wilsonpage.com/tags/%E6%80%9D%E8%80%83/</guid>
+      <guid>https://barnett617.github.io/wilson-blog/tags/%E6%80%9D%E8%80%83/</guid>
       <description></description>
     </item>
     <item>
       <title>Frontend</title>
-      <link>https://www.wilsonpage.com/tags/frontend/</link>
+      <link>https://barnett617.github.io/wilson-blog/tags/frontend/</link>
       <pubDate>Mon, 09 Mar 2020 15:51:14 +0000</pubDate>
-      <guid>https://www.wilsonpage.com/tags/frontend/</guid>
+      <guid>https://barnett617.github.io/wilson-blog/tags/frontend/</guid>
       <description></description>
     </item>
     <item>
       <title>小程序</title>
-      <link>https://www.wilsonpage.com/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/</link>
+      <link>https://barnett617.github.io/wilson-blog/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/</link>
       <pubDate>Fri, 10 Jan 2020 18:16:00 +0000</pubDate>
-      <guid>https://www.wilsonpage.com/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/</guid>
+      <guid>https://barnett617.github.io/wilson-blog/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/</guid>
       <description></description>
     </item>
     <item>
       <title>Regex</title>
-      <link>https://www.wilsonpage.com/tags/regex/</link>
+      <link>https://barnett617.github.io/wilson-blog/tags/regex/</link>
       <pubDate>Wed, 08 Jan 2020 09:33:00 +0000</pubDate>
-      <guid>https://www.wilsonpage.com/tags/regex/</guid>
+      <guid>https://barnett617.github.io/wilson-blog/tags/regex/</guid>
       <description></description>
     </item>
     <item>
       <title>Markdown</title>
-      <link>https://www.wilsonpage.com/tags/markdown/</link>
+      <link>https://barnett617.github.io/wilson-blog/tags/markdown/</link>
       <pubDate>Fri, 03 Jan 2020 11:30:00 +0000</pubDate>
-      <guid>https://www.wilsonpage.com/tags/markdown/</guid>
+      <guid>https://barnett617.github.io/wilson-blog/tags/markdown/</guid>
       <description></description>
     </item>
     <item>
       <title>IDE</title>
-      <link>https://www.wilsonpage.com/tags/ide/</link>
+      <link>https://barnett617.github.io/wilson-blog/tags/ide/</link>
       <pubDate>Tue, 17 Dec 2019 19:46:00 +0000</pubDate>
-      <guid>https://www.wilsonpage.com/tags/ide/</guid>
+      <guid>https://barnett617.github.io/wilson-blog/tags/ide/</guid>
       <description></description>
     </item>
     <item>
       <title>Git</title>
-      <link>https://www.wilsonpage.com/tags/git/</link>
+      <link>https://barnett617.github.io/wilson-blog/tags/git/</link>
       <pubDate>Tue, 21 May 2019 20:21:32 +0000</pubDate>
-      <guid>https://www.wilsonpage.com/tags/git/</guid>
+      <guid>https://barnett617.github.io/wilson-blog/tags/git/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>https://www.wilsonpage.com/tags/python/</link>
+      <link>https://barnett617.github.io/wilson-blog/tags/python/</link>
       <pubDate>Tue, 07 May 2019 16:14:54 +0000</pubDate>
-      <guid>https://www.wilsonpage.com/tags/python/</guid>
+      <guid>https://barnett617.github.io/wilson-blog/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>笔记</title>
-      <link>https://www.wilsonpage.com/tags/%E7%AC%94%E8%AE%B0/</link>
+      <link>https://barnett617.github.io/wilson-blog/tags/%E7%AC%94%E8%AE%B0/</link>
       <pubDate>Thu, 17 Jan 2019 21:12:35 +0000</pubDate>
-      <guid>https://www.wilsonpage.com/tags/%E7%AC%94%E8%AE%B0/</guid>
+      <guid>https://barnett617.github.io/wilson-blog/tags/%E7%AC%94%E8%AE%B0/</guid>
       <description></description>
     </item>
     <item>
       <title>HTML</title>
-      <link>https://www.wilsonpage.com/tags/html/</link>
+      <link>https://barnett617.github.io/wilson-blog/tags/html/</link>
       <pubDate>Wed, 05 Sep 2018 15:55:05 +0000</pubDate>
-      <guid>https://www.wilsonpage.com/tags/html/</guid>
+      <guid>https://barnett617.github.io/wilson-blog/tags/html/</guid>
       <description></description>
     </item>
     <item>
       <title>React</title>
-      <link>https://www.wilsonpage.com/tags/react/</link>
+      <link>https://barnett617.github.io/wilson-blog/tags/react/</link>
       <pubDate>Sun, 25 Feb 2018 17:43:24 +0000</pubDate>
-      <guid>https://www.wilsonpage.com/tags/react/</guid>
+      <guid>https://barnett617.github.io/wilson-blog/tags/react/</guid>
       <description></description>
     </item>
     <item>
       <title>jQuery</title>
-      <link>https://www.wilsonpage.com/tags/jquery/</link>
+      <link>https://barnett617.github.io/wilson-blog/tags/jquery/</link>
       <pubDate>Fri, 23 Feb 2018 20:01:25 +0000</pubDate>
-      <guid>https://www.wilsonpage.com/tags/jquery/</guid>
+      <guid>https://barnett617.github.io/wilson-blog/tags/jquery/</guid>
       <description></description>
     </item>
     <item>
       <title>Angular</title>
-      <link>https://www.wilsonpage.com/tags/angular/</link>
+      <link>https://barnett617.github.io/wilson-blog/tags/angular/</link>
       <pubDate>Thu, 22 Feb 2018 22:36:27 +0000</pubDate>
-      <guid>https://www.wilsonpage.com/tags/angular/</guid>
+      <guid>https://barnett617.github.io/wilson-blog/tags/angular/</guid>
       <description></description>
     </item>
     <item>
       <title>OS</title>
-      <link>https://www.wilsonpage.com/tags/os/</link>
+      <link>https://barnett617.github.io/wilson-blog/tags/os/</link>
       <pubDate>Wed, 07 Feb 2018 20:42:57 +0000</pubDate>
-      <guid>https://www.wilsonpage.com/tags/os/</guid>
+      <guid>https://barnett617.github.io/wilson-blog/tags/os/</guid>
       <description></description>
     </item>
     <item>
       <title>Database</title>
-      <link>https://www.wilsonpage.com/tags/database/</link>
+      <link>https://barnett617.github.io/wilson-blog/tags/database/</link>
       <pubDate>Thu, 01 Feb 2018 15:14:45 +0000</pubDate>
-      <guid>https://www.wilsonpage.com/tags/database/</guid>
+      <guid>https://barnett617.github.io/wilson-blog/tags/database/</guid>
       <description></description>
     </item>
     <item>
       <title>Java</title>
-      <link>https://www.wilsonpage.com/tags/java/</link>
+      <link>https://barnett617.github.io/wilson-blog/tags/java/</link>
       <pubDate>Mon, 29 Jan 2018 14:34:24 +0000</pubDate>
-      <guid>https://www.wilsonpage.com/tags/java/</guid>
+      <guid>https://barnett617.github.io/wilson-blog/tags/java/</guid>
       <description></description>
     </item>
     <item>
       <title>AI</title>
-      <link>https://www.wilsonpage.com/tags/ai/</link>
+      <link>https://barnett617.github.io/wilson-blog/tags/ai/</link>
       <pubDate>Thu, 25 Jan 2018 10:17:43 +0000</pubDate>
-      <guid>https://www.wilsonpage.com/tags/ai/</guid>
+      <guid>https://barnett617.github.io/wilson-blog/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Webpack</title>
-      <link>https://www.wilsonpage.com/tags/webpack/</link>
+      <link>https://barnett617.github.io/wilson-blog/tags/webpack/</link>
       <pubDate>Wed, 17 Jan 2018 11:41:10 +0000</pubDate>
-      <guid>https://www.wilsonpage.com/tags/webpack/</guid>
+      <guid>https://barnett617.github.io/wilson-blog/tags/webpack/</guid>
       <description></description>
     </item>
     <item>
       <title>API</title>
-      <link>https://www.wilsonpage.com/tags/api/</link>
+      <link>https://barnett617.github.io/wilson-blog/tags/api/</link>
       <pubDate>Tue, 16 Jan 2018 11:38:31 +0000</pubDate>
-      <guid>https://www.wilsonpage.com/tags/api/</guid>
+      <guid>https://barnett617.github.io/wilson-blog/tags/api/</guid>
       <description></description>
     </item>
     <item>
       <title>其他</title>
-      <link>https://www.wilsonpage.com/tags/%E5%85%B6%E4%BB%96/</link>
+      <link>https://barnett617.github.io/wilson-blog/tags/%E5%85%B6%E4%BB%96/</link>
       <pubDate>Tue, 14 Nov 2017 14:15:57 +0000</pubDate>
-      <guid>https://www.wilsonpage.com/tags/%E5%85%B6%E4%BB%96/</guid>
+      <guid>https://barnett617.github.io/wilson-blog/tags/%E5%85%B6%E4%BB%96/</guid>
       <description></description>
     </item>
     <item>
       <title>CI/CD</title>
-      <link>https://www.wilsonpage.com/tags/ci/cd/</link>
+      <link>https://barnett617.github.io/wilson-blog/tags/ci/cd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.wilsonpage.com/tags/ci/cd/</guid>
+      <guid>https://barnett617.github.io/wilson-blog/tags/ci/cd/</guid>
       <description></description>
     </item>
   </channel>

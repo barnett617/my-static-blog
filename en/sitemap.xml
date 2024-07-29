@@ -2,84 +2,84 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.wilsonpage.com/en/posts/2023-07-11-js-basic/</loc>
+    <loc>https://barnett617.github.io/wilson-blog/en/posts/2023-07-11-js-basic/</loc>
     <lastmod>2023-06-11T11:37:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.wilsonpage.com/en/posts/</loc>
-    <lastmod>2023-06-11T11:37:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-Hans-CN"
-                href="https://www.wilsonpage.com/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://www.wilsonpage.com/en/posts/"
-                />
-  </url><url>
-    <loc>https://www.wilsonpage.com/en/</loc>
+    <loc>https://barnett617.github.io/wilson-blog/en/posts/</loc>
     <lastmod>2023-06-11T11:37:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-Hans-CN"
-                href="https://www.wilsonpage.com/"
+                href="https://barnett617.github.io/wilson-blog/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://www.wilsonpage.com/en/"
+                href="https://barnett617.github.io/wilson-blog/en/posts/"
                 />
   </url><url>
-    <loc>https://www.wilsonpage.com/en/posts/2022-09-21-projects-star-2022/</loc>
+    <loc>https://barnett617.github.io/wilson-blog/en/</loc>
+    <lastmod>2023-06-11T11:37:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-Hans-CN"
+                href="https://barnett617.github.io/wilson-blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://barnett617.github.io/wilson-blog/en/"
+                />
+  </url><url>
+    <loc>https://barnett617.github.io/wilson-blog/en/posts/2022-09-21-projects-star-2022/</loc>
     <lastmod>2022-09-21T23:02:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.wilsonpage.com/en/posts/2021-03-01-projects-2020/</loc>
+    <loc>https://barnett617.github.io/wilson-blog/en/posts/2021-03-01-projects-2020/</loc>
     <lastmod>2021-03-01T15:49:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.wilsonpage.com/en/posts/2021-03-01-review-2020/</loc>
+    <loc>https://barnett617.github.io/wilson-blog/en/posts/2021-03-01-review-2020/</loc>
     <lastmod>2021-03-01T15:19:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.wilsonpage.com/en/about/</loc>
+    <loc>https://barnett617.github.io/wilson-blog/en/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-Hans-CN"
-                href="https://www.wilsonpage.com/about/"
+                href="https://barnett617.github.io/wilson-blog/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://www.wilsonpage.com/en/about/"
+                href="https://barnett617.github.io/wilson-blog/en/about/"
                 />
   </url><url>
-    <loc>https://www.wilsonpage.com/en/archives/</loc>
+    <loc>https://barnett617.github.io/wilson-blog/en/archives/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-Hans-CN"
-                href="https://www.wilsonpage.com/archives/"
+                href="https://barnett617.github.io/wilson-blog/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://www.wilsonpage.com/en/archives/"
+                href="https://barnett617.github.io/wilson-blog/en/archives/"
                 />
   </url><url>
-    <loc>https://www.wilsonpage.com/en/encategories/</loc>
+    <loc>https://barnett617.github.io/wilson-blog/en/encategories/</loc>
   </url><url>
-    <loc>https://www.wilsonpage.com/en/enseries/</loc>
+    <loc>https://barnett617.github.io/wilson-blog/en/enseries/</loc>
   </url><url>
-    <loc>https://www.wilsonpage.com/en/entags/</loc>
+    <loc>https://barnett617.github.io/wilson-blog/en/entags/</loc>
   </url><url>
-    <loc>https://www.wilsonpage.com/en/search/</loc>
+    <loc>https://barnett617.github.io/wilson-blog/en/search/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-Hans-CN"
-                href="https://www.wilsonpage.com/search/"
+                href="https://barnett617.github.io/wilson-blog/search/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://www.wilsonpage.com/en/search/"
+                href="https://barnett617.github.io/wilson-blog/en/search/"
                 />
   </url>
 </urlset>

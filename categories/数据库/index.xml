@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>数据库 on Wilson&#39;s Blog</title>
-    <link>https://www.wilsonpage.com/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
+    <link>https://barnett617.github.io/wilson-blog/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
     <description>Recent content in 数据库 on Wilson&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans-CN</language>
     <lastBuildDate>Tue, 31 Oct 2017 20:50:43 +0000</lastBuildDate>
-    <atom:link href="https://www.wilsonpage.com/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://barnett617.github.io/wilson-blog/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>关于mysql中max函数和groupby联合使用的坑</title>
-      <link>https://www.wilsonpage.com/posts/2017-10-31-mysql-max-function-and-groupby/</link>
+      <link>https://barnett617.github.io/wilson-blog/posts/2017-10-31-mysql-max-function-and-groupby/</link>
       <pubDate>Tue, 31 Oct 2017 20:50:43 +0000</pubDate>
-      <guid>https://www.wilsonpage.com/posts/2017-10-31-mysql-max-function-and-groupby/</guid>
+      <guid>https://barnett617.github.io/wilson-blog/posts/2017-10-31-mysql-max-function-and-groupby/</guid>
       <description>关于朋友随手抛出的一段 SQL，发现 MySQL 中关于 max()和 group by 联合使用中的一个坑，特此整理。
 YH:老铁们，这段 hql 对不对啊
 我扫了一眼，总觉得看着别扭，自己试着去掉字符串拼接，还原出 SQL 来看，依然感觉不对，然后自己试着写了查询，在本地建个表，造了些数据，用简化后的 SQL 做测试时， 当我定睛检查以下这句 SQL

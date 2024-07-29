@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Algorithms on Wilson&#39;s Blog</title>
-    <link>https://www.wilsonpage.com/tags/algorithms/</link>
+    <link>https://barnett617.github.io/wilson-blog/tags/algorithms/</link>
     <description>Recent content in Algorithms on Wilson&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans-CN</language>
     <lastBuildDate>Sun, 11 Jun 2023 00:42:00 +0000</lastBuildDate>
-    <atom:link href="https://www.wilsonpage.com/tags/algorithms/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://barnett617.github.io/wilson-blog/tags/algorithms/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>JavaScript的基础排序实现</title>
-      <link>https://www.wilsonpage.com/posts/2023-06-11-js-sort/</link>
+      <link>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-sort/</link>
       <pubDate>Sun, 11 Jun 2023 00:42:00 +0000</pubDate>
-      <guid>https://www.wilsonpage.com/posts/2023-06-11-js-sort/</guid>
+      <guid>https://barnett617.github.io/wilson-blog/posts/2023-06-11-js-sort/</guid>
       <description>关于JavaScript基础排序算法的整理</description>
     </item>
     <item>
       <title>二叉树的三种遍历（递归&#43;迭代）</title>
-      <link>https://www.wilsonpage.com/notes/2020-04-16-binary-tree-iteration-methods/</link>
+      <link>https://barnett617.github.io/wilson-blog/notes/2020-04-16-binary-tree-iteration-methods/</link>
       <pubDate>Thu, 16 Apr 2020 17:10:48 +0000</pubDate>
-      <guid>https://www.wilsonpage.com/notes/2020-04-16-binary-tree-iteration-methods/</guid>
+      <guid>https://barnett617.github.io/wilson-blog/notes/2020-04-16-binary-tree-iteration-methods/</guid>
       <description>二叉树的三种遍历（递归+迭代）</description>
     </item>
     <item>
       <title>Java基础算法（插入、选择、冒泡、快排）</title>
-      <link>https://www.wilsonpage.com/notes/2016-12-15-java-basic-sort-algorithms/</link>
+      <link>https://barnett617.github.io/wilson-blog/notes/2016-12-15-java-basic-sort-algorithms/</link>
       <pubDate>Thu, 15 Dec 2016 23:20:37 +0000</pubDate>
-      <guid>https://www.wilsonpage.com/notes/2016-12-15-java-basic-sort-algorithms/</guid>
+      <guid>https://barnett617.github.io/wilson-blog/notes/2016-12-15-java-basic-sort-algorithms/</guid>
       <description>Java 基础算法（插入、选择、冒泡、快排）
 一、直接插入排序 1、原理 从待排序的数中选出一个来，插入到前面的合适位置。
 2、适用场景 基本有序的数据

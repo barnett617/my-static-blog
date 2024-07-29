@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Git on Wilson&#39;s Blog</title>
-    <link>https://www.wilsonpage.com/tags/git/</link>
+    <link>https://barnett617.github.io/wilson-blog/tags/git/</link>
     <description>Recent content in Git on Wilson&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans-CN</language>
     <lastBuildDate>Tue, 21 May 2019 20:21:32 +0000</lastBuildDate>
-    <atom:link href="https://www.wilsonpage.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://barnett617.github.io/wilson-blog/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git子模块功能使用实践</title>
-      <link>https://www.wilsonpage.com/posts/2019-05-21-git-submodule/</link>
+      <link>https://barnett617.github.io/wilson-blog/posts/2019-05-21-git-submodule/</link>
       <pubDate>Tue, 21 May 2019 20:21:32 +0000</pubDate>
-      <guid>https://www.wilsonpage.com/posts/2019-05-21-git-submodule/</guid>
+      <guid>https://barnett617.github.io/wilson-blog/posts/2019-05-21-git-submodule/</guid>
       <description>&lt;p&gt;关于一次使用 git 子模块功能备份 hexo 主题文件的记录&lt;/p&gt;</description>
     </item>
     <item>
       <title>再品Git, 深度解读</title>
-      <link>https://www.wilsonpage.com/posts/2018-08-23-git-use/</link>
+      <link>https://barnett617.github.io/wilson-blog/posts/2018-08-23-git-use/</link>
       <pubDate>Thu, 23 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>https://www.wilsonpage.com/posts/2018-08-23-git-use/</guid>
+      <guid>https://barnett617.github.io/wilson-blog/posts/2018-08-23-git-use/</guid>
       <description>&lt;p&gt;和一个长期使用 IDE(eclipse)集成 git 进行代码版本管理的人交流项目，博文内容将采用类似《大话设计模式》的对话体进行，场景真实，有代入感。&lt;/p&gt;</description>
     </item>
     <item>
       <title>使用分支备份hexo博客</title>
-      <link>https://www.wilsonpage.com/posts/2017-11-17-hexo-backup-using-git-branch/</link>
+      <link>https://barnett617.github.io/wilson-blog/posts/2017-11-17-hexo-backup-using-git-branch/</link>
       <pubDate>Fri, 17 Nov 2017 17:39:36 +0000</pubDate>
-      <guid>https://www.wilsonpage.com/posts/2017-11-17-hexo-backup-using-git-branch/</guid>
+      <guid>https://barnett617.github.io/wilson-blog/posts/2017-11-17-hexo-backup-using-git-branch/</guid>
       <description>使用一台电脑使用 hexo 创建博文、生成静态文件、发布，没毛病，但由于 hexo 在本地生成静态文件的模式，如果你换一台电脑呢？很明显你需要把原始电脑上的 hexo 文件夹拷贝到新电脑。这样带来的问题就是多台电脑上的 hexo 不能总保持同步，需要通过物理拷贝的方式，很不方便。
 正文 实现方式可能有多种，但我看到的主流方式是通过在远端仓库添加分支来保存 hexo 原始文件来将你的整个博客工程交由 git 管理。
 hexo 本身的确是通过 git 发布到远端的，也就是借助 hexo-deployer-git 这个 nodejs 模块，但其功能是将 hexo 发布目录（public）里的静态文件上传至远端仓库，因为远端仓库是通过 pages 服务直接访问仓库文件，需要保证仓库文件符合 web 可访问结构。
@@ -40,9 +40,9 @@ git checkout -b source 然后将 hexo 主目录的所有文件按照.</descripti
     </item>
     <item>
       <title>git学习总结</title>
-      <link>https://www.wilsonpage.com/posts/2017-11-17-git-learning/</link>
+      <link>https://barnett617.github.io/wilson-blog/posts/2017-11-17-git-learning/</link>
       <pubDate>Fri, 17 Nov 2017 09:54:33 +0000</pubDate>
-      <guid>https://www.wilsonpage.com/posts/2017-11-17-git-learning/</guid>
+      <guid>https://barnett617.github.io/wilson-blog/posts/2017-11-17-git-learning/</guid>
       <description>对于 Git 学习的一些整理，包含常用命令整理
 个人觉得，对于一些开源工具，最好的学习资源还是其官网，我们就先来分析一波 Git 究竟是做什么的。
 概念解析 git 官网的定义是：Git 是一种免费并且开源的分布式版本控制系统，被设计用来快速高效地处理堆积成大工程的每一块小部分。（个人翻译，不喜勿喷）
@@ -61,9 +61,9 @@ git add filename 对于在 git init 后的目录里的每一个文件都有 trac
     </item>
     <item>
       <title>IDEA2016配置运行基于Maven的Git项目</title>
-      <link>https://www.wilsonpage.com/posts/2016-12-27-config-idea-for-maven-projects-with-git/</link>
+      <link>https://barnett617.github.io/wilson-blog/posts/2016-12-27-config-idea-for-maven-projects-with-git/</link>
       <pubDate>Tue, 27 Dec 2016 20:22:56 +0000</pubDate>
-      <guid>https://www.wilsonpage.com/posts/2016-12-27-config-idea-for-maven-projects-with-git/</guid>
+      <guid>https://barnett617.github.io/wilson-blog/posts/2016-12-27-config-idea-for-maven-projects-with-git/</guid>
       <description>IDEA2016 配置运行基于 Maven 的 Git 项目
 一、IDEA&amp;amp;Maven&amp;amp;Git 作用 IDEA（项目容器） Maven（管理 Jar 和项目打包） Git（版本控制） 二、从远程 clone git 项目 使用工具 clone 下 git 项目
 可能问题： 直接通过 git bash 上 git clone 时可能失败
